@@ -4,6 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 enum Difficulty {
@@ -19,15 +20,16 @@ model Category {
 }
 
 model Song {
-  id          String      @id @default(uuid())
-  title       String
-  youtubeId   String      @unique
-  duration    Int?
-  popularity  Int?        // optional 0-100
-  difficulty  Difficulty @default(NORMAL)
-  createdAt   DateTime    @default(now())
-  artists     String[]
-  categories  SongCategory[]
+  id            String         @id @default(uuid())
+  title         String
+  youtubeId     String         @unique
+  duration      Int
+  difficulty    Difficulty     @default(NORMAL)
+  countryOrigin String         @default("international") // e.g., "polish", "english", etc.
+  releaseYear   Int
+  createdAt     DateTime       @default(now())
+  artists       String[]
+  categories    SongCategory[]
 }
 
 
