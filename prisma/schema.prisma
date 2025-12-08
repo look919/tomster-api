@@ -27,6 +27,7 @@ model Song {
   difficulty    Difficulty     @default(NORMAL)
   countryOrigin String         @default("international") // e.g., "polish", "english", etc.
   releaseYear   Int
+  reportAmount  Int            @default(0)
   createdAt     DateTime       @default(now())
   artists       String[]
   categories    SongCategory[]

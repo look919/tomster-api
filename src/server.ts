@@ -79,8 +79,4 @@ fastify.listen({ port: 5000, host: "0.0.0.0" }, function (err, address) {
     process.exit(1);
   }
   fastify.log.info(`Server is now listening on ${address}`);
-
-  // Log all registered routes
-  fastify.log.info("Registered routes:");
-  fastify.log.info(fastify.printRoutes());
 });

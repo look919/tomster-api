@@ -147,8 +147,8 @@ export async function gameRoutes(fastify: FastifyInstance) {
           clipDuration = 30; // 30 seconds from the start
           clipStartTime = 0; // Always start from beginning for EASY
         } else {
-          // HARD: 8-10 seconds from random position within first 2/3 of song
-          clipDuration = 8 + Math.floor(Math.random() * 3); // 8-10 seconds
+          // HARD: 6-12 seconds from random position within first 2/3 of song
+          clipDuration = 6 + Math.floor(Math.random() * 7); // 6-12 seconds
           const maxStartTime =
             Math.floor((songDuration * 2) / 3) - clipDuration; // Within first 2/3
           const minStartTime = 0;
@@ -177,9 +177,9 @@ export async function gameRoutes(fastify: FastifyInstance) {
     }
   );
 
-  // Reveal song answer (after guessing)
-  fastify.get<{ Params: { songId: string } }>(
-    "/songs/:songId/reveal",
+  // Report song issue - increment reportAmount
+  fastify.post<{ Params: { songId: string } }>(
+    "/songs/:songId/report",
     async (
       request: FastifyRequest<{ Params: { songId: string } }>,
       reply: FastifyReply
@@ -187,25 +187,27 @@ export async function gameRoutes(fastify: FastifyInstance) {
       try {
         const { songId } = request.params;
 
-        const song = await prisma.song.findUnique({
+        const song = await prisma.song.update({
           where: { id: songId },
+          data: {
+            reportAmount: {
+              increment: 1,
+            },
+          },
           select: {
             id: true,
-            title: true,
-            artists: true,
-            releaseYear: true,
-            youtubeId: true,
+            reportAmount: true,
           },
         });
 
-        if (!song) {
-          return reply.code(404).send({ error: "Song not found" });
-        }
-
-        return reply.send(song);
+        return reply.send({
+          success: true,
+          songId: song.id,
+          reportAmount: song.reportAmount,
+        });
       } catch (error) {
         fastify.log.error(error);
-        return reply.code(500).send({ error: "Failed to reveal song" });
+        return reply.code(500).send({ error: "Failed to report song" });
       }
     }
   );
