@@ -1,0 +1,506 @@
+{
+  "category": "pop",
+  "yearRange": {
+    "start": 2020,
+    "end": 2025
+  },
+  "totalSongs": 103,
+  "searchedAt": "2025-12-08T20:45:44.736Z",
+  "songs": [
+    {
+      "videoId": "OsfAnsMY21M",
+      "name": "Levitating",
+      "artist": "Dua Lipa"
+    },
+    {
+      "videoId": "J7p4bzqLvCw",
+      "name": "Blinding Lights",
+      "artist": "The Weeknd"
+    },
+    {
+      "videoId": "XDjB9E3YtUE",
+      "name": "Heat Waves",
+      "artist": "Glass Animals"
+    },
+    {
+      "videoId": "WMK3JXG3Fx0",
+      "name": "Infinity",
+      "artist": "Jaymes Young"
+    },
+    {
+      "videoId": "HZbsLxL7GeM",
+      "name": "Dandelions",
+      "artist": "Ruth B."
+    },
+    {
+      "videoId": "fRyhqobl0sk",
+      "name": "All I Want for Christmas Is You",
+      "artist": "Mariah Carey"
+    },
+    {
+      "videoId": "2u2Z07ujyD8",
+      "name": "Favorite Girl",
+      "artist": "Justin Bieber"
+    },
+    {
+      "videoId": "GqWYJT-iMTw",
+      "name": "Baby (feat. Ludacris)",
+      "artist": "Justin Bieber"
+    },
+    {
+      "videoId": "FXovf5dsRTw",
+      "name": "Despacito",
+      "artist": "Luis Fonsi"
+    },
+    {
+      "videoId": "6xzN8Nt0Pok",
+      "name": "I Wanna Dance with Somebody (Who Loves Me)",
+      "artist": "Whitney Houston"
+    },
+    {
+      "videoId": "3H8ncF7KjoE",
+      "name": "Pop Chart",
+      "artist": "Hercules And The Boys"
+    },
+    {
+      "videoId": "ySyhh7nn31Q",
+      "name": "Synth-pop Electro Gothic Wave 2",
+      "artist": "Cypress Čempr3s"
+    },
+    {
+      "videoId": "Cl5Vkd4N03Q",
+      "name": "After Dark",
+      "artist": "Mr.Kitty"
+    },
+    {
+      "videoId": "-zlMcFwkB_8",
+      "name": "Synthpop",
+      "artist": "Epic"
+    },
+    {
+      "videoId": "KSgKKSny0Qo",
+      "name": "Summer",
+      "artist": "Calvin Harris"
+    },
+    {
+      "videoId": "8mA6jIeojnk",
+      "name": "How You Like That",
+      "artist": "BLACKPINK"
+    },
+    {
+      "videoId": "MKT2FDD5QQ8",
+      "name": "RETROCLASICOS 🔊 ROCK POP RAP 90-00🔊📽️Reuploaded VIDEOMIX 📽️CUREPI DJ",
+      "artist": "CUREPI DJ"
+    },
+    {
+      "videoId": "lSDfCdycdvk",
+      "name": "Zombie",
+      "artist": "The Cranberries"
+    },
+    {
+      "videoId": "8Tc8DkBHrWI",
+      "name": "We Will Rock You (2020 Remaster)",
+      "artist": "Nickelback"
+    },
+    {
+      "videoId": "_GWKkqNoyEA",
+      "name": "Counting Stars",
+      "artist": "OneRepublic"
+    },
+    {
+      "videoId": "3_g2un5M350",
+      "name": "Starboy (feat. Daft Punk)",
+      "artist": "The Weeknd"
+    },
+    {
+      "videoId": "G1ej5up7JG0",
+      "name": "Shivers",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "videoId": "hJWSZDJb-W4",
+      "name": "Bad Habits",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "videoId": "H9NJenpBV2I",
+      "name": "Easy On Me",
+      "artist": "Adele"
+    },
+    {
+      "videoId": "0aiJ7qzlZBI",
+      "name": "favorite crime",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "videoId": "4QLvEIXlF6Q",
+      "name": "traitor",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "videoId": "Bc9ijogGmtU",
+      "name": "good 4 u",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "videoId": "OAC4ItP0xWM",
+      "name": "Funkytown",
+      "artist": "Lipps Inc."
+    },
+    {
+      "videoId": "TaZkqPK0sbw",
+      "name": "My Universe",
+      "artist": "Coldplay"
+    },
+    {
+      "videoId": "LCpjdohpuEE",
+      "name": "Permission to Dance",
+      "artist": "BTS"
+    },
+    {
+      "videoId": "8J1HLEF2MgU",
+      "name": "Fix You",
+      "artist": "Boyce Avenue"
+    },
+    {
+      "videoId": "TmJ_LDx6BhE",
+      "name": "Upbeat and Happy Pop Rock Music",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "vxa8ShIm9yw",
+      "name": "Enemy (From the series Arcane League of Legends)",
+      "artist": "Imagine Dragons"
+    },
+    {
+      "videoId": "lDt93W_kzeo",
+      "name": "mainstream",
+      "artist": "oski"
+    },
+    {
+      "videoId": "BkSSOGNeWTM",
+      "name": "Flowers",
+      "artist": "Miley Cyrus"
+    },
+    {
+      "videoId": "8VKD-IlvibI",
+      "name": "Unholy",
+      "artist": "Sam Smith"
+    },
+    {
+      "videoId": "nujn6wbr-e8",
+      "name": "As It Was",
+      "artist": "Harry Styles"
+    },
+    {
+      "videoId": "vSpXDnkuMF4",
+      "name": "Favorite Peeps",
+      "artist": "Prateek Kuhad"
+    },
+    {
+      "videoId": "CW3ACeHZSMo",
+      "name": "Top Songs of 2022",
+      "artist": "Current Chart!"
+    },
+    {
+      "videoId": "ZU1zZerkgis",
+      "name": "80S Synth Pop Beat",
+      "artist": "Fromayo"
+    },
+    {
+      "videoId": "VvNe8GKpw_g",
+      "name": "Synth Pop 22",
+      "artist": "CUJOCANE"
+    },
+    {
+      "videoId": "AQTkDIN9amI",
+      "name": "Upbeat Happy Synth Pop",
+      "artist": "ANtarcticbreeze"
+    },
+    {
+      "videoId": "R9TPed_ohKM",
+      "name": "POP!",
+      "artist": "NAYEON"
+    },
+    {
+      "videoId": "9PpXu-2fPHc",
+      "name": "Dream On",
+      "artist": "Aerosmith"
+    },
+    {
+      "videoId": "NMA_isZYsYQ",
+      "name": "KICK BACK",
+      "artist": "Kenshi Yonezu"
+    },
+    {
+      "videoId": "oMfMUfgjiLg",
+      "name": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "_GX3D32b3TI",
+      "name": "STAR WALKIN' (League of Legends Worlds Anthem)",
+      "artist": "Lil Nas X"
+    },
+    {
+      "videoId": "-Xd1VSwCi2o",
+      "name": "Rush",
+      "artist": "Ayra Starr"
+    },
+    {
+      "videoId": "hOyn0bCydZo",
+      "name": "Summer songs to dance ~ Best songs that make you dance",
+      "artist": "A.C Vibes"
+    },
+    {
+      "videoId": "ORrFJ63nlcA",
+      "name": "Perfect",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "videoId": "HgLfYfJtc8M",
+      "name": "One Of The Girls",
+      "artist": "The Weeknd"
+    },
+    {
+      "videoId": "UgkUP020oYA",
+      "name": "Charts",
+      "artist": "The Groovist"
+    },
+    {
+      "videoId": "OkV2Jm0RI7Y",
+      "name": "Chart Pop Latin",
+      "artist": "FRANSISCA"
+    },
+    {
+      "videoId": "S5M4EOmIinY",
+      "name": "Synth Pop",
+      "artist": "BlackTrendMusic"
+    },
+    {
+      "videoId": "O7ZHg2SpPLU",
+      "name": "Dark Synth Pop",
+      "artist": "SISTOS"
+    },
+    {
+      "videoId": "loVUmm9yUy0",
+      "name": "AMBATUKAM SYNTHPOP",
+      "artist": "VKO"
+    },
+    {
+      "videoId": "wYAys91gOdU",
+      "name": "Synth Pop Soiree",
+      "artist": "VoltageVibes"
+    },
+    {
+      "videoId": "l6_w3887Rwo",
+      "name": "Tennessee Whiskey",
+      "artist": "Chris Stapleton"
+    },
+    {
+      "videoId": "pRIZohFFOMo",
+      "name": "Someone You Loved",
+      "artist": "Lewis Capaldi"
+    },
+    {
+      "videoId": "qqnABNRHMYM",
+      "name": "ITALODISCO",
+      "artist": "The Kolors"
+    },
+    {
+      "videoId": "qgtYrj4qKrs",
+      "name": "Pop Rock 2023",
+      "artist": "Rafał Kozieł"
+    },
+    {
+      "videoId": "4Wx2qQAZinw",
+      "name": "Mainstream pop music",
+      "artist": "Rao Goat"
+    },
+    {
+      "videoId": "pTw6M3q9-9s",
+      "name": "Mainstream",
+      "artist": "BE:FIRST"
+    },
+    {
+      "videoId": "PP89MvNsZjo",
+      "name": "Mainstream",
+      "artist": "Saustoimusi"
+    },
+    {
+      "videoId": "kIft-LUHHVA",
+      "name": "Espresso",
+      "artist": "Sabrina Carpenter"
+    },
+    {
+      "videoId": "gTRqZc5y5vU",
+      "name": "Pop Music 2024",
+      "artist": "Clean Pop Music"
+    },
+    {
+      "videoId": "-cynukYceW4",
+      "name": "Pop Music 2024",
+      "artist": "Clean Pop Music"
+    },
+    {
+      "videoId": "eLhSxOAaWmg",
+      "name": "Beautiful Things",
+      "artist": "Benson Boone"
+    },
+    {
+      "videoId": "jQ9NvfX9AVM",
+      "name": "My Favorite Drug",
+      "artist": "Justin Timberlake"
+    },
+    {
+      "videoId": "mtx5tCNijyg",
+      "name": "Top 40 Hit Songs Of 2024 (UK Singles Chart)",
+      "artist": "MUSIC CHARTS"
+    },
+    {
+      "videoId": "Q9YEizbDTk4",
+      "name": "Chart Pop Ballad",
+      "artist": "Jennifer June"
+    },
+    {
+      "videoId": "Z6xnRurxC3s",
+      "name": "Pop chart",
+      "artist": "Nantanee be"
+    },
+    {
+      "videoId": "Ax0FQNxkNGM",
+      "name": "Pop 2024",
+      "artist": "Pop 2024"
+    },
+    {
+      "videoId": "xIQx_FJQD2s",
+      "name": "Retro Synthpop",
+      "artist": "Synthpop 2024"
+    },
+    {
+      "videoId": "xPwaPjpE6Pw",
+      "name": "Oldschool Synthpop",
+      "artist": "Synthpop 2024"
+    },
+    {
+      "videoId": "c55Qa2vYUIU",
+      "name": "Chillwave Vibes",
+      "artist": "Synthpop 2024"
+    },
+    {
+      "videoId": "PuQ6Mx1U3c0",
+      "name": "Modern Pop Trap Beat",
+      "artist": "Osynthw"
+    },
+    {
+      "videoId": "3vmewzGcX2I",
+      "name": "Best dance songs 2024 🌈 Party songs 2024 ~ Songs that make you dance",
+      "artist": "Love Life Lyrics"
+    },
+    {
+      "videoId": "JYDwTQC5TlE",
+      "name": "Paint The Town Blue (from the series Arcane League of Legends)",
+      "artist": "Ashnikko"
+    },
+    {
+      "videoId": "43dtMzYLEJU",
+      "name": "Mainstream Pop",
+      "artist": "P.o.e.t.i.c.k.s"
+    },
+    {
+      "videoId": "1ggNI6qvxsg",
+      "name": "Pop Mainstream Upbeat Type Beat",
+      "artist": "Inner City Sound LLC"
+    },
+    {
+      "videoId": "6msW1iM7GFI",
+      "name": "Favourite Daughter",
+      "artist": "Lorde"
+    },
+    {
+      "videoId": "WkgKAX2JA14",
+      "name": "My Favorite Things",
+      "artist": "Sleeping At Last"
+    },
+    {
+      "videoId": "HMQlkbXjSTM",
+      "name": "like JENNIE",
+      "artist": "JENNIE"
+    },
+    {
+      "videoId": "FjOhnPD_RXo",
+      "name": "Tears",
+      "artist": "Sabrina Carpenter"
+    },
+    {
+      "videoId": "u_1jRJ4Fplg",
+      "name": "Synthpop Beat (Synthwave Radio)",
+      "artist": "Synthwave Nation"
+    },
+    {
+      "videoId": "VC8BZtG703I",
+      "name": "80s Synth Pop Style (Neon Highway)",
+      "artist": "Etrusco Music"
+    },
+    {
+      "videoId": "9PxrAxKE_A0",
+      "name": "This Is What We Dance For",
+      "artist": "JADE"
+    },
+    {
+      "videoId": "4NXidzFgHoE",
+      "name": "12 Nights Of Pleasure",
+      "artist": "Ruby Darkrose"
+    },
+    {
+      "videoId": "aO8SiN8H6EQ",
+      "name": "For Good",
+      "artist": "Cynthia Erivo"
+    },
+    {
+      "videoId": "G-fCOEZnnTs",
+      "name": "Gabriela",
+      "artist": "KATSEYE"
+    },
+    {
+      "videoId": "pTGxDGOkiSk",
+      "name": "Party songs 2025 🌈 Best dance songs 2025 ~ Songs that make you dance",
+      "artist": "Love Life Lyrics"
+    },
+    {
+      "videoId": "m_dA7mbfOnU",
+      "name": "Pop 2025",
+      "artist": "Pop 2024"
+    },
+    {
+      "videoId": "-C3Ev4n6pu0",
+      "name": "Legends Empire 2025 (Kansoog)",
+      "artist": "Young Pop Music"
+    },
+    {
+      "videoId": "I2gX4SAB04U",
+      "name": "Bite Marks",
+      "artist": "League of Legends"
+    },
+    {
+      "videoId": "Y1cWj_AS9Sg",
+      "name": "music for legends 2025",
+      "artist": "NANNO040"
+    },
+    {
+      "videoId": "1qIUdF3Qs2k",
+      "name": "All In My Head",
+      "artist": "Charlie Healey"
+    },
+    {
+      "videoId": "NMmGhvk-Q90",
+      "name": "Dont Ask Me Why",
+      "artist": "Donna Mind"
+    },
+    {
+      "videoId": "NhY63PR-oRc",
+      "name": "Wake Up With You",
+      "artist": "Space Marchello"
+    }
+  ]
+}

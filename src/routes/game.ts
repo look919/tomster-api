@@ -59,11 +59,11 @@ export async function gameRoutes(fastify: FastifyInstance) {
         }
 
         // Validate difficulty
-        if (difficulty !== "EASY" && difficulty !== "HARD") {
-          return reply.code(400).send({
-            error: 'Invalid difficulty. Must be "EASY" or "HARD"',
-          });
-        }
+        // if (difficulty !== "EASY" && difficulty !== "HARD") {
+        //   return reply.code(400).send({
+        //     error: 'Invalid difficulty. Must be "EASY" or "HARD"',
+        //   });
+        // }
 
         // Build category filter
         let categoryFilter = {};
@@ -96,8 +96,8 @@ export async function gameRoutes(fastify: FastifyInstance) {
         // HARD: Song difficulty NOT EASY (NORMAL or HARD)
         const difficultyFilter =
           difficulty === "EASY"
-            ? { difficulty: { not: "HARD" as const } }
-            : { difficulty: { not: "EASY" as const } };
+            ? { difficulty: { not: 1 as const } }
+            : { difficulty: { not: 1 as const } };
 
         // Find eligible songs
         const eligibleSongs = await prisma.song.findMany({
@@ -162,7 +162,7 @@ export async function gameRoutes(fastify: FastifyInstance) {
         const response: RandomSongResponse = {
           id: randomSong.id,
           title: randomSong.title,
-          artists: randomSong.artists,
+          artists: [randomSong.artist],
           youtubeId: randomSong.youtubeId,
           clipDuration,
           clipStartTime,

@@ -7,12 +7,6 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-enum Difficulty {
-  EASY
-  NORMAL
-  HARD
-}
-
 model Category {
   id    String @id @default(uuid())
   name  String @unique
@@ -24,12 +18,14 @@ model Song {
   title         String
   youtubeId     String         @unique
   duration      Int
-  difficulty    Difficulty     @default(NORMAL)
+  difficulty    Int            @default(5) // 1-10 scale, where 10 is hardest
   countryOrigin String         @default("international") // e.g., "polish", "english", etc.
   releaseYear   Int
+  views         Int            @default(0)
   reportAmount  Int            @default(0)
   createdAt     DateTime       @default(now())
-  artists       String[]
+  importedAt    DateTime?      // When the song was imported
+  artist       String
   categories    SongCategory[]
 }
 
