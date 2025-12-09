@@ -4,14 +4,9 @@
     "start": 1990,
     "end": 1999
   },
-  "totalSongs": 404,
-  "searchedAt": "2025-12-08T20:09:42.352Z",
+  "totalSongs": 1269,
+  "searchedAt": "2025-12-09T19:38:38.735Z",
   "songs": [
-    {
-      "videoId": "oMfMUfgjiLg",
-      "name": "Sweet Child O' Mine",
-      "artist": "Guns N' Roses"
-    },
     {
       "videoId": "9PpXu-2fPHc",
       "name": "Dream On",
@@ -23,44 +18,19 @@
       "artist": "AC/DC"
     },
     {
-      "videoId": "7TDeBi34OtE",
-      "name": "Smells Like Teen Spirit",
-      "artist": "Nirvana"
-    },
-    {
-      "videoId": "9RfVp-GhKfs",
-      "name": "Creep",
-      "artist": "Radiohead"
-    },
-    {
       "videoId": "Ukh1zoiV304",
       "name": "Wind Of Change",
       "artist": "Scorpions"
     },
     {
-      "videoId": "E0ozmU9cJDg",
-      "name": "Master of Puppets",
-      "artist": "Metallica"
+      "videoId": "FXjyoArp3ZE",
+      "name": "Hysteria",
+      "artist": "Def Leppard"
     },
     {
-      "videoId": "Efa6BAWPm9o",
-      "name": "Losing My Religion",
-      "artist": "R.E.M."
-    },
-    {
-      "videoId": "ZvQcX5yfTD8",
-      "name": "Principles Of Lust: Sadeness / Find Love / Sadeness (Reprise)",
-      "artist": "Enigma"
-    },
-    {
-      "videoId": "2rgsKDj65Ls",
-      "name": "Forever Young",
-      "artist": "Gregorian"
-    },
-    {
-      "videoId": "7wBgcalM4c4",
-      "name": "Time After Time",
-      "artist": "Cyndi Lauper"
+      "videoId": "cF3OWCYLLVQ",
+      "name": "Sultans Of Swing",
+      "artist": "Dire Straits"
     },
     {
       "videoId": "BciS5krYL80",
@@ -68,14 +38,394 @@
       "artist": "Eagles"
     },
     {
+      "videoId": "l-5aPNxv-pU",
+      "name": "Simple Man",
+      "artist": "Lynyrd Skynyrd"
+    },
+    {
+      "videoId": "E0ozmU9cJDg",
+      "name": "Master of Puppets",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "YBdyc1WDlBQ",
+      "name": "Livin' On A Prayer",
+      "artist": "Bon Jovi"
+    },
+    {
+      "videoId": "Xwy-3aI435o",
+      "name": "Have You Ever Seen The Rain",
+      "artist": "Creedence Clearwater Revival"
+    },
+    {
       "videoId": "y6lfK3bH4z8",
       "name": "November Rain",
       "artist": "Guns N' Roses"
     },
     {
+      "videoId": "12fJAnaif34",
+      "name": "I Was Made For Lovin' You",
+      "artist": "Kiss"
+    },
+    {
+      "videoId": "7wBgcalM4c4",
+      "name": "Time After Time",
+      "artist": "Cyndi Lauper"
+    },
+    {
+      "videoId": "MjwttGizNEs",
+      "name": "Hail to the King",
+      "artist": "Avenged Sevenfold"
+    },
+    {
+      "videoId": "9RfVp-GhKfs",
+      "name": "Creep",
+      "artist": "Radiohead"
+    },
+    {
+      "videoId": "Efa6BAWPm9o",
+      "name": "Losing My Religion",
+      "artist": "R.E.M."
+    },
+    {
+      "videoId": "ZP69PLBqFUo",
+      "name": "Hold the Line",
+      "artist": "Toto"
+    },
+    {
+      "videoId": "f8OHybVhQwc",
+      "name": "Knockin' On Heaven's Door",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "oMfMUfgjiLg",
+      "name": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "iaaRYZPu9dc",
+      "name": "Moneytalks",
+      "artist": "AC/DC"
+    },
+    {
+      "videoId": "7TDeBi34OtE",
+      "name": "Smells Like Teen Spirit",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "QAo_Ycocl1E",
+      "name": "Africa",
+      "artist": "Toto"
+    },
+    {
+      "videoId": "yYDh7lyqwms",
+      "name": "All My Love (1990 Remaster)",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "videoId": "bePCRKGUwAY",
+      "name": "Fear of the Dark",
+      "artist": "Iron Maiden"
+    },
+    {
+      "videoId": "hpSrLjc5SMs",
+      "name": "Wonderwall",
+      "artist": "Oasis"
+    },
+    {
+      "videoId": "9kIv6vVRKpw",
+      "name": "Black Hole Sun",
+      "artist": "Soundgarden"
+    },
+    {
+      "videoId": "vtuZmShWLGo",
+      "name": "Drive",
+      "artist": "Incubus"
+    },
+    {
+      "videoId": "BLZWkjBXfN8",
+      "name": "In the End",
+      "artist": "Linkin Park"
+    },
+    {
+      "videoId": "Oj3gIqTsOXc",
+      "name": "Crazy",
+      "artist": "Seal"
+    },
+    {
+      "videoId": "cSZf8ZYHV7o",
+      "name": "Cemetery Gates",
+      "artist": "Pantera"
+    },
+    {
+      "videoId": "WgPW_eoVp4M",
+      "name": "She Talks To Angels",
+      "artist": "The Black Crowes"
+    },
+    {
+      "videoId": "i_RLpEfMs1g",
+      "name": "Love of a Lifetime (2024 Remaster)",
+      "artist": "Firehouse"
+    },
+    {
+      "videoId": "qQ0zxuWFxrY",
+      "name": "The Reason",
+      "artist": "Hoobastank"
+    },
+    {
+      "videoId": "QSx3LgcxsTU",
+      "name": "90's Flash Back Hits",
+      "artist": "DJ Pit Bull"
+    },
+    {
+      "videoId": "nrGGm_mkBrY",
+      "name": "Best 90s Slow Jams",
+      "artist": "M-Beat"
+    },
+    {
+      "videoId": "jzz16mRP2V8",
+      "name": "She's Gone",
+      "artist": "Steelheart"
+    },
+    {
+      "videoId": "scpqae3P7Dg",
+      "name": "In My Time of Dying (1990 Remaster)",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "videoId": "l_7SxoQW11g",
+      "name": "The Razors Edge",
+      "artist": "AC/DC"
+    },
+    {
+      "videoId": "H1i5HaQV9ck",
+      "name": "Man in the Box",
+      "artist": "Alice in Chains"
+    },
+    {
+      "videoId": "5EbiRRpaYB4",
+      "name": "Metal Health (Bang Your Head)",
+      "artist": "Quiet Riot"
+    },
+    {
+      "videoId": "pTYIf2pkxzQ",
+      "name": "Nothing Else Matters",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "4s1gBIVOTtk",
+      "name": "Painkiller",
+      "artist": "Judas Priest"
+    },
+    {
+      "videoId": "i0UGre4gm5o",
+      "name": "Rock Your Heart Out",
+      "artist": "AC/DC"
+    },
+    {
+      "videoId": "ZYc1jps3JWI",
+      "name": "Bed Of Roses",
+      "artist": "Bon Jovi"
+    },
+    {
+      "videoId": "KfUkiUi1DyI",
+      "name": "Love Will Keep Us Alive (1999 Remaster)",
+      "artist": "Eagles"
+    },
+    {
       "videoId": "JmsUkutNnI0",
       "name": "Still Got The Blues",
       "artist": "Gary Moore"
+    },
+    {
+      "videoId": "ZvQcX5yfTD8",
+      "name": "Principles Of Lust: Sadeness / Find Love / Sadeness (Reprise)",
+      "artist": "Enigma"
+    },
+    {
+      "videoId": "5qP6r0VWmU4",
+      "name": "Don't Believe Her",
+      "artist": "Scorpions"
+    },
+    {
+      "videoId": "2rgsKDj65Ls",
+      "name": "Forever Young",
+      "artist": "Gregorian"
+    },
+    {
+      "videoId": "hlSIGK7S8Is",
+      "name": "Knockin' On Heaven's Door",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "K9RKlz1qpQY",
+      "name": "Send Me An Angel",
+      "artist": "Scorpions"
+    },
+    {
+      "videoId": "pm3sP0n7F-M",
+      "name": "Personal Jesus",
+      "artist": "Depeche Mode"
+    },
+    {
+      "videoId": "lG-cWHfU0hc",
+      "name": "War Pigs (Live 1990)",
+      "artist": "Faith No More"
+    },
+    {
+      "videoId": "oZoBAr8cGHM",
+      "name": "Sweetest Perfection",
+      "artist": "Depeche Mode"
+    },
+    {
+      "videoId": "jLanNm58n80",
+      "name": "Money And Fame",
+      "artist": "Scorpions"
+    },
+    {
+      "videoId": "VXlmloC8ggw",
+      "name": "Bitter Tears",
+      "artist": "INXS"
+    },
+    {
+      "videoId": "J1xXu-18Zb0",
+      "name": "More Than Words",
+      "artist": "Extreme"
+    },
+    {
+      "videoId": "3W9IISmmJho",
+      "name": "Modern Vision",
+      "artist": "Complex"
+    },
+    {
+      "videoId": "Ucmo6hDZRSY",
+      "name": "Self Control",
+      "artist": "Laura Branigan"
+    },
+    {
+      "videoId": "hXM1XBLoolo",
+      "name": "Beautiful People",
+      "artist": "Modern English"
+    },
+    {
+      "videoId": "s1ATTIQrmIQ",
+      "name": "Судно (Борис Рыжий)",
+      "artist": "Molchat Doma"
+    },
+    {
+      "videoId": "pSVbF6DGH9U",
+      "name": "Around the World (La La La La La)",
+      "artist": "A Touch of Class"
+    },
+    {
+      "videoId": "fdwX8J2EY0I",
+      "name": "Beautiful People",
+      "artist": "Modern English"
+    },
+    {
+      "videoId": "swJOIjjW69U",
+      "name": "Dreams (2004 Remaster)",
+      "artist": "Fleetwood Mac"
+    },
+    {
+      "videoId": "4jA-_g_iSY0",
+      "name": "I Want to Know What Love Is (1999 Remaster)",
+      "artist": "Foreigner"
+    },
+    {
+      "videoId": "yJw2qd3MtqE",
+      "name": "Every Rose Has Its Thorn",
+      "artist": "Poison"
+    },
+    {
+      "videoId": "WpY4C6pboag",
+      "name": "90's Garage Rock",
+      "artist": "Jerome Chauvel"
+    },
+    {
+      "videoId": "V-elZ3gi6fk",
+      "name": "90'S Garage Rock",
+      "artist": "Jerome Chauvel"
+    },
+    {
+      "videoId": "Buly8L-HZMk",
+      "name": "Jailhouse Rock",
+      "artist": "The Cramps"
+    },
+    {
+      "videoId": "0y16IUHkgr4",
+      "name": "My Baby Wants To Rock And Roll",
+      "artist": "Iggy Pop"
+    },
+    {
+      "videoId": "RhKMMh4qOL8",
+      "name": "The House Music Anthem (Move Your Body)",
+      "artist": "Marshall Jefferson"
+    },
+    {
+      "videoId": "9vWNauaZAgg",
+      "name": "Back In Black",
+      "artist": "AC/DC"
+    },
+    {
+      "videoId": "XUI75QlwF0U",
+      "name": "Jungle Rock",
+      "artist": "The Radiacs"
+    },
+    {
+      "videoId": "QaVgxY-7JUM",
+      "name": "mid 90s garage-rock",
+      "artist": "rook music"
+    },
+    {
+      "videoId": "FaEjDk3lgcI",
+      "name": "Freedom! '90",
+      "artist": "George Michael"
+    },
+    {
+      "videoId": "Q1Qdcl4ja1Y",
+      "name": "Jam On It (12-Inch Vocal)",
+      "artist": "Newcleus"
+    },
+    {
+      "videoId": "B3BQbVPL9Fo",
+      "name": "Don't Stop The Rock",
+      "artist": "Freestyle"
+    },
+    {
+      "videoId": "brR12abu9Y0",
+      "name": "Oh Pretty Woman",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "BTwK_Wf0-sc",
+      "name": "King Of The Blues",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "uLGJPh6Mmd4",
+      "name": "Midnight Blues",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "Ai97X82DIYo",
+      "name": "Tobacco Road",
+      "artist": "Junior Wells"
+    },
+    {
+      "videoId": "-XWYxQWY8TM",
+      "name": "Classic Texas Blues Backing Track in A",
+      "artist": "Backing Tracks Blues"
+    },
+    {
+      "videoId": "cd1iS0BE7Rg",
+      "name": "Moving On",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "mextLpng-Y0",
+      "name": "Sad Slow Blues Rock Ballad Backing Track in D Minor",
+      "artist": "Superior Jam Tracks"
     },
     {
       "videoId": "-uQi0vJK9lk",
@@ -88,34 +438,129 @@
       "artist": "Green Day"
     },
     {
-      "videoId": "dXcdQyXOyvU",
-      "name": "Punk Rock Comp",
-      "artist": "The Punk Rock Channel"
-    },
-    {
       "videoId": "dSlYFtXENPo",
       "name": "Teenage Dirtbag",
       "artist": "Wheatus"
     },
     {
-      "videoId": "pTYIf2pkxzQ",
-      "name": "Nothing Else Matters",
-      "artist": "Metallica"
+      "videoId": "jLKOBJR5vHs",
+      "name": "Teenagers",
+      "artist": "My Chemical Romance"
     },
     {
-      "videoId": "cSZf8ZYHV7o",
+      "videoId": "AxuTd9rwEHQ",
+      "name": "Everlong",
+      "artist": "Foo Fighters"
+    },
+    {
+      "videoId": "2QVLtL4PnhE",
+      "name": "Story of My Life",
+      "artist": "Social Distortion"
+    },
+    {
+      "videoId": "WjxqjUGuEDA",
+      "name": "All Over the World",
+      "artist": "Pixies"
+    },
+    {
+      "videoId": "OAC4ItP0xWM",
+      "name": "Funkytown",
+      "artist": "Lipps Inc."
+    },
+    {
+      "videoId": "EG0lNvJ9q84",
+      "name": "Blood And Tears",
+      "artist": "Danzig"
+    },
+    {
+      "videoId": "fa5IWHDbftI",
+      "name": "One More Time",
+      "artist": "Daft Punk"
+    },
+    {
+      "videoId": "qcKOW16iuI0",
+      "name": "Faith Alone",
+      "artist": "Bad Religion"
+    },
+    {
+      "videoId": "Jb6gcoR266U",
+      "name": "Around the World",
+      "artist": "Daft Punk"
+    },
+    {
+      "videoId": "lNOT3Qr-CXI",
+      "name": "Ring of Fire",
+      "artist": "Social Distortion"
+    },
+    {
+      "videoId": "ojvldIzbaMo",
+      "name": "Enjoy the Silence",
+      "artist": "Depeche Mode"
+    },
+    {
+      "videoId": "-Tl_FVOx-cs",
+      "name": "Raah Mein Unse Mulaqat",
+      "artist": "Kumar Sanu"
+    },
+    {
+      "videoId": "L8HhOMNrulE",
+      "name": "Tornado Of Souls",
+      "artist": "Megadeth"
+    },
+    {
+      "videoId": "k_GFAt-5q2E",
+      "name": "Hangar 18",
+      "artist": "Megadeth"
+    },
+    {
+      "videoId": "hVJ4rYjUgX4",
+      "name": "Seasons In The Abyss",
+      "artist": "Slayer"
+    },
+    {
+      "videoId": "fiPEn2W_8oE",
       "name": "Cemetery Gates",
       "artist": "Pantera"
     },
     {
-      "videoId": "bePCRKGUwAY",
-      "name": "Fear of the Dark",
-      "artist": "Iron Maiden"
+      "videoId": "yZXZ2XRmfS4",
+      "name": "Hell Patrol",
+      "artist": "Judas Priest"
     },
     {
-      "videoId": "5EbiRRpaYB4",
-      "name": "Metal Health (Bang Your Head)",
-      "artist": "Quiet Riot"
+      "videoId": "CHIWNDAwTqQ",
+      "name": "Enter Sandman",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "PkoFImDpx_M",
+      "name": "Long Way Back From Hell",
+      "artist": "Danzig"
+    },
+    {
+      "videoId": "LOXrjUuXEn0",
+      "name": "Holy Wars...The Punishment Due",
+      "artist": "Megadeth"
+    },
+    {
+      "videoId": "kiw_VxQ2oXo",
+      "name": "Du hast",
+      "artist": "Rammstein"
+    },
+    {
+      "videoId": "WYfljBCpmE4",
+      "name": "Cowboys from Hell",
+      "artist": "Pantera"
+    },
+    {
+      "videoId": "WdoXZf-FZyA",
+      "name": "Symphony Of Destruction",
+      "artist": "Megadeth"
+    },
+    {
+      "videoId": "nTJHkUze9lc",
+      "name": "Domination",
+      "artist": "Pantera"
     },
     {
       "videoId": "knQEA9D-Qq0",
@@ -123,29 +568,54 @@
       "artist": "Entombed"
     },
     {
+      "videoId": "bB-Jq8JmxN0",
+      "name": "Edifice of Tyranny",
+      "artist": "Ouroboros"
+    },
+    {
+      "videoId": "WcC9gI4OKI0",
+      "name": "Useless Sacrifice",
+      "artist": "Death Decline"
+    },
+    {
+      "videoId": "GN_1kyXwfKQ",
+      "name": "Death Evocation",
+      "artist": "Carnage"
+    },
+    {
+      "videoId": "b9AMFf5Ih7Y",
+      "name": "Spirit Crusher",
+      "artist": "Death"
+    },
+    {
+      "videoId": "gZSzqfZ4udE",
+      "name": "Spiritual Healing",
+      "artist": "Death"
+    },
+    {
+      "videoId": "SOctyXxCm-4",
+      "name": "Dragula",
+      "artist": "Rob Zombie"
+    },
+    {
+      "videoId": "3659fTXvFts",
+      "name": "Dance of Death",
+      "artist": "Iron Maiden"
+    },
+    {
       "videoId": "9rpp1-8q2EM",
       "name": "Dead by Dawn",
       "artist": "Deicide"
     },
     {
-      "videoId": "Nti0A3po0JQ",
-      "name": "Cause of Death",
-      "artist": "Obituary"
+      "videoId": "weyYzWU-FNI",
+      "name": "Left Hand Path",
+      "artist": "Entombed"
     },
     {
-      "videoId": "9i1s8DH4uEg",
-      "name": "Sacrificial Suicide",
-      "artist": "Deicide"
-    },
-    {
-      "videoId": "8SbUC-UaAxE",
-      "name": "November Rain",
-      "artist": "Guns N' Roses"
-    },
-    {
-      "videoId": "gdmHHoI9beM",
-      "name": "Hazard",
-      "artist": "Richard Marx"
+      "videoId": "VZZjSb393L4",
+      "name": "Krigsgaldr",
+      "artist": "Heilung"
     },
     {
       "videoId": "IpwHB2U3J1s",
@@ -158,28 +628,48 @@
       "artist": "Ozzy Osbourne"
     },
     {
-      "videoId": "hTWKbfoikeg",
-      "name": "Smells Like Teen Spirit",
-      "artist": "Nirvana"
-    },
-    {
-      "videoId": "L6-uJLteKek",
-      "name": "To Be With You 4K Video",
-      "artist": "Mr. Big"
-    },
-    {
       "videoId": "8VgRL8Htv7k",
       "name": "Estranged",
       "artist": "Guns N' Roses"
     },
     {
-      "videoId": "fsuKSf8vYuE",
-      "name": "top songs of 1991",
-      "artist": "boogiehead"
+      "videoId": "G-oRhCHID_4",
+      "name": "Don't Cry",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "XZuM4zFg-60",
+      "name": "Enter Sandman",
+      "artist": "Metallica"
     },
     {
       "videoId": "isCh4kCeNYU",
       "name": "Civil War",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "woYtFA6YJa0",
+      "name": "(Everything I Do) I Do It For You (Classic Version)",
+      "artist": "Bryan Adams"
+    },
+    {
+      "videoId": "wFsXdb4bxbs",
+      "name": "Rhythm of My Heart",
+      "artist": "Rod Stewart"
+    },
+    {
+      "videoId": "ox_BG6sLPq8",
+      "name": "Breed",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "ZEMBDKMtHqM",
+      "name": "Come As You Are",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "bxWiawb6jNI",
+      "name": "Dead Horse",
       "artist": "Guns N' Roses"
     },
     {
@@ -188,14 +678,14 @@
       "artist": "Metallica"
     },
     {
-      "videoId": "Y0pdQU87dc8",
-      "name": "(Everything I Do) I Do It For You",
-      "artist": "Bryan Adams"
+      "videoId": "mPf4v9LGF30",
+      "name": "Wherever I May Roam",
+      "artist": "Metallica"
     },
     {
-      "videoId": "n52OZn9meYg",
-      "name": "Til Death Do Us Part",
-      "artist": "White Lion"
+      "videoId": "ljUtuoFt-8c",
+      "name": "Smells Like Teen Spirit",
+      "artist": "Nirvana"
     },
     {
       "videoId": "IKhscaE_9Ks",
@@ -203,24 +693,229 @@
       "artist": "Metallica"
     },
     {
-      "videoId": "l-5aPNxv-pU",
-      "name": "Simple Man",
-      "artist": "Lynyrd Skynyrd"
+      "videoId": "u7T2OR-O2Vk",
+      "name": "Even Flow",
+      "artist": "Pearl Jam"
     },
     {
-      "videoId": "MjwttGizNEs",
-      "name": "Hail to the King",
-      "artist": "Avenged Sevenfold"
+      "videoId": "6ywIjjj3YuA",
+      "name": "Cherub Rock",
+      "artist": "Smashing Pumpkins"
     },
     {
-      "videoId": "Z6S7_vRVPUU",
-      "name": "Jeff Healey \"Blue Jeans Blues\" (St.Gallen 1991)",
-      "artist": "BluesDriver"
+      "videoId": "AE3ynTXTm_8",
+      "name": "Aneurysm",
+      "artist": "Nirvana"
     },
     {
-      "videoId": "DhzhmDQCbQ4",
-      "name": "Jimmy Olsen's Blues",
-      "artist": "Spin Doctors"
+      "videoId": "3MutXUvS37k",
+      "name": "Alive",
+      "artist": "Pearl Jam"
+    },
+    {
+      "videoId": "Tfpn3wHoNGA",
+      "name": "In-A-Gadda-Da-Vida (2006 Remaster Full-Length)",
+      "artist": "Iron Butterfly"
+    },
+    {
+      "videoId": "DVzcQ4_khsM",
+      "name": "You Could Be Mine",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "domjqjQ_WRI",
+      "name": "The Unforgiven",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "_A6RoaPDR24",
+      "name": "80's Hard Rock Backing Track in Am",
+      "artist": "Monster Backing Tracks"
+    },
+    {
+      "videoId": "B_HSa1dEL9s",
+      "name": "For Whom The Bell Tolls",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "RWul77tzjVo",
+      "name": "Hellraiser (30th Anniversary Edition)",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "videoId": "TpohVYomw2o",
+      "name": "Sad But True",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "vj_rvLVpqg8",
+      "name": "It's a Long Way to the Top (If You Wanna Rock 'N' Roll)",
+      "artist": "AC/DC"
+    },
+    {
+      "videoId": "kzJu4r5vvo8",
+      "name": "Why Go",
+      "artist": "Pearl Jam"
+    },
+    {
+      "videoId": "GxYw5WmVKU0",
+      "name": "The Struggle Within",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "XX0hXLmMr3w",
+      "name": "Starchamber",
+      "artist": "Crimson Glory"
+    },
+    {
+      "videoId": "DxBQOVOe3gg",
+      "name": "Love Me Forever",
+      "artist": "Motörhead"
+    },
+    {
+      "videoId": "V5ia0aaGWWU",
+      "name": "Modern World",
+      "artist": "Aldo Nova"
+    },
+    {
+      "videoId": "BcexNP3Pl3w",
+      "name": "Just a Girl",
+      "artist": "Pearl Jam"
+    },
+    {
+      "videoId": "WjFG03kS7nQ",
+      "name": "November Rain (2022 Version)",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "BPVW7ZauWrA",
+      "name": "Jesus Built My Hotrod (Re-Record)",
+      "artist": "Ministry"
+    },
+    {
+      "videoId": "n52OZn9meYg",
+      "name": "Til Death Do Us Part",
+      "artist": "White Lion"
+    },
+    {
+      "videoId": "5zlE5guCSdo",
+      "name": "You're All I Need",
+      "artist": "White Lion"
+    },
+    {
+      "videoId": "CmQsGNQtZNU",
+      "name": "Farewell to You",
+      "artist": "White Lion"
+    },
+    {
+      "videoId": "NgEz8jJpojg",
+      "name": "What You Give",
+      "artist": "Tesla"
+    },
+    {
+      "videoId": "6yNkImZZAew",
+      "name": "Streets Of Pain",
+      "artist": "Richard Marx"
+    },
+    {
+      "videoId": "4I10boAF-u8",
+      "name": "Closer to the Truth",
+      "artist": "Tony Joe White"
+    },
+    {
+      "videoId": "D7xUG9-W4DI",
+      "name": "Superstar",
+      "artist": "Richard Marx"
+    },
+    {
+      "videoId": "Ewg1LTLBGkE",
+      "name": "How Much I Feel (Remastered Version)",
+      "artist": "Ambrosia"
+    },
+    {
+      "videoId": "biNGPkOVaBE",
+      "name": "Coma",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "3Fyl0DLWmFs",
+      "name": "November Rain",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "bQtPzo-7AHs",
+      "name": "Jeremy",
+      "artist": "Pearl Jam"
+    },
+    {
+      "videoId": "xFQoZ0S3iIc",
+      "name": "Psycho",
+      "artist": "The Sonics"
+    },
+    {
+      "videoId": "v6fWJ-Sr1UA",
+      "name": "Dance With Me",
+      "artist": "T.S.O.L."
+    },
+    {
+      "videoId": "HGBsxpnRhMk",
+      "name": "The Witch",
+      "artist": "The Sonics"
+    },
+    {
+      "videoId": "ZaGrNq9VrCc",
+      "name": "So What",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "i_URml_Fqas",
+      "name": "1991",
+      "artist": "Good Old Boyz"
+    },
+    {
+      "videoId": "9PmfpsIh5w0",
+      "name": "Whiskey In The Jar",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "d9pezbqXjfo",
+      "name": "Wash Away",
+      "artist": "T.S.O.L."
+    },
+    {
+      "videoId": "P-0QZcGe-Bg",
+      "name": "Hurts So Much",
+      "artist": "The Guttersnipes"
+    },
+    {
+      "videoId": "Jmpo1NBV3hU",
+      "name": "Property is Theft",
+      "artist": "T.S.O.L."
+    },
+    {
+      "videoId": "FTj4WkFBlu8",
+      "name": "Thoughts of Yesterday",
+      "artist": "T.S.O.L."
+    },
+    {
+      "videoId": "dklfS8fw1qU",
+      "name": "Come Together",
+      "artist": "The Hitmakers"
+    },
+    {
+      "videoId": "TDn-WVJ1h04",
+      "name": "Malibu",
+      "artist": "Skooshny"
+    },
+    {
+      "videoId": "9vaVeSfCeAk",
+      "name": "Time Warp 1991",
+      "artist": "The Membrains"
+    },
+    {
+      "videoId": "Vnc1uTcSLcg",
+      "name": "1991",
+      "artist": "Black 71"
     },
     {
       "videoId": "hzYJ8XiYJpw",
@@ -233,14 +928,74 @@
       "artist": "Guns N' Roses"
     },
     {
-      "videoId": "rZXMEIX6RtQ",
-      "name": "1991:The Year Punk Broke (full documentary)",
-      "artist": "robert butuci"
+      "videoId": "q6pcKQQ8CXU",
+      "name": "A Little Rock And Roll And Some Country Blues",
+      "artist": "Lonnie Brooks"
     },
     {
-      "videoId": "LRCZ9oKQxFo",
-      "name": "Ramones Live in Tokyo 1991 Master Tape Network 1080p 60fps HD",
-      "artist": "Master Tape Network"
+      "videoId": "X_SUoB580Mo",
+      "name": "Get on with Your Life",
+      "artist": "The Allman Brothers Band"
+    },
+    {
+      "videoId": "hGnmmDncR4s",
+      "name": "Fakin' The Blues",
+      "artist": "Status Quo"
+    },
+    {
+      "videoId": "7lQb7Q5bmr4",
+      "name": "Fakin' The Blues",
+      "artist": "Status Quo"
+    },
+    {
+      "videoId": "YLdbH5iivqY",
+      "name": "The One to Sing the Blues",
+      "artist": "Motörhead"
+    },
+    {
+      "videoId": "4ga8SrKc404",
+      "name": "Rock Star Blues",
+      "artist": "Tele Music"
+    },
+    {
+      "videoId": "1AMNlOvYHKE",
+      "name": "You're Gonna Look Good in Blues",
+      "artist": "Tony Joe White"
+    },
+    {
+      "videoId": "ng_vqlKtxLs",
+      "name": "In Bloom",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "UU1fS1y77SU",
+      "name": "I Can See Clearly",
+      "artist": "Screeching Weasel"
+    },
+    {
+      "videoId": "NMXjKDXWrm8",
+      "name": "The Law",
+      "artist": "Kyuss"
+    },
+    {
+      "videoId": "wWC-JM9lCOI",
+      "name": "Barrum",
+      "artist": "Kult"
+    },
+    {
+      "videoId": "uykzo8IKjdU",
+      "name": "Green Corn",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "IlVjmA7ppdM",
+      "name": "Come As You Are (Live 1991)",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "W2xPhlXsUkc",
+      "name": "Punk song '91",
+      "artist": "Nauka o Gównie"
     },
     {
       "videoId": "zcVpFug2p00",
@@ -248,24 +1003,84 @@
       "artist": "Pixies"
     },
     {
-      "videoId": "AE3ynTXTm_8",
-      "name": "Aneurysm",
+      "videoId": "g6U3VKOfdj0",
+      "name": "On A Plain",
       "artist": "Nirvana"
     },
     {
-      "videoId": "XZuM4zFg-60",
-      "name": "Enter Sandman",
+      "videoId": "06oO3N8dT_s",
+      "name": "I Believe in Anarchy",
+      "artist": "The Exploited"
+    },
+    {
+      "videoId": "0-4ytIaU-68",
+      "name": "Punk song '91",
+      "artist": "Nauka o Gównie"
+    },
+    {
+      "videoId": "TMSlTQmDLx4",
+      "name": "99 Luftballons",
+      "artist": "Nena"
+    },
+    {
+      "videoId": "paxCkni3ahU",
+      "name": "Dive",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "M2CHkq_IQrU",
+      "name": "Unsuccessfully Coping with the Natural Beauty of Infidelity",
+      "artist": "Type O Negative"
+    },
+    {
+      "videoId": "dPeOMHcsUJ4",
+      "name": "Orgasmatron",
+      "artist": "Sepultura"
+    },
+    {
+      "videoId": "_oWUgfpGi0M",
+      "name": "Lithium",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "-3la4-WWCcE",
+      "name": "Of Wolf And Man",
       "artist": "Metallica"
     },
     {
-      "videoId": "lJToBEqyy-s",
-      "name": "In Harm's Way",
-      "artist": "Metal Church"
+      "videoId": "TIJJcTDAaMI",
+      "name": "Desperate Cry",
+      "artist": "Sepultura"
     },
     {
-      "videoId": "aDACorIaxNw",
-      "name": "Domination",
-      "artist": "Video"
+      "videoId": "Jk8magGDcKE",
+      "name": "Holier Than Thou",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "ozXZnwYTMbs",
+      "name": "Nothing Else Matters",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "X8OeBZQn3_w",
+      "name": "Creeping Death",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "hQ_Z-10dXSE",
+      "name": "Crazy Train",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "videoId": "kOV2iTeGQik",
+      "name": "Walk",
+      "artist": "Pantera"
+    },
+    {
+      "videoId": "sC4se0jX1XE",
+      "name": "The God That Failed",
+      "artist": "Metallica"
     },
     {
       "videoId": "PvIAnWovhU8",
@@ -278,39 +1093,44 @@
       "artist": "Mortification"
     },
     {
-      "videoId": "X8OeBZQn3_w",
-      "name": "Creeping Death",
-      "artist": "Metallica"
+      "videoId": "G3yA-7sLkWY",
+      "name": "Blood and Iron",
+      "artist": "Bathory"
     },
     {
-      "videoId": "ZYc1jps3JWI",
-      "name": "Bed Of Roses",
+      "videoId": "-TjoGLSGyMw",
+      "name": "Back from the Dead",
+      "artist": "Cancer"
+    },
+    {
+      "videoId": "7kjLwFLzRLQ",
+      "name": "Death Shall Rise",
+      "artist": "Cancer"
+    },
+    {
+      "videoId": "MfO9r3Z3sqQ",
+      "name": "Chaos Breed",
+      "artist": "Entombed"
+    },
+    {
+      "videoId": "8fl84pegrsY",
+      "name": "Dark Crusade",
+      "artist": "Autopsy"
+    },
+    {
+      "videoId": "HMX9ySmgl4Q",
+      "name": "God of Thunder",
+      "artist": "Death"
+    },
+    {
+      "videoId": "X791IzOwt3Q",
+      "name": "Stairway to Heaven (Remaster)",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "videoId": "t_6WvAL5_3E",
+      "name": "I Want You",
       "artist": "Bon Jovi"
-    },
-    {
-      "videoId": "NRtvqT_wMeY",
-      "name": "Runaway Train (Official HD Video)",
-      "artist": "Soul Asylum"
-    },
-    {
-      "videoId": "6NXnxTNIWkc",
-      "name": "What's Up (Official Music Video)",
-      "artist": "4 Non Blondes"
-    },
-    {
-      "videoId": "PM_VIATPYQc",
-      "name": "PEARL JAM PINKPOP 1992",
-      "artist": "vivalosramones"
-    },
-    {
-      "videoId": "NvR60Wg9R7Q",
-      "name": "Bed Of Roses (Official Music Video)",
-      "artist": "Bon Jovi"
-    },
-    {
-      "videoId": "AkFqg5wAuFk",
-      "name": "Walk",
-      "artist": "Pantera"
     },
     {
       "videoId": "c0hYJEGOk1o",
@@ -318,29 +1138,74 @@
       "artist": "Kiss"
     },
     {
-      "videoId": "BYyRLTveFJQ",
-      "name": "Remedy",
-      "artist": "The Black Crowes"
+      "videoId": "tKRznjaIIyw",
+      "name": "Everybody Hurts",
+      "artist": "R.E.M."
     },
     {
-      "videoId": "N1CKDBhc1ok",
-      "name": "Galadriel – Chasing The Dragonfly : Prog Rock 1992.",
-      "artist": "K2E2S Surya"
+      "videoId": "0CNPR2qNzxk",
+      "name": "Welcome To The Jungle",
+      "artist": "Guns N' Roses"
     },
     {
-      "videoId": "cHqi2hoAXYQ",
-      "name": "Pull Me Under",
-      "artist": "Dream Theater"
+      "videoId": "JEaxLGNm7PQ",
+      "name": "Drive",
+      "artist": "R.E.M."
     },
     {
-      "videoId": "NKsyfNu1fDE",
-      "name": "Opiate",
-      "artist": "TOOL"
+      "videoId": "4L56DPmFl8w",
+      "name": "Would? (2022 Remaster)",
+      "artist": "Alice In Chains"
     },
     {
-      "videoId": "5JeArVBC56s",
-      "name": "Sweat",
-      "artist": "TOOL"
+      "videoId": "rMXlAJOQsss",
+      "name": "Take the Power Back",
+      "artist": "Rage Against The Machine"
+    },
+    {
+      "videoId": "p62JUR5d_Gs",
+      "name": "This Love",
+      "artist": "Pantera"
+    },
+    {
+      "videoId": "1CWfgxtdbK0",
+      "name": "Let's Get Rocked",
+      "artist": "Def Leppard"
+    },
+    {
+      "videoId": "I4jH5QPQ6oY",
+      "name": "Lightning Crashes",
+      "artist": "Live"
+    },
+    {
+      "videoId": "mjN4dMvC0Gs",
+      "name": "No Rain",
+      "artist": "Blind Melon"
+    },
+    {
+      "videoId": "EARps6chiMA",
+      "name": "Hey Jealousy",
+      "artist": "Gin Blossoms"
+    },
+    {
+      "videoId": "_1RYVmLFaK8",
+      "name": "Friday I'm In Love",
+      "artist": "The Cure"
+    },
+    {
+      "videoId": "E17hqs4Un-k",
+      "name": "Down In A Hole (2022 Remaster)",
+      "artist": "Alice In Chains"
+    },
+    {
+      "videoId": "08iaCYLhZ-k",
+      "name": "Am I Inside",
+      "artist": "Alice In Chains"
+    },
+    {
+      "videoId": "FKTjssfkL4I",
+      "name": "Creep",
+      "artist": "Stone Temple Pilots"
     },
     {
       "videoId": "1DnSiznUrVI",
@@ -348,9 +1213,189 @@
       "artist": "Chris Cornell"
     },
     {
-      "videoId": "bWXazVhlyxQ",
-      "name": "Killing In the Name (Official HD Video)",
+      "videoId": "DhiphGvX4dA",
+      "name": "Stain",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "B6GdsRIbTSk",
+      "name": "What's Up?",
+      "artist": "4 Non Blondes"
+    },
+    {
+      "videoId": "Cdu3a2arXdw",
+      "name": "Roxanne",
+      "artist": "The Police"
+    },
+    {
+      "videoId": "uvrQJFVV3-o",
+      "name": "Yellow Ledbetter",
+      "artist": "Pearl Jam"
+    },
+    {
+      "videoId": "LK22vfSmNdI",
+      "name": "In These Arms",
+      "artist": "Bon Jovi"
+    },
+    {
+      "videoId": "wfcLesynJrc",
+      "name": "Afraid to Shoot Strangers",
+      "artist": "Iron Maiden"
+    },
+    {
+      "videoId": "tHqq7GD_Yqg",
+      "name": "White Lightning",
+      "artist": "Def Leppard"
+    },
+    {
+      "videoId": "Lgf1JbBcQO8",
+      "name": "Life's A Bitch",
+      "artist": "Hardline"
+    },
+    {
+      "videoId": "cnRHs2TgasM",
+      "name": "Too Late",
+      "artist": "Black Sabbath"
+    },
+    {
+      "videoId": "aKL2cwgdWkI",
+      "name": "Detroit Rock City (Live/1992)",
+      "artist": "Kiss"
+    },
+    {
+      "videoId": "2o9aoL0NWpw",
+      "name": "Killing In the Name",
       "artist": "Rage Against The Machine"
+    },
+    {
+      "videoId": "5JeArVBC56s",
+      "name": "Sweat",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "KmxpNvy6QOo",
+      "name": "I'll Be There",
+      "artist": "Hardline"
+    },
+    {
+      "videoId": "vMWYFCI2J4k",
+      "name": "I Wanna Touch U",
+      "artist": "Def Leppard"
+    },
+    {
+      "videoId": "qPoHul8ngNw",
+      "name": "Christmas All Over Again",
+      "artist": "Tom Petty And The Heartbreakers"
+    },
+    {
+      "videoId": "cHqi2hoAXYQ",
+      "name": "Pull Me Under",
+      "artist": "Dream Theater"
+    },
+    {
+      "videoId": "JYJ6QJqy92s",
+      "name": "Killing in the Name",
+      "artist": "Rage Against The Machine"
+    },
+    {
+      "videoId": "J6Se3Gfj4uE",
+      "name": "Oye Mi Amor",
+      "artist": "Maná"
+    },
+    {
+      "videoId": "zpotZUiKLbU",
+      "name": "Amused to Death",
+      "artist": "Roger Waters"
+    },
+    {
+      "videoId": "NKsyfNu1fDE",
+      "name": "Opiate",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "iaOOuxePhaY",
+      "name": "West",
+      "artist": "Marty Friedman"
+    },
+    {
+      "videoId": "51pJMGYPey8",
+      "name": "Realm of the Senses",
+      "artist": "Marty Friedman"
+    },
+    {
+      "videoId": "rJPITO4H_i0",
+      "name": "On The Line",
+      "artist": "The Outfield"
+    },
+    {
+      "videoId": "frQTkB74lrQ",
+      "name": "Find The River",
+      "artist": "R.E.M."
+    },
+    {
+      "videoId": "KwPYrGsUNSY",
+      "name": "Breed (live)",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "jEK6KJjYGDg",
+      "name": "Winning It All",
+      "artist": "The Outfield"
+    },
+    {
+      "videoId": "9Ua1ha3dx1M",
+      "name": "Eclipse Of Mankind",
+      "artist": "Eloy"
+    },
+    {
+      "videoId": "lvGszYpf3aw",
+      "name": "Steam",
+      "artist": "Peter Gabriel"
+    },
+    {
+      "videoId": "ryA5j-8yrBc",
+      "name": "New Age Blues",
+      "artist": "Kerry Livgren"
+    },
+    {
+      "videoId": "wEPKIulCEhQ",
+      "name": "Symphony Of Destruction",
+      "artist": "Megadeth"
+    },
+    {
+      "videoId": "HKXCfvkDaBU",
+      "name": "Into Tomorrow",
+      "artist": "Paul Weller"
+    },
+    {
+      "videoId": "Z85lxckrtzg",
+      "name": "Thriller",
+      "artist": "Michael Jackson"
+    },
+    {
+      "videoId": "Aqc3VTpz9HQ",
+      "name": "You Give Love A Bad Name",
+      "artist": "Bon Jovi"
+    },
+    {
+      "videoId": "w_n7ZtxqlzY",
+      "name": "Estranged (Live Version)",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "KuXtNOw5C3c",
+      "name": "The Dark and the Rolling Sea",
+      "artist": "Al Stewart"
+    },
+    {
+      "videoId": "A6M0yLxLCNA",
+      "name": "1979",
+      "artist": "The Smashing Pumpkins"
+    },
+    {
+      "videoId": "XzNWRmqibNE",
+      "name": "Smooth Criminal",
+      "artist": "Michael Jackson"
     },
     {
       "videoId": "xWfhq4Abw9U",
@@ -358,9 +1403,39 @@
       "artist": "Michael Bolton"
     },
     {
-      "videoId": "dSUdjANNlT8",
-      "name": "Gary Moore – Separate Ways (HD) Rock Ballads (1992)",
-      "artist": "BeRockRadio -Melodic Hard Rock at its Best!"
+      "videoId": "EOs0qeiJyIg",
+      "name": "Layla (Acoustic Live)",
+      "artist": "Eric Clapton"
+    },
+    {
+      "videoId": "k1k6EUW0czc",
+      "name": "No Ordinary Love",
+      "artist": "Sade"
+    },
+    {
+      "videoId": "tBPPdVMSXtQ",
+      "name": "Drift Away",
+      "artist": "Michael Bolton"
+    },
+    {
+      "videoId": "tgp4YydZMYg",
+      "name": "Hotel California",
+      "artist": "The Music Makers"
+    },
+    {
+      "videoId": "NKbvGeTH8VA",
+      "name": "I Will Be Here For You",
+      "artist": "Michael W. Smith"
+    },
+    {
+      "videoId": "WGUzJTusbWw",
+      "name": "Love Is on the Way",
+      "artist": "Saigon Kick"
+    },
+    {
+      "videoId": "ZwW7C-P8dq4",
+      "name": "Hold On To My Heart",
+      "artist": "W.A.S.P."
     },
     {
       "videoId": "eaDppB-vDkg",
@@ -373,9 +1448,29 @@
       "artist": "Green Day"
     },
     {
+      "videoId": "40cjiTAW9W8",
+      "name": "Házörző blues",
+      "artist": "Gunning Dogs"
+    },
+    {
       "videoId": "Bhk7PLr5ekU",
       "name": "It's My Life (Remix)",
       "artist": "Dr. Alban"
+    },
+    {
+      "videoId": "KkEDzsTLwSA",
+      "name": "In My Garage",
+      "artist": "Vancouvers"
+    },
+    {
+      "videoId": "HeSAkW9zX70",
+      "name": "Grand Canyon",
+      "artist": "The Stranglers"
+    },
+    {
+      "videoId": "WtXsiaRoaOI",
+      "name": "1992",
+      "artist": "Bad Weather California"
     },
     {
       "videoId": "aBJZsHDJvf0",
@@ -383,9 +1478,39 @@
       "artist": "Dr. Alban"
     },
     {
-      "videoId": "l_7SxoQW11g",
-      "name": "The Razors Edge",
-      "artist": "AC/DC"
+      "videoId": "EvFSq1KuW7g",
+      "name": "One of My Lies",
+      "artist": "Green Day"
+    },
+    {
+      "videoId": "WgexISg8cyM",
+      "name": "Damaged",
+      "artist": "Love Battery"
+    },
+    {
+      "videoId": "mz_EeEN_YXQ",
+      "name": "Joe's Garage",
+      "artist": "Frank Zappa"
+    },
+    {
+      "videoId": "-uXbbIBxMSY",
+      "name": "Ichiban",
+      "artist": "The Gories"
+    },
+    {
+      "videoId": "Gy2U-qHDLZU",
+      "name": "Take Her Anytime",
+      "artist": "Garage Rock Hits"
+    },
+    {
+      "videoId": "6mz3ADbogr8",
+      "name": "In A Trance-Like State",
+      "artist": "Rodents As Gifts"
+    },
+    {
+      "videoId": "2fb7FvQloN4",
+      "name": "Psychotic Reaction",
+      "artist": "'60s Garage Rock"
     },
     {
       "videoId": "Zw063DlrDHY",
@@ -398,14 +1523,39 @@
       "artist": "Gary Moore"
     },
     {
+      "videoId": "k3NVDnvUlvU",
+      "name": "Mercury Blues",
+      "artist": "The Party Boys"
+    },
+    {
       "videoId": "_TR2m4IfqPI",
       "name": "Thumb",
       "artist": "Kyuss"
     },
     {
-      "videoId": "rMXlAJOQsss",
-      "name": "Take the Power Back",
-      "artist": "Rage Against The Machine"
+      "videoId": "ej4YBsZeVNs",
+      "name": "Bluebird Blues (Live 1992)",
+      "artist": "Jeff Buckley"
+    },
+    {
+      "videoId": "4Qn3phmqQTw",
+      "name": "Story Of The Blues",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "lnYAbvpILAE",
+      "name": "Story Of The Blues (2002 Digital Remaster)",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "Q_WvgkvDh44",
+      "name": "Rock Blues",
+      "artist": "Tele Music"
+    },
+    {
+      "videoId": "R0SotItMINA",
+      "name": "Statesboro Blues",
+      "artist": "Pat Travers"
     },
     {
       "videoId": "xa6jHVjI2oc",
@@ -418,24 +1568,99 @@
       "artist": "L7"
     },
     {
-      "videoId": "tUwgsCQTIQ0",
-      "name": "Time For Livin'",
-      "artist": "Beastie Boys"
+      "videoId": "RDHaKlQ8WKI",
+      "name": "The Bag",
+      "artist": "NOFX"
     },
     {
-      "videoId": "xp7svl4l5Dk",
-      "name": "Nobody Hears",
-      "artist": "Suicidal Tendencies"
+      "videoId": "ZD-KAnLvnTM",
+      "name": "Johnny Appleseed",
+      "artist": "NOFX"
     },
     {
-      "videoId": "48l_h0TZjeM",
-      "name": "Best Metal Songs of 1992",
-      "artist": "Beckonor"
+      "videoId": "TeJDIzPxd0M",
+      "name": "Just One Fix",
+      "artist": "Ministry"
     },
     {
-      "videoId": "SbWeP7KkeCU",
-      "name": "Wasting Love",
-      "artist": "Iron Maiden"
+      "videoId": "zTfdILFoBTU",
+      "name": "Generator",
+      "artist": "Bad Religion"
+    },
+    {
+      "videoId": "z6RqPGosZ-U",
+      "name": "Shitlist",
+      "artist": "L7"
+    },
+    {
+      "videoId": "Ptc91GQmCTY",
+      "name": "Atomic Garden",
+      "artist": "Bad Religion"
+    },
+    {
+      "videoId": "JkmhKxT865I",
+      "name": "Know Your Enemy",
+      "artist": "Rage Against The Machine"
+    },
+    {
+      "videoId": "ZlpAAHar96E",
+      "name": "Smoke Two Joints",
+      "artist": "Sublime"
+    },
+    {
+      "videoId": "2IvvgQfPg1Q",
+      "name": "Cybergod",
+      "artist": "Nausea"
+    },
+    {
+      "videoId": "wsjXlZIOOaY",
+      "name": "Drink Drank Punk (Demo 1992)",
+      "artist": "Anti-Flag"
+    },
+    {
+      "videoId": "XyIBpTDy79o",
+      "name": "Runnin' Riot",
+      "artist": "Cock Sparrer"
+    },
+    {
+      "videoId": "G_K9pMXF8OI",
+      "name": "Tech No Logic Kill",
+      "artist": "Nausea"
+    },
+    {
+      "videoId": "87dmz7LYWtI",
+      "name": "Troublesome '96",
+      "artist": "2Pac"
+    },
+    {
+      "videoId": "AmKtCsdqD6E",
+      "name": "Waada Raha Sanam",
+      "artist": "Abhijeet"
+    },
+    {
+      "videoId": "ho6wmrF7xLk",
+      "name": "The Winner Loses",
+      "artist": "Body Count"
+    },
+    {
+      "videoId": "4aKmJrZQ2sI",
+      "name": "Born To Lose",
+      "artist": "Social Distortion"
+    },
+    {
+      "videoId": "YeJGMvFhchI",
+      "name": "Warm",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "upzqpdqNDg0",
+      "name": "You Better Run",
+      "artist": "Motorhead"
+    },
+    {
+      "videoId": "Wxwcr72VcKg",
+      "name": "Metal Warriors",
+      "artist": "Manowar"
     },
     {
       "videoId": "i7qPf894PP4",
@@ -443,29 +1668,39 @@
       "artist": "Black Sabbath"
     },
     {
+      "videoId": "v031PZ3N2Ik",
+      "name": "Ride the Dragon",
+      "artist": "Manowar"
+    },
+    {
+      "videoId": "w8ApAHemIjg",
+      "name": "Jack The Ripper",
+      "artist": "Motorhead"
+    },
+    {
+      "videoId": "ImXNU8Kg4H0",
+      "name": "Hollow",
+      "artist": "Pantera"
+    },
+    {
+      "videoId": "z5Erk_jL7fw",
+      "name": "Sweating Bullets",
+      "artist": "Megadeth"
+    },
+    {
       "videoId": "75jd6Kf0CNU",
       "name": "Apocalypse 1992",
       "artist": "Gloryhammer"
     },
     {
-      "videoId": "XYYGKCanqfA",
-      "name": "Just One Fix",
-      "artist": "Ministry"
+      "videoId": "bf0XwX0Bc-0",
+      "name": "Wasting Love",
+      "artist": "Iron Maiden"
     },
     {
-      "videoId": "U8b88US-6ts",
-      "name": "Midlife Crisis",
-      "artist": "Faith No More"
-    },
-    {
-      "videoId": "kOV2iTeGQik",
-      "name": "Walk",
-      "artist": "Pantera"
-    },
-    {
-      "videoId": "3Lji0AGMM6A",
-      "name": "Rock Hard Presents Monsters Of Death (1992)",
-      "artist": "Battalion of Metal"
+      "videoId": "qvY1EB_R0Zc",
+      "name": "Be Quick or Be Dead",
+      "artist": "Iron Maiden"
     },
     {
       "videoId": "qWs33kWmSEw",
@@ -473,9 +1708,54 @@
       "artist": "Cannibal Corpse"
     },
     {
+      "videoId": "FjHJMNIWPtk",
+      "name": "In Hell I Burn",
+      "artist": "Deicide"
+    },
+    {
       "videoId": "HBL9yJvZ_nI",
       "name": "Nightmare Lake",
       "artist": "Cemetary"
+    },
+    {
+      "videoId": "r861P1CqZeY",
+      "name": "Hammer Smashed Face",
+      "artist": "Cannibal Corpse"
+    },
+    {
+      "videoId": "Dgp1-W42k0U",
+      "name": "Undressed",
+      "artist": "Tiamat"
+    },
+    {
+      "videoId": "7DSJvZev-gw",
+      "name": "Golgotha",
+      "artist": "Incantation"
+    },
+    {
+      "videoId": "QWVynRQnZHk",
+      "name": "Primeval Transubstantation",
+      "artist": "Agressor"
+    },
+    {
+      "videoId": "AcFR_5xk7wE",
+      "name": "Devoured Death",
+      "artist": "Incantation"
+    },
+    {
+      "videoId": "gaXD80fRC8s",
+      "name": "Repent to Die",
+      "artist": "Deicide"
+    },
+    {
+      "videoId": "Jkjn9lJ1_Ik",
+      "name": "Scapegoat",
+      "artist": "Fear Factory"
+    },
+    {
+      "videoId": "qYabUQ0ii8M",
+      "name": "Valley Of The Dead",
+      "artist": "Baphomet"
     },
     {
       "videoId": "M8XaGxvuFOU",
@@ -483,19 +1763,14 @@
       "artist": "Tom Petty And The Heartbreakers"
     },
     {
-      "videoId": "9X_ViIPA-Gc",
-      "name": "I'd Do Anything For Love (But I Won't Do That) (Official Musi...",
-      "artist": "Meat Loaf"
+      "videoId": "13EL6Mgeocc",
+      "name": "Rain Sound (Pure White Noise for Natural Deep Sleep Inducing)",
+      "artist": "White Noise Masters"
     },
     {
-      "videoId": "6ywIjjj3YuA",
-      "name": "Cherub Rock",
-      "artist": "Smashing Pumpkins"
-    },
-    {
-      "videoId": "8LhCd1W2V0Q",
-      "name": "Are You Gonna Go My Way (Official Music Video)",
-      "artist": "Lenny Kravitz"
+      "videoId": "vm5iK_tNWAg",
+      "name": "Ordinary World",
+      "artist": "Duran Duran"
     },
     {
       "videoId": "8eGY-4OALgM",
@@ -508,24 +1783,69 @@
       "artist": "The Cranberries"
     },
     {
+      "videoId": "9Jh5xAng3gM",
+      "name": "Livin' On The Edge",
+      "artist": "Aerosmith"
+    },
+    {
+      "videoId": "o9EeIscC8zA",
+      "name": "Far Behind",
+      "artist": "Candlebox"
+    },
+    {
       "videoId": "5X5KweDhsaI",
       "name": "Come Undone",
       "artist": "Duran Duran"
     },
     {
-      "videoId": "Tfpn3wHoNGA",
-      "name": "In-A-Gadda-Da-Vida (2006 Remaster Full-Length)",
-      "artist": "Iron Butterfly"
+      "videoId": "B5RRGN43g58",
+      "name": "The Power of Love",
+      "artist": "Céline Dion"
     },
     {
-      "videoId": "ssqOnNe_Lcc",
-      "name": "Best Rock/Metal Songs of 1993",
-      "artist": "Tim's iPod"
+      "videoId": "fKrPaEKreCo",
+      "name": "Walking In My Shoes (Live 1993)",
+      "artist": "Depeche Mode"
     },
     {
-      "videoId": "q-KE9lvU810",
-      "name": "Cherub Rock",
-      "artist": "The Smashing Pumpkins"
+      "videoId": "avv2IIdDnnk",
+      "name": "Fade Into You",
+      "artist": "Mazzy Star"
+    },
+    {
+      "videoId": "5Z1-5wNjMgs",
+      "name": "Loser",
+      "artist": "Beck"
+    },
+    {
+      "videoId": "DhMv5WVOli4",
+      "name": "Sober",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "JtWaCViY_tc",
+      "name": "Rape Me",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "Ba_08WWIWV8",
+      "name": "All Apologies",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "HN-KHZ9NDVA",
+      "name": "When the Sun Hits",
+      "artist": "Slowdive"
+    },
+    {
+      "videoId": "Q-AtW4wfnDE",
+      "name": "Radio Friendly Unit Shifter",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "x_dtKRzbCTU",
+      "name": "Mr. Jones",
+      "artist": "Counting Crows"
     },
     {
       "videoId": "bMG0hU9GYiY",
@@ -533,14 +1853,39 @@
       "artist": "Aerosmith"
     },
     {
+      "videoId": "dOjFcx3GJHg",
+      "name": "Shape Of My Heart",
+      "artist": "Sting"
+    },
+    {
+      "videoId": "vuGFJv3qU58",
+      "name": "Amazing",
+      "artist": "Aerosmith"
+    },
+    {
+      "videoId": "qK_ZtN9K2EM",
+      "name": "The Rover (1993 Remaster)",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "videoId": "NociJNs2_O8",
+      "name": "Hungry Heart",
+      "artist": "Bruce Springsteen"
+    },
+    {
       "videoId": "Ry-4oVt4RDc",
       "name": "1993' Rok",
       "artist": "IRA"
     },
     {
-      "videoId": "YqDv-c90PJ8",
-      "name": "Further Away",
-      "artist": "IQ"
+      "videoId": "lFbnQQ6t98Q",
+      "name": "Born To Raise Hell",
+      "artist": "Motörhead"
+    },
+    {
+      "videoId": "dGUZ6Mn0jIA",
+      "name": "A Little Bitter",
+      "artist": "Alice In Chains"
     },
     {
       "videoId": "pN-pE31-7xk",
@@ -548,14 +1893,134 @@
       "artist": "Angra"
     },
     {
+      "videoId": "fVdlZaPpbFI",
+      "name": "Judas (Live 1993)",
+      "artist": "Depeche Mode"
+    },
+    {
+      "videoId": "VREqJbphcZU",
+      "name": "Szatan",
+      "artist": "IRA"
+    },
+    {
+      "videoId": "SezuFrHm8f0",
+      "name": "Dreams",
+      "artist": "The Cranberries"
+    },
+    {
+      "videoId": "emRAZ9S86Us",
+      "name": "Ain't It Fun",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "YqDv-c90PJ8",
+      "name": "Further Away",
+      "artist": "IQ"
+    },
+    {
+      "videoId": "dzEahGFoEsw",
+      "name": "4°",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "5g5NBL1JKiY",
+      "name": "Up the Downstair",
+      "artist": "Porcupine Tree"
+    },
+    {
+      "videoId": "oDycW1gA-CQ",
+      "name": "Higher Love (Live 1993)",
+      "artist": "Depeche Mode"
+    },
+    {
+      "videoId": "Ebr85ORhciU",
+      "name": "Intolerance",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "7vUjpAz7Z5k",
+      "name": "Return To Innocence (Radio Edit)",
+      "artist": "Enigma"
+    },
+    {
+      "videoId": "Cw8V1TQXcGc",
+      "name": "Crawl Away",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "11G9j9utRCs",
+      "name": "Dumb",
+      "artist": "Nirvana"
+    },
+    {
+      "videoId": "2vFY8ufrslw",
+      "name": "Swamp Song",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "FgNuLP3xpjo",
+      "name": "Flood",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "WzdmXOUZpGw",
+      "name": "Zooropa",
+      "artist": "U2"
+    },
+    {
+      "videoId": "kd8vmZda-Ik",
+      "name": "One Caress (Live 1993)",
+      "artist": "Depeche Mode"
+    },
+    {
+      "videoId": "3pYqVj-FyBk",
+      "name": "Can't Take My Eyes off You",
+      "artist": "Morten Harket"
+    },
+    {
+      "videoId": "rsSR1nxHBJY",
+      "name": "Daisy Bell (A Bicycle Made for Two)",
+      "artist": "Blur"
+    },
+    {
+      "videoId": "_-DkJXg22e4",
+      "name": "Chemical World",
+      "artist": "Blur"
+    },
+    {
+      "videoId": "JikOUxstTZ4",
+      "name": "Modern Day Catastrophists",
+      "artist": "Bad Religion"
+    },
+    {
+      "videoId": "Kr4EQDVETuA",
+      "name": "Billie Jean",
+      "artist": "Michael Jackson"
+    },
+    {
+      "videoId": "YkLLcIKhJ64",
+      "name": "Dancing Queen",
+      "artist": "ABBA"
+    },
+    {
+      "videoId": "p3QzzxrHVcE",
+      "name": "Modern World",
+      "artist": "The Pogues"
+    },
+    {
+      "videoId": "SgnpMWFIJac",
+      "name": "Cantaloop (Flip Fantasia) (Re-Recorded)",
+      "artist": "US3"
+    },
+    {
       "videoId": "h_pF0my1GP4",
       "name": "Goodbye",
       "artist": "AIR SUPPLY"
     },
     {
-      "videoId": "u6_NshABkD0",
-      "name": "Top '90s Ballads (1990-1993)",
-      "artist": "Some random guy"
+      "videoId": "_Am11wcyXig",
+      "name": "Fields Of Gold",
+      "artist": "Sting"
     },
     {
       "videoId": "7z-TZYlY1IA",
@@ -563,9 +2028,34 @@
       "artist": "Axel Rudi Pell"
     },
     {
+      "videoId": "O1ANstpvb_w",
+      "name": "You Want Love",
+      "artist": "Axel Rudi Pell"
+    },
+    {
+      "videoId": "-EGw-h50lyg",
+      "name": "Falling Tears",
+      "artist": "Axel Rudi Pell"
+    },
+    {
+      "videoId": "uFLqJbftI7Y",
+      "name": "Virginita",
+      "artist": "Tony Ducháček"
+    },
+    {
+      "videoId": "6a1r_6Vurf4",
+      "name": "Big Fast Car",
+      "artist": "999"
+    },
+    {
       "videoId": "YK-zxGz9mTY",
       "name": "Jekyll And Hyde",
       "artist": "Jim Burgett"
+    },
+    {
+      "videoId": "RlebRwtXlWY",
+      "name": "Don't Tell Me",
+      "artist": "999"
     },
     {
       "videoId": "6kvYQYzGucs",
@@ -573,9 +2063,9 @@
       "artist": "Batmobile"
     },
     {
-      "videoId": "8dfOfUOaU28",
-      "name": "Nebraska",
-      "artist": "Love Battery"
+      "videoId": "t6Ypcz8hDtc",
+      "name": "Vzpomínka",
+      "artist": "Tony Ducháček"
     },
     {
       "videoId": "nC4pd9YA0N8",
@@ -583,14 +2073,84 @@
       "artist": "Cypress Hill"
     },
     {
-      "videoId": "3kd0qYWxW68",
-      "name": "Midnight Blues Band   Hollywood Rock 1993   RJ  Show Completo",
-      "artist": "Fabio Bianna"
+      "videoId": "8dfOfUOaU28",
+      "name": "Nebraska",
+      "artist": "Love Battery"
     },
     {
-      "videoId": "7gDT0DOpVVQ",
-      "name": "punk rock jalanan 1993",
-      "artist": "Reza Putra"
+      "videoId": "9IWSBkGMN_w",
+      "name": "Můry",
+      "artist": "Tony Ducháček"
+    },
+    {
+      "videoId": "8yhk7f0ydq4",
+      "name": "Rebel Girl",
+      "artist": "Bikini Kill"
+    },
+    {
+      "videoId": "iM-GKEzVGck",
+      "name": "Sooperdoobie",
+      "artist": "The Disappointed"
+    },
+    {
+      "videoId": "RU_PBThMJ7o",
+      "name": "S jinou",
+      "artist": "Tony Ducháček"
+    },
+    {
+      "videoId": "ninxo_22G6w",
+      "name": "Rocket (Live)",
+      "artist": "The Smashing Pumpkins"
+    },
+    {
+      "videoId": "UrmHvj0gGjA",
+      "name": "Jekyll and Hyde",
+      "artist": "Jim Burgett"
+    },
+    {
+      "videoId": "J5o24p0iKcQ",
+      "name": "Treat You Bad",
+      "artist": "Armitage Shanks"
+    },
+    {
+      "videoId": "hIliUU-Olfk",
+      "name": "Boss",
+      "artist": "Ugly Stick"
+    },
+    {
+      "videoId": "zq7hltwb_yc",
+      "name": "Slightly Hung Over",
+      "artist": "BLUES DELIGHT"
+    },
+    {
+      "videoId": "eBlfrTGjujk",
+      "name": "The Sky Is Crying",
+      "artist": "Gary B.B. Coleman"
+    },
+    {
+      "videoId": "LzEhfnnSVDE",
+      "name": "Sweet Home Chicago",
+      "artist": "The Blues Brothers"
+    },
+    {
+      "videoId": "rgxqNUIv3a4",
+      "name": "Southside Of Heaven",
+      "artist": "Ryan Bingham"
+    },
+    {
+      "videoId": "4DU4iaqsi_M",
+      "name": "Midnight Blues",
+      "artist": "Snowy White"
+    },
+    {
+      "videoId": "PnXK2OP7V2A",
+      "name": "I Got The Blues",
+      "artist": "Sam Myers"
+    },
+    {
+      "videoId": "zuceIiM6vzk",
+      "name": "Fisherman's Blues (2006 Remaster)",
+      "artist": "The Waterboys"
     },
     {
       "videoId": "2J7tYM7Myb8",
@@ -603,24 +2163,34 @@
       "artist": "Duff McKagan"
     },
     {
-      "videoId": "EkwD5rQ-_d4",
-      "name": "Possum Kingdom (Official Music Video)",
-      "artist": "The Toadies"
+      "videoId": "FVpiQkrTPCA",
+      "name": "Atta Girl",
+      "artist": "Heavenly"
     },
     {
-      "videoId": "sjJetCJzJ7c",
-      "name": "Oviedo Punk Rock 1993 (Waco Zine)",
-      "artist": "Gus Bocanegra"
+      "videoId": "aE_5PxisyPU",
+      "name": "Od Przyjaciół Moskali",
+      "artist": "Big Cyc"
     },
     {
-      "videoId": "YgSPaXgAdzE",
-      "name": "Loser",
-      "artist": "Beck"
+      "videoId": "IQeBdoHCF0Q",
+      "name": "Bałkański Turysta",
+      "artist": "Big Cyc"
     },
     {
-      "videoId": "4pbppOLwhI4",
-      "name": "Maggot Sandwich FULL Recordings 1985 1993 Punk Rock",
-      "artist": "The Punk Rock Channel"
+      "videoId": "DwK9qlqGRhY",
+      "name": "Pilke silmäkulmassa",
+      "artist": "Klamydia"
+    },
+    {
+      "videoId": "Sz5wcFTudwY",
+      "name": "Shelter",
+      "artist": "Shelter"
+    },
+    {
+      "videoId": "O5TcT5t7nn4",
+      "name": "Woodstock",
+      "artist": "IRA"
     },
     {
       "videoId": "L0oeqAQ1qE8",
@@ -628,34 +2198,44 @@
       "artist": "Bikini Kill"
     },
     {
-      "videoId": "Jb6gcoR266U",
-      "name": "Around the World",
+      "videoId": "Jm4Sfojyohk",
+      "name": "A Land Forlorn",
+      "artist": "Dissection"
+    },
+    {
+      "videoId": "lJvRohYSrZM",
+      "name": "METAMORPHOSIS",
+      "artist": "INTERWORLD"
+    },
+    {
+      "videoId": "NmINenMc4FI",
+      "name": "Czas rewolucji",
+      "artist": "The Bill"
+    },
+    {
+      "videoId": "sBVo5PDpV2o",
+      "name": "Who Was In My Room Last Night?",
+      "artist": "Butthole Surfers"
+    },
+    {
+      "videoId": "khnokW3Mw24",
+      "name": "Instant Crush (feat. Julian Casablancas)",
       "artist": "Daft Punk"
     },
     {
-      "videoId": "Gtffv9bpB-U",
-      "name": "Three Little Pigs (Official Video)",
-      "artist": "Green Jelly"
+      "videoId": "FIyEwA7G8qY",
+      "name": "P.U.N.K. Girl",
+      "artist": "Heavenly"
     },
     {
-      "videoId": "SezuFrHm8f0",
-      "name": "Dreams",
-      "artist": "The Cranberries"
-    },
-    {
-      "videoId": "JtWaCViY_tc",
-      "name": "Rape Me",
+      "videoId": "C-deMfnLtMI",
+      "name": "Frances Farmer Will Have Her Revenge On Seattle",
       "artist": "Nirvana"
     },
     {
-      "videoId": "Q_WHGV5bejk",
-      "name": "Territory",
-      "artist": "Sepultura"
-    },
-    {
-      "videoId": "0K4J90s1A2M",
-      "name": "Slave New World",
-      "artist": "Sepultura"
+      "videoId": "Vbu_K41efvY",
+      "name": "Mayonaise",
+      "artist": "Smashing Pumpkins"
     },
     {
       "videoId": "1chRcNTiHSM",
@@ -663,13 +2243,78 @@
       "artist": "Sepultura"
     },
     {
-      "videoId": "lFbnQQ6t98Q",
-      "name": "Born To Raise Hell",
+      "videoId": "7w4AE4Mat8o",
+      "name": "Bottom",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "l3RsOxKHr6k",
+      "name": "Angry Again",
+      "artist": "Megadeth"
+    },
+    {
+      "videoId": "5nUAcP3xa9k",
+      "name": "Territory",
+      "artist": "Sepultura"
+    },
+    {
+      "videoId": "i7GB-38T_Wc",
+      "name": "Propaganda",
+      "artist": "Sepultura"
+    },
+    {
+      "videoId": "OiqG2nLM5YA",
+      "name": "We Bring The Shake",
+      "artist": "Motörhead"
+    },
+    {
+      "videoId": "rAOjyp7V030",
+      "name": "Christian Woman",
+      "artist": "Type O Negative"
+    },
+    {
+      "videoId": "xRTaoyaaQ6g",
+      "name": "The Old Oak",
+      "artist": "Mercyful Fate"
+    },
+    {
+      "videoId": "zZ3CoQTbtVM",
+      "name": "The Bell Witch",
+      "artist": "Mercyful Fate"
+    },
+    {
+      "videoId": "D_mG1maz5_M",
+      "name": "Amen",
+      "artist": "Sepultura"
+    },
+    {
+      "videoId": "4OqQhnj6dhg",
+      "name": "I Am The Sword",
       "artist": "Motörhead"
     },
     {
       "videoId": "oFCs8FETRYo",
       "name": "Liar",
+      "artist": "Motörhead"
+    },
+    {
+      "videoId": "bXZ3gEcOnA0",
+      "name": "Refuse / Resist",
+      "artist": "Sepultura"
+    },
+    {
+      "videoId": "p2sez21Cyyo",
+      "name": "Honey Bucket",
+      "artist": "Melvins"
+    },
+    {
+      "videoId": "shdzs3XHQ9I",
+      "name": "Burner",
+      "artist": "Motörhead"
+    },
+    {
+      "videoId": "vrvfHXknys4",
+      "name": "Death Or Glory",
       "artist": "Motörhead"
     },
     {
@@ -688,9 +2333,19 @@
       "artist": "Death"
     },
     {
+      "videoId": "GwHLW6e6-vQ",
+      "name": "Mentally Blind",
+      "artist": "Death"
+    },
+    {
       "videoId": "QP1L5v9yNw4",
       "name": "Pure Holocaust",
       "artist": "Immortal"
+    },
+    {
+      "videoId": "Zmz4GP0syKg",
+      "name": "Out Of Touch",
+      "artist": "Death"
     },
     {
       "videoId": "cWX0G1O0uDY",
@@ -698,9 +2353,39 @@
       "artist": "Death"
     },
     {
-      "videoId": "MKT2FDD5QQ8",
-      "name": "RETROCLASICOS 🔊 ROCK POP RAP 90-00🔊📽️Reuploaded VIDEOMIX 📽️CUREPI DJ",
-      "artist": "CUREPI DJ"
+      "videoId": "rthGmWfnV3o",
+      "name": "Overactive Imagination",
+      "artist": "Death"
+    },
+    {
+      "videoId": "5MKbHi7ISLQ",
+      "name": "The Philosopher",
+      "artist": "Death"
+    },
+    {
+      "videoId": "HGFVC7QISPI",
+      "name": "Eyes of Blind",
+      "artist": "Resurrection"
+    },
+    {
+      "videoId": "AMD-0Hys6QQ",
+      "name": "Destiny",
+      "artist": "Death"
+    },
+    {
+      "videoId": "irCW8jvyyJc",
+      "name": "Without Sin",
+      "artist": "Morta Skuld"
+    },
+    {
+      "videoId": "mK8dGIhZ7oM",
+      "name": "Nothing Remains",
+      "artist": "Killing Addiction"
+    },
+    {
+      "videoId": "rhS9pb2OJfA",
+      "name": "Nothing Is Everything",
+      "artist": "Death"
     },
     {
       "videoId": "06HcqK2vvlw",
@@ -713,19 +2398,44 @@
       "artist": "Bon Jovi"
     },
     {
-      "videoId": "9kIv6vVRKpw",
-      "name": "Black Hole Sun",
-      "artist": "Soundgarden"
+      "videoId": "yGxHDmHoqXc",
+      "name": "Zombie",
+      "artist": "The Cranberries"
     },
     {
-      "videoId": "3mbBbFH9fAg",
-      "name": "Black Hole Sun",
-      "artist": "Soundgarden"
+      "videoId": "tKdk97y2Wjg",
+      "name": "Streets of Philadelphia",
+      "artist": "Bruce Springsteen"
     },
     {
-      "videoId": "I4jH5QPQ6oY",
-      "name": "Lightning Crashes",
+      "videoId": "SjAgP7GwsGA",
+      "name": "I Alone",
       "artist": "Live"
+    },
+    {
+      "videoId": "0MBIlOaIfmY",
+      "name": "Ode To My Family",
+      "artist": "The Cranberries"
+    },
+    {
+      "videoId": "QulcQ5Afd7I",
+      "name": "Not for You",
+      "artist": "Pearl Jam"
+    },
+    {
+      "videoId": "jGw1EFFqIl4",
+      "name": "Comedown",
+      "artist": "Bush"
+    },
+    {
+      "videoId": "RaO1o6ibR28",
+      "name": "All Over You",
+      "artist": "Live"
+    },
+    {
+      "videoId": "ONHA6YHjI9o",
+      "name": "Glycerine",
+      "artist": "Bush"
     },
     {
       "videoId": "7ifeDVAE_Zg",
@@ -733,94 +2443,59 @@
       "artist": "The Offspring"
     },
     {
-      "videoId": "Ty-bLdf8Bsw",
-      "name": "Hurt",
-      "artist": "Nine Inch Nails"
+      "videoId": "ldCbVPMzyD4",
+      "name": "Sympathy For The Devil",
+      "artist": "Guns N' Roses"
     },
     {
-      "videoId": "RlV-ZFyVH3c",
-      "name": "Beast Of Burden (Remastered 1994)",
-      "artist": "The Rolling Stones"
+      "videoId": "BsdXUx61un8",
+      "name": "Interstate Love Song",
+      "artist": "Stone Temple Pilots"
     },
     {
-      "videoId": "6BJjUgPAOlM",
-      "name": "✞ W.A.S.P. — Heaven's Hung In Black (The Crow 1994) ✞",
-      "artist": "HazelEyedAndWild"
+      "videoId": "mm-uozFJekA",
+      "name": "Burn",
+      "artist": "The Cure"
     },
     {
-      "videoId": "NCu6gP7fFF0",
-      "name": "BEST SONGS OF 1994",
-      "artist": "Some random guy"
+      "videoId": "pw4VEW3StIw",
+      "name": "Immortality",
+      "artist": "Pearl Jam"
     },
     {
-      "videoId": "fRyhqobl0sk",
-      "name": "All I Want for Christmas Is You",
-      "artist": "Mariah Carey"
+      "videoId": "GHUql3OC_uU",
+      "name": "Come Out and Play",
+      "artist": "The Offspring"
     },
     {
-      "videoId": "KfUkiUi1DyI",
-      "name": "Love Will Keep Us Alive (1999 Remaster)",
-      "artist": "Eagles"
+      "videoId": "pXBvuBSYaxc",
+      "name": "The Man Who Sold The World (Live)",
+      "artist": "Nirvana"
     },
     {
-      "videoId": "6Ejga4kJUts",
-      "name": "Zombie (Official Music Video)",
-      "artist": "The Cranberries"
+      "videoId": "Q_V_-a7cXWA",
+      "name": "All Apologies (Live)",
+      "artist": "Nirvana"
     },
     {
-      "videoId": "QAo_Ycocl1E",
-      "name": "Africa",
-      "artist": "Toto"
+      "videoId": "Dy_eP-mqWow",
+      "name": "Iris",
+      "artist": "Goo Goo Dolls"
     },
     {
-      "videoId": "etfKrIOnHvo",
-      "name": "Gett On",
-      "artist": "Kill Creek"
+      "videoId": "ysho2xTWUYo",
+      "name": "Animal I Have Become",
+      "artist": "Three Days Grace"
     },
     {
-      "videoId": "wTlOIQHwtJU",
-      "name": "In The Garage",
-      "artist": "Weezer"
+      "videoId": "qU9mHegkTc4",
+      "name": "505",
+      "artist": "Arctic Monkeys"
     },
     {
-      "videoId": "9PmfpsIh5w0",
-      "name": "Whiskey In The Jar",
-      "artist": "Metallica"
-    },
-    {
-      "videoId": "rY6uRh_FS5Q",
-      "name": "The Funk Phenomena",
-      "artist": "Armand Van Helden"
-    },
-    {
-      "videoId": "5ZPbycj-UZM",
-      "name": "Mercury Blues",
-      "artist": "Jimmy Thackery And The Drivers"
-    },
-    {
-      "videoId": "CecdQehjJUg",
-      "name": "Soulshine",
-      "artist": "The Allman Brothers Band"
-    },
-    {
-      "videoId": "EntSKjMghnI",
-      "name": "Blues For Narada",
-      "artist": "Gary Moore"
-    },
-    {
-      "videoId": "nBjXP75k2ew",
-      "name": "Riot City",
-      "artist": "Total Chaos"
-    },
-    {
-      "videoId": "9emO9qo4FwE",
-      "name": "Freezing Moon",
-      "artist": "Mayhem"
-    },
-    {
-      "videoId": "z5rRZdiu1UE",
-      "name": "Sabotage (Official Music Video)",
-      "artist": "Beastie Boys"
+      "videoId": "XEnrks_LPV8",
+      "name": "Angels Or Devils",
+      "artist": "Dishwalla"
     },
     {
       "videoId": "lSDfCdycdvk",
@@ -828,9 +2503,374 @@
       "artist": "The Cranberries"
     },
     {
-      "videoId": "2-V8kYT1pvE",
-      "name": "I'm Broken",
-      "artist": "Pantera"
+      "videoId": "x81SMw8qUh0",
+      "name": "Blind",
+      "artist": "Korn"
+    },
+    {
+      "videoId": "RlV-ZFyVH3c",
+      "name": "Beast Of Burden (Remastered 1994)",
+      "artist": "The Rolling Stones"
+    },
+    {
+      "videoId": "qRpvJyBJE8M",
+      "name": "Hotel California (Live)",
+      "artist": "The Eagles"
+    },
+    {
+      "videoId": "jNW_LLazHRI",
+      "name": "You Got Me Rocking (Remastered 2009)",
+      "artist": "The Rolling Stones"
+    },
+    {
+      "videoId": "3lF6ab6hliE",
+      "name": "Burning Down",
+      "artist": "Nazareth"
+    },
+    {
+      "videoId": "a4uI8jNY_hU",
+      "name": "Cockroaches",
+      "artist": "Nailbomb"
+    },
+    {
+      "videoId": "OGKRr0NmgFM",
+      "name": "Plowed",
+      "artist": "Sponge"
+    },
+    {
+      "videoId": "DxpSq8cqmfI",
+      "name": "Nyitány",
+      "artist": "Omega"
+    },
+    {
+      "videoId": "wbp7pEtg60k",
+      "name": "Életfogytig rock and roll",
+      "artist": "Omega"
+    },
+    {
+      "videoId": "gcfQoJn7hRo",
+      "name": "Shine",
+      "artist": "Collective Soul"
+    },
+    {
+      "videoId": "fRyhqobl0sk",
+      "name": "All I Want for Christmas Is You",
+      "artist": "Mariah Carey"
+    },
+    {
+      "videoId": "Pw-C1sOIAJU",
+      "name": "Someday I'll Be Saturday Night",
+      "artist": "Bon Jovi"
+    },
+    {
+      "videoId": "vx-Lzo9NxAQ",
+      "name": "Kiss from a Rose",
+      "artist": "Seal"
+    },
+    {
+      "videoId": "cHbxIHvdrLU",
+      "name": "Planets",
+      "artist": "Tiamat"
+    },
+    {
+      "videoId": "MM0_87rC0Pc",
+      "name": "FG-4",
+      "artist": "Fonográf"
+    },
+    {
+      "videoId": "4cdird4y0UI",
+      "name": "Rock Heavy",
+      "artist": "Magnum"
+    },
+    {
+      "videoId": "AWbiNw4E8ac",
+      "name": "Nothing Else Matters (Live)",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "aLfacerS90Q",
+      "name": "Conception",
+      "artist": "Cairo"
+    },
+    {
+      "videoId": "5fD-NC5GoRM",
+      "name": "Hush-A-Bye Baby",
+      "artist": "Magnum"
+    },
+    {
+      "videoId": "06TP-kNeGgc",
+      "name": "For Whom The Bell Tolls (Live)",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "jr2_TnrNlrU",
+      "name": "Too Much Violence",
+      "artist": "The Clean"
+    },
+    {
+      "videoId": "itsVY-z91Jk",
+      "name": "Something I Need",
+      "artist": "The Clean"
+    },
+    {
+      "videoId": "zzpQho5lyWk",
+      "name": "Stomp the Guru",
+      "artist": "The Clean"
+    },
+    {
+      "videoId": "cqimtXhCQEw",
+      "name": "Different World",
+      "artist": "The Clean"
+    },
+    {
+      "videoId": "M6dycfhTVlI",
+      "name": "Ginger Ale",
+      "artist": "The Clean"
+    },
+    {
+      "videoId": "MBoGw-ZFiQg",
+      "name": "2 Reasons",
+      "artist": "The Clean"
+    },
+    {
+      "videoId": "Hfz2fZ4zE3k",
+      "name": "Outside the Cage",
+      "artist": "The Clean"
+    },
+    {
+      "videoId": "q1vbp-QUJ5I",
+      "name": "Stomp the Guru",
+      "artist": "The Clean"
+    },
+    {
+      "videoId": "wLJNwM20dms",
+      "name": "Hard To Find The Words",
+      "artist": "Cinderella"
+    },
+    {
+      "videoId": "CecdQehjJUg",
+      "name": "Soulshine",
+      "artist": "The Allman Brothers Band"
+    },
+    {
+      "videoId": "nobHZ3nOp38",
+      "name": "I'll Stand by You",
+      "artist": "The Pretenders"
+    },
+    {
+      "videoId": "l1Nsimqb_no",
+      "name": "Burn",
+      "artist": "Glenn Hughes"
+    },
+    {
+      "videoId": "rmQmPKlRQJM",
+      "name": "Tuesday Heartache",
+      "artist": "Steve Perry"
+    },
+    {
+      "videoId": "5oWyMakvQew",
+      "name": "Dreams (2004 Remaster)",
+      "artist": "Fleetwood Mac"
+    },
+    {
+      "videoId": "bt52mbfA6tw",
+      "name": "I Can't Tell You Why (Live)",
+      "artist": "The Eagles"
+    },
+    {
+      "videoId": "4qCOSgeJ-_I",
+      "name": "One Day",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "etfKrIOnHvo",
+      "name": "Gett On",
+      "artist": "Kill Creek"
+    },
+    {
+      "videoId": "l7z6nhAu_2o",
+      "name": "W.D.O.P.",
+      "artist": "The Dopes"
+    },
+    {
+      "videoId": "wTlOIQHwtJU",
+      "name": "In The Garage",
+      "artist": "Weezer"
+    },
+    {
+      "videoId": "V3Qw70LBlqE",
+      "name": "Black Mamba",
+      "artist": "Stewed"
+    },
+    {
+      "videoId": "-4lO4t54q5Q",
+      "name": "The Deadline",
+      "artist": "Dead Moon"
+    },
+    {
+      "videoId": "rY6uRh_FS5Q",
+      "name": "The Funk Phenomena",
+      "artist": "Armand Van Helden"
+    },
+    {
+      "videoId": "XZ-oFAL_kF4",
+      "name": "Walk Me",
+      "artist": "Love Button"
+    },
+    {
+      "videoId": "oVLhufdGSG0",
+      "name": "Lets Breed",
+      "artist": "Drag King"
+    },
+    {
+      "videoId": "JsFjI839bGs",
+      "name": "I Want Love",
+      "artist": "The Cynics"
+    },
+    {
+      "videoId": "lCHfjdeBX3M",
+      "name": "Bitter Sweet But True",
+      "artist": "Guitar Gangsters"
+    },
+    {
+      "videoId": "1Q_mz-hL3FE",
+      "name": "Busted",
+      "artist": "Kill Creek"
+    },
+    {
+      "videoId": "YBnW3yYC3to",
+      "name": "Nitroglycerine",
+      "artist": "The Gories"
+    },
+    {
+      "videoId": "gO3cFz53vs8",
+      "name": "Space Jam",
+      "artist": "Quad City DJ's"
+    },
+    {
+      "videoId": "YkgN3vlGwPo",
+      "name": "Stumpy Joe",
+      "artist": "Love Button"
+    },
+    {
+      "videoId": "W-JblYuknuM",
+      "name": "Garage Families",
+      "artist": "Los Buges"
+    },
+    {
+      "videoId": "5ZPbycj-UZM",
+      "name": "Mercury Blues",
+      "artist": "Jimmy Thackery And The Drivers"
+    },
+    {
+      "videoId": "EntSKjMghnI",
+      "name": "Blues For Narada",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "pni_IBkQcoE",
+      "name": "Hook",
+      "artist": "Blues Traveler"
+    },
+    {
+      "videoId": "7Lk5ByPl9Zo",
+      "name": "Run-Around",
+      "artist": "Blues Traveler"
+    },
+    {
+      "videoId": "VRwRL-VYPQs",
+      "name": "Groaning the Blues",
+      "artist": "Eric Clapton"
+    },
+    {
+      "videoId": "t9cYXTpxjQU",
+      "name": "The Bluest Blues",
+      "artist": "Alvin Lee"
+    },
+    {
+      "videoId": "qlZ74NTSaAc",
+      "name": "Born Under a Bad Sign",
+      "artist": "Jimi Hendrix"
+    },
+    {
+      "videoId": "l0PA4odSczU",
+      "name": "I'm Tore Down",
+      "artist": "Eric Clapton"
+    },
+    {
+      "videoId": "nR6Aa3p9lUY",
+      "name": "Blues Latino",
+      "artist": "Santana"
+    },
+    {
+      "videoId": "IfhVAnISuH4",
+      "name": "Pincushion",
+      "artist": "ZZ Top"
+    },
+    {
+      "videoId": "hItRcJbXkc0",
+      "name": "With Love (Remember)",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "U43XOSiKfqM",
+      "name": "Bad Habit",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "aPcDm2J7Wq8",
+      "name": "Lori Meyers",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "6teQK1HJD_8",
+      "name": "The Brews",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "V6BZB4H65rw",
+      "name": "Dig",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "KP4gw_lAToc",
+      "name": "Genocide (2008 Remaster)",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "uSJznJPLamA",
+      "name": "Linoleum",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "mxd9RMlDd7g",
+      "name": "Leave It Alone",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "9emO9qo4FwE",
+      "name": "Freezing Moon",
+      "artist": "Mayhem"
+    },
+    {
+      "videoId": "ZPXKikatsz8",
+      "name": "Infected",
+      "artist": "Bad Religion"
+    },
+    {
+      "videoId": "wt018hRUzjc",
+      "name": "Perfect Government",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "vSEUJHZDppo",
+      "name": "Gotta Get Away",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "h5Ui4u4rjco",
+      "name": "The Cause",
+      "artist": "NOFX"
     },
     {
       "videoId": "9HZ_tx8aWuA",
@@ -838,19 +2878,89 @@
       "artist": "Metallica"
     },
     {
-      "videoId": "39CyUAnKUso",
-      "name": "Pasadena 1994 (feat. Joakim Brodén)",
-      "artist": "Nanowar of Steel"
+      "videoId": "R9oByV6HDa8",
+      "name": "Shoots and Ladders",
+      "artist": "Korn"
     },
     {
-      "videoId": "x81SMw8qUh0",
-      "name": "Blind",
+      "videoId": "n9QqkcDRYFw",
+      "name": "A Tout Le Monde (Remastered 2004)",
+      "artist": "Megadeth"
+    },
+    {
+      "videoId": "dPvMSvruNhM",
+      "name": "A Tout Le Monde",
+      "artist": "Megadeth"
+    },
+    {
+      "videoId": "zQZodBV39F4",
+      "name": "Daddy",
+      "artist": "Korn"
+    },
+    {
+      "videoId": "d8CS_dmC-dI",
+      "name": "Addicted To Chaos",
+      "artist": "Megadeth"
+    },
+    {
+      "videoId": "wUw7mo6CeVw",
+      "name": "Quintessence",
+      "artist": "Darkthrone"
+    },
+    {
+      "videoId": "e2P8bMN1E70",
+      "name": "Predictable",
+      "artist": "Korn"
+    },
+    {
+      "videoId": "KphlVeJX6fE",
+      "name": "Transilvanian Hunger (Studio)",
+      "artist": "Darkthrone"
+    },
+    {
+      "videoId": "IBUHCdIVEfE",
+      "name": "Need To",
       "artist": "Korn"
     },
     {
       "videoId": "rhxG1ik0dwI",
       "name": "Sole Survivor",
       "artist": "Helloween"
+    },
+    {
+      "videoId": "xbVKYy8O_U8",
+      "name": "In the Middle of a Heartbeat",
+      "artist": "Helloween"
+    },
+    {
+      "videoId": "yac_JCY55po",
+      "name": "I Am The Black Wizards",
+      "artist": "Emperor"
+    },
+    {
+      "videoId": "zdp8guj85p0",
+      "name": "Can't Fight Your Desire",
+      "artist": "Helloween"
+    },
+    {
+      "videoId": "OdFIcO3uvzs",
+      "name": "Buried Dreams",
+      "artist": "Carcass"
+    },
+    {
+      "videoId": "4LsZt6z4_0I",
+      "name": "Faget",
+      "artist": "Korn"
+    },
+    {
+      "videoId": "7FpAITBeOeU",
+      "name": "Starforsaken",
+      "artist": "In Flames"
+    },
+    {
+      "videoId": "BQ6JLzDgSP0",
+      "name": "Remain Nameless",
+      "artist": "Napalm Death"
     },
     {
       "videoId": "wHpU0fDePoY",
@@ -863,9 +2973,44 @@
       "artist": "Napalm Death"
     },
     {
-      "videoId": "WcC9gI4OKI0",
-      "name": "Useless Sacrifice",
-      "artist": "Death Decline"
+      "videoId": "aF49mvZnJZo",
+      "name": "Hung",
+      "artist": "Napalm Death"
+    },
+    {
+      "videoId": "4mZsu-kxDls",
+      "name": "Twist The Knife (Slowly)",
+      "artist": "Napalm Death"
+    },
+    {
+      "videoId": "UqQmC_9XiYI",
+      "name": "Heartwork",
+      "artist": "Carcass"
+    },
+    {
+      "videoId": "D2lgGu7USqg",
+      "name": "State Of Mind",
+      "artist": "Napalm Death"
+    },
+    {
+      "videoId": "5KqtpKOkf68",
+      "name": "The Wrath (1994 Version)",
+      "artist": "Vader"
+    },
+    {
+      "videoId": "Q7NS89_WAj8",
+      "name": "Primed Time",
+      "artist": "Napalm Death"
+    },
+    {
+      "videoId": "NG8AlDVeLlE",
+      "name": "The Bleeding",
+      "artist": "Cannibal Corpse"
+    },
+    {
+      "videoId": "UEjAaLu8Dhs",
+      "name": "Child in Time (1995 Remaster)",
+      "artist": "Deep Purple"
     },
     {
       "videoId": "Q7uiJcxIsK4",
@@ -873,29 +3018,9 @@
       "artist": "No Doubt"
     },
     {
-      "videoId": "hpSrLjc5SMs",
-      "name": "Wonderwall",
-      "artist": "Oasis"
-    },
-    {
-      "videoId": "p95jkEd40x4",
-      "name": "I Just Want You",
-      "artist": "Ozzy Osbourne"
-    },
-    {
-      "videoId": "MlZOFIRC9HA",
-      "name": "Champagne Supernova",
-      "artist": "Oasis"
-    },
-    {
-      "videoId": "O1kbMfVv_vs",
-      "name": "December",
-      "artist": "Collective Soul"
-    },
-    {
-      "videoId": "FXjyoArp3ZE",
-      "name": "Hysteria",
-      "artist": "Def Leppard"
+      "videoId": "W_jfHvcAXRY",
+      "name": "Speed King (1995 Remaster)",
+      "artist": "Deep Purple"
     },
     {
       "videoId": "pLLuifWR4Mg",
@@ -903,14 +3028,19 @@
       "artist": "Deep Purple"
     },
     {
-      "videoId": "PCsGRCf8T9Y",
-      "name": "In the Meantime",
-      "artist": "Spacehog"
+      "videoId": "TkYt9oR5_dQ",
+      "name": "Burnin' Alive",
+      "artist": "AC/DC"
     },
     {
-      "videoId": "NjNn4bbbgSw",
-      "name": "Cumbersome",
-      "artist": "Seven Mary Three"
+      "videoId": "VpHOcc3_IrM",
+      "name": "The Honey Roll",
+      "artist": "AC/DC"
+    },
+    {
+      "videoId": "Kctnsl_GJS4",
+      "name": "These Days",
+      "artist": "Bon Jovi"
     },
     {
       "videoId": "lplvDCAueZA",
@@ -918,14 +3048,119 @@
       "artist": "AC/DC"
     },
     {
-      "videoId": "l3RsOxKHr6k",
-      "name": "Angry Again",
-      "artist": "Megadeth"
-    },
-    {
       "videoId": "HwiSTOUXdj4",
       "name": "Whiskey on the Rocks",
       "artist": "AC/DC"
+    },
+    {
+      "videoId": "T1yKr6iIXPA",
+      "name": "Dime Store Rock",
+      "artist": "Slash's Snakepit"
+    },
+    {
+      "videoId": "NruQh0QDTTM",
+      "name": "Be My Lover",
+      "artist": "La Bouche"
+    },
+    {
+      "videoId": "p95jkEd40x4",
+      "name": "I Just Want You",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "videoId": "le2i7s_BGI4",
+      "name": "Sign of the Cross",
+      "artist": "Iron Maiden"
+    },
+    {
+      "videoId": "rj5wZqReXQE",
+      "name": "Wonderwall",
+      "artist": "Oasis"
+    },
+    {
+      "videoId": "Sr1bLLvsbh0",
+      "name": "Techno Syndrome (Mortal Kombat)",
+      "artist": "The Immortals"
+    },
+    {
+      "videoId": "MlZOFIRC9HA",
+      "name": "Champagne Supernova",
+      "artist": "Oasis"
+    },
+    {
+      "videoId": "wAB1astnNr4",
+      "name": "My Little Man",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "videoId": "O1kbMfVv_vs",
+      "name": "December",
+      "artist": "Collective Soul"
+    },
+    {
+      "videoId": "45nBD1sk7Ro",
+      "name": "Stars",
+      "artist": "HUM"
+    },
+    {
+      "videoId": "MObZC3Iq_Go",
+      "name": "Champagne Supernova",
+      "artist": "Oasis"
+    },
+    {
+      "videoId": "UuzA4U1njO8",
+      "name": "Last Caress",
+      "artist": "Misfits"
+    },
+    {
+      "videoId": "X59TlszGtfM",
+      "name": "Don't Look Back in Anger",
+      "artist": "Oasis"
+    },
+    {
+      "videoId": "qMDxrXFQwU8",
+      "name": "Hey Man Nice Shot",
+      "artist": "Filter"
+    },
+    {
+      "videoId": "2y6kop0VTXY",
+      "name": "Street Spirit (Fade Out)",
+      "artist": "Radiohead"
+    },
+    {
+      "videoId": "rU9wbh7xWhY",
+      "name": "Lucky",
+      "artist": "Radiohead"
+    },
+    {
+      "videoId": "IPeJ7iM55hc",
+      "name": "Brain Stew",
+      "artist": "Green Day"
+    },
+    {
+      "videoId": "Id3h3eRiuOs",
+      "name": "Over Now",
+      "artist": "Alice In Chains"
+    },
+    {
+      "videoId": "-_OPJ2d86kE",
+      "name": "They Don't Care About Us",
+      "artist": "Michael Jackson"
+    },
+    {
+      "videoId": "OqYG87oxlGo",
+      "name": "Another Night",
+      "artist": "Real McCoy"
+    },
+    {
+      "videoId": "duzNSTw_AR4",
+      "name": "Sweet Dreams (Are Made Of This)",
+      "artist": "Marilyn Manson"
+    },
+    {
+      "videoId": "UBVEie8bNdE",
+      "name": "Spiderwebs",
+      "artist": "No Doubt"
     },
     {
       "videoId": "iwR7J60p4mk",
@@ -933,14 +3168,94 @@
       "artist": "AC/DC"
     },
     {
-      "videoId": "iY0k2Zf4ugY",
-      "name": "BEST SONGS OF 1995",
-      "artist": "Some random guy"
+      "videoId": "fiXpimLAHFA",
+      "name": "The Furor",
+      "artist": "AC/DC"
+    },
+    {
+      "videoId": "S2YFirVguEk",
+      "name": "Thunder Underground",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "videoId": "IiZ7tpjac-g",
+      "name": "See You on the Other Side",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "videoId": "m8k12wmuNG0",
+      "name": "Denial",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "videoId": "A__cH65WRvE",
+      "name": "Californication",
+      "artist": "Red Hot Chili Peppers"
+    },
+    {
+      "videoId": "-SaUrDhp034",
+      "name": "Every Breath You Take",
+      "artist": "The Police"
     },
     {
       "videoId": "bpyTxYHM0IE",
       "name": "Salomon",
       "artist": "Arena"
+    },
+    {
+      "videoId": "begHwyJpyS4",
+      "name": "Double Conversion",
+      "artist": "Royal Hunt"
+    },
+    {
+      "videoId": "ZgBCXnpUqVE",
+      "name": "Step by Step",
+      "artist": "Royal Hunt"
+    },
+    {
+      "videoId": "WhH2QQNzY2Y",
+      "name": "The Silence '95",
+      "artist": "Gamma Ray"
+    },
+    {
+      "videoId": "yH3_H-E2Y0s",
+      "name": "Southbound Pachyderm",
+      "artist": "Primus"
+    },
+    {
+      "videoId": "SRLzqie5N5k",
+      "name": "Bolivia '95",
+      "artist": "Scott Walker"
+    },
+    {
+      "videoId": "Xckk7CPn_c4",
+      "name": "Walking On Air",
+      "artist": "King Crimson"
+    },
+    {
+      "videoId": "YFl--6IjzMU",
+      "name": "Perry Mason",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "videoId": "TKzN6qw62X0",
+      "name": "Right Place",
+      "artist": "Petra"
+    },
+    {
+      "videoId": "pLU46XA9VoQ",
+      "name": "Rock And Roll Is Dead",
+      "artist": "Lenny Kravitz"
+    },
+    {
+      "videoId": "YuFLAtARc3Y",
+      "name": "You Oughta Know",
+      "artist": "Alanis Morissette"
+    },
+    {
+      "videoId": "dEqxHNsKEl4",
+      "name": "Ennustaja",
+      "artist": "CMX"
     },
     {
       "videoId": "Z6h14pqaMTI",
@@ -958,39 +3273,19 @@
       "artist": "Goo Goo Dolls"
     },
     {
-      "videoId": "yuTMWgOduFM",
-      "name": "Common People",
-      "artist": "Pulp"
+      "videoId": "mjXwFNKSo_4",
+      "name": "Burnin' Up",
+      "artist": "Goo Goo Dolls"
     },
     {
-      "videoId": "iWFE1pekWyI",
-      "name": "You Oughta Know",
-      "artist": "Alanis Morissette"
+      "videoId": "Tal3FerT-zI",
+      "name": "So Long",
+      "artist": "Goo Goo Dolls"
     },
     {
-      "videoId": "4jA-_g_iSY0",
-      "name": "I Want to Know What Love Is (1999 Remaster)",
-      "artist": "Foreigner"
-    },
-    {
-      "videoId": "Wsfk0fZACU0",
-      "name": "In the Meantime",
-      "artist": "Spacehog"
-    },
-    {
-      "videoId": "NruQh0QDTTM",
-      "name": "Be My Lover",
-      "artist": "La Bouche"
-    },
-    {
-      "videoId": "rJ9sAyj_hf4",
-      "name": "The BOSS MARTIANS live Surf Garage Rock 1995",
-      "artist": "bloodredvinyl"
-    },
-    {
-      "videoId": "ysTSx0mapjk",
-      "name": "Trouble",
-      "artist": "999"
+      "videoId": "sFuc9TaFueM",
+      "name": "Modern Guy",
+      "artist": "Iggy Pop"
     },
     {
       "videoId": "SLbVQw-ymJQ",
@@ -998,9 +3293,179 @@
       "artist": "Iggy Pop"
     },
     {
-      "videoId": "DWUN1mtGHgo",
-      "name": "Allman Brothers- House Of Blues 1995",
-      "artist": "carlygtr"
+      "videoId": "cfZ5LGtkr1o",
+      "name": "The Modern Things",
+      "artist": "Björk"
+    },
+    {
+      "videoId": "pizC-Cstgec",
+      "name": "Living Wreck (1995 Remaster)",
+      "artist": "Deep Purple"
+    },
+    {
+      "videoId": "Wy3ba1bzUK0",
+      "name": "Gel (45 Version)",
+      "artist": "Collective Soul"
+    },
+    {
+      "videoId": "_CSbB040CJE",
+      "name": "Morning Glory",
+      "artist": "Oasis"
+    },
+    {
+      "videoId": "paKY1PwbJ5k",
+      "name": "Modern Girl",
+      "artist": "Sheena Easton"
+    },
+    {
+      "videoId": "fLRhV5MqksI",
+      "name": "Suzy",
+      "artist": "Shine"
+    },
+    {
+      "videoId": "aW_8kbyOKeQ",
+      "name": "Don't Look Back In Anger",
+      "artist": "Oasis"
+    },
+    {
+      "videoId": "iWFE1pekWyI",
+      "name": "You Oughta Know",
+      "artist": "Alanis Morissette"
+    },
+    {
+      "videoId": "J1lTfWCfXu0",
+      "name": "I Want To Come Over",
+      "artist": "Melissa Etheridge"
+    },
+    {
+      "videoId": "AakBK5leleE",
+      "name": "Ironic",
+      "artist": "Alanis Morissette"
+    },
+    {
+      "videoId": "5Q5twIpY8uM",
+      "name": "A Love So Beautiful",
+      "artist": "Michael Bolton"
+    },
+    {
+      "videoId": "kW3aMKTrPZg",
+      "name": "Runaway",
+      "artist": "The Corrs"
+    },
+    {
+      "videoId": "AGgmB3I4X2A",
+      "name": "This Ain't A Love Song",
+      "artist": "Bon Jovi"
+    },
+    {
+      "videoId": "2P642bb0xWg",
+      "name": "Como Yo Nadie Te Ha Amado",
+      "artist": "Bon Jovi"
+    },
+    {
+      "videoId": "jlHTI1fZc_A",
+      "name": "Something For The Pain",
+      "artist": "Bon Jovi"
+    },
+    {
+      "videoId": "PzSH5kxzXgc",
+      "name": "I Live My Life For You",
+      "artist": "Firehouse"
+    },
+    {
+      "videoId": "suD_FcxMTvM",
+      "name": "I Live My Life for You",
+      "artist": "Firehouse"
+    },
+    {
+      "videoId": "tpKd5Fa7798",
+      "name": "Santa Fe",
+      "artist": "Jon Bon Jovi"
+    },
+    {
+      "videoId": "02dMNQxwy48",
+      "name": "You Are Not Alone",
+      "artist": "Michael Jackson"
+    },
+    {
+      "videoId": "Tua0viBBQxM",
+      "name": "Born To Touch Your Feelings (Remix)",
+      "artist": "Scorpions"
+    },
+    {
+      "videoId": "Wsfk0fZACU0",
+      "name": "In the Meantime",
+      "artist": "Spacehog"
+    },
+    {
+      "videoId": "ysTSx0mapjk",
+      "name": "Trouble",
+      "artist": "999"
+    },
+    {
+      "videoId": "izq9i6Wyk4g",
+      "name": "Boiler",
+      "artist": "999"
+    },
+    {
+      "videoId": "NuQH1_I_Idw",
+      "name": "Crap",
+      "artist": "Various"
+    },
+    {
+      "videoId": "ptvjRu_EbVY",
+      "name": "I Feel Fine",
+      "artist": "The Bennies"
+    },
+    {
+      "videoId": "N9gNwi7rjEE",
+      "name": "Rumble",
+      "artist": "The Flamin' Groovies"
+    },
+    {
+      "videoId": "aqfSylDcIUQ",
+      "name": "Nothing",
+      "artist": "Stephen King"
+    },
+    {
+      "videoId": "KViiyaWeW68",
+      "name": "Goin' Home",
+      "artist": "The Squares"
+    },
+    {
+      "videoId": "ENPRghcyspQ",
+      "name": "Nightclubbing",
+      "artist": "Iggy Pop"
+    },
+    {
+      "videoId": "TJ_dPLKLRpQ",
+      "name": "Revolver (Live)",
+      "artist": "Rage Against The Machine"
+    },
+    {
+      "videoId": "p2cR96AMpac",
+      "name": "Leaving Here (Live)",
+      "artist": "Pearl Jam"
+    },
+    {
+      "videoId": "pnOB0d7nyXQ",
+      "name": "Thirties",
+      "artist": "Guano"
+    },
+    {
+      "videoId": "5u1jT1MXW9g",
+      "name": "Leather",
+      "artist": "All the Pretty Horses"
+    },
+    {
+      "videoId": "nw0fM5l3KFs",
+      "name": "Place Called Earth",
+      "artist": "Rockband"
+    },
+    {
+      "videoId": "q8yOEIl8U5I",
+      "name": "Leather",
+      "artist": "Venus De Mars and All the Pretty Horses"
     },
     {
       "videoId": "9M6eLGeYfiQ",
@@ -1008,9 +3473,19 @@
       "artist": "Gene Deer"
     },
     {
+      "videoId": "Aph25jUoc9U",
+      "name": "Ridin' High",
+      "artist": "VARGAS BLUES BAND"
+    },
+    {
       "videoId": "p8TXKF0s3so",
       "name": "Cadillac In the Swamp",
       "artist": "Smokehouse"
+    },
+    {
+      "videoId": "A5GKQhdqwvE",
+      "name": "Tears From My Eyes",
+      "artist": "Detroit Blues Band"
     },
     {
       "videoId": "ofu3tS1fZdI",
@@ -1023,9 +3498,54 @@
       "artist": "Matchbox"
     },
     {
-      "videoId": "UuzA4U1njO8",
-      "name": "Last Caress",
-      "artist": "Misfits"
+      "videoId": "HYwLAxYadJc",
+      "name": "Everybody Gets the Blues",
+      "artist": "Kenny Wayne Shepherd Band"
+    },
+    {
+      "videoId": "v_bHGhFlJFQ",
+      "name": "Slow Down Blues",
+      "artist": "Joe Satriani"
+    },
+    {
+      "videoId": "_Joszbe66MQ",
+      "name": "Blue By Nature",
+      "artist": "Blue By Nature"
+    },
+    {
+      "videoId": "WnXdPB1eEuI",
+      "name": "Missing You",
+      "artist": "Detroit Blues Band"
+    },
+    {
+      "videoId": "0lWBDxnmWoQ",
+      "name": "Black Cat Boogie",
+      "artist": "VARGAS BLUES BAND"
+    },
+    {
+      "videoId": "nNJZkrTcKzE",
+      "name": "Yer Blues",
+      "artist": "The Jeff Healey Band"
+    },
+    {
+      "videoId": "INvibkbghl0",
+      "name": "Dont Turn Your Back (On the Blues)",
+      "artist": "Gene Deer"
+    },
+    {
+      "videoId": "2sgxmZ1rJ5w",
+      "name": "Cold Rain",
+      "artist": "Blues Company"
+    },
+    {
+      "videoId": "k31e0sb7lg8",
+      "name": "Deja Voodoo",
+      "artist": "Kenny Wayne Shepherd Band"
+    },
+    {
+      "videoId": "v4NkzmQadyY",
+      "name": "Rock Me",
+      "artist": "The Paul Butterfield Blues Band"
     },
     {
       "videoId": "qGTdBOGQvGE",
@@ -1033,9 +3553,64 @@
       "artist": "Frank Black"
     },
     {
-      "videoId": "A6M0yLxLCNA",
-      "name": "1979",
-      "artist": "The Smashing Pumpkins"
+      "videoId": "icgiMUuogkQ",
+      "name": "As Wicked",
+      "artist": "Rancid"
+    },
+    {
+      "videoId": "ykoyKsHb_Ck",
+      "name": "Same Old Story (2005 Remaster)",
+      "artist": "Pennywise"
+    },
+    {
+      "videoId": "fEtnKeaLZDE",
+      "name": "We Are 138",
+      "artist": "Misfits"
+    },
+    {
+      "videoId": "PcCm0lcktUo",
+      "name": "Time Bomb",
+      "artist": "Rancid"
+    },
+    {
+      "videoId": "pCik-DwhrGs",
+      "name": "The Way I Feel",
+      "artist": "Rancid"
+    },
+    {
+      "videoId": "WWiYAqRhlTQ",
+      "name": "Punk Rawk Show",
+      "artist": "MxPx"
+    },
+    {
+      "videoId": "hxYWZQRnW0o",
+      "name": "Every Single Day (2005 Remaster)",
+      "artist": "Pennywise"
+    },
+    {
+      "videoId": "pqjCv38sTf0",
+      "name": "Punk Rock",
+      "artist": "Dave Anderson"
+    },
+    {
+      "videoId": "hDfz9jWOODM",
+      "name": "Attitude",
+      "artist": "Misfits"
+    },
+    {
+      "videoId": "WoZCTO0JhoM",
+      "name": "Punk Rock Love",
+      "artist": "The Casualties"
+    },
+    {
+      "videoId": "gDZMtX1JprY",
+      "name": "Listed M.I.A.",
+      "artist": "Rancid"
+    },
+    {
+      "videoId": "srxne3631QE",
+      "name": "Shame In You",
+      "artist": "Alice In Chains"
     },
     {
       "videoId": "32J7bZHva9M",
@@ -1048,19 +3623,34 @@
       "artist": "Daft Punk"
     },
     {
-      "videoId": "Sr1bLLvsbh0",
-      "name": "Techno Syndrome (Mortal Kombat)",
-      "artist": "The Immortals"
+      "videoId": "GJruOHI9q1g",
+      "name": "Supercalifragilisticexpialidocious",
+      "artist": "The Vandals"
     },
     {
-      "videoId": "UBVEie8bNdE",
-      "name": "Spiderwebs",
-      "artist": "No Doubt"
+      "videoId": "dvPyhEB0p_Y",
+      "name": "Happy Birthday To Me",
+      "artist": "The Vandals"
     },
     {
-      "videoId": "w2mErKykpQ4",
-      "name": "Best Metal Songs of 1995",
-      "artist": "Beckonor"
+      "videoId": "z8mNeh38bDs",
+      "name": "El Coo Cooi",
+      "artist": "Voodoo Glow Skulls"
+    },
+    {
+      "videoId": "2aHrCGcTEeQ",
+      "name": "Full Metal Jackoff",
+      "artist": "Jello Biafra"
+    },
+    {
+      "videoId": "-5qqrMu_AZc",
+      "name": "Gangsta's Paradise",
+      "artist": "Coolio"
+    },
+    {
+      "videoId": "he3lch-gKC0",
+      "name": "Mr. Coffee",
+      "artist": "Lagwagon"
     },
     {
       "videoId": "RTwp7HU_a_I",
@@ -1078,9 +3668,44 @@
       "artist": "Rammstein"
     },
     {
-      "videoId": "9H-WMZitwsc",
-      "name": "Toy Machine \"Heavy Metal\" (1995)",
-      "artist": "Skate Video Vault"
+      "videoId": "ceohfXpK0N4",
+      "name": "Zero Signal",
+      "artist": "Fear Factory"
+    },
+    {
+      "videoId": "QPXLYUHJP1Y",
+      "name": "Bored",
+      "artist": "Deftones"
+    },
+    {
+      "videoId": "1zG8DL4ic0A",
+      "name": "Where Dead Angels Lie",
+      "artist": "Dissection"
+    },
+    {
+      "videoId": "70_szWBOaic",
+      "name": "Sludge Factory",
+      "artist": "Alice In Chains"
+    },
+    {
+      "videoId": "isnqz-aJe4c",
+      "name": "Tomorrow",
+      "artist": "Ozzy Osbourne"
+    },
+    {
+      "videoId": "5GxWWk1wzlw",
+      "name": "Self Bias Resistor",
+      "artist": "Fear Factory"
+    },
+    {
+      "videoId": "aFkii62sSzU",
+      "name": "Der Meister",
+      "artist": "Rammstein"
+    },
+    {
+      "videoId": "4AEaK4JVbkk",
+      "name": "Out of the Sun",
+      "artist": "Motörhead"
     },
     {
       "videoId": "lVnvQHMyS8E",
@@ -1088,9 +3713,34 @@
       "artist": "Gamma Ray"
     },
     {
-      "videoId": "S2YFirVguEk",
-      "name": "Thunder Underground",
-      "artist": "Ozzy Osbourne"
+      "videoId": "dL8tFeRwlec",
+      "name": "Killers",
+      "artist": "Transmetal"
+    },
+    {
+      "videoId": "Yf9RjTRFTxo",
+      "name": "In Another Time",
+      "artist": "Motörhead"
+    },
+    {
+      "videoId": "5m28JRmIrQ8",
+      "name": "Over Your Shoulder",
+      "artist": "Motörhead"
+    },
+    {
+      "videoId": "cx59QaQgrFU",
+      "name": "Eyes of the South",
+      "artist": "Down"
+    },
+    {
+      "videoId": "ErFOZidF6kI",
+      "name": "Weisses Fleisch",
+      "artist": "Rammstein"
+    },
+    {
+      "videoId": "E6UOwBZKmXg",
+      "name": "Dawn of the Angry",
+      "artist": "Morbid Angel"
     },
     {
       "videoId": "8F4tT_JNl40",
@@ -1103,19 +3753,104 @@
       "artist": "Death"
     },
     {
-      "videoId": "f6MM-tFBENI",
-      "name": "Empty Words",
-      "artist": "Death"
-    },
-    {
       "videoId": "ViLWGP7cqbI",
       "name": "1,000 Eyes",
       "artist": "Death"
     },
     {
-      "videoId": "cF3OWCYLLVQ",
-      "name": "Sultans Of Swing",
+      "videoId": "Xf2x7PQ8l1E",
+      "name": "Sacred Serenity",
+      "artist": "Death"
+    },
+    {
+      "videoId": "LBIFlz__1EY",
+      "name": "Empty Words",
+      "artist": "Death"
+    },
+    {
+      "videoId": "R9gvbZbR7-w",
+      "name": "1,000 Eyes",
+      "artist": "Death"
+    },
+    {
+      "videoId": "f6MM-tFBENI",
+      "name": "Empty Words",
+      "artist": "Death"
+    },
+    {
+      "videoId": "qcVp-ggYIEc",
+      "name": "Perennial Quest",
+      "artist": "Death"
+    },
+    {
+      "videoId": "HsXDTFIOi4U",
+      "name": "Misanthrope",
+      "artist": "Death"
+    },
+    {
+      "videoId": "3V1GqnRObTQ",
+      "name": "Misanthrope",
+      "artist": "Death"
+    },
+    {
+      "videoId": "ZVtpax8gJGU",
+      "name": "Symbolic",
+      "artist": "Death"
+    },
+    {
+      "videoId": "69YcFjTJS8s",
+      "name": "Sacred Serenity",
+      "artist": "Death"
+    },
+    {
+      "videoId": "_JkK0IlEDB4",
+      "name": "Without Judgement",
+      "artist": "Death"
+    },
+    {
+      "videoId": "DAspJnhsGrg",
+      "name": "Empty Words (Live)",
+      "artist": "Death"
+    },
+    {
+      "videoId": "yFKRo12zAok",
+      "name": "Pierced from Within",
+      "artist": "Suffocation"
+    },
+    {
+      "videoId": "bxMGF_eHnU8",
+      "name": "Symbolic Acts (Demo)",
+      "artist": "Death"
+    },
+    {
+      "videoId": "iWKC33uKqIc",
+      "name": "Island of the Unknown",
+      "artist": "Deceased‎"
+    },
+    {
+      "videoId": "ZtdRdgHkUsU",
+      "name": "So Far Away (Remastered 1996)",
       "artist": "Dire Straits"
+    },
+    {
+      "videoId": "ENfpFROyeYs",
+      "name": "Where Have All the Cowboys Gone?",
+      "artist": "Paula Cole"
+    },
+    {
+      "videoId": "JsWG2Gry1fw",
+      "name": "It's All Coming Back to Me Now",
+      "artist": "Céline Dion"
+    },
+    {
+      "videoId": "K3WAC7CZTDA",
+      "name": "Sometimes I Feel Like Screaming",
+      "artist": "Deep Purple"
+    },
+    {
+      "videoId": "3Awey7AbXT0",
+      "name": "C'mon N' Ride It (The Train)",
+      "artist": "Quad City DJ's"
     },
     {
       "videoId": "yjbzUEJONNU",
@@ -1123,14 +3858,14 @@
       "artist": "The Wallflowers"
     },
     {
-      "videoId": "Zzyfcys1aLM",
-      "name": "One Headlight (Official Music Video)",
-      "artist": "The Wallflowers"
+      "videoId": "RjPM3CCjrKE",
+      "name": "Mama Said",
+      "artist": "Metallica"
     },
     {
-      "videoId": "ENfpFROyeYs",
-      "name": "Where Have All the Cowboys Gone?",
-      "artist": "Paula Cole"
+      "videoId": "w7DrZ2plOVo",
+      "name": "The Outlaw Torn",
+      "artist": "Metallica"
     },
     {
       "videoId": "Fp7cUfVxhlU",
@@ -1143,19 +3878,29 @@
       "artist": "Metallica"
     },
     {
-      "videoId": "cXF49O3SQ8Q",
-      "name": "MTV Alternative Nation (1996)",
-      "artist": "The VHS Vault"
+      "videoId": "Mv_ypECFAEw",
+      "name": "Hummell Gets The Rockets",
+      "artist": "Nick Glennie-Smith"
     },
     {
-      "videoId": "hH4wcNRj9PI",
-      "name": "3AM",
-      "artist": "Matchbox Twenty"
+      "videoId": "d_wKxhYvyDE",
+      "name": "Punk Rock Song",
+      "artist": "Bad Religion"
     },
     {
-      "videoId": "nrGGm_mkBrY",
-      "name": "Best 90s Slow Jams",
-      "artist": "M-Beat"
+      "videoId": "hpakk_RgKAQ",
+      "name": "Rock House Jail",
+      "artist": "Nick Glennie-Smith"
+    },
+    {
+      "videoId": "pFwanx1N6Fw",
+      "name": "King Nothing",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "RTf2xoWGAJo",
+      "name": "Angel With The Scabbed Wings",
+      "artist": "Marilyn Manson"
     },
     {
       "videoId": "Oko1aqm3K1o",
@@ -1163,19 +3908,19 @@
       "artist": "TOOL"
     },
     {
-      "videoId": "Grg04x0cGZ0",
-      "name": "The Actor (1996 Remaster)",
-      "artist": "Michael Learns To Rock"
+      "videoId": "X45Q8XKTaFY",
+      "name": "1996",
+      "artist": "Marilyn Manson"
     },
     {
-      "videoId": "YZnMNkfURlM",
-      "name": "BEST SONGS OF 1996",
-      "artist": "Some random guy"
+      "videoId": "tqjOrkMHUkk",
+      "name": "Ænema",
+      "artist": "TOOL"
     },
     {
-      "videoId": "JsWG2Gry1fw",
-      "name": "It's All Coming Back to Me Now",
-      "artist": "Céline Dion"
+      "videoId": "hH4wcNRj9PI",
+      "name": "3AM",
+      "artist": "Matchbox Twenty"
     },
     {
       "videoId": "QOR0RilgO2w",
@@ -1183,14 +3928,204 @@
       "artist": "TOOL"
     },
     {
-      "videoId": "9EHAo6rEuas",
-      "name": "Please Forgive Me",
+      "videoId": "X-zSbf2L8oU",
+      "name": "Bleeding Me",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "Grg04x0cGZ0",
+      "name": "The Actor (1996 Remaster)",
+      "artist": "Michael Learns To Rock"
+    },
+    {
+      "videoId": "YurIz3gSYQ0",
+      "name": "Man That You Fear",
+      "artist": "Marilyn Manson"
+    },
+    {
+      "videoId": "O5Ohwdps7u4",
+      "name": "Third Eye",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "vg3ubbICAas",
+      "name": "Antichrist Superstar",
+      "artist": "Marilyn Manson"
+    },
+    {
+      "videoId": "NfpwKs1REg0",
+      "name": "Stinkfist",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "VW5abTdVVu8",
+      "name": "Ride Across The River (Remastered 1996)",
+      "artist": "Dire Straits"
+    },
+    {
+      "videoId": "zDGmAZd8vqg",
+      "name": "I Think About You",
       "artist": "Bryan Adams"
     },
     {
-      "videoId": "MZMdplatepk",
-      "name": "Rock Ballads 1996",
-      "artist": "OURO AZUL FM"
+      "videoId": "j2w0rbp6J9Y",
+      "name": "Peaches (1996 Remaster)",
+      "artist": "The Stranglers"
+    },
+    {
+      "videoId": "dguWcAsfCxY",
+      "name": "Nightwalk",
+      "artist": "Steve Morse"
+    },
+    {
+      "videoId": "sxNRTXrN6aM",
+      "name": "Lady in Black",
+      "artist": "Uriah Heep"
+    },
+    {
+      "videoId": "cVlddw6e8vI",
+      "name": "Beat the Bastards",
+      "artist": "The Exploited"
+    },
+    {
+      "videoId": "aFIwUqEiEnw",
+      "name": "The Beautiful People",
+      "artist": "Marilyn Manson"
+    },
+    {
+      "videoId": "-T2cniIZ3sM",
+      "name": "(-) Ions",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "yat1iwCkgD8",
+      "name": "H.",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "6K6ODTZ7c10",
+      "name": "Money For Nothing (Remastered 1996)",
+      "artist": "Dire Straits"
+    },
+    {
+      "videoId": "Hb9hvRSEel8",
+      "name": "Firestarter",
+      "artist": "The Prodigy"
+    },
+    {
+      "videoId": "0NntnPk6fAc",
+      "name": "The Only Thing That Looks Good On Me Is You",
+      "artist": "Bryan Adams"
+    },
+    {
+      "videoId": "9cwrLM3pDeY",
+      "name": "Pushit",
+      "artist": "TOOL"
+    },
+    {
+      "videoId": "drbpfiEshpg",
+      "name": "Flight",
+      "artist": "Royal Hunt"
+    },
+    {
+      "videoId": "rDbkNeZpSl0",
+      "name": "Last Goodbye",
+      "artist": "Royal Hunt"
+    },
+    {
+      "videoId": "moterysB7OM",
+      "name": "Time",
+      "artist": "Royal Hunt"
+    },
+    {
+      "videoId": "bBg_-37LCw8",
+      "name": "Far Away",
+      "artist": "Anathema"
+    },
+    {
+      "videoId": "ZggZuNX_xLI",
+      "name": "Ascension",
+      "artist": "Anathema"
+    },
+    {
+      "videoId": "92hdkWz9Hd0",
+      "name": "Cries on the Wind",
+      "artist": "Anathema"
+    },
+    {
+      "videoId": "Q_QWuogH6xw",
+      "name": "Radiance",
+      "artist": "Anathema"
+    },
+    {
+      "videoId": "xm1tU6qWfUA",
+      "name": "Martial Arts",
+      "artist": "Royal Hunt"
+    },
+    {
+      "videoId": "32uTT424Nx4",
+      "name": "The Child In Us",
+      "artist": "Enigma"
+    },
+    {
+      "videoId": "Qp-_6ImSqfk",
+      "name": "Lust In The Dust",
+      "artist": "Chris Many"
+    },
+    {
+      "videoId": "94Oubu1wDAw",
+      "name": "Shadowcasting",
+      "artist": "Remy Zero"
+    },
+    {
+      "videoId": "0xpLmdmVGpc",
+      "name": "Through The Rain",
+      "artist": "Chris Many"
+    },
+    {
+      "videoId": "qmqsBxMTI9E",
+      "name": "Follow Me",
+      "artist": "Chris Many"
+    },
+    {
+      "videoId": "Bnevmh1765U",
+      "name": "Chromosome",
+      "artist": "Remy Zero"
+    },
+    {
+      "videoId": "cNJGUirzN28",
+      "name": "Nothing's Simple",
+      "artist": "Chris Many"
+    },
+    {
+      "videoId": "zuILdwWgmkk",
+      "name": "Down The Street",
+      "artist": "Chris Many"
+    },
+    {
+      "videoId": "wr24mAnQ0Eg",
+      "name": "Friends For Life",
+      "artist": "Chris Many"
+    },
+    {
+      "videoId": "bY3vXr7fm8k",
+      "name": "It's My Life",
+      "artist": "Bon Jovi"
+    },
+    {
+      "videoId": "zcP8xLmTKmw",
+      "name": "I Don't Want to Talk About It (1989 Version)",
+      "artist": "Rod Stewart"
+    },
+    {
+      "videoId": "dqjP5rTOQFc",
+      "name": "Give In to Me",
+      "artist": "Michael Jackson"
+    },
+    {
+      "videoId": "wzY6XIDSbT4",
+      "name": "The Ballad Of Jayne",
+      "artist": "L.A. Guns"
     },
     {
       "videoId": "J__Zzut5gEY",
@@ -1208,39 +4143,159 @@
       "artist": "Danko Jones"
     },
     {
+      "videoId": "KMHCrUtYlaE",
+      "name": "Lowdown",
+      "artist": "Danko Jones"
+    },
+    {
+      "videoId": "5x3abczUXjc",
+      "name": "2 Guitar Garage",
+      "artist": "Universal Production Music"
+    },
+    {
+      "videoId": "B7K4dJFByEE",
+      "name": "She's Got a Bomb",
+      "artist": "Danko Jones"
+    },
+    {
+      "videoId": "-au87Lt-ucc",
+      "name": "Payback",
+      "artist": "Danko Jones"
+    },
+    {
+      "videoId": "g8HxYSFYHGU",
+      "name": "Dirty Mind Too",
+      "artist": "Danko Jones"
+    },
+    {
+      "videoId": "fNAmzt9aNd8",
+      "name": "Sexual Interlude",
+      "artist": "Danko Jones"
+    },
+    {
+      "videoId": "NpRCjgH1hY8",
+      "name": "One Night Stand",
+      "artist": "Danko Jones"
+    },
+    {
+      "videoId": "TMqUzg4prME",
+      "name": "I Stand Accussed",
+      "artist": "Danko Jones"
+    },
+    {
+      "videoId": "DCXUr_PkhCE",
+      "name": "Instrumental",
+      "artist": "Danko Jones"
+    },
+    {
+      "videoId": "54Ifp4EmnMI",
+      "name": "Pentothal",
+      "artist": "Rocket 88"
+    },
+    {
+      "videoId": "_Vjfrw52oRU",
+      "name": "I'm Drinking Alcohol?",
+      "artist": "Danko Jones"
+    },
+    {
+      "videoId": "4v7cVPhXvXE",
+      "name": "Who Got It?",
+      "artist": "Danko Jones"
+    },
+    {
       "videoId": "1m44srChczw",
       "name": "Over You",
       "artist": "Universal Production Music"
     },
     {
-      "videoId": "4DU4iaqsi_M",
-      "name": "Midnight Blues",
-      "artist": "Snowy White"
+      "videoId": "QvHCaQsjxGc",
+      "name": "Gone",
+      "artist": "Universal Production Music"
     },
     {
-      "videoId": "XINAJ7jgg6Y",
-      "name": "Same In The End",
-      "artist": "Sublime"
+      "videoId": "eXbEX27vDoI",
+      "name": "Driftin' Blues (Crossroad 2 Box/Set Version)",
+      "artist": "Eric Clapton"
     },
     {
-      "videoId": "d_wKxhYvyDE",
-      "name": "Punk Rock Song",
-      "artist": "Bad Religion"
+      "videoId": "oXr7C-tFLM4",
+      "name": "Dengue Woman Blues",
+      "artist": "Jimmie Vaughan"
     },
     {
-      "videoId": "cVlddw6e8vI",
-      "name": "Beat the Bastards",
-      "artist": "The Exploited"
+      "videoId": "0p7CKgrHyE4",
+      "name": "Dirty Blues",
+      "artist": "Universal Production Music"
     },
     {
-      "videoId": "87dmz7LYWtI",
-      "name": "Troublesome '96",
-      "artist": "2Pac"
+      "videoId": "hbQKU0ibB4g",
+      "name": "Rock Bottom Blues",
+      "artist": "Johnny Jenkins"
     },
     {
-      "videoId": "wmin5WkOuPw",
-      "name": "Firestarter",
-      "artist": "The Prodigy"
+      "videoId": "b4C-dSJmmAs",
+      "name": "Cyberblues",
+      "artist": "Craig Erickson"
+    },
+    {
+      "videoId": "14BSA-he5v8",
+      "name": "Long On Love",
+      "artist": "Universal Production Music"
+    },
+    {
+      "videoId": "vkdiiS0cjOA",
+      "name": "Bad Medicine",
+      "artist": "Universal Production Music"
+    },
+    {
+      "videoId": "eWiG7SCyID0",
+      "name": "32-20 Blues",
+      "artist": "Johnny Winter"
+    },
+    {
+      "videoId": "UaErJMFZnDc",
+      "name": "Stranger Blues",
+      "artist": "Julian Sas"
+    },
+    {
+      "videoId": "7e_KlnL8f9U",
+      "name": "Don't Drag Me Down",
+      "artist": "Social Distortion"
+    },
+    {
+      "videoId": "gEA4kr1ghbE",
+      "name": "Punk Out",
+      "artist": "The Suicide Machines"
+    },
+    {
+      "videoId": "IL0nhn88aVA",
+      "name": "Die for the Government",
+      "artist": "Anti-Flag"
+    },
+    {
+      "videoId": "iNtpfeqI99U",
+      "name": "Anxiety",
+      "artist": "Goldfinger"
+    },
+    {
+      "videoId": "iD1EkzJ75hk",
+      "name": "Mable",
+      "artist": "Goldfinger"
+    },
+    {
+      "videoId": "DvdeE6KzrTc",
+      "name": "Bulls On Parade",
+      "artist": "Rage Against The Machine"
+    },
+    {
+      "videoId": "aVdR6JeEyT8",
+      "name": "96 Quite Bitter Beings",
+      "artist": "CKY"
+    },
+    {
+      "videoId": "KKd0eVQ5X_4",
+      "name": "Revolution 909",
+      "artist": "Daft Punk"
     },
     {
       "videoId": "uU0NsYFypRk",
@@ -1248,9 +4303,39 @@
       "artist": "NOFX"
     },
     {
-      "videoId": "3L4YrGaR8E4",
-      "name": "Bulls On Parade (Official HD Video)",
-      "artist": "Rage Against The Machine"
+      "videoId": "5hxP_jq6yPw",
+      "name": "I'm The One",
+      "artist": "Descendents"
+    },
+    {
+      "videoId": "ARfJ55bUAw0",
+      "name": "Around the World (Radio Edit)",
+      "artist": "Daft Punk"
+    },
+    {
+      "videoId": "nUCodt4zVw4",
+      "name": "Roots Bloody Roots",
+      "artist": "Sepultura"
+    },
+    {
+      "videoId": "j4vjxPbdrkM",
+      "name": "High Fidelity",
+      "artist": "Daft Punk"
+    },
+    {
+      "videoId": "8ypx4lCQ420",
+      "name": "How Low Can A Punk Get?",
+      "artist": "Bad Brains"
+    },
+    {
+      "videoId": "Czux8XJDr0s",
+      "name": "Disintegration/Free Money",
+      "artist": "Slayer"
+    },
+    {
+      "videoId": "KuMlv7hmrFg",
+      "name": "Roots Bloody Roots",
+      "artist": "Sepultura"
     },
     {
       "videoId": "EqQCfC7KHlQ",
@@ -1258,19 +4343,9 @@
       "artist": "Iced Earth"
     },
     {
-      "videoId": "-ZENtivAi6I",
-      "name": "Dunkelheit",
-      "artist": "Burzum"
-    },
-    {
-      "videoId": "w7DrZ2plOVo",
-      "name": "The Outlaw Torn",
-      "artist": "Metallica"
-    },
-    {
-      "videoId": "hxQMUnAuH5g",
-      "name": "Brave",
-      "artist": "Katatonia"
+      "videoId": "g4rlGog0XRc",
+      "name": "The Gods Made Heavy Metal",
+      "artist": "Manowar"
     },
     {
       "videoId": "IJd8H0YtaeE",
@@ -1278,9 +4353,29 @@
       "artist": "In Flames"
     },
     {
-      "videoId": "Fe9ynnpLUr8",
-      "name": "Phobophile",
-      "artist": "Cryptopsy"
+      "videoId": "SxhqYBXO9PE",
+      "name": "Straighthate",
+      "artist": "Sepultura"
+    },
+    {
+      "videoId": "-ZENtivAi6I",
+      "name": "Dunkelheit",
+      "artist": "Burzum"
+    },
+    {
+      "videoId": "9JDXXBLHhsU",
+      "name": "Bleeding Me",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "BdKu01WCMwk",
+      "name": "Number 1",
+      "artist": "Manowar"
+    },
+    {
+      "videoId": "SR39birKwwo",
+      "name": "Return Of The Warlord",
+      "artist": "Manowar"
     },
     {
       "videoId": "EL72QXlMn_w",
@@ -1288,28 +4383,68 @@
       "artist": "Quo Vadis"
     },
     {
-      "videoId": "40V9_1PMUGM",
-      "name": "Gone Away",
+      "videoId": "Fe9ynnpLUr8",
+      "name": "Phobophile",
+      "artist": "Cryptopsy"
+    },
+    {
+      "videoId": "kJnORfrE9v8",
+      "name": "Archon",
+      "artist": "Rotting Christ"
+    },
+    {
+      "videoId": "lj7iEEge_ME",
+      "name": "Naked Freak Show",
+      "artist": "Abscess"
+    },
+    {
+      "videoId": "TYbrceo1HEI",
+      "name": "Towards Earth",
+      "artist": "Immolation"
+    },
+    {
+      "videoId": "LUq2csQJL2U",
+      "name": "Glimpse Into Genocide",
+      "artist": "Napalm Death"
+    },
+    {
+      "videoId": "2qSBnalW3t4",
+      "name": "The Jester's Dance",
+      "artist": "In Flames"
+    },
+    {
+      "videoId": "ICnxDNl2juk",
+      "name": "A Question of Heaven",
+      "artist": "Iced Earth"
+    },
+    {
+      "videoId": "CrJDJrBJFqg",
+      "name": "The Past",
+      "artist": "Brutality"
+    },
+    {
+      "videoId": "zITOzOnQEuE",
+      "name": "Graves of the Fathers",
+      "artist": "Cryptopsy"
+    },
+    {
+      "videoId": "cDC9t2owN_Y",
+      "name": "Love After Death",
+      "artist": "Neurosis"
+    },
+    {
+      "videoId": "ldXdnZtTWp8",
+      "name": "Thick as a Brick (Pt. I) [1997 Remaster]",
+      "artist": "Jethro Tull"
+    },
+    {
+      "videoId": "-I-j-ehNUlo",
+      "name": "Gone Away (1997)",
       "artist": "The Offspring"
     },
     {
-      "videoId": "S3Oyipl36YQ",
-      "name": "MMMBop",
-      "artist": "Hanson"
-    },
-    {
-      "videoId": "MH6TJU0qWoY",
-      "name": "Lucky Man (Official Music Video)",
-      "artist": "The Verve"
-    },
-    {
-      "videoId": "AxuTd9rwEHQ",
-      "name": "Everlong",
-      "artist": "Foo Fighters"
-    },
-    {
-      "videoId": "1lyu1KKwC74",
-      "name": "Bitter Sweet Symphony (Official Music Video)",
+      "videoId": "JnRw8bXVbPI",
+      "name": "Bitter Sweet Symphony",
       "artist": "The Verve"
     },
     {
@@ -1323,24 +4458,19 @@
       "artist": "Radiohead"
     },
     {
+      "videoId": "1WTATreAg08",
+      "name": "Bitter Sweet Symphony (Extended Version)",
+      "artist": "The Verve"
+    },
+    {
       "videoId": "WYaPwsP-QkI",
       "name": "Saint Of Me",
       "artist": "The Rolling Stones"
     },
     {
-      "videoId": "lgSLz5FeXUg",
-      "name": "Dig Up Her Bones",
-      "artist": "Misfits"
-    },
-    {
-      "videoId": "THNEolxBmso",
-      "name": "Long Hard Road Out Of Hell",
-      "artist": "Marilyn Manson"
-    },
-    {
-      "videoId": "BRjtAU2vOa0",
-      "name": "Devil's Dance",
-      "artist": "Metallica"
+      "videoId": "q9ojhcytFPk",
+      "name": "Unforgiven",
+      "artist": "Creed"
     },
     {
       "videoId": "jQjdEDWDeQ8",
@@ -1348,19 +4478,19 @@
       "artist": "Rammstein"
     },
     {
-      "videoId": "vcaPiiFZu2o",
-      "name": "Ocean Man",
-      "artist": "Ween"
+      "videoId": "S3Oyipl36YQ",
+      "name": "MMMBop",
+      "artist": "Hanson"
     },
     {
-      "videoId": "6vJ_zHe_p60",
-      "name": "Black Diamond",
-      "artist": "Stratovarius"
+      "videoId": "9GbeJ-viVBU",
+      "name": "What's This Life For",
+      "artist": "Creed"
     },
     {
-      "videoId": "gZwU9qLZndY",
-      "name": "Who Do You Think You Are",
-      "artist": "Duran Duran"
+      "videoId": "ttNSr4Ecdzo",
+      "name": "Fuel",
+      "artist": "Metallica"
     },
     {
       "videoId": "Bf01riuiJWA",
@@ -1368,13 +4498,263 @@
       "artist": "Radiohead"
     },
     {
-      "videoId": "7XkeS9X_l0s",
-      "name": "The rock 1997 theme song",
-      "artist": "devin the beast"
+      "videoId": "Qo9xKdoS0HQ",
+      "name": "Vitamin",
+      "artist": "Incubus"
+    },
+    {
+      "videoId": "EgkI1zI61bQ",
+      "name": "Let Down",
+      "artist": "Radiohead"
+    },
+    {
+      "videoId": "xW17jtkjvvg",
+      "name": "Smack My Bitch Up",
+      "artist": "The Prodigy"
+    },
+    {
+      "videoId": "2dITTT-OaWE",
+      "name": "How's It Going to Be",
+      "artist": "Third Eye Blind"
+    },
+    {
+      "videoId": "jDXqEMB2v2g",
+      "name": "Fixxxer",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "U80VQpqWojU",
+      "name": "Summer Romance (Anti-Gravity Love Song)",
+      "artist": "Incubus"
+    },
+    {
+      "videoId": "i9etx0q11vI",
+      "name": "Stripsearch",
+      "artist": "Faith No More"
+    },
+    {
+      "videoId": "FapBH3j6WoA",
+      "name": "Exit Music (For A Film)",
+      "artist": "Radiohead"
+    },
+    {
+      "videoId": "4IJI6soiQhI",
+      "name": "Karma Police",
+      "artist": "Radiohead"
+    },
+    {
+      "videoId": "8-zG1gTiB78",
+      "name": "(Everything I Do) I Do It For You",
+      "artist": "London Symphony Orchestra"
+    },
+    {
+      "videoId": "FYUHwLyZ3ks",
+      "name": "Crazy On You (Remastered 1997)",
+      "artist": "Heart"
+    },
+    {
+      "videoId": "9lwY4mQ2oxs",
+      "name": "Lazy (1997 Remix)",
+      "artist": "Deep Purple"
+    },
+    {
+      "videoId": "-VOxL5mw1Tw",
+      "name": "Make Me Lose Control",
+      "artist": "Eric Carmen"
+    },
+    {
+      "videoId": "kVE4aOUX2iM",
+      "name": "Silver Springs (2004 Remaster)",
+      "artist": "Fleetwood Mac"
+    },
+    {
+      "videoId": "FNt2d9WWAUQ",
+      "name": "Never Before (1997 Remix)",
+      "artist": "Deep Purple"
+    },
+    {
+      "videoId": "zIEiDBFoXFY",
+      "name": "Standing in the Doorway",
+      "artist": "Bob Dylan"
+    },
+    {
+      "videoId": "A1RVy9PvB0s",
+      "name": "Nobody's Wife",
+      "artist": "Anouk"
+    },
+    {
+      "videoId": "BRjtAU2vOa0",
+      "name": "Devil's Dance",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "2ZH_wteCkus",
+      "name": "Pictures Of Home (1997 Remix)",
+      "artist": "Deep Purple"
+    },
+    {
+      "videoId": "sxoV1TqHuh8",
+      "name": "Torn",
+      "artist": "Creed"
+    },
+    {
+      "videoId": "lY-GrC5ZixQ",
+      "name": "Bestrafe mich",
+      "artist": "Rammstein"
+    },
+    {
+      "videoId": "5y-zPDOOBRw",
+      "name": "Smoke On the Water (1997 Remix)",
+      "artist": "Deep Purple"
+    },
+    {
+      "videoId": "Tp-rq_XvYX4",
+      "name": "Black",
+      "artist": "Sevendust"
+    },
+    {
+      "videoId": "6vJ_zHe_p60",
+      "name": "Black Diamond",
+      "artist": "Stratovarius"
+    },
+    {
+      "videoId": "vcaPiiFZu2o",
+      "name": "Ocean Man",
+      "artist": "Ween"
+    },
+    {
+      "videoId": "4ruJ4kAGbLc",
+      "name": "It's a Long Way to the Top (If You Wanna Rock 'n' Roll)",
+      "artist": "AC/DC"
+    },
+    {
+      "videoId": "5lGqXIiDxFM",
+      "name": "Truly Madly Deeply",
+      "artist": "Savage Garden"
+    },
+    {
+      "videoId": "JJPlzNajdUs",
+      "name": "Sımarık",
+      "artist": "Tarkan"
+    },
+    {
+      "videoId": "fFNUjrQ9yJ0",
+      "name": "Revival",
+      "artist": "Pain Of Salvation"
+    },
+    {
+      "videoId": "IpcmGwxE7qg",
+      "name": "Space Truckin' (1997 Remix)",
+      "artist": "Deep Purple"
+    },
+    {
+      "videoId": "aCQFRVbnfKQ",
+      "name": "Speak My Name",
+      "artist": "IQ"
+    },
+    {
+      "videoId": "s-e8XgeDwW8",
+      "name": "Nightmist",
+      "artist": "Pain Of Salvation"
+    },
+    {
+      "videoId": "bBJokKzKhOA",
+      "name": "It's No Good (Live)",
+      "artist": "Depeche Mode"
+    },
+    {
+      "videoId": "vZ7tmWTYNC0",
+      "name": "Breathtaker",
+      "artist": "IQ"
+    },
+    {
+      "videoId": "JzoO9z_sBU0",
+      "name": "Waiting Phase One",
+      "artist": "Porcupine Tree"
+    },
+    {
+      "videoId": "gZwU9qLZndY",
+      "name": "Who Do You Think You Are",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "5VHYCfKRrPw",
+      "name": "Midnight Sun",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "LUk6knJvZSY",
+      "name": "Out Of My Mind",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "20tTj69Gf00",
+      "name": "Buried in the Sand",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "0lsCc-Cy8_M",
+      "name": "Be My Icon",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "vrlckxFEFBU",
+      "name": "Big Bang Generation",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "Xg97NuEjLR8",
+      "name": "So Long Suicide",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "7V20xejh87g",
+      "name": "Undergoing Treatment",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "qAYRZynuyPM",
+      "name": "Electric Barbarella",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "8xY6F9j5da0",
+      "name": "Silva Halo",
+      "artist": "Duran Duran"
+    },
+    {
+      "videoId": "9QJ6XEZSJ4Y",
+      "name": "Modern Lovers",
+      "artist": "The Magic of Television"
+    },
+    {
+      "videoId": "qthko5ppHcM",
+      "name": "Drops of Jupiter (Tell Me)",
+      "artist": "Train"
+    },
+    {
+      "videoId": "kyOhjox-Xeg",
+      "name": "Breaking My Heart",
+      "artist": "Michael Learns To Rock"
     },
     {
       "videoId": "sxb0GeS4gL8",
       "name": "Candle In The Wind 1997",
+      "artist": "Elton John"
+    },
+    {
+      "videoId": "X4rcZzE3vhI",
+      "name": "Gone Away (1997)",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "TTjfRphnres",
+      "name": "I'll Be There",
+      "artist": "Chris Norman"
+    },
+    {
+      "videoId": "NudI1C-pxZA",
+      "name": "The End Will Come",
       "artist": "Elton John"
     },
     {
@@ -1383,24 +4763,84 @@
       "artist": "The Porkers"
     },
     {
+      "videoId": "r1MmadVxWRs",
+      "name": "Dangerous Heart",
+      "artist": "Chris Norman"
+    },
+    {
+      "videoId": "Nw1MngxF73Y",
+      "name": "Beautiful Dream",
+      "artist": "World Party"
+    },
+    {
+      "videoId": "PwWVuYxv1LE",
+      "name": "Stay One More Night",
+      "artist": "Chris Norman"
+    },
+    {
+      "videoId": "GHtpTp59v5U",
+      "name": "Hallowed Be My Name",
+      "artist": "Hammerfall"
+    },
+    {
       "videoId": "h9czZZ9CAVU",
       "name": "180 Out",
-      "artist": "Flood Romeo"
+      "artist": "The Sugar-Coated Truth"
     },
     {
       "videoId": "Eu1kzOx-nyY",
       "name": "Beside Myself",
-      "artist": "Flood Romeo"
+      "artist": "The Sugar-Coated Truth"
     },
     {
-      "videoId": "3tigVYfHVmQ",
-      "name": "Lie To Me",
-      "artist": "Jonny Lang"
+      "videoId": "xvHLBT6AIug",
+      "name": "Missed It",
+      "artist": "Lunachicks"
     },
     {
-      "videoId": "A-q_I1d_wb8",
-      "name": "Blues Traveler ~ live Hard Rock 1997",
-      "artist": "Art Varkington"
+      "videoId": "zlbvbefhio8",
+      "name": "Where's The Love",
+      "artist": "Hanson"
+    },
+    {
+      "videoId": "TtHtcc7EwZM",
+      "name": "Puzzled Mynds",
+      "artist": "Atomic Garage"
+    },
+    {
+      "videoId": "FCxrsyuInNo",
+      "name": "Never Mind (feat. The Drifters)",
+      "artist": "Cliff Richard"
+    },
+    {
+      "videoId": "77zog6Up_Yg",
+      "name": "Barbie Girl",
+      "artist": "Aqua"
+    },
+    {
+      "videoId": "VqU0nNrqYws",
+      "name": "Fill in the Blank / Bloody Wrists (Live 1997)",
+      "artist": "Shiver U.K."
+    },
+    {
+      "videoId": "4uVb66odxWs",
+      "name": "It'll Never Fly",
+      "artist": "The Sugar-Coated Truth"
+    },
+    {
+      "videoId": "RjX2PdCGYws",
+      "name": "Just Might",
+      "artist": "The Sugar-Coated Truth"
+    },
+    {
+      "videoId": "X8mSosRjv9s",
+      "name": "Scorpio Rising",
+      "artist": "Friggs"
+    },
+    {
+      "videoId": "Q1MT9FNMl6c",
+      "name": "Better",
+      "artist": "The Sugar-Coated Truth"
     },
     {
       "videoId": "cKaWBiVLbYs",
@@ -1413,14 +4853,59 @@
       "artist": "KENNY WAYNE SHEPHERD"
     },
     {
+      "videoId": "3KcEtc1Hg6M",
+      "name": "Bad Bad Boy",
+      "artist": "John Fogerty"
+    },
+    {
       "videoId": "GORpQe8XHA8",
       "name": "Dangerous Mood (feat. Joe Cocker)",
       "artist": "B.B. King"
     },
     {
-      "videoId": "I6kfin-UeAQ",
-      "name": "Josie",
-      "artist": "blink-182"
+      "videoId": "Bc8euiN8pAs",
+      "name": "Travellin' Blues",
+      "artist": "John Lee Hooker"
+    },
+    {
+      "videoId": "KwbHQQuUovo",
+      "name": "Bring It On Home To Me (feat. Paul Carrack)",
+      "artist": "B.B. King"
+    },
+    {
+      "videoId": "aZ43s6A0jEY",
+      "name": "Confessin' The Blues (feat. Marty Stuart)",
+      "artist": "B.B. King"
+    },
+    {
+      "videoId": "ZzueJ4qX6Go",
+      "name": "House of the Rising Sun",
+      "artist": "Eric Burdon"
+    },
+    {
+      "videoId": "NM8t8tdVeng",
+      "name": "A Year a Go",
+      "artist": "Banda Blindagem"
+    },
+    {
+      "videoId": "0xc14QYvw7E",
+      "name": "Turpentine Moan (Live)",
+      "artist": "Julian Sas"
+    },
+    {
+      "videoId": "0X4WU1MES0I",
+      "name": "Til My Eyes Go Blind",
+      "artist": "The Dan Pitchard Band"
+    },
+    {
+      "videoId": "QOnoHrFuCLk",
+      "name": "Boo",
+      "artist": "Walter Trout"
+    },
+    {
+      "videoId": "xO7pV5Te-vU",
+      "name": "Sweet Home Chicago",
+      "artist": "Miss Blues"
     },
     {
       "videoId": "aQNYWwIy2mU",
@@ -1433,29 +4918,104 @@
       "artist": "NOFX"
     },
     {
+      "videoId": "97WnkETPt68",
+      "name": "Scattered",
+      "artist": "Green Day"
+    },
+    {
+      "videoId": "GYgtr-JFdZA",
+      "name": "Josie",
+      "artist": "blink-182"
+    },
+    {
+      "videoId": "RgwZ76_-0sw",
+      "name": "Dig Up Her Bones",
+      "artist": "Misfits"
+    },
+    {
+      "videoId": "pYdhmKWWUNg",
+      "name": "Apple Shampoo",
+      "artist": "blink-182"
+    },
+    {
+      "videoId": "Nt9bkgRQbLs",
+      "name": "Superman",
+      "artist": "Goldfinger"
+    },
+    {
+      "videoId": "T5gqwSaf8TE",
+      "name": "It's My Job To Keep Punk Rock Elite",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "xoLE2yEvuPM",
+      "name": "Dammit",
+      "artist": "blink-182"
+    },
+    {
+      "videoId": "xis9HQ7xgzI",
+      "name": "Mars Attacks",
+      "artist": "Misfits"
+    },
+    {
+      "videoId": "brL6oSt-tzA",
+      "name": "Lucky The Donkey",
+      "artist": "Guttermouth"
+    },
+    {
+      "videoId": "WUJki1WBdEk",
+      "name": "Cool To Hate",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "Ql3iByO9x9s",
+      "name": "Rocket Man",
+      "artist": "Me First and the Gimme Gimmes"
+    },
+    {
       "videoId": "wZ0910QYB78",
       "name": "Alive 1997",
       "artist": "Daft Punk"
     },
     {
-      "videoId": "xW17jtkjvvg",
-      "name": "Smack My Bitch Up",
-      "artist": "The Prodigy"
+      "videoId": "Qzvm3vrbB0E",
+      "name": "Punk Song 2",
+      "artist": "Silverchair"
     },
     {
-      "videoId": "JJdzK9jdLMI",
-      "name": "Best Metal Songs of 1997",
-      "artist": "Beckonor"
+      "videoId": "iom5wvVNG34",
+      "name": "The Hunger",
+      "artist": "Misfits"
     },
     {
-      "videoId": "r-tKBorVGbg",
-      "name": "The Memory Remains (feat. Marianne Faithfull)",
-      "artist": "Metallica"
-    },
-    {
-      "videoId": "kiw_VxQ2oXo",
-      "name": "Du hast",
+      "videoId": "ZXjNjuLOi_k",
+      "name": "Sehnsucht",
       "artist": "Rammstein"
+    },
+    {
+      "videoId": "CIPpisVXcqk",
+      "name": "Dick Lips",
+      "artist": "blink-182"
+    },
+    {
+      "videoId": "wpuHOkPeGJ8",
+      "name": "Hybrid Moments",
+      "artist": "Misfits"
+    },
+    {
+      "videoId": "fHAaYbygl0c",
+      "name": "Champs Elysees",
+      "artist": "NOFX"
+    },
+    {
+      "videoId": "ldGdFnvSCSQ",
+      "name": "All I Want",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "JQcDoSvqnzE",
+      "name": "Punk Rock Love",
+      "artist": "The Casualties"
     },
     {
       "videoId": "zjy5sq26hTc",
@@ -1463,23 +5023,48 @@
       "artist": "Metallica"
     },
     {
+      "videoId": "r-tKBorVGbg",
+      "name": "The Memory Remains (feat. Marianne Faithfull)",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "KRRoQkkwuJE",
+      "name": "Du hast",
+      "artist": "Rammstein"
+    },
+    {
+      "videoId": "baaK0vG6fhc",
+      "name": "The Death of Music",
+      "artist": "Devin Townsend"
+    },
+    {
+      "videoId": "c1DO-YqpR-A",
+      "name": "Prince Charming",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "vGtaDvhSxaI",
+      "name": "Deutschland",
+      "artist": "Rammstein"
+    },
+    {
+      "videoId": "Pu1Iuq0G-gI",
+      "name": "Alter Mann",
+      "artist": "Rammstein"
+    },
+    {
       "videoId": "PIF4So6xcU8",
       "name": "My Own Summer (Shove It)",
       "artist": "Deftones"
     },
     {
-      "videoId": "V-sYWaOrLdI",
-      "name": "Loco",
-      "artist": "Coal Chamber"
+      "videoId": "clOjIMNCJmc",
+      "name": "Jotun",
+      "artist": "In Flames"
     },
     {
-      "videoId": "XOzs1FehYOA",
-      "name": "My Own Summer (Shove It)",
-      "artist": "Deftones"
-    },
-    {
-      "videoId": "jDXqEMB2v2g",
-      "name": "Fixxxer",
+      "videoId": "sMTq_nRdK-M",
+      "name": "Better Than You",
       "artist": "Metallica"
     },
     {
@@ -1488,14 +5073,24 @@
       "artist": "Vital Remains"
     },
     {
+      "videoId": "U9pLV9kG3-s",
+      "name": "Mourning Palace",
+      "artist": "Dimmu Borgir"
+    },
+    {
+      "videoId": "NPDMvYmhFHo",
+      "name": "Hearts on Fire",
+      "artist": "Hammerfall"
+    },
+    {
       "videoId": "2u75c3Wncow",
       "name": "Trendkiller",
       "artist": "Dismember"
     },
     {
-      "videoId": "clOjIMNCJmc",
-      "name": "Jotun",
-      "artist": "In Flames"
+      "videoId": "EFP6BOE5odA",
+      "name": "Death Metal Victory (remastered)",
+      "artist": "Unleashed"
     },
     {
       "videoId": "YFcS3nbHCCM",
@@ -1503,14 +5098,54 @@
       "artist": "Dimmu Borgir"
     },
     {
-      "videoId": "DL7-CKirWZE",
-      "name": "You Get What You Give (Official Music Video)",
-      "artist": "New Radicals"
+      "videoId": "rJURu6RsnZM",
+      "name": "As I Die",
+      "artist": "Six Feet Under"
     },
     {
-      "videoId": "j91RZ01PZwA",
-      "name": "You Get What You Give",
-      "artist": "New Radicals"
+      "videoId": "O-xY5ErQGd8",
+      "name": "Death Metal Victory",
+      "artist": "Unleashed"
+    },
+    {
+      "videoId": "NiZts8jNTf0",
+      "name": "Löngt Nid",
+      "artist": "Unleashed"
+    },
+    {
+      "videoId": "MG5mlRjyXqg",
+      "name": "Episode 666",
+      "artist": "In Flames"
+    },
+    {
+      "videoId": "M_L10l_pLq8",
+      "name": "Breath of Death",
+      "artist": "Krabathor"
+    },
+    {
+      "videoId": "VWZ213MLZNE",
+      "name": "Bled Dry",
+      "artist": "Napalm Death"
+    },
+    {
+      "videoId": "3jEBz2IkuAY",
+      "name": "Of Fire",
+      "artist": "Dismember"
+    },
+    {
+      "videoId": "Bv9d27d1Byg",
+      "name": "Celebrity Skin",
+      "artist": "Hole"
+    },
+    {
+      "videoId": "qcX9HNIHwkg",
+      "name": "One Last Breath",
+      "artist": "Creed"
+    },
+    {
+      "videoId": "pw7pp6vYIKQ",
+      "name": "Cowboy",
+      "artist": "Kid Rock"
     },
     {
       "videoId": "ihgc5LQbjg8",
@@ -1518,84 +5153,9 @@
       "artist": "Korn"
     },
     {
-      "videoId": "LH-i8IvYIcg",
-      "name": "Why Don't You Get A Job? (Official Music Video)",
+      "videoId": "mQYJYY4VkWA",
+      "name": "Why Don't You Get A Job",
       "artist": "The Offspring"
-    },
-    {
-      "videoId": "d_eH6wE5Kqo",
-      "name": "Turn The Page",
-      "artist": "Metallica"
-    },
-    {
-      "videoId": "Dy_eP-mqWow",
-      "name": "Iris",
-      "artist": "Goo Goo Dolls"
-    },
-    {
-      "videoId": "3ZolDgbV6qI",
-      "name": "The Way",
-      "artist": "Fastball"
-    },
-    {
-      "videoId": "SOctyXxCm-4",
-      "name": "Dragula",
-      "artist": "Rob Zombie"
-    },
-    {
-      "videoId": "boanuwUMNNQ",
-      "name": "Whiskey in the Jar",
-      "artist": "Metallica"
-    },
-    {
-      "videoId": "T-0GYpn27jg",
-      "name": "PHIL COLLINS: Hard Rock Live (1998)",
-      "artist": "BillFilm"
-    },
-    {
-      "videoId": "7iNbnineUCI",
-      "name": "The Kids Aren't Alright",
-      "artist": "The Offspring"
-    },
-    {
-      "videoId": "iDxVCRLBDiw",
-      "name": "The Day After The Revolution",
-      "artist": "Pulp"
-    },
-    {
-      "videoId": "sKYE6nROaNM",
-      "name": "Destiny",
-      "artist": "Stratovarius"
-    },
-    {
-      "videoId": "oz2br0YgL5w",
-      "name": "Garage Rock 1998 Trapnotov",
-      "artist": "90shih8"
-    },
-    {
-      "videoId": "lhdiQ8isyLo",
-      "name": "Loverman",
-      "artist": "Metallica"
-    },
-    {
-      "videoId": "eDuKJhnF2oU",
-      "name": "Blues Man",
-      "artist": "B.B. King"
-    },
-    {
-      "videoId": "qMruQuDzSUs",
-      "name": "A Tribute To Muddy Waters 1998 Kennedy Center",
-      "artist": "Jazzfromhell"
-    },
-    {
-      "videoId": "29wMp2nnx_0",
-      "name": "Blues Boys Tune",
-      "artist": "B.B. King"
-    },
-    {
-      "videoId": "DUb1YaLuKO0",
-      "name": "Blues In G",
-      "artist": "B.B. King"
     },
     {
       "videoId": "BepGmpLT9HA",
@@ -1603,14 +5163,49 @@
       "artist": "The Offspring"
     },
     {
+      "videoId": "YoX4oDmXiQo",
+      "name": "Only God Knows Why",
+      "artist": "Kid Rock"
+    },
+    {
+      "videoId": "NORN7ZkBEew",
+      "name": "Nobody's Fool",
+      "artist": "Cinderella"
+    },
+    {
+      "videoId": "j91RZ01PZwA",
+      "name": "You Get What You Give",
+      "artist": "New Radicals"
+    },
+    {
+      "videoId": "d_eH6wE5Kqo",
+      "name": "Turn The Page",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "3ZolDgbV6qI",
+      "name": "The Way",
+      "artist": "Fastball"
+    },
+    {
+      "videoId": "6ioWOFz9XAM",
+      "name": "Got You (Where I Want You)",
+      "artist": "The Flys"
+    },
+    {
+      "videoId": "SrvxIRWKHrU",
+      "name": "1998 (Delicious)",
+      "artist": "Peace"
+    },
+    {
+      "videoId": "rPKYG_8L-bQ",
+      "name": "Best I Ever Had (Grey Sky Morning)",
+      "artist": "Vertical Horizon"
+    },
+    {
       "videoId": "Gp3vJ-ln40s",
       "name": "Feelings",
       "artist": "The Offspring"
-    },
-    {
-      "videoId": "Hf244LCkkLc",
-      "name": "Music Sounds Better With You",
-      "artist": "Stardust"
     },
     {
       "videoId": "FJMwMCOH90w",
@@ -1618,23 +5213,363 @@
       "artist": "The Offspring"
     },
     {
-      "videoId": "EqQuihD0hoI",
-      "name": "Dragula",
-      "artist": "Rob Zombie"
+      "videoId": "kyzIQKuSqBs",
+      "name": "Blue (Da Ba Dee) (Video Edit)",
+      "artist": "Eiffel 65"
     },
     {
-      "videoId": "QQPJYnr48yU",
-      "name": "Coma White",
-      "artist": "Marilyn Manson"
+      "videoId": "PsGbteOE_TA",
+      "name": "She's Got Issues",
+      "artist": "The Offspring"
     },
     {
-      "videoId": "jRGrNDV2mKc",
-      "name": "Freak On a Leash (Official HD Video)",
+      "videoId": "WE_537MS5TU",
+      "name": "Now Or Never",
+      "artist": "Godsmack"
+    },
+    {
+      "videoId": "6j6-elqb2Wc",
+      "name": "Dead Bodies Everywhere",
       "artist": "Korn"
+    },
+    {
+      "videoId": "PJbUJBHwJ5c",
+      "name": "Power Of Bhangra 31 Non-Stop Punjabi Remix(Remix By Dj Russie)",
+      "artist": "Romey Gill"
+    },
+    {
+      "videoId": "6GCNUeTFSbA",
+      "name": "Maniac",
+      "artist": "Michael Sembello"
+    },
+    {
+      "videoId": "iDxVCRLBDiw",
+      "name": "The Day After The Revolution",
+      "artist": "Pulp"
+    },
+    {
+      "videoId": "pz6vTotN-P0",
+      "name": "Karma",
+      "artist": "Opeth"
+    },
+    {
+      "videoId": "sKYE6nROaNM",
+      "name": "Destiny",
+      "artist": "Stratovarius"
+    },
+    {
+      "videoId": "aibCZzR4MY4",
+      "name": "Crack in the Ice",
+      "artist": "Arena"
+    },
+    {
+      "videoId": "5lZxB2Tm2fE",
+      "name": "The Visitor",
+      "artist": "Arena"
+    },
+    {
+      "videoId": "PI2zI9pONuY",
+      "name": "Chased",
+      "artist": "Shadow Gallery"
+    },
+    {
+      "videoId": "wo2pQH9a_ns",
+      "name": "Break",
+      "artist": "Enchant"
+    },
+    {
+      "videoId": "tombKddjV04",
+      "name": "Feel",
+      "artist": "Anathema"
+    },
+    {
+      "videoId": "mVzEBi6RU08",
+      "name": "Andromeda",
+      "artist": "The Body"
+    },
+    {
+      "videoId": "fPSFrw4Tj-E",
+      "name": "Jenny Loses Me",
+      "artist": "Gorky Park"
+    },
+    {
+      "videoId": "KIahyvpja9c",
+      "name": "Siege",
+      "artist": "Kamelot"
+    },
+    {
+      "videoId": "vSJ6jYzDOvs",
+      "name": "Brain of J.",
+      "artist": "Pearl Jam"
+    },
+    {
+      "videoId": "QerMqpd-i5g",
+      "name": "Silver Lady",
+      "artist": "The Body"
+    },
+    {
+      "videoId": "IUqubWJDSAw",
+      "name": "Elea",
+      "artist": "Arena"
+    },
+    {
+      "videoId": "pQZRWpBpHXI",
+      "name": "Providence",
+      "artist": "Kamelot"
+    },
+    {
+      "videoId": "njvULIuK_EY",
+      "name": "Don't Play with My Heart (New Hit '98)",
+      "artist": "Modern Talking"
+    },
+    {
+      "videoId": "kFy7rJ_nOtA",
+      "name": "I Will Follow You (New Hit '98)",
+      "artist": "Modern Talking"
+    },
+    {
+      "videoId": "yk4EM0GAc2c",
+      "name": "We Take the Chance (New Hit '98)",
+      "artist": "Modern Talking"
+    },
+    {
+      "videoId": "hmVVZqfsAso",
+      "name": "Modern Eyes",
+      "artist": "Toto"
+    },
+    {
+      "videoId": "NeGl-tEWw2U",
+      "name": "No 1 Hit Medley",
+      "artist": "Modern Talking"
+    },
+    {
+      "videoId": "mKq3VLy4s7c",
+      "name": "You Can Win If You Want (New Version)",
+      "artist": "Modern Talking"
+    },
+    {
+      "videoId": "9OUurVdRGsc",
+      "name": "Forever Young",
+      "artist": "Alphaville"
+    },
+    {
+      "videoId": "NGYmmkRRst8",
+      "name": "Know Your Role (The Rock) [New Version]",
+      "artist": "WWE"
+    },
+    {
+      "videoId": "Zgq3yZDhuxM",
+      "name": "Cloud Number Nine",
+      "artist": "Bryan Adams"
+    },
+    {
+      "videoId": "970Lq2M_ld0",
+      "name": "Closing Time",
+      "artist": "Semisonic"
+    },
+    {
+      "videoId": "seUyE_Zdf7w",
+      "name": "Miss You Like Crazy",
+      "artist": "The Moffatts"
+    },
+    {
+      "videoId": "NYEfrt2gf-E",
+      "name": "Every Time You Go Away",
+      "artist": "Paul Young"
+    },
+    {
+      "videoId": "anSaNO5FHog",
+      "name": "Remember Me (feat. Steve Augeri)",
+      "artist": "Journey"
+    },
+    {
+      "videoId": "6cucosmPj-A",
+      "name": "Every Breath You Take",
+      "artist": "The Police"
+    },
+    {
+      "videoId": "7UGwmqgC6ck",
+      "name": "Walking In The Air",
+      "artist": "Nightwish"
+    },
+    {
+      "videoId": "W6-O7I4IYkQ",
+      "name": "Ballad Of William Kidd",
+      "artist": "Running Wild"
+    },
+    {
+      "videoId": "dteDKv2FYr0",
+      "name": "Tuesday's Gone",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "oOGxKLUMbbc",
+      "name": "Believe",
+      "artist": "Cher"
+    },
+    {
+      "videoId": "lhdiQ8isyLo",
+      "name": "Loverman",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "4dwMqXzYn4g",
+      "name": "The More I See",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "K5Wv0Yty1z4",
+      "name": "Sabbra Cadabra",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "TJQskh26DIE",
+      "name": "It's Electric",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "rNYi7gJDX3k",
+      "name": "Astronomy",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "4vgVLDIRx5U",
+      "name": "Free Speech For The Dumb",
+      "artist": "Metallica"
+    },
+    {
+      "videoId": "4nR1NhVYqdk",
+      "name": "Circus",
+      "artist": "String Driven Thing"
+    },
+    {
+      "videoId": "vHXjcdNIN-Q",
+      "name": "L.A. Woman",
+      "artist": "The Doors"
+    },
+    {
+      "videoId": "eDuKJhnF2oU",
+      "name": "Blues Man",
+      "artist": "B.B. King"
+    },
+    {
+      "videoId": "29wMp2nnx_0",
+      "name": "Blues Boys Tune",
+      "artist": "B.B. King"
+    },
+    {
+      "videoId": "gM02hFdL26c",
+      "name": "GM",
+      "artist": "Prozac+"
+    },
+    {
+      "videoId": "Z_63ZZRLylE",
+      "name": "All My Best Friends Are Metalheads",
+      "artist": "Less Than Jake"
+    },
+    {
+      "videoId": "R1xM-r4TF6Q",
+      "name": "Staring At The Sun",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "GtzKW_ONjJ0",
+      "name": "Americana",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "_73dq1VjfZ8",
+      "name": "Oi! Młodzież '98",
+      "artist": "The Analogs"
+    },
+    {
+      "videoId": "wyJ8Ypx35XM",
+      "name": "The Wolf",
+      "artist": "Rancid"
+    },
+    {
+      "videoId": "QCrbErzHD0g",
+      "name": "All In the Family (feat. Fred Durst)",
+      "artist": "Korn"
+    },
+    {
+      "videoId": "ry7LksydokA",
+      "name": "Punk Rock Confidential",
+      "artist": "The Queers"
+    },
+    {
+      "videoId": "6m33B66AXus",
+      "name": "Everything's O.K.",
+      "artist": "The Queers"
+    },
+    {
+      "videoId": "Hf244LCkkLc",
+      "name": "Music Sounds Better With You",
+      "artist": "Stardust"
+    },
+    {
+      "videoId": "6TgTXYFHlfk",
+      "name": "Intergalactic (Remastered 2009)",
+      "artist": "Beastie Boys"
+    },
+    {
+      "videoId": "_48uSWHZe5A",
+      "name": "The End Of The Line",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "vYXzkxpUTdM",
+      "name": "New Noise",
+      "artist": "Refused"
+    },
+    {
+      "videoId": "aTc7uqFRTDI",
+      "name": "Bite It You Scum",
+      "artist": "GG Allin"
+    },
+    {
+      "videoId": "9XKqi0HoqBI",
+      "name": "Pay The Man",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "coV7fVILdJU",
+      "name": "1998",
+      "artist": "Rancid"
+    },
+    {
+      "videoId": "G7WTIR4V7tc",
+      "name": "No Brakes",
+      "artist": "The Offspring"
+    },
+    {
+      "videoId": "GWKWW1OaDpg",
+      "name": "The Shape of Punk to Come",
+      "artist": "Refused"
+    },
+    {
+      "videoId": "wK4VPM-0ssU",
+      "name": "Flesh and the Power It Holds",
+      "artist": "Death"
+    },
+    {
+      "videoId": "P1wLZc-BqdM",
+      "name": "Mercyful Fate",
+      "artist": "Metallica"
     },
     {
       "videoId": "mj4zZ-HdG_Q",
       "name": "Seed",
+      "artist": "Korn"
+    },
+    {
+      "videoId": "FChMHEfzOLI",
+      "name": "Got the Life",
+      "artist": "Korn"
+    },
+    {
+      "videoId": "D_wKngrDb8c",
+      "name": "It's On!",
       "artist": "Korn"
     },
     {
@@ -1643,79 +5578,89 @@
       "artist": "Death"
     },
     {
-      "videoId": "wK4VPM-0ssU",
-      "name": "Flesh and the Power It Holds",
-      "artist": "Death"
+      "videoId": "zKJtXDclaws",
+      "name": "Metal Heart",
+      "artist": "Dimmu Borgir"
     },
     {
-      "videoId": "b9AMFf5Ih7Y",
-      "name": "Spirit Crusher",
-      "artist": "Death"
+      "videoId": "AiOs7nNbPWU",
+      "name": "Emerald Sword",
+      "artist": "Rhapsody"
+    },
+    {
+      "videoId": "UUrqqq84q0s",
+      "name": "Heavy Metal Winner",
+      "artist": "Consumed"
+    },
+    {
+      "videoId": "68YDxUWvWSo",
+      "name": "My Gift to You",
+      "artist": "Korn"
+    },
+    {
+      "videoId": "fCi6FRkQlc4",
+      "name": "B.B.K.",
+      "artist": "Korn"
     },
     {
       "videoId": "TNq8OioVIRY",
       "name": "The Tavastian Parade",
-      "artist": "Black Swan"
+      "artist": "When the Angels of Twilight Dance"
     },
     {
-      "videoId": "A__cH65WRvE",
-      "name": "Californication",
-      "artist": "Red Hot Chili Peppers"
+      "videoId": "hxzo4pzidpk",
+      "name": "Deathmask",
+      "artist": "Exhumed"
     },
     {
-      "videoId": "vtuZmShWLGo",
-      "name": "Drive",
-      "artist": "Incubus"
+      "videoId": "rAfC0vmwbhk",
+      "name": "Bite the Pain",
+      "artist": "Death"
     },
     {
-      "videoId": "ymNFyxvIdaM",
-      "name": "Freestyler",
-      "artist": "Bomfunk MC's"
+      "videoId": "1p03KeMM-_U",
+      "name": "Obscura",
+      "artist": "Gorguts"
     },
     {
-      "videoId": "UjWZGLi-1jM",
-      "name": "Kryptonite",
-      "artist": "3 Doors Down"
+      "videoId": "kva79xQNygY",
+      "name": "A Moment of Clarity",
+      "artist": "Death"
     },
     {
-      "videoId": "6Whgn_iE5uc",
-      "name": "Smooth (Official Video) (feat. Rob Thomas)",
-      "artist": "Santana"
+      "videoId": "JArjr-IxzlI",
+      "name": "Painkiller",
+      "artist": "Death"
     },
     {
-      "videoId": "tpYdGgzCW-M",
-      "name": "Scar Tissue",
-      "artist": "Red Hot Chili Peppers"
+      "videoId": "hN8XncMtwAA",
+      "name": "Scavenger of Human Sorrow",
+      "artist": "Death"
     },
     {
-      "videoId": "rPKYG_8L-bQ",
-      "name": "Best I Ever Had (Grey Sky Morning)",
-      "artist": "Vertical Horizon"
+      "videoId": "9LN_Yeob_9Q",
+      "name": "Story to Tell",
+      "artist": "Death"
     },
     {
-      "videoId": "5_PBNZXlzp0",
-      "name": "All The Small Things",
-      "artist": "blink-182"
+      "videoId": "plB6kicYD88",
+      "name": "A Short Story",
+      "artist": "Murder"
     },
     {
-      "videoId": "is8gGf22bWI",
-      "name": "My Own Worst Enemy",
-      "artist": "Lit"
+      "videoId": "mmmTJx4kGsQ",
+      "name": "To Forgive is to Suffer",
+      "artist": "Death"
     },
     {
-      "videoId": "9AtnKPh-hE8",
-      "name": "The Chemicals Between Us",
-      "artist": "Bush"
+      "videoId": "aTsoy6KZ75E",
+      "name": "Bite the Pain (1998 Demos)",
+      "artist": "Death"
     },
     {
-      "videoId": "y20JwH3rwT0",
-      "name": "La Grange (1999 Remaster)",
-      "artist": "ZZ Top"
-    },
-    {
-      "videoId": "PIe-E4cCMnU",
-      "name": "Debonaire",
-      "artist": "Dope"
+      "videoId": "EyL-xkwJZ2I",
+      "name": "Invocation of the Continual One",
+      "artist": "Morbid Angel"
     },
     {
       "videoId": "LwkrXybZ1uo",
@@ -1723,24 +5668,319 @@
       "artist": "Backstreet Boys"
     },
     {
+      "videoId": "Qe1Bj7qIang",
+      "name": "Jingle Bell Rock",
+      "artist": "Bobby Helms"
+    },
+    {
+      "videoId": "tpYdGgzCW-M",
+      "name": "Scar Tissue",
+      "artist": "Red Hot Chili Peppers"
+    },
+    {
+      "videoId": "5_PBNZXlzp0",
+      "name": "All The Small Things",
+      "artist": "blink-182"
+    },
+    {
+      "videoId": "7NuiVUxZQfs",
+      "name": "Scene Eight: The Spirit Carries On",
+      "artist": "Dream Theater"
+    },
+    {
+      "videoId": "UjWZGLi-1jM",
+      "name": "Kryptonite",
+      "artist": "3 Doors Down"
+    },
+    {
+      "videoId": "OR4ooJWgG0A",
+      "name": "Stranger By The Day",
+      "artist": "Shades Apart"
+    },
+    {
+      "videoId": "8901V1M5lDk",
+      "name": "Otherside",
+      "artist": "Red Hot Chili Peppers"
+    },
+    {
+      "videoId": "jd_HmLEhVqA",
+      "name": "Break Stuff",
+      "artist": "Limp Bizkit"
+    },
+    {
+      "videoId": "G_GxaoOJFTY",
+      "name": "Eyes Without A Face (Remastered 1999)",
+      "artist": "Billy Idol"
+    },
+    {
+      "videoId": "8ay_BkRuv-o",
+      "name": "All Star",
+      "artist": "Smash Mouth"
+    },
+    {
+      "videoId": "mJSyXqBKVpY",
+      "name": "Falling Away from Me",
+      "artist": "Korn"
+    },
+    {
+      "videoId": "2_ANCiQOEfw",
+      "name": "Nookie",
+      "artist": "Limp Bizkit"
+    },
+    {
+      "videoId": "FLTx18QMXmE",
+      "name": "Higher",
+      "artist": "Creed"
+    },
+    {
+      "videoId": "is8gGf22bWI",
+      "name": "My Own Worst Enemy",
+      "artist": "Lit"
+    },
+    {
+      "videoId": "HJMLLKgknvk",
+      "name": "Learn to Fly",
+      "artist": "Foo Fighters"
+    },
+    {
+      "videoId": "ab9aWEkGuP8",
+      "name": "Home",
+      "artist": "Staind"
+    },
+    {
+      "videoId": "H1Pb-cRbspA",
+      "name": "1985",
+      "artist": "Bowling For Soup"
+    },
+    {
+      "videoId": "XZLnd3uwars",
+      "name": "Pardon Me",
+      "artist": "Incubus"
+    },
+    {
+      "videoId": "NHo0CwZdJa8",
+      "name": "Inside Us All",
+      "artist": "Creed"
+    },
+    {
+      "videoId": "JV7ac02f9Qc",
+      "name": "Machete",
+      "artist": "Moby"
+    },
+    {
+      "videoId": "mom2TLs3Fi0",
+      "name": "Smooth (feat. Rob Thomas)",
+      "artist": "Santana"
+    },
+    {
+      "videoId": "qYxGmzVbvkc",
+      "name": "Just Once (New Version)",
+      "artist": "James Ingram"
+    },
+    {
+      "videoId": "y20JwH3rwT0",
+      "name": "La Grange (1999 Remaster)",
+      "artist": "ZZ Top"
+    },
+    {
+      "videoId": "oSOkG6SCAiU",
+      "name": "Join Together",
+      "artist": "The Who"
+    },
+    {
+      "videoId": "D5Re_4n7PEY",
+      "name": "Rosanna",
+      "artist": "Toto"
+    },
+    {
+      "videoId": "e9JFMEAVtIw",
+      "name": "Slow Ride (Live 1999)",
+      "artist": "Foghat"
+    },
+    {
+      "videoId": "9SdzoEyvyv8",
+      "name": "Go!",
+      "artist": "Marillion"
+    },
+    {
+      "videoId": "kSyjtOnxdDw",
+      "name": "Some Kind Of Wonderful (Remastered 1999)",
+      "artist": "Grand Funk Railroad"
+    },
+    {
+      "videoId": "PIe-E4cCMnU",
+      "name": "Debonaire",
+      "artist": "Dope"
+    },
+    {
+      "videoId": "xxwaAlDpBgU",
+      "name": "Trust?",
+      "artist": "Limp Bizkit"
+    },
+    {
+      "videoId": "TocaxhIVOm8",
+      "name": "The Dolphin's Cry",
+      "artist": "Live"
+    },
+    {
+      "videoId": "fO2KooF-IRM",
+      "name": "Nothing Can Keep Me From You",
+      "artist": "Kiss"
+    },
+    {
+      "videoId": "htBBr26BWxQ",
+      "name": "Right Here In My Arms",
+      "artist": "HIM"
+    },
+    {
+      "videoId": "Yu-Ulye5Axc",
+      "name": "Message in a Bottle",
+      "artist": "Machine Head"
+    },
+    {
+      "videoId": "HtMxyNqQCH4",
+      "name": "Purity",
+      "artist": "Slipknot"
+    },
+    {
+      "videoId": "ESIKf_wtLnM",
+      "name": "Rebel Yell (Remastered 1999)",
+      "artist": "Billy Idol"
+    },
+    {
+      "videoId": "4_r36AVLwL0",
+      "name": "Follow Me",
+      "artist": "Royal Hunt"
+    },
+    {
+      "videoId": "pTa6CkJOShY",
+      "name": "Sea of Time",
+      "artist": "Royal Hunt"
+    },
+    {
+      "videoId": "7x2B5AhcKXs",
+      "name": "Rich",
+      "artist": "Marillion"
+    },
+    {
+      "videoId": "aLG4c7Q2rjM",
+      "name": "Deserve",
+      "artist": "Marillion"
+    },
+    {
+      "videoId": "RPUi2EFgvWU",
+      "name": "Benighted",
+      "artist": "Opeth"
+    },
+    {
+      "videoId": "B0OC1HvFuAM",
+      "name": "Satya",
+      "artist": "AGHORA"
+    },
+    {
+      "videoId": "MSc5hW5fejE",
+      "name": "Don't Say Goodbye",
+      "artist": "Axel Rudi Pell"
+    },
+    {
+      "videoId": "GcgRVWq_UX0",
+      "name": "The Unbelievable Snow Of 1999",
+      "artist": "Eska"
+    },
+    {
+      "videoId": "PI048pI0ots",
+      "name": "Astronomica",
+      "artist": "Crimson Glory"
+    },
+    {
+      "videoId": "bjr_MDGWqtQ",
+      "name": "Surrender?",
+      "artist": "Angel Dust"
+    },
+    {
+      "videoId": "cXhZHZAuZHQ",
+      "name": "Say I",
+      "artist": "Creed"
+    },
+    {
       "videoId": "X9u5pzDFlyE",
       "name": "It Will Take A Long Long Time (Modern Rock Version) [Have A Nice Day Outtake]",
       "artist": "Roxette"
     },
     {
-      "videoId": "5oWyMakvQew",
-      "name": "Dreams (2004 Remaster)",
-      "artist": "Fleetwood Mac"
+      "videoId": "WWfjYJju0-E",
+      "name": "All I Have",
+      "artist": "Modern Talking"
     },
     {
-      "videoId": "W3gM6GKNOL4",
-      "name": "OUT. Garage Rock / January (?) 1999",
-      "artist": "Patrick Nevins"
+      "videoId": "cd2y7CNmAoA",
+      "name": "Just Close Your Eyes",
+      "artist": "Modern Talking"
+    },
+    {
+      "videoId": "7zDRtOL4yps",
+      "name": "It Hurts So Good",
+      "artist": "Modern Talking"
+    },
+    {
+      "videoId": "PuWhWTssg8U",
+      "name": "Modern Rock Rules",
+      "artist": "Mrs. Grundy"
+    },
+    {
+      "videoId": "WXJiuVGomV0",
+      "name": "Can't Let You Go",
+      "artist": "Modern Talking"
+    },
+    {
+      "videoId": "P4ZflNbAl1Y",
+      "name": "Modern Crusaders",
+      "artist": "Enigma"
+    },
+    {
+      "videoId": "F48mtaFOccg",
+      "name": "Modern Crusaders",
+      "artist": "Enigma"
+    },
+    {
+      "videoId": "bBd917ivVcQ",
+      "name": "So Low",
+      "artist": "Ocean Colour Scene"
+    },
+    {
+      "videoId": "Obim8BYGnOE",
+      "name": "Till I Collapse (feat. Nate Dogg)",
+      "artist": "Eminem"
+    },
+    {
+      "videoId": "JycNZbNftqs",
+      "name": "Profit In Peace",
+      "artist": "Ocean Colour Scene"
+    },
+    {
+      "videoId": "CgVh7zacqDo",
+      "name": "Trippin'",
+      "artist": "ZZ Top"
+    },
+    {
+      "videoId": "5PgdZDXg0z0",
+      "name": "Space Oddity",
+      "artist": "David Bowie"
+    },
+    {
+      "videoId": "_gRsZqSNvKU",
+      "name": "The Sound of Silence",
+      "artist": "Disturbed"
     },
     {
       "videoId": "UTZUyA6WjwE",
       "name": "Terror Firmer",
       "artist": "Lunachicks"
+    },
+    {
+      "videoId": "tBL0wKAD_xc",
+      "name": "Chinese Rock (1999 Remaster)",
+      "artist": "Ramones"
     },
     {
       "videoId": "gwMD9MyDOC8",
@@ -1753,9 +5993,89 @@
       "artist": "Rocket 99"
     },
     {
+      "videoId": "m_5qzNdGZ_w",
+      "name": "Funtime",
+      "artist": "Iggy Pop"
+    },
+    {
+      "videoId": "7XD8dt0YWuA",
+      "name": "Slow city",
+      "artist": "Rocket 99"
+    },
+    {
+      "videoId": "CpCtQOrhHv8",
+      "name": "Sweet Helen",
+      "artist": "The Creation"
+    },
+    {
+      "videoId": "4y4CELGOwH8",
+      "name": "Stop the Rock",
+      "artist": "Apollo 440"
+    },
+    {
+      "videoId": "qv96V9uSGkI",
+      "name": "A Little Bit Of Luck",
+      "artist": "DJ Luck"
+    },
+    {
+      "videoId": "oUlz2-DEDBo",
+      "name": "A Little Pinch",
+      "artist": "Donut Kings"
+    },
+    {
+      "videoId": "bC7xOtS2Msw",
+      "name": "Soul On A Rock",
+      "artist": "Buzzcocks"
+    },
+    {
+      "videoId": "vgAsCwbWn28",
+      "name": "Hate Myself Anyway",
+      "artist": "Joybuzzer"
+    },
+    {
+      "videoId": "5GwT2OybGNo",
+      "name": "The Wipe",
+      "artist": "Frigg a-Go-Go"
+    },
+    {
+      "videoId": "uEC-wvIajNw",
+      "name": "Rising Hope",
+      "artist": "The Spoons"
+    },
+    {
+      "videoId": "Dwlpu4-L7VU",
+      "name": "Back To The Garage",
+      "artist": "The Groovie Ghoulies"
+    },
+    {
+      "videoId": "36caLT_e_zY",
+      "name": "Waiting for the monkeys",
+      "artist": "Rocket 99"
+    },
+    {
+      "videoId": "m-WduqHjgYc",
+      "name": "Do You Smell (The Rock)",
+      "artist": "WWE"
+    },
+    {
+      "videoId": "Xuqi_Ad3Cao",
+      "name": "No Fun",
+      "artist": "Iggy Pop"
+    },
+    {
       "videoId": "jqLLL8FeYk8",
       "name": "Blues for Miles",
       "artist": "Neal Schon"
+    },
+    {
+      "videoId": "Y9XXeznskQ4",
+      "name": "Maria Maria (feat. The Product G&B)",
+      "artist": "Santana"
+    },
+    {
+      "videoId": "wfiVl6F2qjA",
+      "name": "When The Blues Catch Up With You",
+      "artist": "Buddaheads"
     },
     {
       "videoId": "1mqxG-mazYY",
@@ -1763,9 +6083,59 @@
       "artist": "Jeff Beck"
     },
     {
-      "videoId": "H1Pb-cRbspA",
-      "name": "1985",
-      "artist": "Bowling For Soup"
+      "videoId": "95tAcLNwkWs",
+      "name": "Showdown",
+      "artist": "Buddaheads"
+    },
+    {
+      "videoId": "TDlcdbBxNRY",
+      "name": "Train Train",
+      "artist": "Buddaheads"
+    },
+    {
+      "videoId": "uMeePhFHk_A",
+      "name": "My Father's Son",
+      "artist": "Joe Cocker"
+    },
+    {
+      "videoId": "Z88qbhJs0-M",
+      "name": "Shotgun Blues",
+      "artist": "Kenny Wayne Shepherd"
+    },
+    {
+      "videoId": "yL5KpeDWxS0",
+      "name": "Blues Helping (1999 RemasterStereo)",
+      "artist": "Love Sculpture"
+    },
+    {
+      "videoId": "Kc_zJzTdQFw",
+      "name": "Rock the Blues",
+      "artist": "BluesTrain"
+    },
+    {
+      "videoId": "geSQnlzmNl0",
+      "name": "Wharf Blues",
+      "artist": "Albatross"
+    },
+    {
+      "videoId": "vdxDsfNsphA",
+      "name": "House Full of Blues",
+      "artist": "Gary Moore"
+    },
+    {
+      "videoId": "XUCqqhsVs-g",
+      "name": "Rusty Dusty Blues (Mama Mama Blues)",
+      "artist": "B.B. King"
+    },
+    {
+      "videoId": "NNYRgizxZpA",
+      "name": "Shady Groove Blues",
+      "artist": "John Lee Hooker"
+    },
+    {
+      "videoId": "knXSwhqzrWE",
+      "name": "White Mans Blues",
+      "artist": "Snakebite"
     },
     {
       "videoId": "JlWPpQmjnVQ",
@@ -1773,39 +6143,69 @@
       "artist": "Misfits"
     },
     {
-      "videoId": "9Ht5RZpzPqw",
-      "name": "All The Small Things (Official Music Video)",
+      "videoId": "dJ5_0AMEDag",
+      "name": "Punk Rock:",
+      "artist": "Mogwai"
+    },
+    {
+      "videoId": "g2qCdXE21og",
+      "name": "Helena",
+      "artist": "Misfits"
+    },
+    {
+      "videoId": "M0lP4KYjDfo",
+      "name": "Surfin' Bird (1999 Remaster)",
+      "artist": "Ramones"
+    },
+    {
+      "videoId": "6guA9CPhmf0",
+      "name": "1999",
+      "artist": "girlfriends"
+    },
+    {
+      "videoId": "24eFOM2rCPU",
+      "name": "Zorbas the Punk",
+      "artist": "Panx Romana"
+    },
+    {
+      "videoId": "d3vdiaxYNLQ",
+      "name": "Pie",
+      "artist": "Pulley"
+    },
+    {
+      "videoId": "-RxyqouiH3c",
+      "name": "Gone",
+      "artist": "Pulley"
+    },
+    {
+      "videoId": "3-9iIgruGpA",
+      "name": "Punk Rock Love",
+      "artist": "The Casualties"
+    },
+    {
+      "videoId": "wjNln9mXuTI",
+      "name": "Deceptacon",
+      "artist": "Le Tigre"
+    },
+    {
+      "videoId": "L2IYUehYj0I",
+      "name": "99 Red Balloons",
+      "artist": "Goldfinger"
+    },
+    {
+      "videoId": "GssgUXURt3M",
+      "name": "Descending Angel",
+      "artist": "Misfits"
+    },
+    {
+      "videoId": "4sPSKMPOXok",
+      "name": "Mutt",
       "artist": "blink-182"
     },
     {
-      "videoId": "TMSlTQmDLx4",
-      "name": "99 Luftballons",
-      "artist": "Nena"
-    },
-    {
-      "videoId": "2_ANCiQOEfw",
-      "name": "Nookie",
-      "artist": "Limp Bizkit"
-    },
-    {
-      "videoId": "2MRdtXWcgIw",
-      "name": "Adam's Song",
+      "videoId": "alUoE6tJP1w",
+      "name": "Aliens Exist",
       "artist": "blink-182"
-    },
-    {
-      "videoId": "13EL6Mgeocc",
-      "name": "Rain Sound (Pure White Noise for Natural Deep Sleep Inducing)",
-      "artist": "White Noise Masters"
-    },
-    {
-      "videoId": "HJzeJiHHQOY",
-      "name": "From This Day (World Exclusive)",
-      "artist": "Machine Head"
-    },
-    {
-      "videoId": "SGUflZS7jG0",
-      "name": "Denial [Clean]",
-      "artist": "Sevendust"
     },
     {
       "videoId": "RIjRXzcTWkc",
@@ -1813,19 +6213,49 @@
       "artist": "Mortician"
     },
     {
-      "videoId": "PXzuDXZwZtI",
-      "name": "Pardon Me",
-      "artist": "Incubus"
-    },
-    {
-      "videoId": "jd_HmLEhVqA",
-      "name": "Break Stuff",
+      "videoId": "9aFq3u9Nn3Q",
+      "name": "Re-Arranged",
       "artist": "Limp Bizkit"
     },
     {
-      "videoId": "Ps0MfBG5-Uo",
-      "name": "Push It",
-      "artist": "Static-X"
+      "videoId": "cxd4dpbySXg",
+      "name": "Just Like This",
+      "artist": "Limp Bizkit"
+    },
+    {
+      "videoId": "IBy7TCSY2wk",
+      "name": "Wait and Bleed",
+      "artist": "Slipknot"
+    },
+    {
+      "videoId": "nIC4J7_Y9Ig",
+      "name": "9 Teen 90 Nine",
+      "artist": "Limp Bizkit"
+    },
+    {
+      "videoId": "duEzMp0ZhEA",
+      "name": "You Spin Me Round (Like a Record)",
+      "artist": "Dope"
+    },
+    {
+      "videoId": "gwJYDy52D2U",
+      "name": "(sic)",
+      "artist": "Slipknot"
+    },
+    {
+      "videoId": "GOSTlT691O8",
+      "name": "Wait and Bleed",
+      "artist": "Slipknot"
+    },
+    {
+      "videoId": "jO5T_LTil8U",
+      "name": "Aphellion",
+      "artist": "Tristania"
+    },
+    {
+      "videoId": "Uy9xVcM47Ng",
+      "name": "Somebody Someone",
+      "artist": "Korn"
     },
     {
       "videoId": "B0m1VOI_u2U",
@@ -1838,14 +6268,24 @@
       "artist": "Powerman 5000"
     },
     {
-      "videoId": "mJSyXqBKVpY",
-      "name": "Falling Away from Me",
-      "artist": "Korn"
+      "videoId": "Rk9mXFrEZkc",
+      "name": "Surfacing",
+      "artist": "Slipknot"
     },
     {
-      "videoId": "bB-Jq8JmxN0",
-      "name": "Edifice of Tyranny",
-      "artist": "Ouroboros"
+      "videoId": "V3QVsVPT1k8",
+      "name": "Anywhere in the Galaxy",
+      "artist": "Gamma Ray"
+    },
+    {
+      "videoId": "lef2MoYNgXw",
+      "name": "Heavy Metal Universe",
+      "artist": "Gamma Ray"
+    },
+    {
+      "videoId": "DhP6xS63U1M",
+      "name": "Psychosocial",
+      "artist": "Slipknot"
     },
     {
       "videoId": "oUy3n8uZQfA",
@@ -1853,9 +6293,64 @@
       "artist": "Mortician"
     },
     {
+      "videoId": "6w-IShk6R-g",
+      "name": "Enter the Realm of Death",
+      "artist": "Runemagick"
+    },
+    {
       "videoId": "bZ1mt0PtMUU",
       "name": "Coerced Coexistence",
       "artist": "In Flames"
+    },
+    {
+      "videoId": "V4CAwKsNIfo",
+      "name": "Message",
+      "artist": "Root"
+    },
+    {
+      "videoId": "NfOzdslhdLM",
+      "name": "War Machine",
+      "artist": "Six Feet Under"
+    },
+    {
+      "videoId": "5bq8t-DEdJU",
+      "name": "The Moor",
+      "artist": "Opeth"
+    },
+    {
+      "videoId": "ad3nooKuPrU",
+      "name": "Your Life Is Shit (1999)",
+      "artist": "Malignancy"
+    },
+    {
+      "videoId": "ktbxYNGjqbY",
+      "name": "From the Cradle to Enslave",
+      "artist": "Cradle Of Filth"
+    },
+    {
+      "videoId": "R9-M2VPl4ug",
+      "name": "Tormented",
+      "artist": "Mortician"
+    },
+    {
+      "videoId": "XlBBnh1VhHM",
+      "name": "Heathen",
+      "artist": "Master"
+    },
+    {
+      "videoId": "hhZ4ZT4Me5w",
+      "name": "Angel of Death",
+      "artist": "Monstrosity"
+    },
+    {
+      "videoId": "_nSj59w5598",
+      "name": "Death's Departure",
+      "artist": "Stigmatheist"
+    },
+    {
+      "videoId": "PcSzdBXbFD8",
+      "name": "Angel of Death",
+      "artist": "Monstrosity"
     }
   ]
 }

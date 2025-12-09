@@ -4,34 +4,6 @@ import { join } from "path";
 import { prisma } from "./prisma.js";
 import play from "play-dl";
 
-const mapDifficulty = (views: number): number => {
-  switch (true) {
-    case views <= 20_000_000:
-      return 10;
-    case views <= 50_000_000:
-      return 9;
-    case views <= 75_000_000:
-      return 8;
-    case views <= 100_000_000:
-      return 7;
-    case views <= 250_000_000:
-      return 6;
-    case views <= 400_000_000:
-      return 5;
-    case views <= 600_000_000:
-      return 4;
-    case views <= 1_000_000_000:
-      return 3;
-    case views <= 2_000_000_000:
-      return 2;
-    case views > 2_000_000_000:
-      return 1;
-
-    default:
-      return 5;
-  }
-};
-
 /**
  * Initialize YouTube Music API client
  */
@@ -49,14 +21,11 @@ export async function searchSongs(query: string): Promise<any[]> {
   const ytmusic = await createYTMusicClient();
 
   try {
-    const results = await ytmusic.search(query);
-    // Filter to only include SONG and VIDEO types
-    const filtered = results.filter(
-      (item: any) => item.type === "SONG" || item.type === "VIDEO"
-    );
+    // Use searchSongs() to get only songs (no playlists, albums, etc.)
+    const results = await ytmusic.searchSongs(query);
 
-    console.log(`Found ${filtered.length} songs for query: "${query}"`);
-    return filtered;
+    console.log(`Found ${results.length} songs for query: "${query}"`);
+    return results;
   } catch (error) {
     console.error("Error searching YouTube Music:", error);
     throw new Error("Failed to search YouTube Music");
@@ -302,11 +271,9 @@ function getCategoryQueries(
       "best rap songs",
       "hip hop tracks",
       "underground rap",
-      "rap anthems",
       "rap hits",
       "classic hip hop",
       "hip hop greatest",
-      "rap collection",
       "hip hop songs",
       "hip hop music",
       "best hip hop",
@@ -315,6 +282,8 @@ function getCategoryQueries(
       "trap hits",
       "conscious rap",
       "rap classics",
+      "european rap",
+      "old school rap",
     ],
     pop: [
       "pop hits",
@@ -325,44 +294,36 @@ function getCategoryQueries(
       "pop favorites",
       "pop tracks",
       "chart pop",
-      "synth pop",
       "pop ballads",
       "pop greatest",
       "modern pop",
-      "pop songs",
       "dance pop",
       "pop rock",
       "electro pop",
       "pop best",
-      "pop legends",
+      "european pop",
       "mainstream pop",
       "top pop",
+      "trending pop",
+      "universal pop",
     ],
     other: [
       // Country
       "country music",
       "country songs",
-      "modern country",
-      "country rock",
       "country ballads",
       // Electronic
       "electronic music",
       "house music",
       "dubstep",
-      "electro house",
-      "drum and bass",
       // Classical
       "classical music",
       "classical masterpieces",
       "baroque music",
-      "classical piano",
-      "classical violin",
       // Jazz
-      "jazz classics",
       "jazz music",
       "smooth jazz",
       "classic jazz",
-      "modern jazz",
       // Other genres
       "reggae music",
       "blues music",
@@ -370,8 +331,7 @@ function getCategoryQueries(
       "r&b hits",
       "funk music",
       "disco hits",
-      "folk music",
-      "latin music",
+      "movie/musical songs",
       "eurovision songs",
     ],
     local: [
@@ -393,6 +353,8 @@ function getCategoryQueries(
       "polska muzyka rapowa",
       "polska muzyka popowa",
       "najlepsze polskie piosenki",
+      "polskie utwory",
+      "polski rock",
     ],
   };
 
@@ -416,169 +378,4 @@ function getCategoryQueries(
   }
 
   return baseQueries;
-}
-
-/**
- * Parse view count string to number
- * Handles formats like "1.2M", "500K", "1.5B", etc.
- */
-function parseViewCount(viewString: string): number {
-  if (!viewString) return 0;
-
-  // Remove "views" and any non-numeric characters except dots, M, K, B
-  const cleaned = viewString.toLowerCase().replace(/[^0-9.mkb]/g, "");
-
-  let multiplier = 1;
-  let numStr = cleaned;
-
-  if (cleaned.includes("b")) {
-    multiplier = 1_000_000_000;
-    numStr = cleaned.replace("b", "");
-  } else if (cleaned.includes("m")) {
-    multiplier = 1_000_000;
-    numStr = cleaned.replace("m", "");
-  } else if (cleaned.includes("k")) {
-    multiplier = 1_000;
-    numStr = cleaned.replace("k", "");
-  }
-
-  const num = parseFloat(numStr);
-  return isNaN(num) ? 0 : Math.floor(num * multiplier);
-}
-
-/**
- * Remove songs from database that have less than specified view count
- * Fetches view counts from YouTube using play-dl and deletes low-view songs
- */
-export async function removeLowViewSongs(
-  minViews: number = 10_000_000
-): Promise<void> {
-  try {
-    console.log(`\n🔍 Fetching all songs from database...`);
-    const songs = await prisma.song.findMany({
-      select: {
-        id: true,
-        youtubeId: true,
-        title: true,
-        artist: true,
-      },
-    });
-
-    console.log(`📊 Found ${songs.length} songs in database`);
-    console.log(
-      `🎯 Checking view counts (minimum: ${minViews.toLocaleString()} views)\n`
-    );
-
-    let checked = 0;
-    let deleted = 0;
-    let kept = 0;
-    let errors = 0;
-
-    const videoUrl = `https://www.youtube.com/watch?v=${songs[0]!.youtubeId}`;
-    const videoInfo = await play.video_info(videoUrl);
-    console.log("Sample video info:", videoInfo);
-
-    for (const song of songs) {
-      try {
-        // Fetch video info using play-dl
-        const videoUrl = `https://www.youtube.com/watch?v=${song.youtubeId}`;
-        const videoInfo = await play.video_info(videoUrl);
-
-        if (!videoInfo || !videoInfo.video_details) {
-          console.log(`⚠️  No data returned for "${song.title}" - keeping`);
-          kept++;
-          checked++;
-          continue;
-        }
-
-        const viewCount = videoInfo.video_details.views;
-
-        if (isNaN(viewCount) || viewCount === 0) {
-          console.log(
-            `⚠️  Invalid view count for "${song.title}" (${song.youtubeId}) - keeping in database`
-          );
-          kept++;
-          checked++;
-          continue;
-        }
-
-        if (viewCount < minViews) {
-          //   Delete song
-          await prisma.song.delete({
-            where: { id: song.id },
-          });
-          deleted++;
-          console.log(
-            `❌ Deleted "${
-              song.title
-            }" - ${viewCount.toLocaleString()} views (below ${minViews.toLocaleString()})`
-          );
-        } else {
-          kept++;
-          await prisma.song.update({
-            where: { id: song.id },
-            data: {
-              duration: videoInfo.video_details.durationInSec,
-              views: viewCount,
-              releaseYear: 2030,
-              difficulty: mapDifficulty(videoInfo.video_details.views),
-            },
-          });
-        }
-
-        checked++;
-
-        // Progress update every 10 songs
-        if (checked % 10 === 0) {
-          console.log(
-            `\n📈 Progress: ${checked}/${songs.length} (${deleted} deleted, ${kept} kept)\n`
-          );
-        }
-
-        // Small delay to avoid rate limiting
-        await new Promise((resolve) => setTimeout(resolve, 200));
-      } catch (error) {
-        const errorMessage =
-          error instanceof Error ? error.message : String(error);
-
-        // Check if error is age-restricted or other access errors
-        if (
-          errorMessage.includes("Sign in to confirm your age") ||
-          errorMessage.includes("While getting info from url") ||
-          errorMessage.includes("age") ||
-          errorMessage.includes("restricted")
-        ) {
-          // Delete song if it has access restrictions
-          await prisma.song.delete({
-            where: { id: song.id },
-          });
-          deleted++;
-          console.log(
-            `❌ Deleted "${song.title}" - Age restricted or access error`
-          );
-        } else {
-          // Keep song for other types of errors
-          errors++;
-          console.error(
-            `❌ Error checking "${song.title}" (${song.youtubeId}):`,
-            errorMessage
-          );
-          kept++;
-        }
-        checked++;
-      }
-    }
-
-    console.log(`\n${"=".repeat(60)}`);
-    console.log(`🎉 Cleanup complete!`);
-    console.log(`${"=".repeat(60)}`);
-    console.log(`✅ Songs kept: ${kept}`);
-    console.log(`❌ Songs deleted: ${deleted}`);
-    console.log(`⚠️  Errors: ${errors}`);
-    console.log(`📊 Total processed: ${checked}`);
-    console.log(`${"=".repeat(60)}\n`);
-  } catch (error) {
-    console.error("❌ Error during cleanup:", error);
-    throw error;
-  }
 }

@@ -4,8 +4,8 @@
     "start": 2020,
     "end": 2025
   },
-  "totalSongs": 103,
-  "searchedAt": "2025-12-08T20:45:44.736Z",
+  "totalSongs": 516,
+  "searchedAt": "2025-12-09T20:07:13.253Z",
   "songs": [
     {
       "videoId": "OsfAnsMY21M",
@@ -28,54 +28,14 @@
       "artist": "Jaymes Young"
     },
     {
-      "videoId": "HZbsLxL7GeM",
-      "name": "Dandelions",
-      "artist": "Ruth B."
-    },
-    {
-      "videoId": "fRyhqobl0sk",
-      "name": "All I Want for Christmas Is You",
-      "artist": "Mariah Carey"
-    },
-    {
-      "videoId": "2u2Z07ujyD8",
-      "name": "Favorite Girl",
-      "artist": "Justin Bieber"
-    },
-    {
-      "videoId": "GqWYJT-iMTw",
-      "name": "Baby (feat. Ludacris)",
-      "artist": "Justin Bieber"
-    },
-    {
       "videoId": "FXovf5dsRTw",
       "name": "Despacito",
       "artist": "Luis Fonsi"
     },
     {
-      "videoId": "6xzN8Nt0Pok",
-      "name": "I Wanna Dance with Somebody (Who Loves Me)",
-      "artist": "Whitney Houston"
-    },
-    {
-      "videoId": "3H8ncF7KjoE",
-      "name": "Pop Chart",
-      "artist": "Hercules And The Boys"
-    },
-    {
-      "videoId": "ySyhh7nn31Q",
-      "name": "Synth-pop Electro Gothic Wave 2",
-      "artist": "Cypress Čempr3s"
-    },
-    {
-      "videoId": "Cl5Vkd4N03Q",
-      "name": "After Dark",
-      "artist": "Mr.Kitty"
-    },
-    {
-      "videoId": "-zlMcFwkB_8",
-      "name": "Synthpop",
-      "artist": "Epic"
+      "videoId": "HZbsLxL7GeM",
+      "name": "Dandelions",
+      "artist": "Ruth B."
     },
     {
       "videoId": "KSgKKSny0Qo",
@@ -83,14 +43,279 @@
       "artist": "Calvin Harris"
     },
     {
+      "videoId": "xTvyyoF_LZY",
+      "name": "Shape of You",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "videoId": "H9NJenpBV2I",
+      "name": "Easy On Me",
+      "artist": "Adele"
+    },
+    {
+      "videoId": "yEA3qaB0dH8",
+      "name": "Stuck with U",
+      "artist": "Justin Bieber"
+    },
+    {
+      "videoId": "3_g2un5M350",
+      "name": "Starboy (feat. Daft Punk)",
+      "artist": "The Weeknd"
+    },
+    {
+      "videoId": "FDyWuL6lq6w",
+      "name": "Right Now (Na Na Na)",
+      "artist": "Akon"
+    },
+    {
+      "videoId": "RHUUy3acptk",
+      "name": "At My Worst",
+      "artist": "Pink Sweat$"
+    },
+    {
+      "videoId": "UNOtbkQxECI",
+      "name": "Mood (feat. iann dior)",
+      "artist": "24kGoldn"
+    },
+    {
+      "videoId": "R9TPed_ohKM",
+      "name": "POP!",
+      "artist": "NAYEON"
+    },
+    {
+      "videoId": "Kcj5-jWxgKs",
+      "name": "Let Me Down Slowly",
+      "artist": "Alec Benjamin"
+    },
+    {
+      "videoId": "e8WoWk4b3D0",
+      "name": "Levitating (feat. DaBaby)",
+      "artist": "Dua Lipa"
+    },
+    {
+      "videoId": "GqWYJT-iMTw",
+      "name": "Baby (feat. Ludacris)",
+      "artist": "Justin Bieber"
+    },
+    {
+      "videoId": "X7UqPXvWUzw",
+      "name": "Panda",
+      "artist": "Desiigner"
+    },
+    {
+      "videoId": "G1ej5up7JG0",
+      "name": "Shivers",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "videoId": "fRyhqobl0sk",
+      "name": "All I Want for Christmas Is You",
+      "artist": "Mariah Carey"
+    },
+    {
+      "videoId": "6xzN8Nt0Pok",
+      "name": "I Wanna Dance with Somebody (Who Loves Me)",
+      "artist": "Whitney Houston"
+    },
+    {
+      "videoId": "l6_w3887Rwo",
+      "name": "Tennessee Whiskey",
+      "artist": "Chris Stapleton"
+    },
+    {
+      "videoId": "3MrY_BwLChk",
+      "name": "Dynamite",
+      "artist": "Taio Cruz"
+    },
+    {
+      "videoId": "JhCA0y_ya6w",
+      "name": "Only Girl (In The World)",
+      "artist": "Rihanna"
+    },
+    {
+      "videoId": "RmYCOm4ehKs",
+      "name": "Save Your Tears",
+      "artist": "The Weeknd"
+    },
+    {
+      "videoId": "_GWKkqNoyEA",
+      "name": "Counting Stars",
+      "artist": "OneRepublic"
+    },
+    {
+      "videoId": "2u2Z07ujyD8",
+      "name": "Favorite Girl",
+      "artist": "Justin Bieber"
+    },
+    {
+      "videoId": "Yeo9EW8Lf3M",
+      "name": "Favorite Mistake",
+      "artist": "GIVĒON"
+    },
+    {
+      "videoId": "1MEzxPOxqJI",
+      "name": "Favorite",
+      "artist": "TroyBoi"
+    },
+    {
+      "videoId": "LxhlLVdlyiU",
+      "name": "Favorite Bitch (feat. Ty Dolla $ign)",
+      "artist": "Eminem"
+    },
+    {
+      "videoId": "5Uchsq8w3Nc",
+      "name": "your favorite one",
+      "artist": "lovelytheband"
+    },
+    {
+      "videoId": "O5a2cWgySag",
+      "name": "Your Favourite Song",
+      "artist": "YouNotUs"
+    },
+    {
+      "videoId": "M_lVZIpgnjU",
+      "name": "cardigan",
+      "artist": "Taylor Swift"
+    },
+    {
+      "videoId": "tQiNQL-FEgU",
+      "name": "Free Mind",
+      "artist": "Tems"
+    },
+    {
+      "videoId": "a7ms3r-qt0E",
+      "name": "Love Songs (Bonus)",
+      "artist": "Kaash Paige"
+    },
+    {
+      "videoId": "u7rKGj13pAs",
+      "name": "Crazy Over You",
+      "artist": "BLACKPINK"
+    },
+    {
+      "videoId": "lS9Kgp6PsWY",
+      "name": "Save Your Tears ((Remix) Bonus Track)",
+      "artist": "The Weeknd"
+    },
+    {
+      "videoId": "3H8ncF7KjoE",
+      "name": "Pop Chart",
+      "artist": "House Crawlers"
+    },
+    {
+      "videoId": "xZWbh0iz_WQ",
+      "name": "Anxiety",
+      "artist": "Doechii"
+    },
+    {
+      "videoId": "ETecZsoA0jo",
+      "name": "Stay With Me",
+      "artist": "1nonly"
+    },
+    {
+      "videoId": "fFsapeLp0n8",
+      "name": "Tick Tock (feat. 24kGoldn)",
+      "artist": "Clean Bandit"
+    },
+    {
+      "videoId": "oUOTpLwThYo",
+      "name": "Turn Off The Lights",
+      "artist": "DJ Chart [feat. Ariana Celeano]"
+    },
+    {
+      "videoId": "BLFGsxijRHg",
+      "name": "Under The Influence",
+      "artist": "Chris Brown"
+    },
+    {
+      "videoId": "WE4wn-PEDYc",
+      "name": "Take You Dancing",
+      "artist": "Jason Derulo"
+    },
+    {
+      "videoId": "IYFqc9gk4qI",
+      "name": "Leave The Door Open",
+      "artist": "Bruno Mars"
+    },
+    {
+      "videoId": "pRIZohFFOMo",
+      "name": "Someone You Loved",
+      "artist": "Lewis Capaldi"
+    },
+    {
+      "videoId": "ORrFJ63nlcA",
+      "name": "Perfect",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "videoId": "8Y56tucpZy8",
+      "name": "The Cut That Always Bleeds",
+      "artist": "Conan Gray"
+    },
+    {
+      "videoId": "CWqdowLFRKw",
+      "name": "Heather",
+      "artist": "Conan Gray"
+    },
+    {
+      "videoId": "UC8JSS6O7OU",
+      "name": "Heartbreak Anniversary",
+      "artist": "GIVĒON"
+    },
+    {
+      "videoId": "LYz-ktFWZB4",
+      "name": "Invincible",
+      "artist": "Pop Smoke"
+    },
+    {
+      "videoId": "IxJjY5T9yag",
+      "name": "The Box",
+      "artist": "Roddy Ricch"
+    },
+    {
       "videoId": "8mA6jIeojnk",
       "name": "How You Like That",
       "artist": "BLACKPINK"
     },
     {
-      "videoId": "MKT2FDD5QQ8",
-      "name": "RETROCLASICOS 🔊 ROCK POP RAP 90-00🔊📽️Reuploaded VIDEOMIX 📽️CUREPI DJ",
-      "artist": "CUREPI DJ"
+      "videoId": "HGP0k7t4Lmk",
+      "name": "Uplifting Modern Pop",
+      "artist": "Zac Nelson"
+    },
+    {
+      "videoId": "TLEKl5uoMnw",
+      "name": "Inside Out",
+      "artist": "Zedd"
+    },
+    {
+      "videoId": "PKUPYyDDixU",
+      "name": "Modern Pop",
+      "artist": "Oleg Kashchenko"
+    },
+    {
+      "videoId": "8zrjYgFukkU",
+      "name": "Modern Future Pop",
+      "artist": "Alexi Action"
+    },
+    {
+      "videoId": "Q9bQUeH4nTs",
+      "name": "MODERN POP",
+      "artist": "beans vii"
+    },
+    {
+      "videoId": "Yegn0dZ-BfY",
+      "name": "Physical",
+      "artist": "Dua Lipa"
+    },
+    {
+      "videoId": "TUt3guu92Zg",
+      "name": "Ice Cream",
+      "artist": "BLACKPINK"
+    },
+    {
+      "videoId": "F8c8f2nK82w",
+      "name": "Pretty Savage",
+      "artist": "BLACKPINK"
     },
     {
       "videoId": "lSDfCdycdvk",
@@ -103,39 +328,184 @@
       "artist": "Nickelback"
     },
     {
-      "videoId": "_GWKkqNoyEA",
-      "name": "Counting Stars",
-      "artist": "OneRepublic"
+      "videoId": "ZTpEYqLVDmI",
+      "name": "Pop Rock Upbeat",
+      "artist": "Soundatelier"
     },
     {
-      "videoId": "3_g2un5M350",
-      "name": "Starboy (feat. Daft Punk)",
-      "artist": "The Weeknd"
+      "videoId": "ZM0dqN4t_9k",
+      "name": "Uplifting Inspiring Pop Rock",
+      "artist": "Romansenykmusic"
     },
     {
-      "videoId": "G1ej5up7JG0",
-      "name": "Shivers",
-      "artist": "Ed Sheeran"
+      "videoId": "LsMylxn54XI",
+      "name": "High Energy Pop Rock",
+      "artist": "Holiday Feelings"
     },
     {
-      "videoId": "hJWSZDJb-W4",
-      "name": "Bad Habits",
-      "artist": "Ed Sheeran"
+      "videoId": "hpSrLjc5SMs",
+      "name": "Wonderwall",
+      "artist": "Oasis"
     },
     {
-      "videoId": "H9NJenpBV2I",
-      "name": "Easy On Me",
-      "artist": "Adele"
+      "videoId": "H3RSBOKdFr8",
+      "name": "Pop Rock Upbeat (30 sec)",
+      "artist": "Soundatelier"
     },
     {
-      "videoId": "0aiJ7qzlZBI",
-      "name": "favorite crime",
-      "artist": "Olivia Rodrigo"
+      "videoId": "uf3Wuvl5YyY",
+      "name": "Pop Rock Upbeat (60 sec)",
+      "artist": "Soundatelier"
     },
     {
-      "videoId": "4QLvEIXlF6Q",
-      "name": "traitor",
-      "artist": "Olivia Rodrigo"
+      "videoId": "_gKoMabsn5w",
+      "name": "Pop Rock for the Ads",
+      "artist": "Jens Larsson"
+    },
+    {
+      "videoId": "oMfMUfgjiLg",
+      "name": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "videoId": "OecoHvuxkxY",
+      "name": "Sunburn",
+      "artist": "The Living Tombstone"
+    },
+    {
+      "videoId": "xIF0Me8j0dg",
+      "name": "Bubble Pop Electric (feat. Gwen Stefani)",
+      "artist": "Gwen Stefani"
+    },
+    {
+      "videoId": "mPmoojB54xI",
+      "name": "Friendships",
+      "artist": "Pascal Letoublon"
+    },
+    {
+      "videoId": "nQEnj84irFc",
+      "name": "Dynamite (EDM Remix)",
+      "artist": "BTS"
+    },
+    {
+      "videoId": "pSVbF6DGH9U",
+      "name": "Around the World (La La La La La)",
+      "artist": "A Touch of Class"
+    },
+    {
+      "videoId": "y_-SP55sRig",
+      "name": "Pump Up The Jam",
+      "artist": "Technotronic"
+    },
+    {
+      "videoId": "bW_XF26EJ6k",
+      "name": "Electro Pop",
+      "artist": "Audiosphere"
+    },
+    {
+      "videoId": "XSsRrlM3tNg",
+      "name": "Клетка",
+      "artist": "Molchat Doma"
+    },
+    {
+      "videoId": "s1ATTIQrmIQ",
+      "name": "Судно (Борис Рыжий)",
+      "artist": "Molchat Doma"
+    },
+    {
+      "videoId": "hpKa2u0gMJI",
+      "name": "Euro Pop",
+      "artist": "Ralph Laurenz"
+    },
+    {
+      "videoId": "9sFQ5iFgin8",
+      "name": "Mainstream (S)hit",
+      "artist": "Them Switcheroos"
+    },
+    {
+      "videoId": "GFESxoCaEhg",
+      "name": "Mainstream",
+      "artist": "LiL Pii"
+    },
+    {
+      "videoId": "iaXlb39ksmc",
+      "name": "Mainstream (Lukea Remix)",
+      "artist": "Anas M"
+    },
+    {
+      "videoId": "WlP4aI4R5tw",
+      "name": "Don't Float the Mainstream",
+      "artist": "Afroman"
+    },
+    {
+      "videoId": "TSeAeSLgcrA",
+      "name": "Mainstream",
+      "artist": "Jiida"
+    },
+    {
+      "videoId": "E6GRoRWnOr0",
+      "name": "Mainstream",
+      "artist": "Shawking"
+    },
+    {
+      "videoId": "0RiXE0Q7jFc",
+      "name": "Mainstream",
+      "artist": "Leon Andriano"
+    },
+    {
+      "videoId": "S00NKQzzFhc",
+      "name": "Mainstream",
+      "artist": "Darealpatience"
+    },
+    {
+      "videoId": "EXloCwmB4QU",
+      "name": "Mainstream",
+      "artist": "Headie One"
+    },
+    {
+      "videoId": "e3GM-8cYCvs",
+      "name": "Generic Pop Song",
+      "artist": "Mainstream Underground"
+    },
+    {
+      "videoId": "bL253NJEfas",
+      "name": "Die Interliebenden (Pure Love Version)",
+      "artist": "The Mainstream"
+    },
+    {
+      "videoId": "aykb9pGfTR4",
+      "name": "Copines",
+      "artist": "Aya Nakamura"
+    },
+    {
+      "videoId": "j61QtWB1zj0",
+      "name": "Kamin",
+      "artist": "EMIN"
+    },
+    {
+      "videoId": "ic8ps7WYSOI",
+      "name": "Dance Again",
+      "artist": "Selena Gomez"
+    },
+    {
+      "videoId": "HYvRjKn0aqo",
+      "name": "Plastic Doll",
+      "artist": "Lady Gaga"
+    },
+    {
+      "videoId": "4kmaR5BP55I",
+      "name": "Enjoy Yourself (feat. KAROL G)",
+      "artist": "Pop Smoke"
+    },
+    {
+      "videoId": "OykcXiiWyhg",
+      "name": "Element",
+      "artist": "Pop Smoke"
+    },
+    {
+      "videoId": "_XTu5vefx5Y",
+      "name": "Azul",
+      "artist": "J Balvin"
     },
     {
       "videoId": "Bc9ijogGmtU",
@@ -148,9 +518,194 @@
       "artist": "Lipps Inc."
     },
     {
+      "videoId": "hJWSZDJb-W4",
+      "name": "Bad Habits",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "videoId": "NSTUVHsb9xw",
+      "name": "Happier Than Ever",
+      "artist": "Billie Eilish"
+    },
+    {
+      "videoId": "2NiyrtYegso",
+      "name": "Wake Me Up",
+      "artist": "Avicii"
+    },
+    {
+      "videoId": "GDdoEZL3vJg",
+      "name": "I Drink Wine",
+      "artist": "Adele"
+    },
+    {
+      "videoId": "4QLvEIXlF6Q",
+      "name": "traitor",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "videoId": "aiMBLfDNFZE",
+      "name": "Run",
+      "artist": "OneRepublic"
+    },
+    {
+      "videoId": "9WfWnkVLwao",
+      "name": "Judas",
+      "artist": "Lady Gaga"
+    },
+    {
+      "videoId": "Q_2KGjfMBRs",
+      "name": "Leave Before You Love Me",
+      "artist": "Marshmello"
+    },
+    {
+      "videoId": "gNBkFme2BPE",
+      "name": "Pepas",
+      "artist": "Farruko"
+    },
+    {
+      "videoId": "9XsXJpYc7pU",
+      "name": "Habibi (Albanian Remix)",
+      "artist": "Ricky Rich"
+    },
+    {
       "videoId": "TaZkqPK0sbw",
       "name": "My Universe",
       "artist": "Coldplay"
+    },
+    {
+      "videoId": "Fy5C-bzi59Q",
+      "name": "ONLY",
+      "artist": "LeeHi"
+    },
+    {
+      "videoId": "ouB1vVtuT_I",
+      "name": "Pop Songs No. 2",
+      "artist": "Littoral"
+    },
+    {
+      "videoId": "BciS5krYL80",
+      "name": "Hotel California",
+      "artist": "Eagles"
+    },
+    {
+      "videoId": "uJEFB6wHzWA",
+      "name": "Best Remixes of Popular Songs 2017",
+      "artist": "Jamax Digital"
+    },
+    {
+      "videoId": "0aiJ7qzlZBI",
+      "name": "favorite crime",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "videoId": "pHw5jgsE_pY",
+      "name": "deja vu",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "videoId": "jFIXI6OekbY",
+      "name": "All My Favorite Songs (feat. AJR)",
+      "artist": "Weezer"
+    },
+    {
+      "videoId": "2-NJMRHY0Kc",
+      "name": "All My Favorite Songs",
+      "artist": "Weezer"
+    },
+    {
+      "videoId": "yjJ0U5gOKAs",
+      "name": "favorite songs",
+      "artist": "Spookybands"
+    },
+    {
+      "videoId": "l0txe6yk8Kc",
+      "name": "drivers license",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "videoId": "GBFWUR8XttQ",
+      "name": "happier",
+      "artist": "Olivia Rodrigo"
+    },
+    {
+      "videoId": "wCleqRPlGzk",
+      "name": "Pop Chart",
+      "artist": "Fen-Tones Productions"
+    },
+    {
+      "videoId": "daEoiUDcc7w",
+      "name": "Pop Charts",
+      "artist": "Laurent Lombard"
+    },
+    {
+      "videoId": "oXsal8_683M",
+      "name": "Pano",
+      "artist": "Zack Tabudlo"
+    },
+    {
+      "videoId": "XfEMj-z3TtA",
+      "name": "STAY",
+      "artist": "The Kid LAROI"
+    },
+    {
+      "videoId": "d0fuPEOkKRQ",
+      "name": "To Be Loved",
+      "artist": "Adele"
+    },
+    {
+      "videoId": "lJvRohYSrZM",
+      "name": "METAMORPHOSIS",
+      "artist": "INTERWORLD"
+    },
+    {
+      "videoId": "IOrbP1OqNsg",
+      "name": "Enemy (from the series Arcane League of Legends)",
+      "artist": "Imagine Dragons"
+    },
+    {
+      "videoId": "ycfWK55pyLw",
+      "name": "Modern Pop",
+      "artist": "331Music"
+    },
+    {
+      "videoId": "6_mdXb6JDLI",
+      "name": "Oh My God",
+      "artist": "Adele"
+    },
+    {
+      "videoId": "lSjymMS7AYI",
+      "name": "Modern Pop Party",
+      "artist": "AndrisMusic"
+    },
+    {
+      "videoId": "LW0_VUvc_IQ",
+      "name": "Summer Modern Pop",
+      "artist": "AlexRockBeat"
+    },
+    {
+      "videoId": "znvky0Uq8qc",
+      "name": "Until I Found You",
+      "artist": "Stephen Sanchez"
+    },
+    {
+      "videoId": "ljVvFSQO9s0",
+      "name": "Modern Pop Life",
+      "artist": "Nuback"
+    },
+    {
+      "videoId": "l2gJocXFDSE",
+      "name": "SHUM",
+      "artist": "Go_A"
+    },
+    {
+      "videoId": "8c9D0Vp4WaU",
+      "name": "Modern Motivate Corporate Pop",
+      "artist": "331Music"
+    },
+    {
+      "videoId": "NJDLtltc_N8",
+      "name": "SloMo (Eurovision's Dancebreak Edit)",
+      "artist": "Chanel"
     },
     {
       "videoId": "LCpjdohpuEE",
@@ -158,9 +713,39 @@
       "artist": "BTS"
     },
     {
-      "videoId": "8J1HLEF2MgU",
-      "name": "Fix You",
-      "artist": "Boyce Avenue"
+      "videoId": "gFOJkIk8fcs",
+      "name": "Insane",
+      "artist": "Black Gryph0n"
+    },
+    {
+      "videoId": "tWIJFhZ69_U",
+      "name": "The Motto",
+      "artist": "Tiësto"
+    },
+    {
+      "videoId": "NNCBq0JHXsU",
+      "name": "Butter",
+      "artist": "BTS"
+    },
+    {
+      "videoId": "peLRPSCeppI",
+      "name": "Moth To A Flame",
+      "artist": "Swedish House Mafia"
+    },
+    {
+      "videoId": "RErMj3s3Cis",
+      "name": "Drunk-Dazed",
+      "artist": "ENHYPEN"
+    },
+    {
+      "videoId": "4VgzrNU06TM",
+      "name": "Christmas EveL",
+      "artist": "Stray Kids"
+    },
+    {
+      "videoId": "3d86cifTtnU",
+      "name": "Dance Pop Fun Upbeat",
+      "artist": "ElectroAnimals"
     },
     {
       "videoId": "TmJ_LDx6BhE",
@@ -168,14 +753,184 @@
       "artist": "MagpieMusic"
     },
     {
+      "videoId": "3YlcV3ioE2s",
+      "name": "Energy pop rock",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "3q3iE1cUXwY",
+      "name": "Happy Pop Rock",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "WLhkKPUU2vk",
+      "name": "Pop Rock",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "pK_lVByfXrE",
+      "name": "Indie Pop Rock Upbeat and Uplifting",
+      "artist": "Romansenykmusic"
+    },
+    {
+      "videoId": "fyvCvwM5Bp0",
+      "name": "Happy pop rock",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "0T-BCIFeqq8",
+      "name": "I WANNA BE YOUR SLAVE",
+      "artist": "Måneskin"
+    },
+    {
       "videoId": "vxa8ShIm9yw",
       "name": "Enemy (From the series Arcane League of Legends)",
       "artist": "Imagine Dragons"
     },
     {
+      "videoId": "OU3U0VlDEC4",
+      "name": "Energy Pop Rock Music",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "1kuQkVjCPIQ",
+      "name": "Summer Pop Rock",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "PAyubf7v1FQ",
+      "name": "I WANNA BE YOUR SLAVE",
+      "artist": "Måneskin"
+    },
+    {
+      "videoId": "3XCq_GeFZlk",
+      "name": "Motivation Pop Rock",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "yHuhhvvtRFY",
+      "name": "Summer Pop Rock Background",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "-jyN6_3YomM",
+      "name": "Positive Fitness Pop Rock",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "j9w7akw2H1c",
+      "name": "Electric (Pokemon 25 Version)",
+      "artist": "Katy Perry"
+    },
+    {
+      "videoId": "qjiQGQVzmg8",
+      "name": "Electro Pop",
+      "artist": "Mahender Verma"
+    },
+    {
+      "videoId": "MdA8KgLq05Y",
+      "name": "Back to Black (Electro Pop Dance)",
+      "artist": "Francesco Digilio"
+    },
+    {
+      "videoId": "mkn5OZFZKKU",
+      "name": "In A Hurry",
+      "artist": "Young Mozart"
+    },
+    {
+      "videoId": "z5seyNY0VTA",
+      "name": "Electro Pop",
+      "artist": "Oliver Chill"
+    },
+    {
+      "videoId": "m0faGTJm_Is",
+      "name": "Electro Pop",
+      "artist": "Blue Forest"
+    },
+    {
+      "videoId": "UN7EsMakcHQ",
+      "name": "Electro Pop",
+      "artist": "Сержо"
+    },
+    {
+      "videoId": "NDgEyXmonoE",
+      "name": "The Best (2021 Remaster)",
+      "artist": "Tina Turner"
+    },
+    {
+      "videoId": "kj4aLNadx_M",
+      "name": "Dance the Night Away (Live) (feat. Roy Verbeek)",
+      "artist": "Live In The Netherlands"
+    },
+    {
+      "videoId": "ISKD1X7bVKc",
+      "name": "Wake Me Up (Live) (feat. Roy Verbeek)",
+      "artist": "Live In The Netherlands"
+    },
+    {
+      "videoId": "lhSItuZ4HdU",
+      "name": "We Will Rock You (Live) (feat. Roy Verbeek)",
+      "artist": "Live In The Netherlands"
+    },
+    {
       "videoId": "lDt93W_kzeo",
       "name": "mainstream",
       "artist": "oski"
+    },
+    {
+      "videoId": "2g4Re3gS40s",
+      "name": "In Your Arms",
+      "artist": "Janush Bekker"
+    },
+    {
+      "videoId": "FNKnZD14Nn8",
+      "name": "Mainstream",
+      "artist": "Maverick"
+    },
+    {
+      "videoId": "ww1ID8J-cec",
+      "name": "Mainstream",
+      "artist": "Mainstream"
+    },
+    {
+      "videoId": "kkiTpYNvfis",
+      "name": "mainstream",
+      "artist": "Beeii"
+    },
+    {
+      "videoId": "KHu64bvpDnY",
+      "name": "Mainstream",
+      "artist": "Black Booduh"
+    },
+    {
+      "videoId": "4YSHPGn9-LM",
+      "name": "MONEY",
+      "artist": "LISA"
+    },
+    {
+      "videoId": "IpMaRcBfWoE",
+      "name": "You",
+      "artist": "benny blanco"
+    },
+    {
+      "videoId": "buz6wnviE28",
+      "name": "In Da Getto",
+      "artist": "J Balvin"
+    },
+    {
+      "videoId": "2AeugUfVctM",
+      "name": "Leave Before You Love Me",
+      "artist": "Marshmello"
+    },
+    {
+      "videoId": "UUI5fgxpzgI",
+      "name": "Good Mood (Original Song from Paw Patrol: The Movie)",
+      "artist": "Adam Levine"
+    },
+    {
+      "videoId": "83wHobGEHHw",
+      "name": "Ships + Tides",
+      "artist": "OneRepublic"
     },
     {
       "videoId": "BkSSOGNeWTM",
@@ -193,39 +948,14 @@
       "artist": "Harry Styles"
     },
     {
-      "videoId": "vSpXDnkuMF4",
-      "name": "Favorite Peeps",
-      "artist": "Prateek Kuhad"
+      "videoId": "-Xd1VSwCi2o",
+      "name": "Rush",
+      "artist": "Ayra Starr"
     },
     {
-      "videoId": "CW3ACeHZSMo",
-      "name": "Top Songs of 2022",
-      "artist": "Current Chart!"
-    },
-    {
-      "videoId": "ZU1zZerkgis",
-      "name": "80S Synth Pop Beat",
-      "artist": "Fromayo"
-    },
-    {
-      "videoId": "VvNe8GKpw_g",
-      "name": "Synth Pop 22",
-      "artist": "CUJOCANE"
-    },
-    {
-      "videoId": "AQTkDIN9amI",
-      "name": "Upbeat Happy Synth Pop",
-      "artist": "ANtarcticbreeze"
-    },
-    {
-      "videoId": "R9TPed_ohKM",
-      "name": "POP!",
-      "artist": "NAYEON"
-    },
-    {
-      "videoId": "9PpXu-2fPHc",
-      "name": "Dream On",
-      "artist": "Aerosmith"
+      "videoId": "3YgtjHZyCIQ",
+      "name": "Anti-Hero",
+      "artist": "Taylor Swift"
     },
     {
       "videoId": "NMA_isZYsYQ",
@@ -233,34 +963,464 @@
       "artist": "Kenshi Yonezu"
     },
     {
-      "videoId": "oMfMUfgjiLg",
-      "name": "Sweet Child O' Mine",
+      "videoId": "IC16XVKc8CQ",
+      "name": "The Kind of Love We Make",
+      "artist": "Luke Combs"
+    },
+    {
+      "videoId": "TdYNDCME8pc",
+      "name": "Sun is up",
+      "artist": "INNA"
+    },
+    {
+      "videoId": "wnWxeBfV2ZQ",
+      "name": "About Damn Time",
+      "artist": "Lizzo"
+    },
+    {
+      "videoId": "7GC7eI9c-20",
+      "name": "Numb",
+      "artist": "Marshmello"
+    },
+    {
+      "videoId": "qCDPprTDkJE",
+      "name": "Pink Venom",
+      "artist": "BLACKPINK"
+    },
+    {
+      "videoId": "gLA6VyT4QOw",
+      "name": "Stick Season",
+      "artist": "Noah Kahan"
+    },
+    {
+      "videoId": "tMgEYaclnQ0",
+      "name": "On Top",
+      "artist": "Karan Aujla"
+    },
+    {
+      "videoId": "9PpXu-2fPHc",
+      "name": "Dream On",
+      "artist": "Aerosmith"
+    },
+    {
+      "videoId": "D6pzmoSTa4c",
+      "name": "Favourite",
+      "artist": "Artemas"
+    },
+    {
+      "videoId": "vSpXDnkuMF4",
+      "name": "Favorite Peeps",
+      "artist": "Prateek Kuhad"
+    },
+    {
+      "videoId": "ui1shyRtM1o",
+      "name": "god's favorite",
+      "artist": "Nessa Barrett"
+    },
+    {
+      "videoId": "srtSNyYWlQI",
+      "name": "Favorite Human",
+      "artist": "Poo Bear"
+    },
+    {
+      "videoId": "nvhDZKiKdC8",
+      "name": "FAVORITE",
+      "artist": "Nobu Woods"
+    },
+    {
+      "videoId": "5yllMKu4FI8",
+      "name": "Favorite Little Toy",
+      "artist": "Henri Werner"
+    },
+    {
+      "videoId": "8dUSV_ZJUhQ",
+      "name": "Favorite Song (feat. TSM Beeezy)",
+      "artist": "Desire"
+    },
+    {
+      "videoId": "qLDFrjOtFZA",
+      "name": "FAVORITE",
+      "artist": "HUNJIYA"
+    },
+    {
+      "videoId": "2NyIupIueAY",
+      "name": "Nobody Gets Me",
+      "artist": "SZA"
+    },
+    {
+      "videoId": "eahH9efGm3c",
+      "name": "There`s One Girl in This Town",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "hQmmRS-Ywz0",
+      "name": "Lips to Lips (feat. Ivan Herb)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "IRfQI9Y6EK0",
+      "name": "Matilda",
+      "artist": "Harry Styles"
+    },
+    {
+      "videoId": "ZfCczRdQnzg",
+      "name": "Call It Love",
+      "artist": "Chart Countdown 3"
+    },
+    {
+      "videoId": "f21G0ixUPxk",
+      "name": "Outtaspace Presents Pop Charts",
+      "artist": "205 Yoshi"
+    },
+    {
+      "videoId": "YK-cRwH8WJ4",
+      "name": "COLOR CHART (feat. Emi Evans)",
+      "artist": "onoken"
+    },
+    {
+      "videoId": "z54b7qAB7p0",
+      "name": "Bam Bam (feat. Ed Sheeran)",
+      "artist": "Camila Cabello"
+    },
+    {
+      "videoId": "WqgIXrcSHKo",
+      "name": "Be Like That (Remix)",
+      "artist": "Ultimate Pop Hits!"
+    },
+    {
+      "videoId": "cfhwSpSDA9c",
+      "name": "Unstoppable",
+      "artist": "Sia"
+    },
+    {
+      "videoId": "izfq5tyAaQY",
+      "name": "How Do I Say Goodbye",
+      "artist": "Dean Lewis"
+    },
+    {
+      "videoId": "mEveOIoiHg4",
+      "name": "Here With Me",
+      "artist": "d4vd"
+    },
+    {
+      "videoId": "Ia9P9DS3h4E",
+      "name": "2022 Top Hits",
+      "artist": "Popular Songs"
+    },
+    {
+      "videoId": "YkLLcIKhJ64",
+      "name": "Dancing Queen",
+      "artist": "ABBA"
+    },
+    {
+      "videoId": "aXmmyuIqZyo",
+      "name": "Fast Car",
+      "artist": "Luke Combs"
+    },
+    {
+      "videoId": "ZqSlV5LmrTg",
+      "name": "Snooze",
+      "artist": "SZA"
+    },
+    {
+      "videoId": "SZiwpL62to8",
+      "name": "ANTIFRAGILE",
+      "artist": "LE SSERAFIM"
+    },
+    {
+      "videoId": "j2OsgFkCTaM",
+      "name": "Modern Pop",
+      "artist": "Bikini Islands"
+    },
+    {
+      "videoId": "Zxi7sPtZMCk",
+      "name": "Fresh Indie Catchy Modern Pop",
+      "artist": "Osynthw"
+    },
+    {
+      "videoId": "uf4ncV34syk",
+      "name": "Modern Pop",
+      "artist": "MrRevant"
+    },
+    {
+      "videoId": "_tHyo-WwAwQ",
+      "name": "Modern Pop",
+      "artist": "Dredstudio"
+    },
+    {
+      "videoId": "QM7IPvh4UxM",
+      "name": "West Coast",
+      "artist": "OneRepublic"
+    },
+    {
+      "videoId": "Az5zOMXxJ6Y",
+      "name": "Pop Dance",
+      "artist": "TimTaj"
+    },
+    {
+      "videoId": "ghrlZIMDzbM",
+      "name": "Hype Boy",
+      "artist": "NewJeans"
+    },
+    {
+      "videoId": "950BdJKBhGo",
+      "name": "Shut Down",
+      "artist": "BLACKPINK"
+    },
+    {
+      "videoId": "RdU3F5vN3_s",
+      "name": "Nxde",
+      "artist": "i-dle"
+    },
+    {
+      "videoId": "WjFG03kS7nQ",
+      "name": "November Rain (2022 Version)",
       "artist": "Guns N' Roses"
     },
     {
-      "videoId": "_GX3D32b3TI",
-      "name": "STAR WALKIN' (League of Legends Worlds Anthem)",
-      "artist": "Lil Nas X"
+      "videoId": "jqJX_FEDI3s",
+      "name": "THE LONELIEST",
+      "artist": "Måneskin"
     },
     {
-      "videoId": "-Xd1VSwCi2o",
-      "name": "Rush",
-      "artist": "Ayra Starr"
+      "videoId": "lqexiXeGWr0",
+      "name": "Motivational Pop Rock",
+      "artist": "ZaharVips"
     },
     {
-      "videoId": "hOyn0bCydZo",
-      "name": "Summer songs to dance ~ Best songs that make you dance",
-      "artist": "A.C Vibes"
+      "videoId": "Ap9PqufwsiU",
+      "name": "The Funeral",
+      "artist": "YUNGBLUD"
     },
     {
-      "videoId": "ORrFJ63nlcA",
-      "name": "Perfect",
-      "artist": "Ed Sheeran"
+      "videoId": "v3qcM3oCTgk",
+      "name": "Call Of The Wild",
+      "artist": "Scorpions"
     },
     {
-      "videoId": "HgLfYfJtc8M",
-      "name": "One Of The Girls",
+      "videoId": "h5yEaPd6VLo",
+      "name": "Pop Rock",
+      "artist": "MrClaps"
+    },
+    {
+      "videoId": "1sd_3ii9fQk",
+      "name": "Pop Rock Uplifting Upbeat",
+      "artist": "ZaharVips"
+    },
+    {
+      "videoId": "ZyaJv14ckZ8",
+      "name": "POP ROCK",
+      "artist": "RockFather"
+    },
+    {
+      "videoId": "Y1zO-Rs7a4M",
+      "name": "Electro Pop",
+      "artist": "Alexi Action"
+    },
+    {
+      "videoId": "EMBXtNltzb4",
+      "name": "Electro Pop",
+      "artist": "Gabriel Watereast"
+    },
+    {
+      "videoId": "YAfp2DrK0x8",
+      "name": "Electro Pop Clouds",
+      "artist": "Vermair"
+    },
+    {
+      "videoId": "ggCZZUHMY-A",
+      "name": "Expectation To Hopeful Electro Pop",
+      "artist": "Rémi Koudenov"
+    },
+    {
+      "videoId": "Od5DBaApNYQ",
+      "name": "Electro Pop",
+      "artist": "CM Audio"
+    },
+    {
+      "videoId": "SPgGoE3TrgI",
+      "name": "Electro Pop Guitar",
+      "artist": "Laurent Boy"
+    },
+    {
+      "videoId": "X2q7XTHJzDE",
+      "name": "Electro Pop",
+      "artist": "Halfbrick"
+    },
+    {
+      "videoId": "-Q0xCNv2_BM",
+      "name": "Latin Pop Old",
+      "artist": "Dj Ronald Bardales"
+    },
+    {
+      "videoId": "J68w_8YcN1g",
+      "name": "Antidepresan",
+      "artist": "Mert Demir"
+    },
+    {
+      "videoId": "5nRQWc4YKGU",
+      "name": "Stefania (Kalush Orchestra)",
+      "artist": "KALUSH"
+    },
+    {
+      "videoId": "26ieJqrr7vI",
+      "name": "Adore (feat. euro)",
+      "artist": "Fireboy DML"
+    },
+    {
+      "videoId": "8rYFE1eQfIY",
+      "name": "New Italo Disco Music",
+      "artist": "KorgStyle Life"
+    },
+    {
+      "videoId": "A666cZN78YA",
+      "name": "Europe",
+      "artist": "Sliki"
+    },
+    {
+      "videoId": "NyenQ2yTVyA",
+      "name": "Hôtel Europe",
+      "artist": "Rap&Vogue"
+    },
+    {
+      "videoId": "gTCJcZiivyo",
+      "name": "last november",
+      "artist": "mgk"
+    },
+    {
+      "videoId": "07IWVcDxOwM",
+      "name": "fake love don’t last",
+      "artist": "mgk"
+    },
+    {
+      "videoId": "QNUcMQR5114",
+      "name": "born with horns",
+      "artist": "mgk"
+    },
+    {
+      "videoId": "79vxRvYqeT4",
+      "name": "Made You Look",
+      "artist": "Meghan Trainor"
+    },
+    {
+      "videoId": "QgMYdDKVkrw",
+      "name": "Is There Someone Else?",
       "artist": "The Weeknd"
+    },
+    {
+      "videoId": "9cqdD6WKpPs",
+      "name": "My G",
+      "artist": "Aitch"
+    },
+    {
+      "videoId": "qqnABNRHMYM",
+      "name": "ITALODISCO",
+      "artist": "The Kolors"
+    },
+    {
+      "videoId": "5YkYwiSJKDI",
+      "name": "Old Love",
+      "artist": "yuji"
+    },
+    {
+      "videoId": "OtLcqr3RQJY",
+      "name": "snowfall",
+      "artist": "Øneheart"
+    },
+    {
+      "videoId": "2yqYAsUpdSc",
+      "name": "Out of Time",
+      "artist": "The Weeknd"
+    },
+    {
+      "videoId": "WVPvtbjCcDs",
+      "name": "Pop Out",
+      "artist": "Lil Baby"
+    },
+    {
+      "videoId": "V2SVRJ6dcE4",
+      "name": "Bones",
+      "artist": "Imagine Dragons"
+    },
+    {
+      "videoId": "ywUqTGWU7ec",
+      "name": "Bejeweled",
+      "artist": "Taylor Swift"
+    },
+    {
+      "videoId": "7K-lYYmlUwU",
+      "name": "I Found Her",
+      "artist": "Olly Murs"
+    },
+    {
+      "videoId": "DYbgeni_RPk",
+      "name": "Top Hits 2023",
+      "artist": "Top Hits 2023"
+    },
+    {
+      "videoId": "bokJfDZCzNk",
+      "name": "drunk text",
+      "artist": "Henry Moodie"
+    },
+    {
+      "videoId": "pbDKb311Zrg",
+      "name": "Tattoo",
+      "artist": "Loreen"
+    },
+    {
+      "videoId": "-cynukYceW4",
+      "name": "Pop Music 2024",
+      "artist": "Clean Pop Music"
+    },
+    {
+      "videoId": "5G0fa470jW4",
+      "name": "La Isla Bonita",
+      "artist": "Madonna"
+    },
+    {
+      "videoId": "o9KHV7Aa2Zs",
+      "name": "Favorite Song (Remix)",
+      "artist": "Toosii"
+    },
+    {
+      "videoId": "I5MXsRyJNWk",
+      "name": "favorite kind of high",
+      "artist": "Kelly Clarkson"
+    },
+    {
+      "videoId": "MNlvjOTEuRM",
+      "name": "Favorite Dress",
+      "artist": "jahmiel"
+    },
+    {
+      "videoId": "ty8hVYfswV0",
+      "name": "favorite lesson",
+      "artist": "yaeow"
+    },
+    {
+      "videoId": "07cWz8NGSN4",
+      "name": "favorite kind of high",
+      "artist": "Kelly Clarkson"
+    },
+    {
+      "videoId": "NYdbd9Bv_Os",
+      "name": "favorite song",
+      "artist": "sammy rash"
+    },
+    {
+      "videoId": "xuEqTjNNha8",
+      "name": "Favorite Song",
+      "artist": "Kye Thompson"
+    },
+    {
+      "videoId": "ogG7k3G8JfE",
+      "name": "Favorite Songs",
+      "artist": "Chris Meyer"
+    },
+    {
+      "videoId": "-l5RlT3b0XE",
+      "name": "favorite lesson (with Keenan Te)",
+      "artist": "yaeow"
     },
     {
       "videoId": "UgkUP020oYA",
@@ -273,44 +1433,229 @@
       "artist": "FRANSISCA"
     },
     {
-      "videoId": "S5M4EOmIinY",
-      "name": "Synth Pop",
-      "artist": "BlackTrendMusic"
+      "videoId": "pZ8N29GfhSQ",
+      "name": "Seratonin",
+      "artist": "Chart Pop 8"
     },
     {
-      "videoId": "O7ZHg2SpPLU",
-      "name": "Dark Synth Pop",
-      "artist": "SISTOS"
+      "videoId": "NCTz7S6QSGQ",
+      "name": "Top of Pop Charts",
+      "artist": "sivick beats"
     },
     {
-      "videoId": "loVUmm9yUy0",
-      "name": "AMBATUKAM SYNTHPOP",
-      "artist": "VKO"
+      "videoId": "hXrw2NBKlsI",
+      "name": "Pop charts",
+      "artist": "Musix factory"
     },
     {
-      "videoId": "wYAys91gOdU",
-      "name": "Synth Pop Soiree",
-      "artist": "VoltageVibes"
+      "videoId": "lOhsdCbUeeo",
+      "name": "Watch Me Fly",
+      "artist": "Chart Pop 8"
     },
     {
-      "videoId": "l6_w3887Rwo",
-      "name": "Tennessee Whiskey",
-      "artist": "Chris Stapleton"
+      "videoId": "3UUM1K4C8II",
+      "name": "Chart 4: Dance Pop with Click",
+      "artist": "Backbone Drums"
     },
     {
-      "videoId": "pRIZohFFOMo",
-      "name": "Someone You Loved",
-      "artist": "Lewis Capaldi"
+      "videoId": "61f8WDqdGh0",
+      "name": "Vanish",
+      "artist": "Chart Pop 8"
     },
     {
-      "videoId": "qqnABNRHMYM",
-      "name": "ITALODISCO",
-      "artist": "The Kolors"
+      "videoId": "88LjU76U3q4",
+      "name": "Shake It Off",
+      "artist": "Chart Pop 8"
+    },
+    {
+      "videoId": "0q2nGQ7j7s8",
+      "name": "Chart 4: Dance Pop with Drums",
+      "artist": "Backbone Drums"
+    },
+    {
+      "videoId": "hFHoZNKBo3k",
+      "name": "Second Time Around",
+      "artist": "Chart Pop 8"
+    },
+    {
+      "videoId": "_J_iw-KWtgo",
+      "name": "Only You",
+      "artist": "Chart Pop 8"
+    },
+    {
+      "videoId": "6mT-n2Lsit8",
+      "name": "Come On Girl",
+      "artist": "Chart Pop 8"
+    },
+    {
+      "videoId": "HgLfYfJtc8M",
+      "name": "One Of The Girls",
+      "artist": "The Weeknd"
+    },
+    {
+      "videoId": "VuyY8F3wpTw",
+      "name": "Modern Pop",
+      "artist": "Creator Music"
+    },
+    {
+      "videoId": "KmJPLnzSxaU",
+      "name": "Modern Pop",
+      "artist": "C Dylla G"
+    },
+    {
+      "videoId": "Maukl6eUyR0",
+      "name": "Death to modern pop",
+      "artist": "Death to modern pop"
+    },
+    {
+      "videoId": "NhDelczOHUA",
+      "name": "Modern Pop Track",
+      "artist": "Aiert Erkoreka"
+    },
+    {
+      "videoId": "DrK6TRJ3Yww",
+      "name": "The Modern Pop Culture",
+      "artist": "Andre Galaverna"
+    },
+    {
+      "videoId": "KLccXn_VEbE",
+      "name": "Energetic Modern Indie Electro Pop",
+      "artist": "Osynthw"
+    },
+    {
+      "videoId": "UGRIOeZEkEw",
+      "name": "Modern Rave Is Pop",
+      "artist": "Hannes Knef"
+    },
+    {
+      "videoId": "lFcv0t51tA0",
+      "name": "Pop Life (Mix)",
+      "artist": "David Guetta"
+    },
+    {
+      "videoId": "9fdsJZ7Xtuc",
+      "name": "Next To You (feat. Kane Brown)",
+      "artist": "Loud Luxury"
     },
     {
       "videoId": "qgtYrj4qKrs",
       "name": "Pop Rock 2023",
       "artist": "Rafał Kozieł"
+    },
+    {
+      "videoId": "jzz16mRP2V8",
+      "name": "She's Gone",
+      "artist": "Steelheart"
+    },
+    {
+      "videoId": "k1NKO5sHDq0",
+      "name": "POP! (Rock Version)",
+      "artist": "LITTB"
+    },
+    {
+      "videoId": "5dbD7A7MpdU",
+      "name": "Pop Rocks",
+      "artist": "Cherry Hencefox"
+    },
+    {
+      "videoId": "If-W2C_3IsQ",
+      "name": "Inspiring Pop Rock",
+      "artist": "Assai"
+    },
+    {
+      "videoId": "e3f973rLeIw",
+      "name": "Pop-Rock Powerhouse",
+      "artist": "Pop-Rock Revolution"
+    },
+    {
+      "videoId": "lhg9bYNLvOg",
+      "name": "Thunderstruck",
+      "artist": "AC/DC"
+    },
+    {
+      "videoId": "cAPoJGy0NsU",
+      "name": "Heartbreak in the Rain chill pop rock",
+      "artist": "mayk mayk"
+    },
+    {
+      "videoId": "KE2pjGFOqnM",
+      "name": "Mellow Electro Pop",
+      "artist": "Emmerich Adelia"
+    },
+    {
+      "videoId": "arTF1dbANPA",
+      "name": "Electro Pop",
+      "artist": "Audiosphere"
+    },
+    {
+      "videoId": "rJ0D1GbDq1Q",
+      "name": "Let Me Love You (feat. Justin Bieber)",
+      "artist": "DJ Snake"
+    },
+    {
+      "videoId": "wapa1-S03Ek",
+      "name": "Show Me Love",
+      "artist": "WizTheMc"
+    },
+    {
+      "videoId": "awvG6RiENXg",
+      "name": "Shake It To The Max (FLY) (Remix)",
+      "artist": "MOLIY"
+    },
+    {
+      "videoId": "kIft-LUHHVA",
+      "name": "Espresso",
+      "artist": "Sabrina Carpenter"
+    },
+    {
+      "videoId": "DlFXDl_ROAM",
+      "name": "Die With A Smile",
+      "artist": "Lady Gaga"
+    },
+    {
+      "videoId": "eLhSxOAaWmg",
+      "name": "Beautiful Things",
+      "artist": "Benson Boone"
+    },
+    {
+      "videoId": "9RfVp-GhKfs",
+      "name": "Creep",
+      "artist": "Radiohead"
+    },
+    {
+      "videoId": "OHOgavkr0cY",
+      "name": "European Pop Backing Track",
+      "artist": "Dello Studio"
+    },
+    {
+      "videoId": "cWgGCHtRxP4",
+      "name": "Euro pop",
+      "artist": "Lugo"
+    },
+    {
+      "videoId": "--QRLOUaOgY",
+      "name": "Played-A-Live (The Bongo Song) (Original Club Version)",
+      "artist": "Safri Duo"
+    },
+    {
+      "videoId": "NNiTxUEnmKI",
+      "name": "The Final Countdown",
+      "artist": "Europe"
+    },
+    {
+      "videoId": "7_K2_p6awQA",
+      "name": "One with the Wolves",
+      "artist": "Robin Schulz"
+    },
+    {
+      "videoId": "kDmC984Uan4",
+      "name": "Prada (Ronnie Pacitti Remix)",
+      "artist": "cassö"
+    },
+    {
+      "videoId": "7urul6nhfZA",
+      "name": "Euro Dance 2023",
+      "artist": "Alex Whipydy"
     },
     {
       "videoId": "4Wx2qQAZinw",
@@ -328,9 +1673,44 @@
       "artist": "Saustoimusi"
     },
     {
-      "videoId": "kIft-LUHHVA",
-      "name": "Espresso",
-      "artist": "Sabrina Carpenter"
+      "videoId": "vKpl42-Aits",
+      "name": "Mainstream",
+      "artist": "Arielle"
+    },
+    {
+      "videoId": "lwFZZKjg7hY",
+      "name": "Stay Here",
+      "artist": "Sonya Bexter"
+    },
+    {
+      "videoId": "6jm_-JJRSPE",
+      "name": "Mainstream",
+      "artist": "Marc Ongley"
+    },
+    {
+      "videoId": "nDgLMamrSJE",
+      "name": "Sometimes",
+      "artist": "Funky Glow"
+    },
+    {
+      "videoId": "hNBn7CRFbT4",
+      "name": "Like I Do",
+      "artist": "Elisabeth Schulz"
+    },
+    {
+      "videoId": "XIaL74EM4RQ",
+      "name": "Thinkin",
+      "artist": "The Ocean Driver"
+    },
+    {
+      "videoId": "ATcitkE3T44",
+      "name": "Pop Pop",
+      "artist": "Bad Gyal"
+    },
+    {
+      "videoId": "hB8l_Z2ddCw",
+      "name": "POP",
+      "artist": "A. Nayaka"
     },
     {
       "videoId": "gTRqZc5y5vU",
@@ -338,14 +1718,59 @@
       "artist": "Clean Pop Music"
     },
     {
-      "videoId": "-cynukYceW4",
-      "name": "Pop Music 2024",
-      "artist": "Clean Pop Music"
+      "videoId": "WKZO-CWeOVA",
+      "name": "BIRDS OF A FEATHER",
+      "artist": "Billie Eilish"
     },
     {
-      "videoId": "eLhSxOAaWmg",
-      "name": "Beautiful Things",
-      "artist": "Benson Boone"
+      "videoId": "m_dA7mbfOnU",
+      "name": "Pop 2025",
+      "artist": "Pop 2024"
+    },
+    {
+      "videoId": "Rm9qPp2G6hQ",
+      "name": "Pop Music Summer 2024",
+      "artist": "Chill Pop Music"
+    },
+    {
+      "videoId": "DiTd771WumE",
+      "name": "APT.",
+      "artist": "ROSÉ"
+    },
+    {
+      "videoId": "H80whd0uNL4",
+      "name": "Celebrate Life Summer Pop Classic",
+      "artist": "Chill Pop Music"
+    },
+    {
+      "videoId": "JJPlzNajdUs",
+      "name": "Sımarık",
+      "artist": "Tarkan"
+    },
+    {
+      "videoId": "uGfqdcRgzho",
+      "name": "What I Need",
+      "artist": "Naarly"
+    },
+    {
+      "videoId": "SpPQ4J8s2aM",
+      "name": "Favorite",
+      "artist": "Trouble In Paradise"
+    },
+    {
+      "videoId": "Q5IebAABWsk",
+      "name": "Favorite Song",
+      "artist": "Jason Derulo"
+    },
+    {
+      "videoId": "t74VSjMxufI",
+      "name": "Favorite Girl",
+      "artist": "VCHA"
+    },
+    {
+      "videoId": "oZK_RKrmyJg",
+      "name": "My Favorite Pop Song",
+      "artist": "Dollzero"
     },
     {
       "videoId": "jQ9NvfX9AVM",
@@ -353,14 +1778,44 @@
       "artist": "Justin Timberlake"
     },
     {
-      "videoId": "mtx5tCNijyg",
-      "name": "Top 40 Hit Songs Of 2024 (UK Singles Chart)",
-      "artist": "MUSIC CHARTS"
+      "videoId": "HmmKMcfU1Ow",
+      "name": "Favorite (slowed to perfection)",
+      "artist": "Luke Muzzic"
     },
     {
-      "videoId": "Q9YEizbDTk4",
-      "name": "Chart Pop Ballad",
-      "artist": "Jennifer June"
+      "videoId": "Pw2ADOMZVdg",
+      "name": "DADDY’S FAVORITE!",
+      "artist": "REYSHA RAMI"
+    },
+    {
+      "videoId": "q1akFrXlIEo",
+      "name": "My Boy Only Breaks His Favorite Toys",
+      "artist": "Taylor Swift"
+    },
+    {
+      "videoId": "Ux4KK38Rpbw",
+      "name": "favorite",
+      "artist": "brown eyed girl"
+    },
+    {
+      "videoId": "CiRb4aOyK5M",
+      "name": "Favorite",
+      "artist": "nihmune"
+    },
+    {
+      "videoId": "KO-oYIKIT9k",
+      "name": "Favorite Sound",
+      "artist": "Okean Elzy"
+    },
+    {
+      "videoId": "gegm4e9HSZU",
+      "name": "Best Pop Tracks for a Chill Vibe",
+      "artist": "Chill Pop Music"
+    },
+    {
+      "videoId": "B7F6rX4tiyY",
+      "name": "och i ach",
+      "artist": "Sylwia Grzeszczak"
     },
     {
       "videoId": "Z6xnRurxC3s",
@@ -368,24 +1823,89 @@
       "artist": "Nantanee be"
     },
     {
-      "videoId": "Ax0FQNxkNGM",
-      "name": "Pop 2024",
-      "artist": "Pop 2024"
+      "videoId": "Q9YEizbDTk4",
+      "name": "Chart Pop Ballad",
+      "artist": "Jennifer June"
     },
     {
-      "videoId": "xIQx_FJQD2s",
-      "name": "Retro Synthpop",
-      "artist": "Synthpop 2024"
+      "videoId": "xGs69Zus1hM",
+      "name": "Overdose of Love",
+      "artist": "DJ Chart"
     },
     {
-      "videoId": "xPwaPjpE6Pw",
-      "name": "Oldschool Synthpop",
-      "artist": "Synthpop 2024"
+      "videoId": "S6RkKD1FHmM",
+      "name": "Top of the Charts",
+      "artist": "Pop Princess"
     },
     {
-      "videoId": "c55Qa2vYUIU",
-      "name": "Chillwave Vibes",
-      "artist": "Synthpop 2024"
+      "videoId": "ZA3RXwWJcp0",
+      "name": "Chart Pop Ballad (Instrumental Version)",
+      "artist": "Jennifer June"
+    },
+    {
+      "videoId": "tMSIRFtWEIs",
+      "name": "The Coka Cola Song (Pop)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "ns7tNCxfoMw",
+      "name": "Revenge Song (Pop Duet)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "zTvAxNWY78w",
+      "name": "Tell Me What You Feel (Dance House)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "MRqZ2f5akZE",
+      "name": "We Own the Night",
+      "artist": "Chart Pop: Hot Right Now"
+    },
+    {
+      "videoId": "FtxQIpNCcWQ",
+      "name": "Coca Cola Hearts Are Singing (Ballad)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "hqZQuphuvJg",
+      "name": "Glue",
+      "artist": "Eva Lind"
+    },
+    {
+      "videoId": "JmZ_3Hgrh9g",
+      "name": "Under Your Spell",
+      "artist": "EMM131 Chart Pop"
+    },
+    {
+      "videoId": "9JOjTRH1sj0",
+      "name": "Phone (Duett)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "wxBCtISYJcY",
+      "name": "Pop Chart",
+      "artist": "Me Times 2"
+    },
+    {
+      "videoId": "-itQnidZfHI",
+      "name": "Pop Ballads",
+      "artist": "Danny Carrera"
+    },
+    {
+      "videoId": "YalgKfrOdsI",
+      "name": "Faithfully (2024 Remaster)",
+      "artist": "Journey"
+    },
+    {
+      "videoId": "UsdGgRL1xHc",
+      "name": "Separate Ways (Worlds Apart)  [2024 Remaster]",
+      "artist": "Journey"
+    },
+    {
+      "videoId": "KWuyx6yZ21U",
+      "name": "A Sky Full of Stars",
+      "artist": "Coldplay"
     },
     {
       "videoId": "PuQ6Mx1U3c0",
@@ -393,14 +1913,134 @@
       "artist": "Osynthw"
     },
     {
-      "videoId": "3vmewzGcX2I",
-      "name": "Best dance songs 2024 🌈 Party songs 2024 ~ Songs that make you dance",
-      "artist": "Love Life Lyrics"
+      "videoId": "chZI9iFFPOo",
+      "name": "Modern Pop",
+      "artist": "Aglagan"
     },
     {
-      "videoId": "JYDwTQC5TlE",
-      "name": "Paint The Town Blue (from the series Arcane League of Legends)",
-      "artist": "Ashnikko"
+      "videoId": "kE9iKi-pL1A",
+      "name": "Modern Pop Corporate",
+      "artist": "Aglagan"
+    },
+    {
+      "videoId": "EAEQXY7QzGk",
+      "name": "Pop 2024",
+      "artist": "Chill Pop Music"
+    },
+    {
+      "videoId": "_J4TYziv_3I",
+      "name": "Pop 2024 Music",
+      "artist": "Chill Pop Music"
+    },
+    {
+      "videoId": "b7T20a6nQIY",
+      "name": "Modern Pop Marketing Presentation",
+      "artist": "Osynthw"
+    },
+    {
+      "videoId": "AEOZi_SDICo",
+      "name": "Modern Pop",
+      "artist": "Mollypop"
+    },
+    {
+      "videoId": "Ax0FQNxkNGM",
+      "name": "Pop 2024",
+      "artist": "Pop 2024"
+    },
+    {
+      "videoId": "9Wf1rOvwQnM",
+      "name": "Dance Monkey",
+      "artist": "Pop 2024"
+    },
+    {
+      "videoId": "MS-sC2Fq6Bo",
+      "name": "We Dance Again",
+      "artist": "Pop 2024"
+    },
+    {
+      "videoId": "Q9NpjHy6pb0",
+      "name": "Dance Pop 2025",
+      "artist": "Pop 2018"
+    },
+    {
+      "videoId": "c0AjaPA7t4s",
+      "name": "DANCE POP (Radio Edit)",
+      "artist": "PVXN"
+    },
+    {
+      "videoId": "_WNrgZtpd_U",
+      "name": "Dance Pop",
+      "artist": "Korandrino"
+    },
+    {
+      "videoId": "CPWU9l2r5_s",
+      "name": "Eyes Without A Face",
+      "artist": "Billy Idol"
+    },
+    {
+      "videoId": "nyu9o9JW-5E",
+      "name": "Epic Pop Rock Odyssey",
+      "artist": "Energetic Pop Beats"
+    },
+    {
+      "videoId": "Zo4SoSOSXco",
+      "name": "Upbeat Pop Rock Fusion Frenzy",
+      "artist": "Energetic Pop Beats"
+    },
+    {
+      "videoId": "4J079CJ0MQI",
+      "name": "Action sport pop rock",
+      "artist": "MagpieMusic"
+    },
+    {
+      "videoId": "A9FvR2u94h0",
+      "name": "Pop Pop Rock",
+      "artist": "DJ Spencer"
+    },
+    {
+      "videoId": "8H6dTRzN9gM",
+      "name": "Pop Rock Revolution Sparks",
+      "artist": "Energetic Pop Beats"
+    },
+    {
+      "videoId": "lYtz_ukNAFU",
+      "name": "Upbeat Pop Rock Fusion Frenzy",
+      "artist": "Energetic Pop Beats"
+    },
+    {
+      "videoId": "7H7jtzpwB4E",
+      "name": "Dancing Queen (Chris Varvaro 2024 Remix)",
+      "artist": "A*Teens"
+    },
+    {
+      "videoId": "uVCLZTsmwyM",
+      "name": "Electro pop",
+      "artist": "JUGAADU BEATS"
+    },
+    {
+      "videoId": "BrdAum2VmTQ",
+      "name": "Electro Pop (You and I)",
+      "artist": "Valerton"
+    },
+    {
+      "videoId": "PTPHjGL-HGY",
+      "name": "Shine Togheter (Dance Electro Pop Music)",
+      "artist": "KDM Record"
+    },
+    {
+      "videoId": "kwCoHz1WNjo",
+      "name": "The Rhythm of the Night (Special Electro Pop Edit)",
+      "artist": "Djmastersound"
+    },
+    {
+      "videoId": "eG9z0R9oDe4",
+      "name": "Fire (Official UEFA EURO 2024 Song)",
+      "artist": "MEDUZA"
+    },
+    {
+      "videoId": "py7xu6Id7Ec",
+      "name": "The Final Countdown 2025",
+      "artist": "David Guetta"
     },
     {
       "videoId": "43dtMzYLEJU",
@@ -413,49 +2053,84 @@
       "artist": "Inner City Sound LLC"
     },
     {
-      "videoId": "6msW1iM7GFI",
-      "name": "Favourite Daughter",
-      "artist": "Lorde"
+      "videoId": "x0qrvXs9MOc",
+      "name": "Mainstream Pop (Karaoke Version)",
+      "artist": "P.o.e.t.i.c.k.s"
     },
     {
-      "videoId": "WkgKAX2JA14",
-      "name": "My Favorite Things",
-      "artist": "Sleeping At Last"
+      "videoId": "zfdUCRZeChA",
+      "name": "No Reason",
+      "artist": "The Street Dancer"
     },
     {
-      "videoId": "HMQlkbXjSTM",
-      "name": "like JENNIE",
-      "artist": "JENNIE"
+      "videoId": "32M03XW_ny4",
+      "name": "Masterplan",
+      "artist": "BE:FIRST"
     },
     {
-      "videoId": "FjOhnPD_RXo",
-      "name": "Tears",
+      "videoId": "qkBBmwBvcy0",
+      "name": "MainStream",
+      "artist": "Gam Ball"
+    },
+    {
+      "videoId": "LSWPRnf42AU",
+      "name": "Mainstream",
+      "artist": "VELAMOR"
+    },
+    {
+      "videoId": "t4DWV2AAsmc",
+      "name": "Mainstream Hits",
+      "artist": "MangoValleyBandz"
+    },
+    {
+      "videoId": "CnEqrgMlWLQ",
+      "name": "I Think They Call This Love (Cover)",
+      "artist": "Matthew Ifield"
+    },
+    {
+      "videoId": "AOz9V0NhJe8",
+      "name": "That’s So True",
+      "artist": "Gracie Abrams"
+    },
+    {
+      "videoId": "-5GI38vWew8",
+      "name": "Taste",
       "artist": "Sabrina Carpenter"
     },
     {
-      "videoId": "u_1jRJ4Fplg",
-      "name": "Synthpop Beat (Synthwave Radio)",
-      "artist": "Synthwave Nation"
+      "videoId": "10zYZY67RMs",
+      "name": "Popular (Edit)",
+      "artist": "Ariana Grande"
     },
     {
-      "videoId": "VC8BZtG703I",
-      "name": "80s Synth Pop Style (Neon Highway)",
-      "artist": "Etrusco Music"
+      "videoId": "rrTMQweIUzs",
+      "name": "Value",
+      "artist": "Ado"
     },
     {
-      "videoId": "9PxrAxKE_A0",
-      "name": "This Is What We Dance For",
-      "artist": "JADE"
+      "videoId": "rpFXOD_olvY",
+      "name": "Popular",
+      "artist": "Ariana Grande"
     },
     {
-      "videoId": "4NXidzFgHoE",
-      "name": "12 Nights Of Pleasure",
-      "artist": "Ruby Darkrose"
+      "videoId": "htX9jiLG1qQ",
+      "name": "The Code",
+      "artist": "Nemo"
     },
     {
-      "videoId": "aO8SiN8H6EQ",
-      "name": "For Good",
-      "artist": "Cynthia Erivo"
+      "videoId": "nU-sI8lTOC4",
+      "name": "Last Holiday",
+      "artist": "OneRepublic"
+    },
+    {
+      "videoId": "W_YOJWZIjxo",
+      "name": "That’s So True",
+      "artist": "Gracie Abrams"
+    },
+    {
+      "videoId": "xT-5e1F1p8Y",
+      "name": "Sapphire",
+      "artist": "Ed Sheeran"
     },
     {
       "videoId": "G-fCOEZnnTs",
@@ -463,29 +2138,339 @@
       "artist": "KATSEYE"
     },
     {
-      "videoId": "pTGxDGOkiSk",
-      "name": "Party songs 2025 🌈 Best dance songs 2025 ~ Songs that make you dance",
-      "artist": "Love Life Lyrics"
+      "videoId": "s5oSscNIyIs",
+      "name": "DAISIES",
+      "artist": "Justin Bieber"
     },
     {
-      "videoId": "m_dA7mbfOnU",
+      "videoId": "HMQlkbXjSTM",
+      "name": "like JENNIE",
+      "artist": "JENNIE"
+    },
+    {
+      "videoId": "XOB9GU1As58",
+      "name": "Folded",
+      "artist": "Kehlani"
+    },
+    {
+      "videoId": "AVN7SJkNOR0",
+      "name": "Lose My Mind [From F1® The Movie] (feat. Doja Cat)",
+      "artist": "Don Toliver"
+    },
+    {
+      "videoId": "8-kMy4461T4",
+      "name": "Afrobeat Top Songs (Mix 2025)",
+      "artist": "Afrobeat Top Songs (Mix 2025)"
+    },
+    {
+      "videoId": "6msW1iM7GFI",
+      "name": "Favourite Daughter",
+      "artist": "Lorde"
+    },
+    {
+      "videoId": "07o73aZsCaM",
+      "name": "Favorites",
+      "artist": "Catey Shaw"
+    },
+    {
+      "videoId": "-NMUtkxOTDo",
+      "name": "2K25 Favorite Tur Tone",
+      "artist": "Bapu Beats"
+    },
+    {
+      "videoId": "ykeNsAkf5VU",
+      "name": "Favorite Lie",
+      "artist": "Lil Tecca"
+    },
+    {
+      "videoId": "zsSUpCt7jiA",
+      "name": "Favorite Sun",
+      "artist": "Guerilla Toss"
+    },
+    {
+      "videoId": "WkgKAX2JA14",
+      "name": "My Favorite Things",
+      "artist": "Sleeping At Last"
+    },
+    {
+      "videoId": "-J8H-qNT-Ts",
+      "name": "Favorite One",
+      "artist": "Jacquees"
+    },
+    {
+      "videoId": "_Dg9vFUD1oU",
+      "name": "Favorite Song",
+      "artist": "Favorite Song"
+    },
+    {
+      "videoId": "0cn1vAuGTg4",
+      "name": "Favorite Place",
+      "artist": "maye"
+    },
+    {
+      "videoId": "AOWNJxI0hPU",
+      "name": "Chart pop",
+      "artist": "Aetherix"
+    },
+    {
+      "videoId": "fcO5h-E-ytE",
+      "name": "I Am What I Am (Duett-Dance-Pop-Electronic-House) (feat. Soul Wife)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "RLt8sxBa-GE",
+      "name": "Wings of Freedom (Dance-Pop-Electronic-RNB) (feat. Soul Wife)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "8itZ7Oan7Lc",
+      "name": "Happy (Dance-RNB-Soul-Pop) (feat. Soul Wife)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "TF1oWdvM3LM",
+      "name": "Top Charts",
+      "artist": "Karim Osama"
+    },
+    {
+      "videoId": "fZFCxSVg_BY",
+      "name": "Dance with Me (Dance-RNB-Soul-Pop) (feat. Soul Wife)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "-wJp1oqQxRo",
+      "name": "Journey of Life (RNB-Soul-Pop) (feat. Soul Wife)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "xR3qGSwol0w",
+      "name": "You Are the Best (Dance-Pop-Electronic-RNB) (feat. Soul Wife)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "tv_GLy1HEsA",
+      "name": "Paradox (Dance-Pop-Electronic-House-RNB) (feat. Soul Wife)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "jV6fs8xWe4Q",
+      "name": "Shared Memories (RNB-Soul-Pop) (feat. Soul Wife)",
+      "artist": "DJ Chart"
+    },
+    {
+      "videoId": "e7iAtiTU6Lc",
+      "name": "Charts",
+      "artist": "Womuka"
+    },
+    {
+      "videoId": "_T6lSF4ySxQ",
+      "name": "Chart",
+      "artist": "AI MUSIC MATRIX"
+    },
+    {
+      "videoId": "GehLYC5_zQg",
+      "name": "The Life of a Showgirl (feat. Sabrina Carpenter)",
+      "artist": "Taylor Swift"
+    },
+    {
+      "videoId": "Voo86mlxZvA",
+      "name": "Always Remember Us This Way",
+      "artist": "Lady Gaga"
+    },
+    {
+      "videoId": "bqFMIxbVae8",
+      "name": "J-Pop Ballads – Romantic Japanese Love Songs",
+      "artist": "Camuna Music"
+    },
+    {
+      "videoId": "DooqLzaTDnI",
+      "name": "CHRISTmas",
+      "artist": "JVKE"
+    },
+    {
+      "videoId": "78xtluGwlNw",
+      "name": "Best AI English Songs 2025",
+      "artist": "SoundSurge"
+    },
+    {
+      "videoId": "cVv6NeumuAE",
+      "name": "Best Year",
+      "artist": "fellow fellow"
+    },
+    {
+      "videoId": "Sov9gD4Chcs",
+      "name": "Modern Pop Vietnam – Urban Love Vibes",
+      "artist": "Etrusco Music"
+    },
+    {
+      "videoId": "IXL64Smv84s",
+      "name": "Modern Times",
+      "artist": "MIKA"
+    },
+    {
+      "videoId": "iPAMirNlSyI",
+      "name": "8th modern pop",
+      "artist": "8threstnote"
+    },
+    {
+      "videoId": "8z-sxwtqWiI",
+      "name": "Modern pop Beat Commercial Use 01",
+      "artist": "Monopopy"
+    },
+    {
+      "videoId": "HE71N3fFtcE",
+      "name": "Elegant modern pop (Instrumental)",
+      "artist": "krtv"
+    },
+    {
+      "videoId": "kknxRpsNn5A",
+      "name": "Modern Pop Beat – Commercial Shopping Energy",
+      "artist": "Etrusco Music"
+    },
+    {
+      "videoId": "r_3vK88M3uQ",
+      "name": "New Modern Pop",
+      "artist": "Alpina Sound"
+    },
+    {
+      "videoId": "y7CrvsCIjyo",
+      "name": "Soda Pop",
+      "artist": "Saja Boys"
+    },
+    {
+      "videoId": "EXeXTc7IqJE",
+      "name": "Rock That Body",
+      "artist": "The Black Eyed Peas"
+    },
+    {
+      "videoId": "0UEqSVYVNO4",
+      "name": "Use Me",
+      "artist": "JADE"
+    },
+    {
+      "videoId": "9PxrAxKE_A0",
+      "name": "This Is What We Dance For",
+      "artist": "JADE"
+    },
+    {
+      "videoId": "SYtQV-Mz_8w",
+      "name": "LOOK AT ME",
+      "artist": "ALLDAY PROJECT"
+    },
+    {
+      "videoId": "SYmuSJ4TRlE",
+      "name": "This Pop Rock Song Will Get BANNED Soon? (The Energy is Too Much!)",
+      "artist": "Sing Dance"
+    },
+    {
+      "videoId": "qU9mHegkTc4",
+      "name": "505",
+      "artist": "Arctic Monkeys"
+    },
+    {
+      "videoId": "JyBzDQkkWzo",
+      "name": "Coldplay X Onerepublic Type Beat Stand Out Pop Rock Uplifting 2025",
+      "artist": "THAIBEATS"
+    },
+    {
+      "videoId": "Gt2wnz7oTwo",
+      "name": "Innerbloom",
+      "artist": "RÜFÜS DU SOL"
+    },
+    {
+      "videoId": "HNkfAjBjqdI",
+      "name": "Hear Me Now",
+      "artist": "Alok"
+    },
+    {
+      "videoId": "Wnn6M1nNiKQ",
+      "name": "I Gotta Feeling",
+      "artist": "The Black Eyed Peas"
+    },
+    {
+      "videoId": "pIWaVJPl0-c",
+      "name": "Faded",
+      "artist": "Alan Walker"
+    },
+    {
+      "videoId": "Lur-rvf6A1c",
+      "name": "Clarity (feat. Foxes)",
+      "artist": "Zedd"
+    },
+    {
+      "videoId": "gDRL47NzG5o",
+      "name": "On The Floor (Radio Edit)",
+      "artist": "Jennifer Lopez"
+    },
+    {
+      "videoId": "LRPGqNeav_M",
+      "name": "Titanium (feat. Sia)",
+      "artist": "David Guetta"
+    },
+    {
+      "videoId": "uiK5NT9yQBQ",
+      "name": "The Dead Dance",
+      "artist": "Lady Gaga"
+    },
+    {
+      "videoId": "jwptCxZI6y4",
+      "name": "The Sound of Silence (CYRIL Remix)",
+      "artist": "Disturbed"
+    },
+    {
+      "videoId": "xAgv1mAyxr8",
+      "name": "Levels (Radio Edit)",
+      "artist": "Avicii"
+    },
+    {
+      "videoId": "E2lX1ZovtcA",
+      "name": "Give Me Everything (feat. Nayer)",
+      "artist": "Pitbull"
+    },
+    {
+      "videoId": "EVwh5pJj5KY",
+      "name": "Shake It To The Max (FLY) [Remix]",
+      "artist": "MOLIY"
+    },
+    {
+      "videoId": "cceY7OIKPec",
       "name": "Pop 2025",
-      "artist": "Pop 2024"
+      "artist": "Chill Pop Music"
     },
     {
-      "videoId": "-C3Ev4n6pu0",
-      "name": "Legends Empire 2025 (Kansoog)",
-      "artist": "Young Pop Music"
+      "videoId": "EPn9pzrx2Ec",
+      "name": "Deslocado",
+      "artist": "NAPA"
     },
     {
-      "videoId": "I2gX4SAB04U",
-      "name": "Bite Marks",
-      "artist": "League of Legends"
+      "videoId": "TcQjhGezxCQ",
+      "name": "Women's Euro 2025",
+      "artist": "FLEX82"
     },
     {
-      "videoId": "Y1cWj_AS9Sg",
-      "name": "music for legends 2025",
-      "artist": "NANNO040"
+      "videoId": "I66_rC6o4K4",
+      "name": "Azizam",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "videoId": "-b9txSiyYcU",
+      "name": "Wasted Love",
+      "artist": "JJ"
+    },
+    {
+      "videoId": "c9wMezBbf4I",
+      "name": "Simplistik European Pop",
+      "artist": "Fast Boyfriends"
+    },
+    {
+      "videoId": "zP9Rfcuz5BI",
+      "name": "European Qualifiers Theme (Full Version)",
+      "artist": "UEFA"
+    },
+    {
+      "videoId": "1yR1dch0IGM",
+      "name": "We are the european generation",
+      "artist": "Never Ever Like Them"
     },
     {
       "videoId": "1qIUdF3Qs2k",
@@ -493,14 +2478,114 @@
       "artist": "Charlie Healey"
     },
     {
-      "videoId": "NMmGhvk-Q90",
-      "name": "Dont Ask Me Why",
-      "artist": "Donna Mind"
+      "videoId": "qfw4r1QNGFE",
+      "name": "Lose Control",
+      "artist": "Benjamin Sparks"
     },
     {
       "videoId": "NhY63PR-oRc",
       "name": "Wake Up With You",
       "artist": "Space Marchello"
+    },
+    {
+      "videoId": "vIrq9fg0e0I",
+      "name": "Paparazzi Baby",
+      "artist": "Adriana Johnson"
+    },
+    {
+      "videoId": "NMmGhvk-Q90",
+      "name": "Dont Ask Me Why",
+      "artist": "Donna Mind"
+    },
+    {
+      "videoId": "JjCuu8ULZUE",
+      "name": "When Sun Goes Down",
+      "artist": "Alexandra Schwarz"
+    },
+    {
+      "videoId": "Ydp0jReAbS4",
+      "name": "Call Me",
+      "artist": "Dusty Rockers"
+    },
+    {
+      "videoId": "S0A4wHX5B_A",
+      "name": "Full Time",
+      "artist": "Filthy Express"
+    },
+    {
+      "videoId": "a8H-R1RyQhk",
+      "name": "Too Much",
+      "artist": "DJ Favorite"
+    },
+    {
+      "videoId": "tW1YoXPqOPM",
+      "name": "Miles Away",
+      "artist": "Anja Campbell"
+    },
+    {
+      "videoId": "c9vNVyKH_mA",
+      "name": "Its Hard",
+      "artist": "Its Hard"
+    },
+    {
+      "videoId": "wW9RQocvHrs",
+      "name": "So Deep",
+      "artist": "DJ Favorite"
+    },
+    {
+      "videoId": "nPLfZU3YPX4",
+      "name": "MAINSTREAM",
+      "artist": "shxrx"
+    },
+    {
+      "videoId": "dJZkyhyzBDM",
+      "name": "Mainstream?",
+      "artist": "Runaway Darling"
+    },
+    {
+      "videoId": "AJvvzTSRbWs",
+      "name": "Piles",
+      "artist": "Mainstream"
+    },
+    {
+      "videoId": "9g9HkMlBOT8",
+      "name": "Universal Pop",
+      "artist": "Vagabond Bear"
+    },
+    {
+      "videoId": "wH2wDc6OLgg",
+      "name": "Soda Pop (version française)",
+      "artist": "Saja Boys"
+    },
+    {
+      "videoId": "zJiNfJDVeno",
+      "name": "Soda Pop (Instrumental)",
+      "artist": "Saja Boys"
+    },
+    {
+      "videoId": "PhAHl7-iMz4",
+      "name": "silent treatment",
+      "artist": "Freya Skye"
+    },
+    {
+      "videoId": "cKE4wJMcAkc",
+      "name": "Dernière danse",
+      "artist": "Indila"
+    },
+    {
+      "videoId": "McKZLHj0e-E",
+      "name": "GF POP",
+      "artist": "Universal Expressions"
+    },
+    {
+      "videoId": "N146lJq_ldk",
+      "name": "Diamonds",
+      "artist": "Travis Japan"
+    },
+    {
+      "videoId": "Dme7Lwaflog",
+      "name": "POP",
+      "artist": "WILD BLUE"
     }
   ]
 }
