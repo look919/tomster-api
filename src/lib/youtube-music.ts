@@ -1,8 +1,6 @@
 import YTMusic, { type SearchResult } from "ytmusic-api";
 import { writeFileSync } from "fs";
 import { join } from "path";
-import { prisma } from "./prisma.js";
-import play from "play-dl";
 
 /**
  * Initialize YouTube Music API client

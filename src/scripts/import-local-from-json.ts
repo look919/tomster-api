@@ -1,23 +1,23 @@
 import play from "play-dl";
 import { prisma } from "../lib/prisma.js";
-import json from "../../data/other-songs-1950-1959.json" with { type: "json" };
+import json from "../../data/local-songs-1950-1959.json" with { type: "json" };
 
 
   await play.setToken({
     youtube: {
-      cookie: "LOGIN_INFO=AFmmF2swRgIhALrDP75GoQGSCsUFLbYuDnXzQahbjUDna528sjZzm7HVAiEA8DNwDQ_OcHefUJTYAQyzN1cAMq0u1QldIS7YZuxCV5w:QUQ3MjNmem9fa0E3S0Z4VVRqODllUThMYVlnZ1lWQnZmek1Kc3pVRTN0dG8yTUdaR09wZEFZQkVrMkpDeDJHOFhsaV9wQ1BLVGNWbEZ2RXRzMnBMYnF1ZE91c2kwbFIyNXVVanZEVDR6Z1dNdVA0eVZPNVdJdktJSXVGT1V5N3ZoWFdnWkxRV3RiVjltd3NQUHg0SVpDNldaTWFoOG52ZWFR; PREF=f6=40000001&tz=Europe.Warsaw&f5=30000&f7=100; HSID=ADTLaR4vKrxDzoKvi; SSID=A-p5X8FK0kPRIHJfN; APISID=64ZqNUtHLGj3Aqwj/AMsZFJ5JOOHvEIWQv; SAPISID=GMbbYetaeEO9HZc7/ADhD-_gc3n4Z8CeqR; __Secure-1PAPISID=GMbbYetaeEO9HZc7/ADhD-_gc3n4Z8CeqR; __Secure-3PAPISID=GMbbYetaeEO9HZc7/ADhD-_gc3n4Z8CeqR; SID=g.a0004Qj06pyD4DuftML1DI1fnFykv34t1mUzSBwtGKyUfKFPbymXf-WdP-LlOsHjpwdaXMlxtgACgYKAUsSARcSFQHGX2Mick3R4FYviTHmJqbyWXwi8hoVAUF8yKr_jx8tBWHD5b1T5VtRhrTk0076; __Secure-1PSID=g.a0004Qj06pyD4DuftML1DI1fnFykv34t1mUzSBwtGKyUfKFPbymX3jDnKwQWJo24q1tiDNjQhQACgYKAdgSARcSFQHGX2MiMd_QYtlx27qfuJbELiUl3xoVAUF8yKormf11nSqtUJa7cwbmH5G40076; __Secure-3PSID=g.a0004Qj06pyD4DuftML1DI1fnFykv34t1mUzSBwtGKyUfKFPbymX0pExM96KNvQvcYeshmbgLwACgYKAUgSARcSFQHGX2Miif1PBJ34Trwtzkdpx1PoqRoVAUF8yKoC_Ssq9-isQ-xL70t4fj2e0076; VISITOR_PRIVACY_METADATA=CgJQTBIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiAp; VISITOR_PRIVACY_METADATA=CgJQTBIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiAm; __Secure-YENID=12.YTE=TbAdnK4aY0hqqRrDsvYeYgw1fQwBhOFVbyUbmapBO8xD4xGXlB5Xcgpi8tZMfdbEONvOEqm3POQDuYFO1LoamwzjwtYNhwSWDNsPizUAncvk4bmRMi6Aq1EGkdyfjp-lc67gy_REBt1CHKYUh1tkrA3fZB6V-OPkPxRm8roGAkaCIY3tt-3kMP4nMnZwJ18spj9jImUnhoDdlYd_61VnrTADVtH23_fkWSMSG1kZD1wjTdO7mTiXgBsIlMMQAVfeFC8fxGPpX1Px6TP9ofYvOGzK9wrdPBywhsqTKJ24FRCS68MsGA3rmNyADXjZfFkhFDWuzdUc7vpB9_AfpcpA1A; __Secure-ROLLOUT_TOKEN=CJTZ07Pi_rF8EKabquKD64oDGMiKj5C7s5ED; YSC=JuKmzTiSmTI; wide=0; __Secure-1PSIDTS=sidts-CjQBflaCdQcWh86K89llHEdQajZsDrv6Pujedrefopy4TPtwUH9fohZHNzpw_NKuG_QQfBk5EAA; __Secure-3PSIDTS=sidts-CjQBflaCdQcWh86K89llHEdQajZsDrv6Pujedrefopy4TPtwUH9fohZHNzpw_NKuG_QQfBk5EAA; __Secure-YEC=CgtMZ3hEeXNaUTh4dyi-h-vJBjInCgJQTBIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiAm; ST-tladcw=session_logininfo=AFmmF2swRgIhALrDP75GoQGSCsUFLbYuDnXzQahbjUDna528sjZzm7HVAiEA8DNwDQ_OcHefUJTYAQyzN1cAMq0u1QldIS7YZuxCV5w%3AQUQ3MjNmem9fa0E3S0Z4VVRqODllUThMYVlnZ1lWQnZmek1Kc3pVRTN0dG8yTUdaR09wZEFZQkVrMkpDeDJHOFhsaV9wQ1BLVGNWbEZ2RXRzMnBMYnF1ZE91c2kwbFIyNXVVanZEVDR6Z1dNdVA0eVZPNVdJdktJSXVGT1V5N3ZoWFdnWkxRV3RiVjltd3NQUHg0SVpDNldaTWFoOG52ZWFR; SIDCC=AKEyXzWevtpj7UsxJDvPicCAtpy3GCdTAZUHTaohPYpkuVTGd2ZrCXSTf6D90W8aNRLOCuL_SRM; __Secure-1PSIDCC=AKEyXzXKgb-V6NeS6ruxkITz0urXhOjetxbmmH5cqN8yRzexB5gbe0zntzbiCdMBZaaw__qVMUk; __Secure-3PSIDCC=AKEyXzXM41_U6i86dc9ORaILI1vuF-gXAJdK-bOViaazOUpmxsF2Nw_jHuFewuyxWkuwU48P6jDU"
+      cookie: ""
     }
     });
 
-
-const mapDifficulty = (views: number): number => {
-  if (views < 35_000_000) return 5;
-  if( views < 50_000_000) return 4;
-  if (views < 100_000_000) return 3;
-  if (views < 200_000_000) return 2;
+const mapLocalDifficulty = (views: number): number => {
+  if (views < 1_500_000) return 5;
+  if( views < 2_500_000) return 4;
+  if (views < 5_000_000) return 3;
+  if (views < 10_000_000) return 2;
 
   return 1;
 }
+
 
 interface JsonSong {
   videoId: string;
@@ -61,7 +61,7 @@ async function importFromJson() {
     let belowThreshold = 0;
     let accessErrors = 0;
 
-    const minViews = 30_000_000;
+    const minViews = 1_000_000;
 
     // Step 1: Batch check existing songs in database
     console.log("📋 Checking existing songs in database...");
@@ -158,8 +158,8 @@ async function importFromJson() {
               youtubeId: song.videoId,
               duration: videoInfo.video_details.durationInSec || 60,
               views: viewCount,
-              difficulty: mapDifficulty(viewCount),
-              countryOrigin: "international",
+              difficulty: mapLocalDifficulty(viewCount),
+              countryOrigin: "polish",
               releaseYear: releaseYear,
               artist: song.artist,
               importedAt: new Date(),

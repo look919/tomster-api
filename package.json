@@ -5,29 +5,22 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "tsx watch src/server.ts",
+    "dev": "tsx watch src/server.ts",
     "db:migrate": "prisma migrate dev",
-    "db:seed": "tsx prisma/seed.ts",
-    "db:studio": "prisma studio",
     "fetch:songs": "tsx src/scripts/fetch-songs.ts category",
-    "fetch:all": "tsx src/scripts/fetch-songs.ts all",
     "import:json": "tsx src/scripts/import-from-json.ts",
-    "cleanup:views": "tsx src/scripts/cleanup-low-views.ts"
-  },
-  "prisma": {
-    "seed": "tsx prisma/seed.ts"
+    "import-local:json": "tsx src/scripts/import-local-from-json.ts",
+    "stats": "tsx src/scripts/stats.ts",
+    "delete:songs": "tsx src/scripts/delete-songs.ts",
+    "remove:category": "tsx src/scripts/remove-category.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fastify/cors": "^11.1.0",
     "@prisma/client": "^6.19.0",
     "commander": "^12.1.0",
     "fastify": "^5.6.2",
-    "fastify-cli": "^7.4.1",
-    "fastify-cors": "^6.1.0",
-    "fastify-swagger": "^5.2.0",
     "play-dl": "^1.9.7",
     "ytmusic-api": "5.3.0"
   },
