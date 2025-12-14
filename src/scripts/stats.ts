@@ -1,43 +1,136 @@
 #!/usr/bin/env node
 import { prisma } from "../lib/prisma.js";
+import { Command } from "commander";
+
+const program = new Command();
+
+program
+  .name("stats")
+  .description("Display song database statistics with optional filtering")
+  .option(
+    "-c, --category <name>",
+    "Filter by category name (or 'all' for all categories)",
+    "all"
+  )
+  .option(
+    "-o, --country <name>",
+    "Filter by country origin (or 'all' for all countries)",
+    "all"
+  )
+  .parse();
+
+const options = program.opts();
 
 async function getStats() {
   try {
+    const categoryFilter = options.category;
+    const countryFilter = options.country;
+
+    // Build where clause for filtering
+    const whereClause: any = {};
+
+    if (countryFilter !== "all") {
+      whereClause.countryOrigin = countryFilter;
+    }
+
+    if (categoryFilter !== "all") {
+      whereClause.categories = {
+        some: {
+          category: {
+            name: categoryFilter,
+          },
+        },
+      };
+    }
+
     console.log("\n" + "=".repeat(80));
     console.log("📊 SONG DATABASE STATISTICS");
-    console.log("=".repeat(80) + "\n");
+    console.log("=".repeat(80));
 
-    // Get total songs
-    const totalSongs = await prisma.song.count();
-    console.log(`🎵 Total songs in database: ${totalSongs}\n`);
+    if (categoryFilter !== "all") {
+      console.log(`🏷️  Category filter: ${categoryFilter}`);
+    }
+    if (countryFilter !== "all") {
+      console.log(`🌍 Country filter: ${countryFilter}`);
+    }
+    console.log();
+
+    // Get total songs (with filters applied)
+    const totalSongs = await prisma.song.count({ where: whereClause });
+    console.log(`🎵 Total songs (filtered): ${totalSongs}\n`);
+
+    if (totalSongs === 0) {
+      console.log("⚠️  No songs found matching the filters.\n");
+      console.log("=".repeat(80) + "\n");
+      return;
+    }
 
     // Get songs by category
     console.log("📁 SONGS BY CATEGORY:");
     console.log("-".repeat(80));
 
-    const categories = await prisma.category.findMany({
-      include: {
-        songs: {
-          include: {
-            song: true,
-          },
-        },
-      },
-    });
-
-    for (const category of categories) {
-      const songCount = category.songs.length;
-      console.log(`\n${category.name.toUpperCase()}: ${songCount} songs`);
-
-      // Get difficulty distribution for this category
-      const difficultyStats = await prisma.song.findMany({
-        where: {
-          categories: {
-            some: {
-              categoryId: category.id,
+    // If filtering by specific category, only show that one
+    let categoriesToShow: any[];
+    if (categoryFilter !== "all") {
+      const specificCategory = await prisma.category.findUnique({
+        where: { name: categoryFilter },
+        include: {
+          songs: {
+            ...(countryFilter !== "all" && {
+              where: {
+                song: {
+                  countryOrigin: countryFilter,
+                },
+              },
+            }),
+            include: {
+              song: true,
             },
           },
         },
+      });
+      categoriesToShow = specificCategory ? [specificCategory] : [];
+    } else {
+      categoriesToShow = await prisma.category.findMany({
+        include: {
+          songs: {
+            ...(countryFilter !== "all" && {
+              where: {
+                song: {
+                  countryOrigin: countryFilter,
+                },
+              },
+            }),
+            include: {
+              song: true,
+            },
+          },
+        },
+      });
+    }
+
+    for (const category of categoriesToShow) {
+      const songCount = category.songs.length;
+
+      if (songCount === 0) continue;
+
+      console.log(`\n${category.name.toUpperCase()}: ${songCount} songs`);
+
+      // Get difficulty distribution for this category
+      const categoryWhere: any = {
+        categories: {
+          some: {
+            categoryId: category.id,
+          },
+        },
+      };
+
+      if (countryFilter !== "all") {
+        categoryWhere.countryOrigin = countryFilter;
+      }
+
+      const difficultyStats = await prisma.song.findMany({
+        where: categoryWhere,
         select: {
           difficulty: true,
         },
@@ -73,6 +166,7 @@ async function getStats() {
 
     const allDifficulties = await prisma.song.groupBy({
       by: ["difficulty"],
+      where: whereClause,
       _count: {
         difficulty: true,
       },
@@ -98,12 +192,14 @@ async function getStats() {
     console.log("-".repeat(80));
 
     const viewStats = await prisma.song.aggregate({
+      where: whereClause,
       _avg: { views: true },
       _min: { views: true },
       _max: { views: true },
     });
 
     const yearStats = await prisma.song.aggregate({
+      where: whereClause,
       _min: { releaseYear: true },
       _max: { releaseYear: true },
     });
@@ -123,21 +219,37 @@ async function getStats() {
     console.log(`  Oldest: ${yearStats._min.releaseYear || "N/A"}`);
     console.log(`  Newest: ${yearStats._max.releaseYear || "N/A"}`);
 
-    // Country origin stats
-    const countryStats = await prisma.song.groupBy({
-      by: ["countryOrigin"],
-      _count: {
-        countryOrigin: true,
-      },
-    });
+    // Country origin stats (only show if not filtering by country)
+    if (countryFilter === "all") {
+      const countryWhere: any = {};
+      if (categoryFilter !== "all") {
+        countryWhere.categories = {
+          some: {
+            category: {
+              name: categoryFilter,
+            },
+          },
+        };
+      }
 
-    console.log(`\n🌍 By country origin:`);
-    for (const country of countryStats) {
-      const count = country._count.countryOrigin;
-      const percentage = ((count / totalSongs) * 100).toFixed(1);
-      console.log(
-        `  ${country.countryOrigin}: ${count} songs (${percentage}%)`
-      );
+      const countryStats = await prisma.song.groupBy({
+        by: ["countryOrigin"],
+        where: countryWhere,
+        _count: {
+          countryOrigin: true,
+        },
+      });
+
+      console.log(`\n🌍 By country origin:`);
+      for (const country of countryStats) {
+        const count = country._count.countryOrigin;
+        const percentage = ((count / totalSongs) * 100).toFixed(1);
+        console.log(
+          `  ${country.countryOrigin}: ${count} songs (${percentage}%)`
+        );
+      }
+    } else {
+      console.log(`\n🌍 Country origin: ${countryFilter} (filtered)`);
     }
 
     console.log("\n" + "=".repeat(80) + "\n");

@@ -4,31 +4,27 @@ import { prisma } from "../lib/prisma.js";
 async function removeCategoryFromSongs() {
   try {
     // ========================================
-    // ADD SONG IDs TO REMOVE CATEGORY FROM
+    // CONFIGURE CATEGORY TO REMOVE
     // ========================================
-    const songIds = [""];
-
     const categoryName = "local"; // Change this if needed
     // ========================================
 
     console.log("\n" + "=".repeat(60));
-    console.log("🔗 REMOVE CATEGORY FROM SONGS");
+    console.log("🔗 REMOVE ALL CATEGORY ASSOCIATIONS");
     console.log("=".repeat(60) + "\n");
 
-    if (songIds.length === 0) {
-      console.log("⚠️  No song IDs provided.");
-      console.log(
-        "   Please add song IDs to the 'songIds' array in the script.\n"
-      );
-      return;
-    }
-
-    console.log(`📋 Songs to process: ${songIds.length}`);
     console.log(`🏷️  Category to remove: "${categoryName}"\n`);
 
     // Get the category
     const category = await prisma.category.findUnique({
       where: { name: categoryName },
+      include: {
+        songs: {
+          include: {
+            song: true,
+          },
+        },
+      },
     });
 
     if (!category) {
@@ -36,86 +32,56 @@ async function removeCategoryFromSongs() {
       return;
     }
 
-    // Fetch songs with their current categories
-    console.log("🔍 Fetching song details...\n");
-    const songs = await prisma.song.findMany({
-      where: {
-        id: {
-          in: songIds,
-        },
-      },
-      include: {
-        categories: {
-          include: {
-            category: true,
-          },
-        },
-      },
-    });
-
-    if (songs.length === 0) {
-      console.log("❌ No matching songs found in database.\n");
-      return;
-    }
-
-    console.log(`✅ Found ${songs.length} matching songs:\n`);
-
-    const songsWithCategory = songs.filter((s) =>
-      s.categories.some((sc) => sc.category.name === categoryName)
-    );
-    const songsWithoutCategory = songs.filter(
-      (s) => !s.categories.some((sc) => sc.category.name === categoryName)
+    console.log(
+      `📊 Found ${category.songs.length} songs with "${categoryName}" category\n`
     );
 
-    if (songsWithCategory.length > 0) {
-      console.log(`Songs with "${categoryName}" category (will be removed):`);
-      for (const song of songsWithCategory) {
-        const otherCategories = song.categories
-          .filter((sc) => sc.category.name !== categoryName)
-          .map((sc) => sc.category.name)
-          .join(", ");
-        console.log(`   • ${song.title} - ${song.artist}`);
-        console.log(`     ID: ${song.id}`);
-        console.log(`     Other categories: ${otherCategories || "none"}\n`);
-      }
-    }
-
-    if (songsWithoutCategory.length > 0) {
-      console.log(`\nSongs without "${categoryName}" category (will skip):`);
-      for (const song of songsWithoutCategory) {
-        const categories = song.categories
-          .map((sc) => sc.category.name)
-          .join(", ");
-        console.log(`   • ${song.title} - ${song.artist}`);
-        console.log(`     Categories: ${categories || "none"}\n`);
-      }
-    }
-
-    // Check for IDs that don't exist
-    const foundIds = new Set(songs.map((s) => s.id));
-    const notFoundIds = songIds.filter((id) => !foundIds.has(id));
-
-    if (notFoundIds.length > 0) {
-      console.log(`⚠️  ${notFoundIds.length} song IDs not found in database:`);
-      for (const id of notFoundIds) {
-        console.log(`   • ${id}`);
-      }
-      console.log();
-    }
-
-    if (songsWithCategory.length === 0) {
+    if (category.songs.length === 0) {
       console.log(
         `ℹ️  No songs have the "${categoryName}" category. Nothing to remove.\n`
       );
       return;
     }
 
+    // Show sample of songs (first 20)
+    console.log("Sample of songs that will lose this category:\n");
+    const sampleSongs = category.songs.slice(0, 20);
+    for (const songCategory of sampleSongs) {
+      console.log(
+        `   • ${songCategory.song.title} - ${songCategory.song.artist}`
+      );
+    }
+
+    if (category.songs.length > 20) {
+      console.log(`   ... and ${category.songs.length - 20} more songs\n`);
+    } else {
+      console.log();
+    }
+
+    console.log(
+      "⚠️  WARNING: This will remove ALL connections between songs and the 'local' category."
+    );
+    console.log("⚠️  The songs themselves will NOT be deleted.\n");
+
+    console.log("=".repeat(60));
+    console.log("🔗 Removing all category associations...\n");
+
     const deleteResult = await prisma.songCategory.deleteMany({
       where: {
-        songId: {
-          in: songsWithCategory.map((s) => s.id),
-        },
         categoryId: category.id,
+      },
+    });
+
+    console.log(
+      `✅ Removed "${categoryName}" category from ${deleteResult.count} songs\n`
+    );
+
+    // Delete the category itself
+    console.log(`🗑️  Deleting "${categoryName}" category...\n`);
+
+    await prisma.category.delete({
+      where: {
+        id: category.id,
       },
     });
 
@@ -123,8 +89,10 @@ async function removeCategoryFromSongs() {
     console.log("✅ REMOVAL COMPLETE");
     console.log("=".repeat(60));
     console.log(
-      `🔗 Removed "${categoryName}" category from ${deleteResult.count} songs\n`
+      `🔗 Removed "${categoryName}" category associations: ${deleteResult.count} songs`
     );
+    console.log(`🗑️  Deleted "${categoryName}" category from database`);
+    console.log(`📊 Songs remain in database with their other categories\n`);
   } catch (error) {
     console.error("❌ Error:", error);
     process.exit(1);

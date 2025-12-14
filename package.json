@@ -12,7 +12,9 @@
     "import-local:json": "tsx src/scripts/import-local-from-json.ts",
     "stats": "tsx src/scripts/stats.ts",
     "delete:songs": "tsx src/scripts/delete-songs.ts",
-    "remove:category": "tsx src/scripts/remove-category.ts"
+    "remove:category": "tsx src/scripts/remove-category.ts",
+    "itunes:search": "tsx src/scripts/itunes-search.ts",
+    "musicbrainz:search": "tsx src/scripts/musicbrainz-search.ts"
   },
   "keywords": [],
   "author": "",
