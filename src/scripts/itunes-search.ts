@@ -34,6 +34,7 @@ interface NotFoundInfo {
   releaseDate: number; // year from DB
   originalTitle: string;
   originalArtist: string;
+  primaryGenreType: string;
 }
 
 function normalizePolishDiacritics(text: string): string {
@@ -62,6 +63,43 @@ function normalizePolishDiacritics(text: string): string {
     /[ąćęłńóśźżĄĆĘŁŃÓŚŹŻ]/g,
     (char) => polishMap[char] || char
   );
+}
+
+function normalizeText(text: string): string {
+  return normalizePolishDiacritics(text)
+    .toLowerCase()
+    .replace(/[^\w\s]/g, " ") // Remove punctuation
+    .replace(/\s+/g, " ") // Normalize whitespace
+    .trim();
+}
+
+function getWords(text: string): Set<string> {
+  return new Set(
+    normalizeText(text)
+      .split(" ")
+      .filter((word) => word.length > 2) // Ignore very short words
+  );
+}
+
+function hasCommonWords(text1: string, text2: string): boolean {
+  const words1 = getWords(text1);
+  const words2 = getWords(text2);
+
+  for (const word of words1) {
+    if (words2.has(word)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function isGoodMatch(searchTitle: string, resultTitle: string): boolean {
+  // Check if there's at least one common word in the title
+  const titleMatch = hasCommonWords(searchTitle, resultTitle);
+
+  // We require at least a title match
+  // (artist match not required as artists can appear with different names/collaborations)
+  return titleMatch;
 }
 
 async function searchITunes(
@@ -118,16 +156,27 @@ async function searchITunes(
       }
     }
 
-    // Sort results by release date and take the oldest
+    // Filter results to only include good matches
     if (data && data.results.length > 0) {
-      data.results.sort((a, b) => {
+      const filteredResults = data.results.filter((result) => {
+        const isMatch = isGoodMatch(trackTitle, result.trackName);
+
+        return isMatch;
+      });
+
+      if (filteredResults.length === 0) {
+        return null;
+      }
+
+      // Sort filtered results by release date and take the oldest
+      filteredResults.sort((a, b) => {
         const dateA = new Date(a.releaseDate).getTime();
         const dateB = new Date(b.releaseDate).getTime();
         return dateA - dateB;
       });
 
       // Return only the oldest result
-      data.results = [data.results[0]!];
+      data.results = [filteredResults[0]!];
       data.resultCount = 1;
     }
 
@@ -143,13 +192,15 @@ async function fetchSongsFromDB(
 ): Promise<
   Array<{ id: string; title: string; artist: string; releaseYear: number }>
 > {
-  console.log(`📂 Fetching 100 songs from database (skipping ${skip})...`);
-
   const songs = await prisma.song.findMany({
-    take: 100,
+    take: 63,
     skip: skip,
+    where: {
+      countryOrigin: "international",
+      categoryId: "913764d5-4e3d-4e29-9313-40a863513a79",
+    },
     orderBy: {
-      createdAt: "desc",
+      createdAt: "asc",
     },
     select: {
       id: true,
@@ -216,7 +267,7 @@ program
             .filter((a) => a.length > 0);
 
           // Extract year from release date (format: YYYY-MM-DD)
-          const year = parseInt(track?.releaseDate.split("-")[0] ?? "0", 10);
+          const year = parseInt(track?.releaseDate?.split("-")[0] ?? "0", 10);
 
           foundSongs[song.id] = {
             artists: artistsArray,
@@ -244,6 +295,7 @@ program
             releaseDate: song.releaseYear,
             originalTitle: song.title,
             originalArtist: song.artist,
+            primaryGenreType: "",
           };
           console.log(`❌ Not found in iTunes`);
         }
@@ -255,14 +307,10 @@ program
       }
 
       // Save results to JSON files
-      const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-      const foundPath = path.join(
-        outputDir,
-        `found-skip-${skipNum}-${timestamp}.json`
-      );
+      const foundPath = path.join(outputDir, `found-skip-${skipNum}.json`);
       const notFoundPath = path.join(
         outputDir,
-        `not-found-skip-${skipNum}-${timestamp}.json`
+        `not-found-skip-${skipNum}.json`
       );
 
       await fs.writeFile(foundPath, JSON.stringify(foundSongs, null, 2));

@@ -1,0 +1,644 @@
+{
+  "MEDIUM-RANDOM-INTERNATIONAL-RANDOM": {
+    "query": {
+      "countryOrigin": "international",
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 1472,
+    "ordinalNumber": 1,
+    "blocksAmount": 2
+  },
+  "HARD-RANDOM-INTERNATIONAL-RANDOM": {
+    "query": {
+      "countryOrigin": "international",
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 1336,
+    "ordinalNumber": 2,
+    "blocksAmount": 2
+  },
+  "EASY-RANDOM-INTERNATIONAL-RANDOM": {
+    "query": {
+      "countryOrigin": "international",
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 1269,
+    "ordinalNumber": 3,
+    "blocksAmount": 2
+  },
+  "RANDOM-POP-INTERNATIONAL-RANDOM": {
+    "query": {
+      "countryOrigin": "international"
+    },
+    "categoryRef": "POP",
+    "songsAmount": 797,
+    "ordinalNumber": 4,
+    "blocksAmount": 2
+  },
+  "RANDOM-RANDOM-INTERNATIONAL-2000TO2015": {
+    "query": {
+      "countryOrigin": "international",
+      "releaseYear": {
+        "gte": 2000,
+        "lte": 2015
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 787,
+    "ordinalNumber": 5,
+    "blocksAmount": 2
+  },
+  "MEDIUM-RANDOM-RANDOM-2000TO2015": {
+    "query": {
+      "releaseYear": {
+        "gte": 2000,
+        "lte": 2015
+      },
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 771,
+    "ordinalNumber": 6,
+    "blocksAmount": 2
+  },
+  "MEDIUM-POP-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": "POP",
+    "songsAmount": 754,
+    "ordinalNumber": 7,
+    "blocksAmount": 2
+  },
+  "EASY-RANDOM-RANDOM-2000TO2015": {
+    "query": {
+      "releaseYear": {
+        "gte": 2000,
+        "lte": 2015
+      },
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 737,
+    "ordinalNumber": 8,
+    "blocksAmount": 2
+  },
+  "EASY-POP-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": "POP",
+    "songsAmount": 736,
+    "ordinalNumber": 9,
+    "blocksAmount": 2
+  },
+  "RANDOM-RANDOM-INTERNATIONAL-PRE2000": {
+    "query": {
+      "countryOrigin": "international",
+      "releaseYear": {
+        "lt": 2000
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 711,
+    "ordinalNumber": 10,
+    "blocksAmount": 2
+  },
+  "MEDIUM-RANDOM-RANDOM-PRE2000": {
+    "query": {
+      "releaseYear": {
+        "lt": 2000
+      },
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 666,
+    "ordinalNumber": 11,
+    "blocksAmount": 2
+  },
+  "HARD-RANDOM-RANDOM-PRE2000": {
+    "query": {
+      "releaseYear": {
+        "lt": 2000
+      },
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 665,
+    "ordinalNumber": 12,
+    "blocksAmount": 2
+  },
+  "HARD-RANDOM-RANDOM-2000TO2015": {
+    "query": {
+      "releaseYear": {
+        "gte": 2000,
+        "lte": 2015
+      },
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 655,
+    "ordinalNumber": 13,
+    "blocksAmount": 2
+  },
+  "HARD-POP-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": "POP",
+    "songsAmount": 620,
+    "ordinalNumber": 14,
+    "blocksAmount": 2
+  },
+  "EASY-RANDOM-RANDOM-PRE2000": {
+    "query": {
+      "releaseYear": {
+        "lt": 2000
+      },
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 523,
+    "ordinalNumber": 15,
+    "blocksAmount": 2
+  },
+  "MEDIUM-RANDOM-RANDOM-POST2015": {
+    "query": {
+      "releaseYear": {
+        "gt": 2015
+      },
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 515,
+    "ordinalNumber": 16,
+    "blocksAmount": 2
+  },
+  "MEDIUM-RANDOM-LOCAL-RANDOM": {
+    "query": {
+      "countryOrigin": "polish",
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 480,
+    "ordinalNumber": 17,
+    "blocksAmount": 2
+  },
+  "EASY-RANDOM-RANDOM-POST2015": {
+    "query": {
+      "releaseYear": {
+        "gt": 2015
+      },
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 474,
+    "ordinalNumber": 18,
+    "blocksAmount": 2
+  },
+  "RANDOM-ROCK-INTERNATIONAL-RANDOM": {
+    "query": {
+      "countryOrigin": "international"
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 468,
+    "ordinalNumber": 19,
+    "blocksAmount": 2
+  },
+  "EASY-RANDOM-LOCAL-RANDOM": {
+    "query": {
+      "countryOrigin": "polish",
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 465,
+    "ordinalNumber": 20,
+    "blocksAmount": 2
+  },
+  "RANDOM-RANDOM-INTERNATIONAL-POST2015": {
+    "query": {
+      "countryOrigin": "international",
+      "releaseYear": {
+        "gt": 2015
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 464,
+    "ordinalNumber": 21,
+    "blocksAmount": 2
+  },
+  "RANDOM-POP-RANDOM-2000TO2015": {
+    "query": {
+      "releaseYear": {
+        "gte": 2000,
+        "lte": 2015
+      }
+    },
+    "categoryRef": "POP",
+    "songsAmount": 438,
+    "ordinalNumber": 22,
+    "blocksAmount": 2
+  },
+  "MEDIUM-ROCK-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 434,
+    "ordinalNumber": 23,
+    "blocksAmount": 2
+  },
+  "HARD-RANDOM-RANDOM-POST2015": {
+    "query": {
+      "releaseYear": {
+        "gt": 2015
+      },
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 434,
+    "ordinalNumber": 24,
+    "blocksAmount": 2
+  },
+  "HARD-ROCK-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 421,
+    "ordinalNumber": 25,
+    "blocksAmount": 2
+  },
+  "MEDIUM-RAP-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 418,
+    "ordinalNumber": 26,
+    "blocksAmount": 2
+  },
+  "HARD-RANDOM-LOCAL-RANDOM": {
+    "query": {
+      "countryOrigin": "polish",
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 418,
+    "ordinalNumber": 27,
+    "blocksAmount": 2
+  },
+  "EASY-ROCK-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 379,
+    "ordinalNumber": 28,
+    "blocksAmount": 2
+  },
+  "RANDOM-RAP-INTERNATIONAL-RANDOM": {
+    "query": {
+      "countryOrigin": "international"
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 376,
+    "ordinalNumber": 29,
+    "blocksAmount": 2
+  },
+  "HARD-RAP-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 371,
+    "ordinalNumber": 30,
+    "blocksAmount": 2
+  },
+  "RANDOM-ROCK-RANDOM-PRE2000": {
+    "query": {
+      "releaseYear": {
+        "lt": 2000
+      }
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 348,
+    "ordinalNumber": 31,
+    "blocksAmount": 2
+  },
+  "MEDIUM-OTHER-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": "OTHER",
+    "songsAmount": 346,
+    "ordinalNumber": 32,
+    "blocksAmount": 2
+  },
+  "EASY-RAP-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 345,
+    "ordinalNumber": 33,
+    "blocksAmount": 2
+  },
+  "HARD-OTHER-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": "OTHER",
+    "songsAmount": 342,
+    "ordinalNumber": 34,
+    "blocksAmount": 2
+  },
+  "RANDOM-POP-RANDOM-PRE2000": {
+    "query": {
+      "releaseYear": {
+        "lt": 2000
+      }
+    },
+    "categoryRef": "POP",
+    "songsAmount": 325,
+    "ordinalNumber": 35,
+    "blocksAmount": 2
+  },
+  "RANDOM-OTHER-INTERNATIONAL-RANDOM": {
+    "query": {
+      "countryOrigin": "international"
+    },
+    "categoryRef": "OTHER",
+    "songsAmount": 321,
+    "ordinalNumber": 36,
+    "blocksAmount": 2
+  },
+  "RANDOM-POP-RANDOM-POST2015": {
+    "query": {
+      "releaseYear": {
+        "gt": 2015
+      }
+    },
+    "categoryRef": "POP",
+    "songsAmount": 279,
+    "ordinalNumber": 37,
+    "blocksAmount": 2
+  },
+  "EASY-OTHER-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": "OTHER",
+    "songsAmount": 274,
+    "ordinalNumber": 38,
+    "blocksAmount": 2
+  },
+  "RANDOM-RANDOM-LOCAL-2000TO2015": {
+    "query": {
+      "countryOrigin": "polish",
+      "releaseYear": {
+        "gte": 2000,
+        "lte": 2015
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 269,
+    "ordinalNumber": 39,
+    "blocksAmount": 2
+  },
+  "RANDOM-POP-LOCAL-RANDOM": {
+    "query": {
+      "countryOrigin": "polish"
+    },
+    "categoryRef": "POP",
+    "songsAmount": 245,
+    "ordinalNumber": 40,
+    "blocksAmount": 2
+  },
+  "RANDOM-RANDOM-LOCAL-POST2015": {
+    "query": {
+      "countryOrigin": "polish",
+      "releaseYear": {
+        "gt": 2015
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 233,
+    "ordinalNumber": 41,
+    "blocksAmount": 2
+  },
+  "RANDOM-RAP-RANDOM-POST2015": {
+    "query": {
+      "releaseYear": {
+        "gt": 2015
+      }
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 233,
+    "ordinalNumber": 42,
+    "blocksAmount": 2
+  },
+  "RANDOM-RAP-RANDOM-2000TO2015": {
+    "query": {
+      "releaseYear": {
+        "gte": 2000,
+        "lte": 2015
+      }
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 224,
+    "ordinalNumber": 43,
+    "blocksAmount": 2
+  },
+  "RANDOM-ROCK-RANDOM-2000TO2015": {
+    "query": {
+      "releaseYear": {
+        "gte": 2000,
+        "lte": 2015
+      }
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 205,
+    "ordinalNumber": 44,
+    "blocksAmount": 2
+  },
+  "RANDOM-OTHER-RANDOM-2000TO2015": {
+    "query": {
+      "releaseYear": {
+        "gte": 2000,
+        "lte": 2015
+      }
+    },
+    "categoryRef": "OTHER",
+    "songsAmount": 189,
+    "ordinalNumber": 45,
+    "blocksAmount": 2
+  },
+  "RANDOM-RANDOM-LOCAL-PRE2000": {
+    "query": {
+      "countryOrigin": "polish",
+      "releaseYear": {
+        "lt": 2000
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 186,
+    "ordinalNumber": 46,
+    "blocksAmount": 2
+  },
+  "RANDOM-OTHER-LOCAL-RANDOM": {
+    "query": {
+      "countryOrigin": "polish"
+    },
+    "categoryRef": "OTHER",
+    "songsAmount": 161,
+    "ordinalNumber": 47,
+    "blocksAmount": 2
+  },
+  "RANDOM-OTHER-RANDOM-PRE2000": {
+    "query": {
+      "releaseYear": {
+        "lt": 2000
+      }
+    },
+    "categoryRef": "OTHER",
+    "songsAmount": 153,
+    "ordinalNumber": 48,
+    "blocksAmount": 2
+  },
+  "RANDOM-RAP-LOCAL-RANDOM": {
+    "query": {
+      "countryOrigin": "polish"
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 152,
+    "ordinalNumber": 49,
+    "blocksAmount": 2
+  },
+  "RANDOM-OTHER-RANDOM-POST2015": {
+    "query": {
+      "releaseYear": {
+        "gt": 2015
+      }
+    },
+    "categoryRef": "OTHER",
+    "songsAmount": 140,
+    "ordinalNumber": 50,
+    "blocksAmount": 2
+  },
+  "RANDOM-ROCK-LOCAL-RANDOM": {
+    "query": {
+      "countryOrigin": "polish"
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 130,
+    "ordinalNumber": 51,
+    "blocksAmount": 2
+  },
+  "RANDOM-RAP-RANDOM-PRE2000": {
+    "query": {
+      "releaseYear": {
+        "lt": 2000
+      }
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 71,
+    "ordinalNumber": 52,
+    "blocksAmount": 2
+  },
+  "RANDOM-ROCK-RANDOM-POST2015": {
+    "query": {
+      "releaseYear": {
+        "gt": 2015
+      }
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 45,
+    "ordinalNumber": 53,
+    "blocksAmount": 2
+  }
+}

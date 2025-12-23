@@ -10,32 +10,24 @@ datasource db {
 model Category {
   id    String @id @default(uuid())
   name  String @unique
-  songs SongCategory[]
+  songs Song[]
 }
 
 model Song {
-  id            String         @id @default(uuid())
+  id            String   @id @default(uuid())
   title         String
-  youtubeId     String         @unique
+  youtubeId     String   @unique
   duration      Int
-  difficulty    Int            @default(5) // 1-10 scale, where 10 is hardest
-  countryOrigin String         @default("international") // e.g., "polish", "english", etc.
+  difficulty    Int      @default(5) // 1-10 scale, where 10 is hardest
+  countryOrigin String   @default("international") // e.g., "polish", "english", etc.
   releaseYear   Int
-  views         Int            @default(0)
-  reportAmount  Int            @default(0)
-  createdAt     DateTime       @default(now())
-  importedAt    DateTime?      // When the song was imported
-  artist       String
-  categories    SongCategory[]
-}
-
-
-model SongCategory {
-  song       Song     @relation(fields: [songId], references: [id], onDelete: Cascade)
-  songId     String
-  category   Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
-  categoryId String
-
-  @@id([songId, categoryId])
+  views         Int      @default(0)
+  reportAmount  Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @default(now()) @updatedAt
+  artist        String
+  artists       String[] @default([])
+  category      Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  categoryId    String
 }
 

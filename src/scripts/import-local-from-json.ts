@@ -72,45 +72,32 @@ async function importFromJson() {
         },
       },
       include: {
-        categories: {
-          include: {
-            category: true,
-          },
-        },
+        category: true,
       },
     });
 
     const existingSongsMap = new Map(existingSongs.map((s) => [s.youtubeId, s]));
     console.log(`Found ${existingSongs.length} existing songs in database`);
 
-    // Step 2: Process existing songs (add categories if needed)
-    const categoriesToAdd = [];
+    // Step 2: Process existing songs (skip songs that already have this category)
     for (const song of data.songs) {
       const existingSong = existingSongsMap.get(song.videoId);
       if (existingSong) {
-        const hasCategory = existingSong.categories.some(
-          (sc) => sc.category.id === category.id
-        );
-
-        if (hasCategory) {
+        if (existingSong.category?.id === category.id) {
           skipped++;
         } else {
-          categoriesToAdd.push({
-            songId: existingSong.id,
-            categoryId: category.id,
+          // Update song to set this category
+          await prisma.song.update({
+            where: { id: existingSong.id },
+            data: { categoryId: category.id },
           });
           updated++;
         }
       }
     }
 
-    // Batch create category associations
-    if (categoriesToAdd.length > 0) {
-      await prisma.songCategory.createMany({
-        data: categoriesToAdd,
-        skipDuplicates: true,
-      });
-      console.log(`✅ Added category to ${categoriesToAdd.length} existing songs`);
+    if (updated > 0) {
+      console.log(`✅ Updated category on ${updated} existing songs`);
     }
 
     // Step 3: Process new songs with parallel API calls (in batches)
@@ -162,12 +149,7 @@ async function importFromJson() {
               countryOrigin: "polish",
               releaseYear: releaseYear,
               artist: song.artist,
-              importedAt: new Date(),
-              categories: {
-                create: {
-                  categoryId: category.id,
-                },
-              },
+              categoryId: category.id,
             },
           };
         } catch (viewError) {

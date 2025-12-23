@@ -1,8 +1,36 @@
 #!/usr/bin/env node
 import { prisma } from "../lib/prisma.js";
 import { Command } from "commander";
+import { loadCategoryGroups } from "../lib/category-utils.js";
 
 const program = new Command();
+
+// Category groupings from environment variables
+const CATEGORY_GROUPS = loadCategoryGroups();
+const CATEGORY_GROUPS_DISPLAY = {
+  Pop: CATEGORY_GROUPS.POP,
+  Rap: CATEGORY_GROUPS.RAP,
+  Rock: CATEGORY_GROUPS.ROCK,
+};
+
+// Year ranges for grouping
+const YEAR_RANGES = [
+  { label: "Before 1959", min: 0, max: 1959 },
+  { label: "1960-1969", min: 1960, max: 1969 },
+  { label: "1970-1979", min: 1970, max: 1979 },
+  { label: "1980-1989", min: 1980, max: 1989 },
+  { label: "1990-1999", min: 1990, max: 1999 },
+  { label: "2000-2004", min: 2000, max: 2004 },
+  { label: "2005-2009", min: 2005, max: 2009 },
+  { label: "2010-2014", min: 2010, max: 2014 },
+  { label: "2015-2019", min: 2015, max: 2019 },
+  { label: "2020+", min: 2020, max: 9999 },
+];
+
+function getYearRangeLabel(year: number): string {
+  const range = YEAR_RANGES.find((r) => year >= r.min && year <= r.max);
+  return range?.label || "Unknown";
+}
 
 program
   .name("stats")
@@ -34,12 +62,8 @@ async function getStats() {
     }
 
     if (categoryFilter !== "all") {
-      whereClause.categories = {
-        some: {
-          category: {
-            name: categoryFilter,
-          },
-        },
+      whereClause.category = {
+        name: categoryFilter,
       };
     }
 
@@ -65,72 +89,46 @@ async function getStats() {
       return;
     }
 
-    // Get songs by category
-    console.log("📁 SONGS BY CATEGORY:");
+    // Get all categories to identify OTHER
+    const allCategories = await prisma.category.findMany();
+    const knownCategoryIds = [
+      ...CATEGORY_GROUPS_DISPLAY.Pop,
+      ...CATEGORY_GROUPS_DISPLAY.Rap,
+      ...CATEGORY_GROUPS_DISPLAY.Rock,
+    ];
+    const otherCategoryIds = allCategories
+      .filter((cat) => !knownCategoryIds.includes(cat.id))
+      .map((cat) => cat.id);
+
+    // Get songs by grouped categories
+    console.log("📁 SONGS BY CATEGORY GROUP:");
     console.log("-".repeat(80));
 
-    // If filtering by specific category, only show that one
-    let categoriesToShow: any[];
-    if (categoryFilter !== "all") {
-      const specificCategory = await prisma.category.findUnique({
-        where: { name: categoryFilter },
-        include: {
-          songs: {
-            ...(countryFilter !== "all" && {
-              where: {
-                song: {
-                  countryOrigin: countryFilter,
-                },
-              },
-            }),
-            include: {
-              song: true,
-            },
-          },
-        },
-      });
-      categoriesToShow = specificCategory ? [specificCategory] : [];
-    } else {
-      categoriesToShow = await prisma.category.findMany({
-        include: {
-          songs: {
-            ...(countryFilter !== "all" && {
-              where: {
-                song: {
-                  countryOrigin: countryFilter,
-                },
-              },
-            }),
-            include: {
-              song: true,
-            },
-          },
-        },
-      });
-    }
+    const categoryGroups = [
+      { name: "Pop", ids: CATEGORY_GROUPS_DISPLAY.Pop },
+      { name: "Rap", ids: CATEGORY_GROUPS_DISPLAY.Rap },
+      { name: "Rock", ids: CATEGORY_GROUPS_DISPLAY.Rock },
+      { name: "OTHER", ids: otherCategoryIds },
+    ];
 
-    for (const category of categoriesToShow) {
-      const songCount = category.songs.length;
+    for (const group of categoryGroups) {
+      if (group.ids.length === 0) continue;
+
+      const groupWhere: any = { categoryId: { in: group.ids } };
+
+      if (countryFilter !== "all") {
+        groupWhere.countryOrigin = countryFilter;
+      }
+
+      const songCount = await prisma.song.count({ where: groupWhere });
 
       if (songCount === 0) continue;
 
-      console.log(`\n${category.name.toUpperCase()}: ${songCount} songs`);
+      console.log(`\n${group.name.toUpperCase()}: ${songCount} songs`);
 
-      // Get difficulty distribution for this category
-      const categoryWhere: any = {
-        categories: {
-          some: {
-            categoryId: category.id,
-          },
-        },
-      };
-
-      if (countryFilter !== "all") {
-        categoryWhere.countryOrigin = countryFilter;
-      }
-
+      // Get difficulty distribution for this category group
       const difficultyStats = await prisma.song.findMany({
-        where: categoryWhere,
+        where: groupWhere,
         select: {
           difficulty: true,
         },
@@ -184,6 +182,38 @@ async function getStats() {
           .toString()
           .padStart(4)} songs (${percentage.padStart(5)}%) ${bar}`
       );
+    }
+
+    // Release year grouping
+    console.log("\n" + "=".repeat(80));
+    console.log("📅 SONGS BY RELEASE YEAR:");
+    console.log("-".repeat(80));
+
+    const allSongs = await prisma.song.findMany({
+      where: whereClause,
+      select: {
+        releaseYear: true,
+      },
+    });
+
+    const yearGroupCounts = new Map<string, number>();
+    for (const song of allSongs) {
+      const label = getYearRangeLabel(song.releaseYear);
+      yearGroupCounts.set(label, (yearGroupCounts.get(label) || 0) + 1);
+    }
+
+    // Display in the order of YEAR_RANGES
+    for (const range of YEAR_RANGES) {
+      const count = yearGroupCounts.get(range.label) || 0;
+      if (count > 0) {
+        const percentage = ((count / totalSongs) * 100).toFixed(1);
+        const bar = "█".repeat(Math.floor(count / 10));
+        console.log(
+          `${range.label.padEnd(15)}: ${count
+            .toString()
+            .padStart(4)} songs (${percentage.padStart(5)}%) ${bar}`
+        );
+      }
     }
 
     // Additional stats
