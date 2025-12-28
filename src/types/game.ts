@@ -1,5 +1,7 @@
 export interface GetRandomSongRequest {
-  // Currently empty, but kept for future query parameters
+  config?: {
+    locale: string;
+  };
 }
 
 export interface RandomSongResponse {
@@ -12,3 +14,6 @@ export interface RandomSongResponse {
   releaseYear: number;
   songsAmount: number; // total songs available for this block variant
 }
+
+export type Difficulty = "EASY" | "MEDIUM" | "HARD" | "RANDOM";
+export type SongDifficulty = Exclude<Difficulty, "RANDOM">;
