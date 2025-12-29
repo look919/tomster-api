@@ -3,12 +3,8 @@ import { prisma } from "../lib/prisma.js";
 import type { Difficulty, RandomSongResponse } from "../types/game.js";
 import { parseCategoryIds } from "../lib/category-utils.js";
 import { generateSongClipDuration } from "../utils/song.js";
-import { readFileSync } from "fs";
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import blockVariantsJson from "../../generated/block-variants.json" with { type: "json" };
+import additionalBlockVariantsJson from "../../generated/additional-block-variants.json" with { type: "json" };
 
 interface BlockVariant {
   query: any;
@@ -20,22 +16,8 @@ interface BlockVariant {
 
 type BlockVariantsMap = Record<string, BlockVariant>;
 
-// Load block variants from JSON files synchronously at module level
-const blockVariantsPath = join(
-  __dirname,
-  "../../generated/block-variants.json"
-);
-const additionalBlockVariantsPath = join(
-  __dirname,
-  "../../generated/additional-block-variants.json"
-);
-
-const blockVariants: BlockVariantsMap = JSON.parse(
-  readFileSync(blockVariantsPath, "utf-8")
-);
-const additionalBlockVariants: BlockVariantsMap = JSON.parse(
-  readFileSync(additionalBlockVariantsPath, "utf-8")
-);
+const blockVariants: BlockVariantsMap = blockVariantsJson;
+const additionalBlockVariants: BlockVariantsMap = additionalBlockVariantsJson;
 
 // Build final query by merging categoryRef with where clause
 function buildFinalQuery(blockVariant: BlockVariant): any {
