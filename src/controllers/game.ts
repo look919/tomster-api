@@ -69,6 +69,8 @@ function buildSqlWhereClause(query: any): { sql: string; params: any[] } {
     } else if (key === "releaseYear" && value && typeof value === "object") {
       const gteValue = (value as any).gte;
       const lteValue = (value as any).lte;
+      const gtValue = (value as any).gt;
+      const ltValue = (value as any).lt;
       if (gteValue !== undefined) {
         conditions.push(`s."releaseYear" >= $${paramIndex}`);
         params.push(gteValue);
@@ -79,12 +81,22 @@ function buildSqlWhereClause(query: any): { sql: string; params: any[] } {
         params.push(lteValue);
         paramIndex++;
       }
+      if (gtValue !== undefined) {
+        conditions.push(`s."releaseYear" > $${paramIndex}`);
+        params.push(gtValue);
+        paramIndex++;
+      }
+      if (ltValue !== undefined) {
+        conditions.push(`s."releaseYear" < $${paramIndex}`);
+        params.push(ltValue);
+        paramIndex++;
+      }
     } else if (key === "countryOrigin") {
       conditions.push(`s."countryOrigin" = $${paramIndex}`);
       params.push(value);
       paramIndex++;
     }
-  }
+}
 
   return {
     sql: conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "",
