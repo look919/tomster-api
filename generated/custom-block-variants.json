@@ -2,9 +2,8 @@
   "RANDOM-RANDOM-RANDOM-RANDOM": {
     "query": {},
     "categoryRef": null,
-    "songsAmount": 2650,
-    "ordinalNumber": 1,
-    "blocksAmount": 10
+    "songsAmount": 2679,
+    "ordinalNumber": 1
   },
   "MEDIUM-RANDOM-RANDOM-RANDOM": {
     "query": {
@@ -14,9 +13,8 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 1952,
-    "ordinalNumber": 2,
-    "blocksAmount": 4
+    "songsAmount": 1979,
+    "ordinalNumber": 2
   },
   "HARD-RANDOM-RANDOM-RANDOM": {
     "query": {
@@ -26,9 +24,8 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 1754,
-    "ordinalNumber": 3,
-    "blocksAmount": 4
+    "songsAmount": 1779,
+    "ordinalNumber": 3
   },
   "EASY-RANDOM-RANDOM-RANDOM": {
     "query": {
@@ -38,9 +35,8 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 1734,
-    "ordinalNumber": 4,
-    "blocksAmount": 4
+    "songsAmount": 1748,
+    "ordinalNumber": 4
   },
   "RANDOM-RANDOM-RANDOM-2000TO2015": {
     "query": {
@@ -50,16 +46,14 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 1056,
-    "ordinalNumber": 5,
-    "blocksAmount": 2
+    "songsAmount": 1071,
+    "ordinalNumber": 5
   },
   "RANDOM-POP-RANDOM-RANDOM": {
     "query": {},
     "categoryRef": "POP",
-    "songsAmount": 1042,
-    "ordinalNumber": 6,
-    "blocksAmount": 3
+    "songsAmount": 1037,
+    "ordinalNumber": 6
   },
   "RANDOM-RANDOM-RANDOM-PRE2000": {
     "query": {
@@ -68,9 +62,8 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 897,
-    "ordinalNumber": 7,
-    "blocksAmount": 2
+    "songsAmount": 904,
+    "ordinalNumber": 7
   },
   "RANDOM-RANDOM-RANDOM-POST2015": {
     "query": {
@@ -79,38 +72,33 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 697,
-    "ordinalNumber": 8,
-    "blocksAmount": 2
+    "songsAmount": 704,
+    "ordinalNumber": 8
   },
   "RANDOM-RANDOM-LOCAL-RANDOM": {
     "query": {
       "countryOrigin": "polish"
     },
     "categoryRef": null,
-    "songsAmount": 688,
-    "ordinalNumber": 9,
-    "blocksAmount": 4
+    "songsAmount": 691,
+    "ordinalNumber": 9
   },
   "RANDOM-ROCK-RANDOM-RANDOM": {
     "query": {},
     "categoryRef": "ROCK",
-    "songsAmount": 598,
-    "ordinalNumber": 10,
-    "blocksAmount": 3
+    "songsAmount": 594,
+    "ordinalNumber": 10
   },
   "RANDOM-RAP-RANDOM-RANDOM": {
     "query": {},
     "categoryRef": "RAP",
-    "songsAmount": 528,
-    "ordinalNumber": 11,
-    "blocksAmount": 3
+    "songsAmount": 530,
+    "ordinalNumber": 11
   },
   "RANDOM-OTHER-RANDOM-RANDOM": {
     "query": {},
     "categoryRef": "OTHER",
-    "songsAmount": 482,
-    "ordinalNumber": 12,
-    "blocksAmount": 3
+    "songsAmount": 518,
+    "ordinalNumber": 12
   }
 }

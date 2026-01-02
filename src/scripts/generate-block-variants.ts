@@ -15,21 +15,21 @@ type Variant = {
   genre: (typeof genres)[number];
 };
 
-// Custom block variants with their blocksAmount
-const CUSTOM_BLOCK_VARIANTS: Record<string, number> = {
-  "RANDOM-RANDOM-RANDOM-RANDOM": 10,
-  "HARD-RANDOM-RANDOM-RANDOM": 4,
-  "MEDIUM-RANDOM-RANDOM-RANDOM": 4,
-  "EASY-RANDOM-RANDOM-RANDOM": 4,
-  "RANDOM-ROCK-RANDOM-RANDOM": 3,
-  "RANDOM-RAP-RANDOM-RANDOM": 3,
-  "RANDOM-POP-RANDOM-RANDOM": 3,
-  "RANDOM-OTHER-RANDOM-RANDOM": 3,
-  "RANDOM-RANDOM-LOCAL-RANDOM": 4,
-  "RANDOM-RANDOM-RANDOM-POST2015": 2,
-  "RANDOM-RANDOM-RANDOM-2000TO2015": 2,
-  "RANDOM-RANDOM-RANDOM-PRE2000": 2,
-};
+// Custom block variants
+const CUSTOM_BLOCK_VARIANTS: string[] = [
+  "RANDOM-RANDOM-RANDOM-RANDOM",
+  "HARD-RANDOM-RANDOM-RANDOM",
+  "MEDIUM-RANDOM-RANDOM-RANDOM",
+  "EASY-RANDOM-RANDOM-RANDOM",
+  "RANDOM-ROCK-RANDOM-RANDOM",
+  "RANDOM-RAP-RANDOM-RANDOM",
+  "RANDOM-POP-RANDOM-RANDOM",
+  "RANDOM-OTHER-RANDOM-RANDOM",
+  "RANDOM-RANDOM-LOCAL-RANDOM",
+  "RANDOM-RANDOM-RANDOM-POST2015",
+  "RANDOM-RANDOM-RANDOM-2000TO2015",
+  "RANDOM-RANDOM-RANDOM-PRE2000",
+];
 
 function generateAllVariants(): Variant[] {
   const variants: Variant[] = [];
@@ -195,7 +195,6 @@ type BlockVariantResult = {
   categoryRef: string | null;
   songsAmount: number;
   ordinalNumber: number;
-  blocksAmount: number;
 };
 
 async function generateBlockVariants() {
@@ -228,7 +227,6 @@ async function generateBlockVariants() {
         categoryRef: variant.genre !== "RANDOM" ? variant.genre : null,
         songsAmount,
         ordinalNumber: 0,
-        blocksAmount: 2,
       };
 
       processed++;
@@ -257,7 +255,7 @@ async function generateBlockVariants() {
     const outputPath = path.join(
       process.cwd(),
       "generated",
-      "block-variants.json"
+      "two-random-variants.json"
     );
     await fs.mkdir(path.dirname(outputPath), { recursive: true });
     await fs.writeFile(
@@ -275,10 +273,10 @@ async function generateBlockVariants() {
   }
 }
 
-async function generateAdditionalBlockVariants() {
+async function generateAllPossibleBlockVariants() {
   try {
     console.log(
-      "\n🔧 Generating additional block variants (all other variants)...\n"
+      "\n🔧 Generating all possible block variants (all other variants)...\n"
     );
 
     const categoryGroups = loadCategoryGroups();
@@ -307,7 +305,6 @@ async function generateAdditionalBlockVariants() {
         categoryRef: variant.genre !== "RANDOM" ? variant.genre : null,
         songsAmount,
         ordinalNumber: 0,
-        blocksAmount: 1,
       };
 
       processed++;
@@ -336,7 +333,7 @@ async function generateAdditionalBlockVariants() {
     const outputPath = path.join(
       process.cwd(),
       "generated",
-      "additional-block-variants.json"
+      "all-possible-block-variants.json"
     );
     await fs.mkdir(path.dirname(outputPath), { recursive: true });
     await fs.writeFile(
@@ -349,7 +346,7 @@ async function generateAdditionalBlockVariants() {
 
     return results;
   } catch (error) {
-    console.error("❌ Error generating additional block variants:", error);
+    console.error("❌ Error generating all-possible block variants:", error);
     throw error;
   }
 }
@@ -363,9 +360,9 @@ async function generateCustomBlockVariants() {
     const customResults: Record<string, BlockVariantResult> = {};
 
     let processed = 0;
-    const totalCustom = Object.keys(CUSTOM_BLOCK_VARIANTS).length;
+    const totalCustom = CUSTOM_BLOCK_VARIANTS.length;
 
-    for (const [key, blocksAmount] of Object.entries(CUSTOM_BLOCK_VARIANTS)) {
+    for (const key of CUSTOM_BLOCK_VARIANTS) {
       const variant = parseVariantKey(key);
 
       if (!variant) {
@@ -386,13 +383,10 @@ async function generateCustomBlockVariants() {
         categoryRef: variant.genre !== "RANDOM" ? variant.genre : null,
         songsAmount,
         ordinalNumber: 0,
-        blocksAmount,
       };
 
       processed++;
-      console.log(
-        `✅ Processed ${processed}/${totalCustom}: ${key} (${blocksAmount} blocks)`
-      );
+      console.log(`✅ Processed ${processed}/${totalCustom}`);
     }
 
     // Sort by songsAmount and assign ordinal numbers
@@ -437,7 +431,7 @@ async function generateBlockData() {
 
     // Generate all three files
     const blockResults = await generateBlockVariants();
-    const additionalResults = await generateAdditionalBlockVariants();
+    const allPossibleResults = await generateAllPossibleBlockVariants();
     const customResults = await generateCustomBlockVariants();
 
     // Display statistics
@@ -488,8 +482,8 @@ async function generateBlockData() {
 
     displayStats(blockResults, "Block Variants (2 RANDOMs)");
     displayStats(
-      additionalResults,
-      "Additional Block Variants (0, 1, 3, or 4 RANDOMs)"
+      allPossibleResults,
+      "All Possible Block Variants (0, 1, 3, or 4 RANDOMs)"
     );
     displayStats(customResults, "Custom Block Variants");
 

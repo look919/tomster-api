@@ -3,21 +3,18 @@ import { prisma } from "../lib/prisma.js";
 import type { Difficulty, RandomSongResponse } from "../types/game.js";
 import { parseCategoryIds } from "../lib/category-utils.js";
 import { generateSongClipDuration } from "../utils/song.js";
-import blockVariantsJson from "../../generated/block-variants.json" with { type: "json" };
-import additionalBlockVariantsJson from "../../generated/additional-block-variants.json" with { type: "json" };
+import allPossibleBlockVariants from "../../generated/all-possible-block-variants.json" with { type: "json" };
 
 interface BlockVariant {
   query: any;
   categoryRef: string | null;
   songsAmount: number;
   ordinalNumber: number;
-  blocksAmount: number;
 }
 
 type BlockVariantsMap = Record<string, BlockVariant>;
 
-const blockVariants: BlockVariantsMap = blockVariantsJson;
-const additionalBlockVariants: BlockVariantsMap = additionalBlockVariantsJson;
+const blockVariants: BlockVariantsMap = allPossibleBlockVariants;
 
 // Build final query by merging categoryRef with where clause
 function buildFinalQuery(blockVariant: BlockVariant): any {
@@ -106,11 +103,7 @@ function buildSqlWhereClause(query: any): { sql: string; params: any[] } {
 
 // Get block variant by key
 export function getBlockVariant(blockVariantKey: string): BlockVariant | null {
-  return (
-    blockVariants[blockVariantKey] ||
-    additionalBlockVariants[blockVariantKey] ||
-    null
-  );
+  return blockVariants[blockVariantKey] || null;
 }
 
 export async function getRandomSong(
