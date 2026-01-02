@@ -195,23 +195,29 @@ export async function getRandomSong(
   }
 }
 
-export async function reportSong(songId: string) {
-  const song = await prisma.song.update({
-    where: { id: songId },
+export async function reportSong(
+  songId: string,
+  category: "WRONG_SONG_DATA" | "SONG_ISSUE" | "OTHER",
+  message?: string
+) {
+  const report = await prisma.report.create({
     data: {
-      reportAmount: {
-        increment: 1,
-      },
+      songId,
+      category,
+      message: message ?? "",
     },
     select: {
       id: true,
-      reportAmount: true,
+      songId: true,
+      category: true,
+      createdAt: true,
     },
   });
 
   return {
     success: true,
-    songId: song.id,
-    reportAmount: song.reportAmount,
+    reportId: report.id,
+    songId: report.songId,
+    category: report.category,
   };
 }

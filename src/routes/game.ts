@@ -42,16 +42,43 @@ export async function gameRoutes(fastify: FastifyInstance) {
     }
   );
 
-  // Report song issue - increment reportAmount
-  fastify.post<{ Params: { songId: string } }>(
+  // Report song issue - create a new report
+  fastify.post<{
+    Params: { songId: string };
+    Body: {
+      category: "WRONG_SONG_DATA" | "SONG_ISSUE" | "OTHER";
+      message?: string;
+    };
+  }>(
     "/songs/:songId/report",
     async (
-      request: FastifyRequest<{ Params: { songId: string } }>,
+      request: FastifyRequest<{
+        Params: { songId: string };
+        Body: {
+          category: "WRONG_SONG_DATA" | "SONG_ISSUE" | "OTHER";
+          message?: string;
+        };
+      }>,
       reply: FastifyReply
     ) => {
       try {
         const { songId } = request.params;
-        const result = await gameController.reportSong(songId);
+        const { category, message } = request.body;
+
+        if (!category) {
+          return reply.code(400).send({ error: "Category is required" });
+        }
+
+        const validCategories = ["WRONG_SONG_DATA", "SONG_ISSUE", "OTHER"];
+        if (!validCategories.includes(category)) {
+          return reply.code(400).send({ error: "Invalid category" });
+        }
+
+        const result = await gameController.reportSong(
+          songId,
+          category,
+          message
+        );
         return reply.send(result);
       } catch (error) {
         fastify.log.error(error);
