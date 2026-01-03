@@ -6,45 +6,24 @@ import { loadCategoryGroups } from "../lib/category-utils.js";
 const difficulties = ["EASY", "MEDIUM", "HARD", "RANDOM"] as const;
 const genres = ["ROCK", "RAP", "POP", "OTHER", "RANDOM"] as const;
 const countries = ["LOCAL", "INTERNATIONAL", "RANDOM"] as const;
-const releaseYears = ["PRE2000", "2000TO2015", "POST2015", "RANDOM"] as const;
 
 type Variant = {
   difficulty: (typeof difficulties)[number];
   country: (typeof countries)[number];
-  releaseYear: (typeof releaseYears)[number];
   genre: (typeof genres)[number];
 };
-
-// Custom block variants
-const CUSTOM_BLOCK_VARIANTS: string[] = [
-  "RANDOM-RANDOM-RANDOM-RANDOM",
-  "HARD-RANDOM-RANDOM-RANDOM",
-  "MEDIUM-RANDOM-RANDOM-RANDOM",
-  "EASY-RANDOM-RANDOM-RANDOM",
-  "RANDOM-ROCK-RANDOM-RANDOM",
-  "RANDOM-RAP-RANDOM-RANDOM",
-  "RANDOM-POP-RANDOM-RANDOM",
-  "RANDOM-OTHER-RANDOM-RANDOM",
-  "RANDOM-RANDOM-LOCAL-RANDOM",
-  "RANDOM-RANDOM-RANDOM-POST2015",
-  "RANDOM-RANDOM-RANDOM-2000TO2015",
-  "RANDOM-RANDOM-RANDOM-PRE2000",
-];
 
 function generateAllVariants(): Variant[] {
   const variants: Variant[] = [];
 
   for (const difficulty of difficulties) {
     for (const country of countries) {
-      for (const releaseYear of releaseYears) {
-        for (const genre of genres) {
-          variants.push({
-            difficulty,
-            country,
-            releaseYear,
-            genre,
-          });
-        }
+      for (const genre of genres) {
+        variants.push({
+          difficulty,
+          country,
+          genre,
+        });
       }
     }
   }
@@ -53,33 +32,13 @@ function generateAllVariants(): Variant[] {
 }
 
 function countRandoms(variant: Variant): number {
-  return Object.values(variant).filter((v) => v === "RANDOM").length;
+  return [variant.difficulty, variant.country, variant.genre].filter(
+    (v) => v === "RANDOM"
+  ).length;
 }
 
 function getVariantKey(variant: Variant): string {
-  return `${variant.difficulty}-${variant.genre}-${variant.country}-${variant.releaseYear}`;
-}
-
-function parseVariantKey(key: string): Variant | null {
-  const parts = key.split("-");
-  if (parts.length < 4) return null;
-
-  const [difficulty, genre, country, releaseYear] = parts;
-
-  if (
-    !difficulties.includes(difficulty as any) ||
-    !genres.includes(genre as any) ||
-    !countries.includes(country as any)
-  ) {
-    return null;
-  }
-
-  return {
-    difficulty: difficulty as (typeof difficulties)[number],
-    genre: genre as (typeof genres)[number],
-    country: country as (typeof countries)[number],
-    releaseYear: releaseYear as (typeof releaseYears)[number],
-  };
+  return `${variant.difficulty}-${variant.genre}-${variant.country}`;
 }
 
 async function getOtherCategoryIds(
@@ -102,30 +61,13 @@ async function getOtherCategoryIds(
     .map((cat) => cat.id);
 }
 
-function buildWhereClause(
-  variant: Variant,
-  otherCategoryIds: string[],
-  categoryGroups: ReturnType<typeof loadCategoryGroups>
-) {
+function buildWhereClause(variant: Variant) {
   const where: any = {};
-
-  // Note: Genre (category) is now stored separately as categoryRef outside the query
 
   // Handle country
   if (variant.country !== "RANDOM") {
     where.countryOrigin =
       variant.country === "LOCAL" ? "polish" : "international";
-  }
-
-  // Handle release year
-  if (variant.releaseYear !== "RANDOM") {
-    if (variant.releaseYear === "PRE2000") {
-      where.releaseYear = { lt: 2000 };
-    } else if (variant.releaseYear === "2000TO2015") {
-      where.releaseYear = { gte: 2000, lte: 2015 };
-    } else if (variant.releaseYear === "POST2015") {
-      where.releaseYear = { gt: 2015 };
-    }
   }
 
   // Handle difficulty
@@ -165,17 +107,6 @@ function buildWhereClauseForCount(
       variant.country === "LOCAL" ? "polish" : "international";
   }
 
-  // Handle release year
-  if (variant.releaseYear !== "RANDOM") {
-    if (variant.releaseYear === "PRE2000") {
-      where.releaseYear = { lt: 2000 };
-    } else if (variant.releaseYear === "2000TO2015") {
-      where.releaseYear = { gte: 2000, lte: 2015 };
-    } else if (variant.releaseYear === "POST2015") {
-      where.releaseYear = { gt: 2015 };
-    }
-  }
-
   // Handle difficulty
   if (variant.difficulty !== "RANDOM") {
     if (variant.difficulty === "EASY") {
@@ -195,244 +126,165 @@ type BlockVariantResult = {
   categoryRef: string | null;
   songsAmount: number;
   ordinalNumber: number;
+  count: number;
 };
 
-async function generateBlockVariants() {
-  try {
-    console.log("🚀 Generating block variants (exactly 2 RANDOMs)...\n");
+async function processVariants(
+  variants: Variant[],
+  categoryGroups: ReturnType<typeof loadCategoryGroups>,
+  otherCategoryIds: string[],
+  countFn: (key: string) => number
+): Promise<Record<string, BlockVariantResult>> {
+  const results: Record<string, BlockVariantResult> = {};
 
-    const categoryGroups = loadCategoryGroups();
-    const allVariants = generateAllVariants();
-    const variants = allVariants.filter((v) => countRandoms(v) === 2);
-    const otherCategoryIds = await getOtherCategoryIds(categoryGroups);
-
-    console.log(`📊 Total variants to process: ${variants.length}`);
-    console.log(`🎵 OTHER category IDs: ${otherCategoryIds.length}\n`);
-
-    const results: Record<string, BlockVariantResult> = {};
-
-    let processed = 0;
-    for (const variant of variants) {
-      const key = getVariantKey(variant);
-      const where = buildWhereClause(variant, otherCategoryIds, categoryGroups);
-      const whereForCount = buildWhereClauseForCount(
-        variant,
-        otherCategoryIds,
-        categoryGroups
-      );
-      const songsAmount = await prisma.song.count({ where: whereForCount });
-
-      results[key] = {
-        query: where,
-        categoryRef: variant.genre !== "RANDOM" ? variant.genre : null,
-        songsAmount,
-        ordinalNumber: 0,
-      };
-
-      processed++;
-      if (processed % 50 === 0) {
-        console.log(`✅ Processed ${processed}/${variants.length} variants...`);
-      }
-    }
-
-    console.log(`\n✨ All ${variants.length} variants processed!\n`);
-
-    // Sort by songsAmount and assign ordinal numbers
-    const sortedResults: Record<string, BlockVariantResult> = {};
-    const sortedEntries = Object.entries(results).sort(
-      (a, b) => b[1].songsAmount - a[1].songsAmount
+  for (const variant of variants) {
+    const key = getVariantKey(variant);
+    const where = buildWhereClause(variant);
+    const whereForCount = buildWhereClauseForCount(
+      variant,
+      otherCategoryIds,
+      categoryGroups
     );
+    const songsAmount = await prisma.song.count({ where: whereForCount });
 
-    let ordinalNumber = 1;
-    for (const [key, value] of sortedEntries) {
-      sortedResults[key] = {
-        ...value,
-        ordinalNumber: ordinalNumber++,
-      };
-    }
-
-    // Save to JSON file
-    const outputPath = path.join(
-      process.cwd(),
-      "generated",
-      "two-random-variants.json"
-    );
-    await fs.mkdir(path.dirname(outputPath), { recursive: true });
-    await fs.writeFile(
-      outputPath,
-      JSON.stringify(sortedResults, null, 2),
-      "utf-8"
-    );
-
-    console.log(`📁 Block variants saved to: ${outputPath}`);
-
-    return results;
-  } catch (error) {
-    console.error("❌ Error generating block variants:", error);
-    throw error;
+    results[key] = {
+      query: where,
+      categoryRef: variant.genre !== "RANDOM" ? variant.genre : null,
+      songsAmount,
+      ordinalNumber: 0,
+      count: countFn(key),
+    };
   }
+
+  // Sort by songsAmount and assign ordinal numbers
+  const sortedResults: Record<string, BlockVariantResult> = {};
+  const sortedEntries = Object.entries(results).sort(
+    (a, b) => b[1].songsAmount - a[1].songsAmount
+  );
+
+  let ordinalNumber = 1;
+  for (const [key, value] of sortedEntries) {
+    sortedResults[key] = {
+      ...value,
+      ordinalNumber: ordinalNumber++,
+    };
+  }
+
+  return sortedResults;
 }
 
-async function generateAllPossibleBlockVariants() {
-  try {
-    console.log(
-      "\n🔧 Generating all possible block variants (all other variants)...\n"
-    );
-
-    const categoryGroups = loadCategoryGroups();
-    const allVariants = generateAllVariants();
-    const variants = allVariants.filter((v) => countRandoms(v) !== 2);
-    const otherCategoryIds = await getOtherCategoryIds(categoryGroups);
-
-    console.log(`📊 Total variants to process: ${variants.length}`);
-    console.log(`🎵 OTHER category IDs: ${otherCategoryIds.length}\n`);
-
-    const results: Record<string, BlockVariantResult> = {};
-
-    let processed = 0;
-    for (const variant of variants) {
-      const key = getVariantKey(variant);
-      const where = buildWhereClause(variant, otherCategoryIds, categoryGroups);
-      const whereForCount = buildWhereClauseForCount(
-        variant,
-        otherCategoryIds,
-        categoryGroups
-      );
-      const songsAmount = await prisma.song.count({ where: whereForCount });
-
-      results[key] = {
-        query: where,
-        categoryRef: variant.genre !== "RANDOM" ? variant.genre : null,
-        songsAmount,
-        ordinalNumber: 0,
-      };
-
-      processed++;
-      if (processed % 100 === 0) {
-        console.log(`✅ Processed ${processed}/${variants.length} variants...`);
-      }
-    }
-
-    console.log(`\n✨ All ${variants.length} variants processed!\n`);
-
-    // Sort by songsAmount and assign ordinal numbers
-    const sortedResults: Record<string, BlockVariantResult> = {};
-    const sortedEntries = Object.entries(results).sort(
-      (a, b) => b[1].songsAmount - a[1].songsAmount
-    );
-
-    let ordinalNumber = 1;
-    for (const [key, value] of sortedEntries) {
-      sortedResults[key] = {
-        ...value,
-        ordinalNumber: ordinalNumber++,
-      };
-    }
-
-    // Save to JSON file
-    const outputPath = path.join(
-      process.cwd(),
-      "generated",
-      "all-possible-block-variants.json"
-    );
-    await fs.mkdir(path.dirname(outputPath), { recursive: true });
-    await fs.writeFile(
-      outputPath,
-      JSON.stringify(sortedResults, null, 2),
-      "utf-8"
-    );
-
-    console.log(`📁 Additional block variants saved to: ${outputPath}`);
-
-    return results;
-  } catch (error) {
-    console.error("❌ Error generating all-possible block variants:", error);
-    throw error;
-  }
+async function saveToFile(
+  results: Record<string, BlockVariantResult>,
+  filename: string
+) {
+  const outputPath = path.join(process.cwd(), "generated", filename);
+  await fs.mkdir(path.dirname(outputPath), { recursive: true });
+  await fs.writeFile(outputPath, JSON.stringify(results, null, 2), "utf-8");
+  console.log(`📁 Saved to: ${outputPath}`);
 }
 
-async function generateCustomBlockVariants() {
-  try {
-    console.log("\n🎨 Generating custom block variants...\n");
+async function generateAllPossibleBlockVariants(
+  allVariants: Variant[],
+  categoryGroups: ReturnType<typeof loadCategoryGroups>,
+  otherCategoryIds: string[]
+) {
+  console.log("\n🔧 Generating all-possible-block-variants.json...");
+  const results = await processVariants(
+    allVariants,
+    categoryGroups,
+    otherCategoryIds,
+    () => 2 // count = 2 for all
+  );
+  await saveToFile(results, "all-possible-block-variants.json");
+  return results;
+}
 
-    const categoryGroups = loadCategoryGroups();
-    const otherCategoryIds = await getOtherCategoryIds(categoryGroups);
-    const customResults: Record<string, BlockVariantResult> = {};
+async function generateMaxOneInfoVariants(
+  allVariants: Variant[],
+  categoryGroups: ReturnType<typeof loadCategoryGroups>,
+  otherCategoryIds: string[]
+) {
+  console.log("\n🎲 Generating max-one-info-variants.json...");
+  // 2 or 3 RANDOMs (max 1 info = at most 1 non-RANDOM field)
+  const variants = allVariants.filter((v) => countRandoms(v) >= 2);
+  const results = await processVariants(
+    variants,
+    categoryGroups,
+    otherCategoryIds,
+    (key) => (key === "RANDOM-RANDOM-RANDOM" ? 14 : 4)
+  );
+  await saveToFile(results, "max-one-info-variants.json");
+  return results;
+}
 
-    let processed = 0;
-    const totalCustom = CUSTOM_BLOCK_VARIANTS.length;
+async function generateTwoInfoVariants(
+  allVariants: Variant[],
+  categoryGroups: ReturnType<typeof loadCategoryGroups>,
+  otherCategoryIds: string[]
+) {
+  console.log("\n📊 Generating two-info-variants.json...");
+  // Exactly 1 RANDOM (2 non-RANDOM fields = 2 info)
+  const variants = allVariants.filter((v) => countRandoms(v) === 1);
+  const results = await processVariants(
+    variants,
+    categoryGroups,
+    otherCategoryIds,
+    () => 2 // count = 2 for all
+  );
+  await saveToFile(results, "two-info-variants.json");
+  return results;
+}
 
-    for (const key of CUSTOM_BLOCK_VARIANTS) {
-      const variant = parseVariantKey(key);
-
-      if (!variant) {
-        console.warn(`⚠️  Invalid variant key: ${key}, skipping...`);
-        continue;
-      }
-
-      const where = buildWhereClause(variant, otherCategoryIds, categoryGroups);
-      const whereForCount = buildWhereClauseForCount(
-        variant,
-        otherCategoryIds,
-        categoryGroups
-      );
-      const songsAmount = await prisma.song.count({ where: whereForCount });
-
-      customResults[key] = {
-        query: where,
-        categoryRef: variant.genre !== "RANDOM" ? variant.genre : null,
-        songsAmount,
-        ordinalNumber: 0,
-      };
-
-      processed++;
-      console.log(`✅ Processed ${processed}/${totalCustom}`);
-    }
-
-    // Sort by songsAmount and assign ordinal numbers
-    const sortedResults: Record<string, BlockVariantResult> = {};
-    const sortedEntries = Object.entries(customResults).sort(
-      (a, b) => b[1].songsAmount - a[1].songsAmount
-    );
-
-    let ordinalNumber = 1;
-    for (const [key, value] of sortedEntries) {
-      sortedResults[key] = {
-        ...value,
-        ordinalNumber: ordinalNumber++,
-      };
-    }
-
-    // Save to JSON file
-    const outputPath = path.join(
-      process.cwd(),
-      "generated",
-      "custom-block-variants.json"
-    );
-    await fs.mkdir(path.dirname(outputPath), { recursive: true });
-    await fs.writeFile(
-      outputPath,
-      JSON.stringify(sortedResults, null, 2),
-      "utf-8"
-    );
-
-    console.log(`📁 Custom block variants saved to: ${outputPath}`);
-
-    return customResults;
-  } catch (error) {
-    console.error("❌ Error generating custom block variants:", error);
-    throw error;
-  }
+async function generateThreeInfoVariants(
+  allVariants: Variant[],
+  categoryGroups: ReturnType<typeof loadCategoryGroups>,
+  otherCategoryIds: string[]
+) {
+  console.log("\n🎯 Generating three-info-variants.json...");
+  // 0 RANDOMs (3 non-RANDOM fields = 3 info)
+  const variants = allVariants.filter((v) => countRandoms(v) === 0);
+  const results = await processVariants(
+    variants,
+    categoryGroups,
+    otherCategoryIds,
+    () => 2 // count = 2 for all
+  );
+  await saveToFile(results, "three-info-variants.json");
+  return results;
 }
 
 async function generateBlockData() {
   try {
     console.log("🚀 Starting block variant generation...\n");
 
-    // Generate all three files
-    const blockResults = await generateBlockVariants();
-    const allPossibleResults = await generateAllPossibleBlockVariants();
-    const customResults = await generateCustomBlockVariants();
+    const categoryGroups = loadCategoryGroups();
+    const allVariants = generateAllVariants();
+    const otherCategoryIds = await getOtherCategoryIds(categoryGroups);
+
+    console.log(`📊 Total possible variants: ${allVariants.length}`);
+    console.log(`🎵 OTHER category IDs: ${otherCategoryIds.length}`);
+
+    // Generate all four files
+    const allPossibleResults = await generateAllPossibleBlockVariants(
+      allVariants,
+      categoryGroups,
+      otherCategoryIds
+    );
+    const maxOneInfoResults = await generateMaxOneInfoVariants(
+      allVariants,
+      categoryGroups,
+      otherCategoryIds
+    );
+    const twoInfoResults = await generateTwoInfoVariants(
+      allVariants,
+      categoryGroups,
+      otherCategoryIds
+    );
+    const threeInfoResults = await generateThreeInfoVariants(
+      allVariants,
+      categoryGroups,
+      otherCategoryIds
+    );
 
     // Display statistics
     console.log("\n" + "=".repeat(80));
@@ -480,12 +332,10 @@ async function generateBlockData() {
       }
     };
 
-    displayStats(blockResults, "Block Variants (2 RANDOMs)");
-    displayStats(
-      allPossibleResults,
-      "All Possible Block Variants (0, 1, 3, or 4 RANDOMs)"
-    );
-    displayStats(customResults, "Custom Block Variants");
+    displayStats(allPossibleResults, "All Possible Block Variants");
+    displayStats(maxOneInfoResults, "Max One Info Variants (2-3 RANDOMs)");
+    displayStats(twoInfoResults, "Two Info Variants (1 RANDOM)");
+    displayStats(threeInfoResults, "Three Info Variants (0 RANDOMs)");
 
     console.log("\n" + "=".repeat(80) + "\n");
     console.log("✅ All files generated successfully!\n");

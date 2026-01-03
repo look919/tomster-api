@@ -1,0 +1,91 @@
+{
+  "RANDOM-RANDOM-RANDOM": {
+    "query": {},
+    "categoryRef": null,
+    "songsAmount": 2679,
+    "ordinalNumber": 1,
+    "count": 14
+  },
+  "RANDOM-RANDOM-INTERNATIONAL": {
+    "query": {
+      "countryOrigin": "international"
+    },
+    "categoryRef": null,
+    "songsAmount": 1988,
+    "ordinalNumber": 2,
+    "count": 4
+  },
+  "MEDIUM-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 1979,
+    "ordinalNumber": 3,
+    "count": 4
+  },
+  "HARD-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 1779,
+    "ordinalNumber": 4,
+    "count": 4
+  },
+  "EASY-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 1748,
+    "ordinalNumber": 5,
+    "count": 4
+  },
+  "RANDOM-POP-RANDOM": {
+    "query": {},
+    "categoryRef": "POP",
+    "songsAmount": 1037,
+    "ordinalNumber": 6,
+    "count": 4
+  },
+  "RANDOM-RANDOM-LOCAL": {
+    "query": {
+      "countryOrigin": "polish"
+    },
+    "categoryRef": null,
+    "songsAmount": 691,
+    "ordinalNumber": 7,
+    "count": 4
+  },
+  "RANDOM-ROCK-RANDOM": {
+    "query": {},
+    "categoryRef": "ROCK",
+    "songsAmount": 594,
+    "ordinalNumber": 8,
+    "count": 4
+  },
+  "RANDOM-RAP-RANDOM": {
+    "query": {},
+    "categoryRef": "RAP",
+    "songsAmount": 530,
+    "ordinalNumber": 9,
+    "count": 4
+  },
+  "RANDOM-OTHER-RANDOM": {
+    "query": {},
+    "categoryRef": "OTHER",
+    "songsAmount": 518,
+    "ordinalNumber": 10,
+    "count": 4
+  }
+}
