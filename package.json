@@ -25,10 +25,12 @@
     "commander": "^12.1.0",
     "fastify": "^5.6.2",
     "play-dl": "^1.9.7",
+    "qrcode": "^1.5.4",
     "ytmusic-api": "5.3.0"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
+    "@types/qrcode": "^1.5.6",
     "prisma": "6",
     "tsx": "^4.19.2",
     "typescript": "^5.9.3"
