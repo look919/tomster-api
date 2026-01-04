@@ -15,21 +15,19 @@ const CATEGORY_GROUPS_DISPLAY = {
 
 // Year ranges for grouping
 const YEAR_RANGES = [
-  { label: "Before 1959", min: 0, max: 1959 },
-  { label: "1960-1969", min: 1960, max: 1969 },
-  { label: "1970-1979", min: 1970, max: 1979 },
+  { label: "Before 1979", min: 0, max: 1979 },
   { label: "1980-1989", min: 1980, max: 1989 },
   { label: "1990-1999", min: 1990, max: 1999 },
-  { label: "2000-2004", min: 2000, max: 2004 },
-  { label: "2005-2009", min: 2005, max: 2009 },
-  { label: "2010-2014", min: 2010, max: 2014 },
-  { label: "2015-2019", min: 2015, max: 2019 },
+  { label: "2000-2005", min: 2000, max: 2005 },
+  { label: "2005-2010", min: 2005, max: 2010 },
+  { label: "2010-2015", min: 2010, max: 2015 },
+  { label: "2015-2020", min: 2015, max: 2020 },
   { label: "2020+", min: 2020, max: 9999 },
 ];
 
-function getYearRangeLabel(year: number): string {
-  const range = YEAR_RANGES.find((r) => year >= r.min && year <= r.max);
-  return range?.label || "Unknown";
+function getYearRangeLabels(year: number): string[] {
+  const ranges = YEAR_RANGES.filter((r) => year >= r.min && year <= r.max);
+  return ranges.length > 0 ? ranges.map((r) => r.label) : ["Unknown"];
 }
 
 program
@@ -198,8 +196,10 @@ async function getStats() {
 
     const yearGroupCounts = new Map<string, number>();
     for (const song of allSongs) {
-      const label = getYearRangeLabel(song.releaseYear);
-      yearGroupCounts.set(label, (yearGroupCounts.get(label) || 0) + 1);
+      const labels = getYearRangeLabels(song.releaseYear);
+      for (const label of labels) {
+        yearGroupCounts.set(label, (yearGroupCounts.get(label) || 0) + 1);
+      }
     }
 
     // Display in the order of YEAR_RANGES

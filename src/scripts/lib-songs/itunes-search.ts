@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { Command } from "commander";
-import { prisma } from "../lib/prisma.js";
+import { prisma } from "../../lib/prisma.js";
 import fs from "fs/promises";
 import path from "path";
 

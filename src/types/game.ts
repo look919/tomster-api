@@ -1,6 +1,6 @@
 export interface GetRandomSongRequest {
   config?: {
-    locale: string;
+    locale: string; // TODO: use this value to localize song selection for different regions
   };
 }
 
@@ -12,8 +12,13 @@ export interface RandomSongResponse {
   clipDuration: number; // in seconds
   clipStartTime: number; // offset in seconds from start
   releaseYear: number;
-  songsAmount: number; // total songs available for this block variant
 }
 
-export type Difficulty = "EASY" | "MEDIUM" | "HARD" | "RANDOM";
+export type Difficulty =
+  | "VERYEASY"
+  | "EASY"
+  | "MEDIUM"
+  | "HARD"
+  | "VERYHARD"
+  | "RANDOM";
 export type SongDifficulty = Exclude<Difficulty, "RANDOM">;

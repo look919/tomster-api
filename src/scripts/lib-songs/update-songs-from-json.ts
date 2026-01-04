@@ -1,6 +1,6 @@
-import { prisma } from "../lib/prisma.js";
-import foundData from "../../data/found-skip-0.json" with { type: "json" };
-import notFoundData from "../../data/not-found-skip-0.json" with { type: "json" };
+import { prisma } from "../../lib/prisma.js";
+import foundData from "../../../data/found-skip-0.json" with { type: "json" };
+import notFoundData from "../../../data/not-found-skip-0.json" with { type: "json" };
 
 interface SongData {
   artists: string[];
@@ -16,6 +16,7 @@ interface JsonData {
   [id: string]: SongData;
 }
 
+// Update songs in the database based on JSON data got from iTunes API
 async function updateSongsFromJson() {
   try {
     // ========================================

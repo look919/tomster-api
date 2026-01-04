@@ -1,6 +1,6 @@
 import play from "play-dl";
-import { prisma } from "../lib/prisma.js";
-import json from "../../data/local-songs-1950-1959.json" with { type: "json" };
+import { prisma } from "../../lib/prisma.js";
+import json from "../../../data/pop-songs-2020-2025.json" with { type: "json" };
 
 
   await play.setToken({
@@ -9,15 +9,15 @@ import json from "../../data/local-songs-1950-1959.json" with { type: "json" };
     }
     });
 
-const mapLocalDifficulty = (views: number): number => {
-  if (views < 1_500_000) return 5;
-  if( views < 2_500_000) return 4;
-  if (views < 5_000_000) return 3;
-  if (views < 10_000_000) return 2;
+
+const mapDifficulty = (views: number): number => {
+  if (views < 35_000_000) return 5;
+  if( views < 50_000_000) return 4;
+  if (views < 100_000_000) return 3;
+  if (views < 200_000_000) return 2;
 
   return 1;
 }
-
 
 interface JsonSong {
   videoId: string;
@@ -61,7 +61,7 @@ async function importFromJson() {
     let belowThreshold = 0;
     let accessErrors = 0;
 
-    const minViews = 1_000_000;
+    const minViews = 30_000_000;
 
     // Step 1: Batch check existing songs in database
     console.log("📋 Checking existing songs in database...");
@@ -145,8 +145,8 @@ async function importFromJson() {
               youtubeId: song.videoId,
               duration: videoInfo.video_details.durationInSec || 60,
               views: viewCount,
-              difficulty: mapLocalDifficulty(viewCount),
-              countryOrigin: "polish",
+              difficulty: mapDifficulty(viewCount),
+              countryOrigin: "international",
               releaseYear: releaseYear,
               artist: song.artist,
               categoryId: category.id,

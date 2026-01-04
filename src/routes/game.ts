@@ -20,11 +20,11 @@ export async function gameRoutes(fastify: FastifyInstance) {
         const { blockVariantKey } = request.params;
 
         // Validate blockVariantKey format: 3 segments separated by dashes
-        // Format: DIFFICULTY-GENRE-LOCALIZATION (e.g., EASY-POP-LOCAL, RANDOM-RANDOM-RANDOM)
+        // Format: DIFFICULTY-LOCALIZATION-GENRE (e.g., EASY-LOCAL-POP, RANDOM-RANDOM-RANDOM)
         const blockVariantKeyRegex = /^[A-Z]+-[A-Z]+-[A-Z]+$/;
         if (!blockVariantKeyRegex.test(blockVariantKey)) {
           return reply.code(400).send({
-            error: `Invalid block variant key format. Expected 3 segments (e.g., EASY-POP-LOCAL)`,
+            error: `Invalid block variant key format. Expected 3 segments (e.g., EASY-LOCAL-POP)`,
           });
         }
 

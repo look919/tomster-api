@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { Command } from "commander";
-import { searchByCategory } from "../lib/youtube-music.js";
+import { searchByCategory } from "../../lib/youtube-music.js";
 
 const program = new Command();
 

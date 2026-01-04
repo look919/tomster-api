@@ -3,7 +3,14 @@ import fs from "fs/promises";
 import path from "path";
 import { loadCategoryGroups } from "../lib/category-utils.js";
 
-const difficulties = ["EASY", "MEDIUM", "HARD", "RANDOM"] as const;
+const difficulties = [
+  "VERYEASY",
+  "EASY",
+  "MEDIUM",
+  "HARD",
+  "VERYHARD",
+  "RANDOM",
+] as const;
 const genres = ["ROCK", "RAP", "POP", "OTHER", "RANDOM"] as const;
 const countries = ["LOCAL", "INTERNATIONAL", "RANDOM"] as const;
 
@@ -38,7 +45,7 @@ function countRandoms(variant: Variant): number {
 }
 
 function getVariantKey(variant: Variant): string {
-  return `${variant.difficulty}-${variant.genre}-${variant.country}`;
+  return `${variant.difficulty}-${variant.country}-${variant.genre}`;
 }
 
 async function getOtherCategoryIds(
@@ -72,12 +79,16 @@ function buildWhereClause(variant: Variant) {
 
   // Handle difficulty
   if (variant.difficulty !== "RANDOM") {
-    if (variant.difficulty === "EASY") {
+    if (variant.difficulty === "VERYEASY") {
+      where.difficulty = { gte: 1, lte: 2 };
+    } else if (variant.difficulty === "EASY") {
       where.difficulty = { gte: 1, lte: 3 };
     } else if (variant.difficulty === "MEDIUM") {
       where.difficulty = { gte: 2, lte: 4 };
     } else if (variant.difficulty === "HARD") {
       where.difficulty = { gte: 3, lte: 5 };
+    } else if (variant.difficulty === "VERYHARD") {
+      where.difficulty = { gte: 4, lte: 5 };
     }
   }
 
@@ -109,12 +120,16 @@ function buildWhereClauseForCount(
 
   // Handle difficulty
   if (variant.difficulty !== "RANDOM") {
-    if (variant.difficulty === "EASY") {
+    if (variant.difficulty === "VERYEASY") {
+      where.difficulty = { gte: 1, lte: 2 };
+    } else if (variant.difficulty === "EASY") {
       where.difficulty = { gte: 1, lte: 3 };
     } else if (variant.difficulty === "MEDIUM") {
       where.difficulty = { gte: 2, lte: 4 };
     } else if (variant.difficulty === "HARD") {
       where.difficulty = { gte: 3, lte: 5 };
+    } else if (variant.difficulty === "VERYHARD") {
+      where.difficulty = { gte: 4, lte: 5 };
     }
   }
 
@@ -193,7 +208,7 @@ async function generateAllPossibleBlockVariants(
     allVariants,
     categoryGroups,
     otherCategoryIds,
-    () => 2 // count = 2 for all
+    () => 1 // count = 2 for all
   );
   await saveToFile(results, "all-possible-block-variants.json");
   return results;
@@ -211,7 +226,7 @@ async function generateMaxOneInfoVariants(
     variants,
     categoryGroups,
     otherCategoryIds,
-    (key) => (key === "RANDOM-RANDOM-RANDOM" ? 14 : 4)
+    (key) => (key === "RANDOM-RANDOM-RANDOM" ? 10 : 1)
   );
   await saveToFile(results, "max-one-info-variants.json");
   return results;
@@ -229,7 +244,7 @@ async function generateTwoInfoVariants(
     variants,
     categoryGroups,
     otherCategoryIds,
-    () => 2 // count = 2 for all
+    () => 1 // count = 1 for all
   );
   await saveToFile(results, "two-info-variants.json");
   return results;
@@ -247,7 +262,7 @@ async function generateThreeInfoVariants(
     variants,
     categoryGroups,
     otherCategoryIds,
-    () => 2 // count = 2 for all
+    () => 1 // count = 1 for all
   );
   await saveToFile(results, "three-info-variants.json");
   return results;

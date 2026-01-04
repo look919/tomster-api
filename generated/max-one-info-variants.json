@@ -4,16 +4,16 @@
     "categoryRef": null,
     "songsAmount": 2679,
     "ordinalNumber": 1,
-    "count": 14
+    "count": 10
   },
-  "RANDOM-RANDOM-INTERNATIONAL": {
+  "RANDOM-INTERNATIONAL-RANDOM": {
     "query": {
       "countryOrigin": "international"
     },
     "categoryRef": null,
     "songsAmount": 1988,
     "ordinalNumber": 2,
-    "count": 4
+    "count": 1
   },
   "MEDIUM-RANDOM-RANDOM": {
     "query": {
@@ -25,7 +25,7 @@
     "categoryRef": null,
     "songsAmount": 1979,
     "ordinalNumber": 3,
-    "count": 4
+    "count": 1
   },
   "HARD-RANDOM-RANDOM": {
     "query": {
@@ -37,7 +37,7 @@
     "categoryRef": null,
     "songsAmount": 1779,
     "ordinalNumber": 4,
-    "count": 4
+    "count": 1
   },
   "EASY-RANDOM-RANDOM": {
     "query": {
@@ -49,43 +49,67 @@
     "categoryRef": null,
     "songsAmount": 1748,
     "ordinalNumber": 5,
-    "count": 4
+    "count": 1
   },
-  "RANDOM-POP-RANDOM": {
+  "RANDOM-RANDOM-POP": {
     "query": {},
     "categoryRef": "POP",
     "songsAmount": 1037,
     "ordinalNumber": 6,
-    "count": 4
+    "count": 1
   },
-  "RANDOM-RANDOM-LOCAL": {
+  "VERYHARD-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 4,
+        "lte": 5
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 931,
+    "ordinalNumber": 7,
+    "count": 1
+  },
+  "VERYEASY-RANDOM-RANDOM": {
+    "query": {
+      "difficulty": {
+        "gte": 1,
+        "lte": 2
+      }
+    },
+    "categoryRef": null,
+    "songsAmount": 900,
+    "ordinalNumber": 8,
+    "count": 1
+  },
+  "RANDOM-LOCAL-RANDOM": {
     "query": {
       "countryOrigin": "polish"
     },
     "categoryRef": null,
     "songsAmount": 691,
-    "ordinalNumber": 7,
-    "count": 4
+    "ordinalNumber": 9,
+    "count": 1
   },
-  "RANDOM-ROCK-RANDOM": {
+  "RANDOM-RANDOM-ROCK": {
     "query": {},
     "categoryRef": "ROCK",
     "songsAmount": 594,
-    "ordinalNumber": 8,
-    "count": 4
+    "ordinalNumber": 10,
+    "count": 1
   },
-  "RANDOM-RAP-RANDOM": {
+  "RANDOM-RANDOM-RAP": {
     "query": {},
     "categoryRef": "RAP",
     "songsAmount": 530,
-    "ordinalNumber": 9,
-    "count": 4
+    "ordinalNumber": 11,
+    "count": 1
   },
-  "RANDOM-OTHER-RANDOM": {
+  "RANDOM-RANDOM-OTHER": {
     "query": {},
     "categoryRef": "OTHER",
     "songsAmount": 518,
-    "ordinalNumber": 10,
-    "count": 4
+    "ordinalNumber": 12,
+    "count": 1
   }
 }
