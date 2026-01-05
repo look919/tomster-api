@@ -26,7 +26,7 @@ async function generateQRCodes() {
 
   // Generate PNG files
   for (const variantKey of variantKeys) {
-    const url = `${BASE_URL}/?variant=${variantKey}`;
+    const url = `${BASE_URL}?variant=${variantKey}&playSong=true`;
     const filename = `${variantKey}.png`;
     const filepath = path.join(OUTPUT_DIR, filename);
 
@@ -50,7 +50,7 @@ async function generateQRCodes() {
   await fs.mkdir(svgDir, { recursive: true });
 
   for (const variantKey of variantKeys) {
-    const url = `${BASE_URL}/?variant=${variantKey}`;
+    const url = `${BASE_URL}?variant=${variantKey}&playSong=true`;
     const filename = `${variantKey}.svg`;
     const filepath = path.join(svgDir, filename);
 
@@ -62,8 +62,32 @@ async function generateQRCodes() {
     }
   }
 
+  // Generate EMPTY QR code (just BASE_URL without variant)
+  try {
+    const emptyPngPath = path.join(OUTPUT_DIR, "EMPTY.png");
+    await QRCode.toFile(emptyPngPath, `${BASE_URL}?playSong=true`, {
+      width: 720,
+      margin: 2,
+      color: {
+        dark: "#000000",
+        light: "#ffffff",
+      },
+    });
+    console.log(`✓ Generated: EMPTY.png`);
+
+    const emptySvgPath = path.join(svgDir, "EMPTY.svg");
+    const emptySvg = await QRCode.toString(`${BASE_URL}?playSong=true`, {
+      type: "svg",
+      width: 720,
+    });
+    await fs.writeFile(emptySvgPath, emptySvg);
+    console.log(`✓ Generated: EMPTY.svg`);
+  } catch (error) {
+    console.error(`✗ Failed to generate EMPTY QR code:`, error);
+  }
+
   console.log(
-    `\n✅ Done! Generated ${variantKeys.length} QR codes (PNG + SVG)`
+    `\n✅ Done! Generated ${variantKeys.length + 1} QR codes (PNG + SVG)`
   );
   console.log(`📁 Output directory: ${OUTPUT_DIR}`);
 }
