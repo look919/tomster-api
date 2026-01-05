@@ -2,12 +2,12 @@ import type { Difficulty, SongDifficulty } from "../types/game.js";
 
 const CLIP_DURATION_BY_DIFFICULTY: Record<
   SongDifficulty,
-  number | { min: number; max: number }
+  { min: number; max: number }
 > = {
-  VERYEASY: 60,
-  EASY: 45,
-  MEDIUM: 30,
-  HARD: 15,
+  VERYEASY: { min: 50, max: 70 },
+  EASY: { min: 35, max: 55 },
+  MEDIUM: { min: 30, max: 30 },
+  HARD: { min: 15, max: 25 },
   VERYHARD: { min: 6, max: 12 },
 };
 
@@ -27,18 +27,7 @@ export const generateSongClipDuration = (difficulty: Difficulty): number => {
 
   const duration = CLIP_DURATION_BY_DIFFICULTY[effectiveDifficulty];
 
-  if (typeof duration === "object") {
-    // Random duration between min and max for VERYHARD
-    return (
-      Math.floor(Math.random() * (duration.max - duration.min + 1)) +
-      duration.min
-    );
-  }
-
-  return duration;
-};
-
-// VERYEASY has 50% chance to start from the beginning
-export const shouldStartFromBeginning = (difficulty: Difficulty): boolean => {
-  return difficulty === "VERYEASY" && Math.random() < 0.5;
+  return (
+    Math.floor(Math.random() * (duration.max - duration.min + 1)) + duration.min
+  );
 };

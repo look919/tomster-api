@@ -2,7 +2,7 @@ import type { FastifyReply } from "fastify";
 import { prisma } from "../lib/prisma.js";
 import type { Difficulty, RandomSongResponse } from "../types/game.js";
 import { parseCategoryIds } from "../lib/category-utils.js";
-import { generateSongClipDuration, shouldStartFromBeginning } from "../utils/song.js";
+import { generateSongClipDuration } from "../utils/song.js";
 import allPossibleBlockVariants from "../../generated/all-possible-block-variants.json" with { type: "json" };
 
 interface BlockVariant {
@@ -148,20 +148,14 @@ export async function getRandomSong(
     const clipDuration = generateSongClipDuration(difficulty);
 
     let clipStartTime: number;
+    // Calculate remaining time after subtracting clip duration
+    const remainingTime = songDuration - clipDuration;
 
-    // VERYEASY has 50% chance to start from the beginning
-    if (shouldStartFromBeginning(difficulty)) {
-      clipStartTime = 0;
-    } else {
-      // Calculate remaining time after subtracting clip duration
-      const remainingTime = songDuration - clipDuration;
-
-      // Pick random start time within 80% of the remaining time
-      const maxStartTime = Math.floor(remainingTime * 0.8);
-      clipStartTime = Math.floor(Math.random() * Math.max(1, maxStartTime));
-      if (clipStartTime < 10) {
-        clipStartTime = 0; // Start from beginning if too close
-      }
+    // Pick random start time within 80% of the remaining time
+    const maxStartTime = Math.floor(remainingTime * 0.8);
+    clipStartTime = Math.floor(Math.random() * Math.max(1, maxStartTime));
+    if (clipStartTime < 10) {
+      clipStartTime = 0; // Start from beginning if too close
     }
 
     const response: RandomSongResponse = {
