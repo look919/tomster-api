@@ -8,7 +8,7 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 1495,
+    "songsAmount": 1506,
     "ordinalNumber": 1,
     "count": 1
   },
@@ -21,7 +21,7 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 1358,
+    "songsAmount": 1374,
     "ordinalNumber": 2,
     "count": 1
   },
@@ -34,7 +34,7 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 1283,
+    "songsAmount": 1286,
     "ordinalNumber": 3,
     "count": 1
   },
@@ -43,7 +43,7 @@
       "countryOrigin": "international"
     },
     "categoryRef": "POP",
-    "songsAmount": 792,
+    "songsAmount": 795,
     "ordinalNumber": 4,
     "count": 1
   },
@@ -55,7 +55,7 @@
       }
     },
     "categoryRef": "POP",
-    "songsAmount": 750,
+    "songsAmount": 792,
     "ordinalNumber": 5,
     "count": 1
   },
@@ -67,7 +67,7 @@
       }
     },
     "categoryRef": "POP",
-    "songsAmount": 732,
+    "songsAmount": 758,
     "ordinalNumber": 6,
     "count": 1
   },
@@ -80,8 +80,20 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 705,
+    "songsAmount": 716,
     "ordinalNumber": 7,
+    "count": 1
+  },
+  "HARD-RANDOM-POP": {
+    "query": {
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": "POP",
+    "songsAmount": 659,
+    "ordinalNumber": 8,
     "count": 1
   },
   "VERYEASY-INTERNATIONAL-RANDOM": {
@@ -93,19 +105,7 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 630,
-    "ordinalNumber": 8,
-    "count": 1
-  },
-  "HARD-RANDOM-POP": {
-    "query": {
-      "difficulty": {
-        "gte": 3,
-        "lte": 5
-      }
-    },
-    "categoryRef": "POP",
-    "songsAmount": 617,
+    "songsAmount": 628,
     "ordinalNumber": 9,
     "count": 1
   },
@@ -118,7 +118,7 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 484,
+    "songsAmount": 573,
     "ordinalNumber": 10,
     "count": 1
   },
@@ -131,41 +131,8 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 465,
+    "songsAmount": 524,
     "ordinalNumber": 11,
-    "count": 1
-  },
-  "RANDOM-INTERNATIONAL-ROCK": {
-    "query": {
-      "countryOrigin": "international"
-    },
-    "categoryRef": "ROCK",
-    "songsAmount": 465,
-    "ordinalNumber": 12,
-    "count": 1
-  },
-  "MEDIUM-RANDOM-ROCK": {
-    "query": {
-      "difficulty": {
-        "gte": 2,
-        "lte": 4
-      }
-    },
-    "categoryRef": "ROCK",
-    "songsAmount": 430,
-    "ordinalNumber": 13,
-    "count": 1
-  },
-  "MEDIUM-RANDOM-RAP": {
-    "query": {
-      "difficulty": {
-        "gte": 2,
-        "lte": 4
-      }
-    },
-    "categoryRef": "RAP",
-    "songsAmount": 422,
-    "ordinalNumber": 14,
     "count": 1
   },
   "HARD-LOCAL-RANDOM": {
@@ -177,20 +144,29 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 421,
-    "ordinalNumber": 15,
+    "songsAmount": 506,
+    "ordinalNumber": 12,
     "count": 1
   },
-  "VERYEASY-RANDOM-POP": {
+  "RANDOM-INTERNATIONAL-ROCK": {
+    "query": {
+      "countryOrigin": "international"
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 468,
+    "ordinalNumber": 13,
+    "count": 1
+  },
+  "MEDIUM-RANDOM-ROCK": {
     "query": {
       "difficulty": {
-        "gte": 1,
-        "lte": 2
+        "gte": 2,
+        "lte": 4
       }
     },
-    "categoryRef": "POP",
-    "songsAmount": 420,
-    "ordinalNumber": 16,
+    "categoryRef": "ROCK",
+    "songsAmount": 450,
+    "ordinalNumber": 14,
     "count": 1
   },
   "HARD-RANDOM-ROCK": {
@@ -201,7 +177,31 @@
       }
     },
     "categoryRef": "ROCK",
-    "songsAmount": 418,
+    "songsAmount": 439,
+    "ordinalNumber": 15,
+    "count": 1
+  },
+  "MEDIUM-RANDOM-RAP": {
+    "query": {
+      "difficulty": {
+        "gte": 2,
+        "lte": 4
+      }
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 437,
+    "ordinalNumber": 16,
+    "count": 1
+  },
+  "VERYEASY-RANDOM-POP": {
+    "query": {
+      "difficulty": {
+        "gte": 1,
+        "lte": 2
+      }
+    },
+    "categoryRef": "POP",
+    "songsAmount": 427,
     "ordinalNumber": 17,
     "count": 1
   },
@@ -213,41 +213,8 @@
       }
     },
     "categoryRef": "OTHER",
-    "songsAmount": 377,
+    "songsAmount": 400,
     "ordinalNumber": 18,
-    "count": 1
-  },
-  "RANDOM-INTERNATIONAL-RAP": {
-    "query": {
-      "countryOrigin": "international"
-    },
-    "categoryRef": "RAP",
-    "songsAmount": 376,
-    "ordinalNumber": 19,
-    "count": 1
-  },
-  "EASY-RANDOM-ROCK": {
-    "query": {
-      "difficulty": {
-        "gte": 1,
-        "lte": 3
-      }
-    },
-    "categoryRef": "ROCK",
-    "songsAmount": 375,
-    "ordinalNumber": 20,
-    "count": 1
-  },
-  "HARD-RANDOM-RAP": {
-    "query": {
-      "difficulty": {
-        "gte": 3,
-        "lte": 5
-      }
-    },
-    "categoryRef": "RAP",
-    "songsAmount": 374,
-    "ordinalNumber": 21,
     "count": 1
   },
   "HARD-RANDOM-OTHER": {
@@ -258,7 +225,40 @@
       }
     },
     "categoryRef": "OTHER",
-    "songsAmount": 370,
+    "songsAmount": 395,
+    "ordinalNumber": 19,
+    "count": 1
+  },
+  "HARD-RANDOM-RAP": {
+    "query": {
+      "difficulty": {
+        "gte": 3,
+        "lte": 5
+      }
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 387,
+    "ordinalNumber": 20,
+    "count": 1
+  },
+  "EASY-RANDOM-ROCK": {
+    "query": {
+      "difficulty": {
+        "gte": 1,
+        "lte": 3
+      }
+    },
+    "categoryRef": "ROCK",
+    "songsAmount": 385,
+    "ordinalNumber": 21,
+    "count": 1
+  },
+  "RANDOM-INTERNATIONAL-RAP": {
+    "query": {
+      "countryOrigin": "international"
+    },
+    "categoryRef": "RAP",
+    "songsAmount": 377,
     "ordinalNumber": 22,
     "count": 1
   },
@@ -267,7 +267,7 @@
       "countryOrigin": "international"
     },
     "categoryRef": "OTHER",
-    "songsAmount": 355,
+    "songsAmount": 362,
     "ordinalNumber": 23,
     "count": 1
   },
@@ -279,7 +279,7 @@
       }
     },
     "categoryRef": "RAP",
-    "songsAmount": 345,
+    "songsAmount": 358,
     "ordinalNumber": 24,
     "count": 1
   },
@@ -291,7 +291,7 @@
       }
     },
     "categoryRef": "POP",
-    "songsAmount": 305,
+    "songsAmount": 328,
     "ordinalNumber": 25,
     "count": 1
   },
@@ -303,7 +303,7 @@
       }
     },
     "categoryRef": "OTHER",
-    "songsAmount": 296,
+    "songsAmount": 309,
     "ordinalNumber": 26,
     "count": 1
   },
@@ -316,7 +316,7 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 270,
+    "songsAmount": 291,
     "ordinalNumber": 27,
     "count": 1
   },
@@ -325,7 +325,7 @@
       "countryOrigin": "polish"
     },
     "categoryRef": "POP",
-    "songsAmount": 245,
+    "songsAmount": 291,
     "ordinalNumber": 28,
     "count": 1
   },
@@ -338,7 +338,7 @@
       }
     },
     "categoryRef": null,
-    "songsAmount": 226,
+    "songsAmount": 273,
     "ordinalNumber": 29,
     "count": 1
   },
@@ -350,7 +350,7 @@
       }
     },
     "categoryRef": "OTHER",
-    "songsAmount": 222,
+    "songsAmount": 236,
     "ordinalNumber": 30,
     "count": 1
   },
@@ -362,7 +362,7 @@
       }
     },
     "categoryRef": "ROCK",
-    "songsAmount": 219,
+    "songsAmount": 234,
     "ordinalNumber": 31,
     "count": 1
   },
@@ -374,8 +374,17 @@
       }
     },
     "categoryRef": "RAP",
-    "songsAmount": 185,
+    "songsAmount": 191,
     "ordinalNumber": 32,
+    "count": 1
+  },
+  "RANDOM-LOCAL-OTHER": {
+    "query": {
+      "countryOrigin": "polish"
+    },
+    "categoryRef": "OTHER",
+    "songsAmount": 183,
+    "ordinalNumber": 33,
     "count": 1
   },
   "VERYEASY-RANDOM-ROCK": {
@@ -386,17 +395,17 @@
       }
     },
     "categoryRef": "ROCK",
-    "songsAmount": 176,
-    "ordinalNumber": 33,
+    "songsAmount": 180,
+    "ordinalNumber": 34,
     "count": 1
   },
-  "RANDOM-LOCAL-OTHER": {
+  "RANDOM-LOCAL-RAP": {
     "query": {
       "countryOrigin": "polish"
     },
-    "categoryRef": "OTHER",
-    "songsAmount": 163,
-    "ordinalNumber": 34,
+    "categoryRef": "RAP",
+    "songsAmount": 172,
+    "ordinalNumber": 35,
     "count": 1
   },
   "VERYEASY-RANDOM-RAP": {
@@ -407,17 +416,17 @@
       }
     },
     "categoryRef": "RAP",
-    "songsAmount": 156,
-    "ordinalNumber": 35,
+    "songsAmount": 162,
+    "ordinalNumber": 36,
     "count": 1
   },
-  "RANDOM-LOCAL-RAP": {
+  "RANDOM-LOCAL-ROCK": {
     "query": {
       "countryOrigin": "polish"
     },
-    "categoryRef": "RAP",
-    "songsAmount": 154,
-    "ordinalNumber": 36,
+    "categoryRef": "ROCK",
+    "songsAmount": 151,
+    "ordinalNumber": 37,
     "count": 1
   },
   "VERYEASY-RANDOM-OTHER": {
@@ -428,16 +437,7 @@
       }
     },
     "categoryRef": "OTHER",
-    "songsAmount": 148,
-    "ordinalNumber": 37,
-    "count": 1
-  },
-  "RANDOM-LOCAL-ROCK": {
-    "query": {
-      "countryOrigin": "polish"
-    },
-    "categoryRef": "ROCK",
-    "songsAmount": 129,
+    "songsAmount": 150,
     "ordinalNumber": 38,
     "count": 1
   }
